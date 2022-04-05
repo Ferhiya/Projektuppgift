@@ -1,0 +1,50 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+
+#navbar {
+display: flex;
+flex-direction: row;
+color: white;
+justify-content: space-around;
+}
+
+#upperpart {
+background-color:#65806d;
+}
+#navbar h1 {
+font-size: 40px;
+}
+
+
+#navbar p {
+margin-top: 40px;
+font-size: 25px;
+}
+#sokruta {
+background-color: #C8CbC0;
+width: 400px;
+padding-bottom: 0px;
+margin-top: 30px;
+border-radius: 25px;
+border-color: #072F38;
+height: 60px;
+margin-bottom: 20px;
+align-items: center;
+justify-content: center;
+}
+#sokruta p {
+text-align: center;
+padding-top: 20px;
+}
+
+
+ph {
+    color: #072F38;
+    color: #65806d;
+    color: #C8CbC0;
+    color: #BD7423;
+    color: #334E3b;
+    
+    }
