@@ -1,0 +1,44 @@
+.text {
+font-size: 25px;
+}
+
+#nya-anvandare {
+background-image:url(/img/inloggning-img.png);
+background-repeat: no-repeat;
+color: white;
+font-size: 24px;
+width: 550px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+#nya-anvandare p, h2 {
+background-color: rgb(255, 255, 255);
+color: black;
+padding: 15px;
+border-radius: 25px;
+}
+
+#button  {
+display: flex;
+border-style: solid;
+border-radius: 25px;
+border-color: rgba(255, 255, 255, 0.941);
+padding: 10px;
+background-color: rgb(255, 255, 255);
+border-width: 1px;
+color:black;
+width: 240px;
+margin-bottom: 100px;
+justify-content: center;
+}
+
+#login-container {
+display: flex;
+}
+
+#loggain-användare {
+background-color: green;
+}
