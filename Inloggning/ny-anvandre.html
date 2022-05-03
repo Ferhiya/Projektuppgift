@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friluftszonen</title>
+</head>
+<body>
+    
+
+
+
+update
+
+    <main>
+	
+		<form id="booking" method="POST">
+			<!-- Formuläret skickas inte i detta exempel. 
+				 Användas Netlifys formulärtjänst ska form-taggen innehålla data-netlify="true".
+				 Annars specificeras program för hantering av formuläret i ett action-attribut. -->
+	
+			<fieldset id="customer">
+				<legend>Kund</legend>
+				<div>
+					<label for="name">* För och efternamn</label>
+						<input type="text" id="name" name="name" required>
+					<label for="street">Mejladress</label>
+						<input type="text" id="street" name="street">
+					<label for="zipcode">Mobilnummer</label>
+						<div>
+							<input type="text" id="zipcode" name="zipcode">
+							<span></span> <!-- Element för felmeddelande-->
+						</div>
+					<label for="city">Ort</label>
+						<input type="text" id="city" name="city">
+					<label for="telephone">Telefon</label>
+						<div>
+							<input type="text" id="telephone" name="telephone">
+							<span></span> <!-- Element för felmeddelande-->
+						</div>
+					<label for="email">* E-post</label>
+						<input type="text" id="email" name="email" required>
+				</div>
+			</fieldset>
+			<div id="send">
+				<input type="submit" value="Skicka förfrågan">
+			</div>
+		</form>
+	</main>
+</body>
+</html>
