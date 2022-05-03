@@ -21,6 +21,7 @@ function init() {
 		document.getElementById("unordered").appendChild(p);
 	});
 	requestData();
+	requestvader();
   
 } // End init
 window.addEventListener("load",init);
@@ -72,4 +73,26 @@ function getData(JSONtext) {
 	
 } // End getData
 
+
+
+
+function requestvader() {
+	let request = new XMLHttpRequest(); // Object för Ajax-anropet
+	request.open("GET"," https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/16.158/lat/58.5812/data.json");//hämtar lat och lng i bildens id objekt
+	
+	console.log(request);
+
+	request.send(null); // Skicka begäran till servern
+	request.onreadystatechange = function () { // Funktion för att avläsa status i kommunikationen
+		if (request.readyState == 4)
+			if (request.status == 200) (request.responseText);// status 200 (OK) --> filen fanns, gå vidare till funktionen där datan tolkas och skrivs ut
+			else flickrImgElem.innerHTML = "Den begärda resursen finns inte.";
+	};
+	
+} // End requestLocation
+
+function newvader(response) {
+	console.log(response);
+	
+} 
 
