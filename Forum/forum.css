@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+padding: 0px;
+margin: 0px;
+font-family: 'Playfair Display', serif;
+}
+
+ /*CSS för navbar */ 
+#navbar img {
+width: 100px;
+border-radius: 100%;
+margin-top: 12px;
+}
+
+#navbar {
+display: flex;
+justify-content: space-around;
+height: 100px;
+background-color: #138558;
+color:white;
+}
+
+#navbar h2 {
+margin-top: 40px;
+}
+
+
+ /* CSS för forumssidan, landsida*/ 
+
+#skapa-trad {
+border:#138558;
+padding: 5px;
+font-size: 30px;
+display: flex;
+border-style: solid;
+border-width: 3px;
+width: 120px;
+height: 50px;
+border-radius: 6px;
+}
+
+#skapa-trad p {
+font-size: 19px;
+margin-top: 9px;
+margin-left: 5px;
+}
+
+
+#se-trad {
+    border:#138558;
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 6px;
+    
+}
+#se-trad p {
+    font-size: 19px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+#tradar {
+display: flex;
+margin-left: 100px;
+margin-top: 20px;
+}
+
+#grid {
+display: flex;
+margin-left: 10px;
+}
+
+
+#box1 {
+margin-top: 10px;
+margin-bottom: 50px;
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#box2 {
+margin-top: 10px;
+margin-bottom: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#box3 {
+margin-top: 10px;
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#box4 {
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+#grid h2 {
+border: #138558;
+border-radius: 6px;
+border-style: solid;
+padding: 20px;
+text-decoration: none;
+}
+#grid a {
+text-decoration: none;
+color: black;
+}
+
+.text {
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+border: #138558;
+border-radius: 6px;
+border-style: solid;
+line-height: 30px;
+padding: 40px;
+}
+
+#grid {
+display: grid;
+margin-top: 30px;
+}
+
+#grid-box1 {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end:2 ;
+}
+
+#grid-box2 {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end:1 ;
+}
+
+#grid-box3 {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end:2 ;
+}
+
+#grid-box4 {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end:3 ;
+}
+
+#grid-box5 {
+grid-column-start: 3;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end:1 ; 
+margin-bottom: 10px;
+margin-right: 50px;
+
+}
+
+#grid-box5 h3 {
+font-size: 35px;
+
+display: flex;
+padding: 10px;
+justify-content: center;
+border: #138558;
+border-radius: 6px;
+border-style: solid;
+}
+
+#grid-box6 {
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end:3 ; 
+}
+
+#grid-box6 img {
+width: 400px;
+height: 400px;
+}
+
+
+#stader {
+display: flex;
+flex-direction: row;
+font-size: 20px;
+padding: 10px;
+line-height: 35px;
+justify-content: center;
+margin-top: 20px;
+border: #138558;
+border-style: solid;
+border-radius: 6px;
+
+}
+
+
+
+#stader1 {
+display: flex;
+flex-direction: column;
+margin-right: 80px;
+}
+
+#stader-button button {
+width: 50px;
+font-size: 20px;
+padding: 1px;
+margin-top: 10px;
+}
+
+#stader-button{
+display: flex;
+justify-content: flex-end;
+}
+
+#stader2 {
+display: flex;
+flex-direction: column;
+}
+
+
+#open-thread-container {
+display: grid;
+margin-left: 30px;
+}
+
+#open-thread-box2 {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end:1 ;
+margin-top: 50px;
+}
+
+#open-thread-box1 {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end:1 ;
+}
+
+#open-thread-box2 img {
+height: 500px;
+width: 500px;
+margin-left: 20%;
+}
+
+ /* CSS  */ 
+
+#tradarna {
+margin-left: 30px;
+margin-top: 30px;
+}
+
+.trad-bild img {
+width: 100px;
+border-radius: 100%;
+
+}
+
+.trad-bild {
+display: flex;
+flex-direction: row;
+padding: 10px;
+}
+
+
+.trad-text {
+margin-left: 10px;
+padding-top: 10px;
+}
+#tradarna {
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+#head {
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+width: 600px;
+}
+
+#head button {
+width: 100px;
+margin-top: 10px;
+}
+
+#inlagg {
+border: #138558;
+border-style: solid;
+padding: 20px;
+line-height: 25px;
+}
+
+#inlagg-kommentar {
+border: #138558;
+border-style: solid;
+padding: 20px;
+line-height: 25px;
+display: flex;
+}
+
+#container {
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+#container-kommentar {
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+
+
+#buttonles button {
+width: 110px;
+padding: 1px;
+margin: 5px;
+}
+
+#test {
+display: flex;
+flex-direction: column;
+}
+
+#head-kommentar {
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+width: 600px;
+}
+
+#head-kommentar p{
+margin-left: 10px;
+}
+
+
+ /* CSS för egna-tradar */ 
