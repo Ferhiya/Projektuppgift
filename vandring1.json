@@ -1,0 +1,66 @@
+{
+    "vandring":[
+ 
+
+            {
+                "stad":"Kalmar",
+                "led":"Kalmarsungsleden",
+                "längd":"200 km",
+                "handikapsanpassat":"Nej",
+                "beskrivning": "Leden sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "svårighetsnivå":"1",
+                "parkering":"oklart"
+             },
+         
+             { 
+            "led":"Ljungbyleden",
+            "längd":"2.5 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Terrängen är lätt att ta sig fram på då det är fina upptrampade stigar och grusväg. Mycket historia får du uppleva på vandringsleden.",
+            "svårighetsnivå":"2",
+             "parkering":"Nej"
+         },
+
+         { 
+
+             "led":"Linneslingan",
+             "längd":"10 km",
+             "handikapsanpassat":"Ja",
+             "beskrivning":"Det är en lätt vandrad terräng som går längsmed vattnet och som alla kan vandra. Leden är markerad med skyltar så du lätt ska hitta och inte gå fel. Ut med leden finns det några informationsskyltar som berättar om platser och naturen du passerar. ",
+             "svårighetsnivå":"1",
+             "parkering":"Oklart"
+             },
+
+             { 
+
+                    "led":"Östra Sigridsleden",
+                         "längd":"30 km",
+                         "handikapsanpassat":"Nej",
+                         "beskrivning":"Leden börjar i södermöres kustlandskap och slutar i källebäcksmåla som ligger väster om klamar. Naturen du går igenom är omväxklande med odlingslandskap, stränder, skog och lummiga grönområden.",
+                         "svårighetsnivå":"2",
+                         "parkering":"Oklart"
+                 },
+                 { 
+            
+                         "led":"Dackeslingan",
+                         "längd":"8 km",
+                         "handikapsanpassat":"nej",
+                         "beskrivning":"Slingan startar vid Tullahängen där det sägs att Gustav Vasa hade en tullstation vid gränsen till dåvarande Danmark.Terrängen runt vandringsslingan är lätt att ta sig fram på då det är stigar och grusväg. Leden är markerad med orange färgmarkering. Informationstavlor finns längsmed leden som berättar om historian som utspelade sig här på 1500-talet.",
+                         "svårighetsnivå":"2",
+                         "parkering":"oklart"
+                     },
+                     { 
+            
+                         "led":"Linneslingan",
+                         "längd":"3.5 km",
+                         "handikapsanpassat":"Ja",
+                         "beskrivning":"Hälsoslingan är stadsnära men går också genom skog, trädgårdar, kust och vikar det kan dock skilja sig lite beroende på vilken slinga du går. Alla slingor är lätt framkomliga men vissa är lättare och mer anpassade för rullstol och rullator natt ta sig fram på.Det är en väldig fin och mysig promenadslinga att gå.",
+                         "svårighetsnivå":"1",
+                         "parkering":"Oklart"
+                        
+        
+             }
+            
+    ]
+
+}

@@ -1,0 +1,59 @@
+{
+    "vandring":[
+        
+        {
+            "stad":"Oskarshamn",
+            "led":"Äspöstigen",
+            "längd":"2 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"Stigen är ett bra utflyktsmål som passar stora som små. Det är relativt lättframkomlig men inte handikapp- eller barnvagnsvänlig. Det finns två grillplatser att använda när magen kurrar och till och med ett PokeGym för den intresserade.",
+            "svårighetsnivå":"2",
+             "parkering":"Ja"
+             },
+             
+             {
+            "led":"Uvö",
+            "längd":"2.1 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "På vackra Uvö norr om Oskarshamn kan du ta del av ett vackert promenadstråk längs med havsbandet med gångbroar att stanna till och njuta av naturen vid.",
+            "svårighetsnivå":"3",
+             "parkering":"Nej"
+            },
+
+            {
+            "led":"Fallebo vandringsled",
+            "längd":"1.9 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Ta chansen att vandra på leden som startar och slutar vid Fallebo gård. En perfekt plats för hela familjen.",
+            "svårighetsnivå":"2",
+             "parkering":"Ja"
+             },
+
+             {
+            "led":"Sjöbovikens vandringsled",
+            "längd":"2.5 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Naturreservatet Sjöbovikens höga naturvärden i kombination med dess närhet till Oskarshamn gör att det har ett stort värde för rekreation, naturpedagogik och friskvård. Det stadsnära läget gör området mycket lättillgängligt, särskilt för människor i södra delarna av Oskarshamns centralort.",
+            "svårighetsnivå":"3",
+             "parkering":"Nej"
+            },
+
+             {
+            "led":"J.K Rowling",
+            "längd":"",
+            "handikapsanpassat":"1997",
+            "beskrivning": "Välkommen till Stenhuggarleden i Vånevik! Här kan du vandra längs kajer som stensattes för mer än 100 år sedan. Högar av skrotsten kantar spåren av gamla rallvägar och solen speglar sig i vattenfyllda stenbrott.",
+            "svårighetsnivå":"3",
+             "parkering":"Ja"
+             },
+
+             {
+            "led6":"J.K Rowling",
+            "längd6":"",
+            "handikapsanpassat6":"1997",
+            "beskvivning6": "",
+            "svårighetsnivå6":"",
+             "parkering6":"Oskarshamn oklart"
+        }
+    ]
+}

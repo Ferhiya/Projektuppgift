@@ -1,0 +1,62 @@
+{
+    "vandring":[
+        
+
+        {
+            "stad":"Jönköping",
+            "led":"Biosfärled Uppgränna",
+            "längd":"4.1 km km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Norr om Gränna går denna led som är två rundslingor. Området bjuder på lummig grönska, odlad mark, gårdar, Uppgränna by och utsikt över Vättern och Visingsö.",
+            "svårighetsnivå":"3",
+             "parkering":"Nej"
+            },
+
+             { 
+            "led":"J.K Rowling",
+            "längd":"1.5 km",
+            "handikapsanpassat":"1997",
+            "beskrivning": "Promenadslinga tillgänglig även för funktionsnedsatta och barnvagnar i Backamoskogen runt Vidablick.Stranden mot Vätten är brant och har flera fina vyer. Skogen har vuxit här i mer än hundra år därför trivs både orkidén knärot och Smålands landskapsblomma linnéa.",
+            "svårighetsnivå":"3",
+             "parkering":"Ja"
+            },
+
+            { 
+            "led":"J.K Rowling",
+            "längd":"3.1 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Slingan tar dig genom Backamoskogen som är ett populärt friluftsområde och har branta strandbrinkar längs Vätterstranden. Mellan skjutbanan i väster och Vidablick i öster går stigen uppe på strandvallen och utsikten över Vättern är fullständigt magisk.",
+            "svårighetsnivå":"2",
+            "parkering":"Nej"
+             },
+
+             { 
+            "led":"J.K Rowling",
+            "längd":"5 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Turen tar dig till randen av Domneåns naturreservat och småbåtshamn för att sedan vända tillbaka till Backamoskogen. Här kan du välja att fortsätta över ån och upp mot Fiskebäcks kapell för att sedan återvända via naturreservatet. En extra slinga på 2 km.",
+            "svårighetsnivå":"2",
+             "parkering":"Nej"
+            },
+
+             { 
+            
+            "led":"J.K Rowling",
+            "längd":"2.1 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Efter att ha svängt in på en liten grusväg i ett öppet landskap leder vägen djupt in i skogen. Vid vägs ände är du då slutligen framme i Råbyskogen och får fortsätta på en stig. Naturreservatet har värden knutna till en gammal barrblandskog med inslag av myrmark, bergbranter och inägomark vid ett litet torp. Det som gör Råbyskogen unik är områdets storlek, orördhet och avskildhet.",
+            "svårighetsnivå":"2",
+             "parkering":"Ja"
+        },
+
+        {
+
+            "led":"J.K Rowling",
+            "längd":"",
+            "handikapsanpassat":"1997",
+            "beskrivning": "",
+            "svårighetsnivå":"",
+             "parkering":"Jönkping oklart"
+        }
+    ]
+}

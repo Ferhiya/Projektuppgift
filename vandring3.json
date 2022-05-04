@@ -1,0 +1,45 @@
+{
+    "vandring":[
+            
+            
+{
+    "stad":"Älmhult",
+    "led":"Taxås vandringsled",
+    "längd":"1.7 km",
+    "handikapsanpassat":"Nej",
+    "beskrivning": "Taxås vandringsled erbjuder mycket grön natur med fin utsikt. Leden erbjuder ett omväxlande utbud av natur och en spännande upplevelse för natursökare.",
+    "svårighetsnivå":"3",
+     "parkering":"Ja"
+ },
+
+ { 
+
+    "led":"Hökhult vandringsled",
+    "längd":"o.4 km",
+    "handikapsanpassat":"Nej",
+    "beskrivning": "Hökhult är placerad i mitten av skogen och ger vandrare en stor chans att komma naturen nära. Leden går längst flera sjöar och trots sin korta distans erbjuder mycket för ögat.",
+    "svårighetsnivå":"2",
+     "parkering":"Nej"
+ },
+
+ {
+
+    
+    "led":"Stenbrohult vandringsled",
+    "längd":"1.2 km",
+    "handikapsanpassat":"Nej",
+    "beskrivning": "I Stenbrohult finns många gamla och grova lövträd där det växer flera ovanliga lavar och i gamla bokar och ekar lever hotade ved­insekter. Området bjuder på en rik ängsflora med till exempel jungfru Marie nycklar, jungfrulin, solvända och ängsvädd. På ängs- och äldre åker­marker finns många arter av hotade vildbin.",
+    "svårighetsnivå3":"2",
+     "parkering3":"Nej"
+ },
+ { 
+
+    "led":"Höö",
+    "längd":"1.2 km",
+    "handikapsanpassat":"Oklart",
+    "beskrivning": "oklart",
+    "svårighetsnivå":"oklat",
+     "parkering":"Nej"
+    }
+    ]
+}

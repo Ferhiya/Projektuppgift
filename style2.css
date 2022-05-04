@@ -81,9 +81,15 @@ font-family: 'Playfair Display', serif;
                 margin-bottom: 2%;
                 padding-left: 0%;
                 margin-left: 3%;
+                visibility:hidden;
             }
 
             #valt{
+                width: 80%;
+                border: 2px solid black;
+            }
+
+            #vattenvalt{
                 width: 80%;
                 border: 2px solid black;
             }
@@ -118,6 +124,34 @@ font-family: 'Playfair Display', serif;
         
         #skicka:hover{
             background-color: lightgreen;
+        }
+
+        
+        #aktivitetsnav {
+            text-decoration: none;
+            margin: 0%;
+        }
+
+        #aktivitetsnav a {
+            font-size: 1.5rem;
+            padding: 0%;
+            text-decoration: none;
+            list-style-type: none;
+            display: block;
+        }
+
+        #aktivitetsnav  a:active{
+            color: black;
+            text-decoration:underline;
+        }
+
+        #aktivitetsnav a:visited{
+            color: black;
+            text-decoration:none;
+        }
+
+        div #ledinfo{
+        visibility:"hidden";
         }
 
         
