@@ -28,6 +28,11 @@ margin-right:20px;
 background-color: #e0b767;
 }
 
+#button-loggain a {
+text-decoration: none;
+color: black;
+}
+
 .flex-end {
 display: flex;
 justify-content: flex-end;
@@ -44,15 +49,20 @@ height: 100%;
 display: flex;
 align-items: center;
 flex-direction: column;
+
 }
 
+#nya-anvandare a {
+text-decoration: none;
+color: black;
+}
 
 #nya-anvandare h2 {
 background-color: rgb(255, 255, 255);
 color: black;
 padding: 15px;
 border-radius: 25px;
-margin-top: 10%;
+margin-top: 16%;
 
 }
 
@@ -63,7 +73,7 @@ border-style: solid;
 border-radius: 25px;
 padding: 10px;
 background-color: #e0b767;
-border-color: #e0b767;;
+border-color: #e0b767;
 border-width: 1px;
 color:black;
 width: 240px;
