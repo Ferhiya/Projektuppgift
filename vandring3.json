@@ -8,6 +8,7 @@
     "längd":"1.7 km",
     "handikapsanpassat":"Nej",
     "beskrivning": "Taxås vandringsled erbjuder mycket grön natur med fin utsikt. Leden erbjuder ett omväxlande utbud av natur och en spännande upplevelse för natursökare.",
+    "url":"https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/taxas.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=&municipalities=&reserveTypes=&natureTypes=&facilities=",
     "svårighetsnivå":"3",
      "parkering":"Ja"
  },
@@ -18,6 +19,7 @@
     "längd":"o.4 km",
     "handikapsanpassat":"Nej",
     "beskrivning": "Hökhult är placerad i mitten av skogen och ger vandrare en stor chans att komma naturen nära. Leden går längst flera sjöar och trots sin korta distans erbjuder mycket för ögat.",
+    "url":"https://www.naturkartan.se/sv/kronobergs-lan/vandringsled-hokhult?guide_id=262",
     "svårighetsnivå":"2",
      "parkering":"Nej"
  },
@@ -29,8 +31,9 @@
     "längd":"1.2 km",
     "handikapsanpassat":"Nej",
     "beskrivning": "I Stenbrohult finns många gamla och grova lövträd där det växer flera ovanliga lavar och i gamla bokar och ekar lever hotade ved­insekter. Området bjuder på en rik ängsflora med till exempel jungfru Marie nycklar, jungfrulin, solvända och ängsvädd. På ängs- och äldre åker­marker finns många arter av hotade vildbin.",
-    "svårighetsnivå3":"2",
-     "parkering3":"Nej"
+    "url":"https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/stenbrohult.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=&municipalities=&reserveTypes=&natureTypes=&facilities=",
+    "svårighetsnivå":"2",
+     "parkering":"Nej"
  },
  { 
 

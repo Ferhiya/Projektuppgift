@@ -8,6 +8,7 @@
             "längd":"5.1 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "I Västervik tar Hälsans stig dig på en ca 5 km lång promenad runt Västerviks vackra stadskärna. Du passerar både St Petri och St Gertruds kyrka, Båtsmansstugorna och vår härliga strandpromenad.",
+            "url":"https://www.naturkartan.se/sv/kalmar-lan/halsans-stig-vastervik?guide_id=307",
             "svårighetsnivå":"3",
              "parkering":"Ja"
             },
@@ -17,6 +18,7 @@
             "längd":"4 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Leden startar vid vägen mot Björka och går utmed sjön Ryven och är 4 kilometer lång. På krönet av ”Haks backe” viker den av mot Ryvenäs. Platsen kallas i folkmun ”Kuttens kast” och här skedde ett rånmord 1855. För att skydda sig mot den fruktade maran, offrades på platsen en sten eller en pinne av var och en, som gick förbi. Med tiden växte här upp en rishög, som kallades ”Kuttens kast”.",
+            "url":"https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/ryvenasleden/",
             "svårighetsnivå":"2",
              "parkering":"Nej"
              },
@@ -27,6 +29,7 @@
             "längd":"9 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Holmsjöleden är en led, som framför allt går i skogsmark runt Holmsjön. Den ligger väster och sydväst om Överum. Den har anslutning till Tjustledens etapp 8.",
+            "url":"https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/holmsjoleden/",
             "svårighetsnivå":"3",
              "parkering":"Nej"
             },
@@ -36,6 +39,7 @@
             "längd":"20 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Här passeras omväxlande landskap i delvis kuperad terräng med bergbranter genom ett levande jord- och skogsbrukslandskap. Leden börjar vid Lofta kyrka som är från 1837 och är en av Sveriges största landsortskyrkor.",
+            "url":"https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/loftaleden/",
             "svårighetsnivå":"3",
              "parkering":"Ja"
             },
@@ -45,18 +49,9 @@
             "längd":"4.5 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Den slingrar sig runt ön, genom ängslandskapet och ett område med fantastiska klippformationer som vetter mot öppna horisonten på östra sidan av ön. Vattnet är kallare här än i vikarna men i den natursköna miljön kan det ändå vara svårt att motstå ett uppfriskande dopp. Leden fortsätter sedan runt ö-udden, förbi Vinterbryggan och Källarbacken där alla byns stenkällare är samlade, till byn och åter till Sundet.",
+            "url":"https://www.naturkartan.se/sv/kalmar-lan/sladoleden?guide_id=307",
             "svårighetsnivå":"2",
              "parkering":"Nej"
-        },
-
-        {
-
-            "led":"J.K Rowling",
-            "längd":"",
-            "handikapsanpassat":"1997",
-            "beskvivning": "",
-            "svårighetsnivå":"",
-             "parkering":"parkering"
         }
     ]
 }

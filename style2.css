@@ -41,15 +41,24 @@ font-family: 'Playfair Display', serif;
     padding-top: 20px;
     }
     
+     /*CSS för navbar */ 
+#navbar img {
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 12px;
+    }
     
-    ph {
-        color: #072F38;
-        color: #65806d;
-        color: #C8CbC0;
-        color: #BD7423;
-        color: #334E3b;
-        
-        }
+    #navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #138558;
+    color:white;
+    }
+    
+    #navbar h2 {
+    margin-top: 40px;
+    }
     
             .filtering {
                 display: grid;
@@ -84,19 +93,32 @@ font-family: 'Playfair Display', serif;
                 visibility:hidden;
             }
 
+           #valt li{
+            display: inline-block;
+           padding: 1%;
+            list-style: none;
+            background-color: rgb(245, 242, 242);
+            }
+
             #valt{
                 width: 80%;
                 border: 2px solid black;
+               
             }
 
-            #vattenvalt{
+            #cross{
+                margin-left:80%;
+            }
+
+
+            #valt img{
                 width: 80%;
-                border: 2px solid black;
             }
 
-            #flickrImg{
-                width: 100%;
+            img{
+                max-height: 300px;
             }
+         
 
             
             #väderImg{
@@ -150,8 +172,28 @@ font-family: 'Playfair Display', serif;
             text-decoration:none;
         }
 
-        div #ledinfo{
-        visibility:"hidden";
+
+        #vatteninfo{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            margin-bottom: 2%;
+            padding-left: 0%;
+            margin-left: 3%;
+            visibility:hidden;
+        }
+
+        #valt2{
+            width: 80%;
+            border: 2px solid black;
+        }
+
+        #flickrImg2{
+            width: 100%;
+        }
+
+        
+        #väderImg2{
+            padding-left: 80%;
         }
 
         

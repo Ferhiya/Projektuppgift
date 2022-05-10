@@ -3,10 +3,11 @@
             
             {
                 "stad":"Växjö",
-                "led":"Sigridsleden",
+                "led":"Sigfridsleden",
                 "längd":"102 km",
                 "handikapsanpassat":"nej",
                 "beskrivning": "Sigfridsleden är en del i nätverket av vandringsleder genom Småland och utgör historiskt sett också en liten del av de pilgrimsleder som sträcker sig hela vägen från Spanien till Nidarosdomen i Trondheim. Kommunens enda längre vandringsled går genom sex socknar i Värend och passerar många kulturhistoriskt intressanta platser.",
+                "url":"https://www.naturkartan.se/sv/kronobergs-lan/sigfridsleden?guide_id=64",
                 "svårighetsnivå":"2",
                  "parkering":"Ja"
                   },
@@ -17,6 +18,7 @@
                 "längd":"463 hektar",
                 "handikapsanpassat":"ja",
                 "beskrivning": "Naturreservatet Bokhultet bjuder in till sköna promenader och joggingturer. Bokskogen är länets största. Alkärr, slåtteräng, sjöstrand, våtmark och tallmosse ingår också i den generösa naturmosaiken. Tillsammans med döda träd och multnande ved skapar mångfalden naturvärden av internationell betydelse.",
+                "url":"https://www.naturkartan.se/sv/kronobergs-lan/bokhultets-naturreservat?guide_id=64",
                 "svårighetsnivå":"1",
                  "parkering":"Ja"
                  },
@@ -28,6 +30,7 @@
                 "längd":"2.8 km",
                 "handikapsanpassat":"Nej",
                 "beskrivning": "Agnäs naturreservat är beläget på en udde som sträcker sig ut i sjön Åsnen, sydost om Torne bro utmed Julöfjordens östra del. Reservatet omfattar i huvudsak ädellövskog, men även vattenområden och småöar i sjön Åsnen. Skogen på Agnäs utgör en rest av den stora ädellövskog som en gång omslöt hela Åsnen.",
+                "url":"https://www.naturkartan.se/sv/kronobergs-lan/vandringsled-aganas?guide_id=64",
                 "svårighetsnivå":"2",
                  "parkering":"Ja"
              },
@@ -37,6 +40,7 @@
                 "längd":"3.1 km",
                 "handikapsanpassat":"Nej",
                 "beskrivning": "ommarmiljöerna i Braås park känns nästan sydligt frodiga. Ek, alm och hassel följer betade hagmarker med pärlemorfjärilar och blåvingar. Sången från rödstjärt, svartvit flugsnappare och grönsångare bildar bakgrund. Backsippa, gullviva, slåttergubbe och kattfot tillhör floran. I området har historia och människohand tillsammans format naturen, från 1600-talets åkrar och 1800-talets engelska trädgård till dagens behagliga landskapsmix.",
+                "url":"https://www.naturkartan.se/sv/kronobergs-lan/stig-braas-park?guide_id=64",
                 "svårighetsnivå":"3",
                  "parkering":"Ja"
 
@@ -47,6 +51,7 @@
                 "längd":"1.4 km",
                 "handikapsanpassat":"Nej",
                 "beskrivning": "Orangemarkerad slinga tar dig genom Skårtaryds naturreservat och ger dig gröna härliga upplevelser i rofylld vacker urskog. Var aktsam om den känsliga naturen, håll dig till stigen.",
+                "url":"https://www.naturkartan.se/sv/kronobergs-lan/skartaryds-vandringsled?guide_id=64",
                 "svårighetsnivå":"3",
                  "parkering":"Ja"
 
@@ -57,6 +62,7 @@
                 "längd":"2 km",
                 "handikapsanpassat":"nej",
                 "beskrivning": "Meditativt lugn, spännande upplevelser och mild skönhet. Kalvsviks vandringsled tillfredsställer många sinnen. Den cirka 2 kilometer långa promenaden passerar alltifrån stenåldersgravar och lömska slukhål till skogssnäppans och ängsbräsmans marker.",
+                "url":"https://www.naturkartan.se/sv/kronobergs-lan/kalvsviks-vandringsled?guide_id=64",
                 "svårighetsnivå":"1",
                  "parkering":"Ja"
     
