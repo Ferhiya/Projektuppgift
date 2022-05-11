@@ -42,8 +42,25 @@ function getTemp(response, city) {
     city.temp = params[10].values[0];
     city.conditions = params[18].values[0];
 
-    testElem.innerHTML += "<br><br>" + city.name + "<br>" + city.temp + "°C" + "<br>" + city.conditions;
+    let img = document.createElement("img");
+
+    if (city.conditions <= 4) {
+        img.src = "ikoner/sun.svg";
+    } else if (city.conditions <= 8) {
+        img.src = "ikoner/cloudy.svg";
+    } else if (city.conditions <= 20) {
+        img.src = "ikoner/rain.svg";
+    } else {
+        img.src = "ikoner/thunder.svg"
+    }
+
+    img.height = 60;
+    img.width = 60;
+
+    testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
+    testElem.appendChild(img);
 
 }
 
-//http://opendata.smhi.se/apidocs/metfcst/parameters.html#parameter-wsymb info about conditions
+
+//http://opendata.smhi.se/apidocs/metfcst/parameters.html#parameter-wsymb info about conditions 1-4 sun, 5-8 cloud, 9-20 rain, 21-27 thunder
