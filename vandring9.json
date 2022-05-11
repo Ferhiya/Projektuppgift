@@ -1,0 +1,56 @@
+{
+    "vandring":[
+        {
+            "stad":"Ljungby",
+            "led":"Bergastigen",
+            "längd":"6 km",
+            "handikapsanpassat":"Mellan Ljungbyvägen i söder och Värnamovägen i norr är den tillgänglig för rullstolsburna",
+            "beskrivning": "Bergastigen är en naturstig runt hela samhället, med ett rikt växt- och djurliv och många natursköna inslag: ängar, lövskog, barrskog,och vattenblänk från Lagaån.",
+            "image":{
+                "url":"image/vandringsbild3.jpg"},
+            "link":{
+            "linkurl":""},
+            "svårighetsnivå":"2",
+             "parkering":"Nej"
+        },
+
+        { 
+            "led":"Kronoskogen, Ljungby",
+            "längd":"3 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "I Kronoskogen finns tre ellljusspår: 1 km (blå), 2,6 km (röd) och 3 km (gul).Belysningen i Kronoskogen tänds kl. 6 på morgonen och är tänd tills det ljusnar. Belysningen tänds igen när det mörknar på kvällen och är tänd fram till kl. 22. I området finns ett utegym.",
+            "image":{
+                "url":"image/vandringsbild8.jpg"},
+            "link":{
+            "linkurl":""},
+            "svårighetsnivå":"2",
+             "parkering":"nej"
+            },
+
+             {
+            "led":"Hälsans stig - Ljungby",
+            "längd":"6 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Hälsans stig är 6 km lång och slingrar sig både längs ån Lagan och genom Ljungby centrum.",
+            "image":{
+                "url":"image/vandringsbild9.jpg"},
+            "link":{
+            "linkurl":""},
+            "svårighetsnivå":"3",
+             "parkering":"Nej"
+              },
+              
+              {
+            "led":"Naturreservat Kronoskogen",
+            "längd":"3.3 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Naturreservatet Kronoskogen i Ljungby är utan tvekan ett måste för den som vill uppleva naturen! Med en 80 år gammal granskog, tallskog fantastiskt djurliv, utegym och beachvolleybollplan är Kronoskogen verkligen något för den aktive!",
+            "image":{
+                "url":"image/vandringsbild10.jpg"},
+            "link":{
+            "linkurl":""},
+            "svårighetsnivå":"2",
+             "parkering":"Nej"
+            }
+    ]
+}

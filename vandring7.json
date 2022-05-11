@@ -1,0 +1,70 @@
+{
+    "vandring":[
+        
+        {
+            "stad":"Oskarshamn",
+            "led":"Äspöstigen",
+            "längd":"2 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"Stigen är ett bra utflyktsmål som passar stora som små. Det är relativt lättframkomlig men inte handikapp- eller barnvagnsvänlig. Det finns två grillplatser att använda när magen kurrar och till och med ett PokeGym för den intresserade.",
+            "image":{
+                "url":"image/vandringsbild3.jpg"},
+            "link":{
+            "linkurl":"https://oskarshamn.com/aspostigen-lanseras-pa-nytt/"},
+            "svårighetsnivå":"2",
+             "parkering":"Ja"
+             },
+
+             {
+            "led":"Uvö",
+            "längd":"2.1 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "På vackra Uvö norr om Oskarshamn kan du ta del av ett vackert promenadstråk längs med havsbandet med gångbroar att stanna till och njuta av naturen vid.",
+            "image":{
+                "url":"image/vandringsbild7.jpg"},
+            "link":{
+            "linkurl":"https://www.oskarshamn.se/kultur-och-fritid/idrott-och-fritid/natur-och-friluftsliv/uvo/"},
+            "svårighetsnivå":"3",
+             "parkering":"Nej"
+            },
+
+            {
+            "led":"Fallebo vandringsled",
+            "längd":"1.9 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Ta chansen att vandra på leden som startar och slutar vid Fallebo gård. En perfekt plats för hela familjen.",
+            "image":{
+                "url":"image/vandringsbild4.jpg"},
+            "link":{
+            "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/fallebo"},
+            "svårighetsnivå":"2",
+             "parkering":"Ja"
+             },
+
+             {
+            "led":"Sjöbovikens vandringsled",
+            "längd":"2.5 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Naturreservatet Sjöbovikens höga naturvärden i kombination med dess närhet till Oskarshamn gör att det har ett stort värde för rekreation, naturpedagogik och friskvård. Det stadsnära läget gör området mycket lättillgängligt, särskilt för människor i södra delarna av Oskarshamns centralort.",
+            "image":{
+                "url":"image/vandringsbild6.jpg"},
+            "link":{
+            "linkurl":"https://www.oskarshamn.se/bygga-bo-miljo/hallbarhet-och-utveckling/hallbarhet-klimat-natur/naturvard/naturreservat/"},
+            "svårighetsnivå":"3",
+             "parkering":"Nej"
+            },
+
+             {
+            "led":"Stenhuggarleden",
+            "längd":"9.4 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning": "Välkommen till Stenhuggarleden i Vånevik! Här kan du vandra längs kajer som stensattes för mer än 100 år sedan. Högar av skrotsten kantar spåren av gamla rallvägar och solen speglar sig i vattenfyllda stenbrott.",
+            "image":{
+                "url":"image/vandringsbild5.jpg"},
+            "link":{
+            "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/vaanevik?guide_id=327"},
+            "svårighetsnivå":"3",
+             "parkering":"Ja"
+             }
+    ]
+}
