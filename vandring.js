@@ -180,3 +180,20 @@ function newvader(response) {
 	
 } 
 
+// JavaScript code
+function search_animal() {
+	document.getElementById("list").style.visibility="hidden";
+    let input = document.getElementById('sokruta').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('animals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+

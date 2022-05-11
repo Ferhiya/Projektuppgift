@@ -7,11 +7,11 @@
             "längd":"2.7 km",
             "handikapsanpassat":"Ja",
             "beskrivning": "Tillgänglig vandringsled även för rullstolsburna och barnvagn. Leden går genom Illharjens naturreservat och utefter Emån",
-            "svårighetsnivå":"1",
+            "svårighetsnivå":"Lätt",
             "image":{
                 "url":"image/vandringsbild1.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/illharjenrundan.5.54b9e8781785e07728310a7d.html"},
              "parkering":"Ja"
         },
         {
@@ -23,8 +23,8 @@
             "image":{
                 "url":"image/vandringsbild2.jpg"},
             "link":{
-            "linkurl":""},
-            "svårighetsnivå":"4",
+            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/vetlandarundan.5.54b9e8781785e0772831064d.html"},
+            "svårighetsnivå":"Svår",
              "parkering":"Ja"
         },
 
@@ -36,8 +36,8 @@
             "image":{
                 "url":"image/vandringsbild3.jpg"},
             "link":{
-            "linkurl":""},
-            "svårighetsnivå":"2",
+            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/vandraiskogochmark.5.1d2a7c7616342fe18ec4a9d8.html"},
+            "svårighetsnivå":"Lätt",
              "parkering":"Nej"
         },
 
@@ -50,9 +50,9 @@
             "image":{
                 "url":"image/vandringsbild4.jpg"},
             "link":{
-            "linkurl":""},
-            "svårighetsnivå4":"3",
-             "parkering4":"Nej"
+            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/historiskvandring.5.4e5a78211797942ac1553b4.html"},
+            "svårighetsnivå":"Mellan",
+             "parkering":"Nej"
         }
     ]
 }
