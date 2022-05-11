@@ -23,6 +23,12 @@ color:white;
 
 #navbar h2 {
 margin-top: 40px;
+text-decoration: none;
+color: white;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -538,6 +544,17 @@ margin-top: 50px;
 
 }
 
+#egna-inlagg a {
+text-decoration: none;
+color: black;
+}
+
+
+#egna-inlagg h2 {
+    margin-bottom: 35px;
+    border-bottom: #138558 5px solid;
+    width: 600px;
+    }
 
  /* CSS för open-thread */ 
 

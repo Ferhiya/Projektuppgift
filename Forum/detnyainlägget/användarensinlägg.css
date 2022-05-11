@@ -21,10 +21,16 @@ background-color: #138558;
 color:white;
 }
 
-#navbar h2 {
-margin-top: 40px;
-}
 
+#navbar h2 {
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    }
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
 
  /* CSS för forumssidan, landsida*/ 
 
