@@ -20,7 +20,7 @@ function init() {  // Allting som ska laddas in före sidan visas
     function getLocalStorage() { // Funktion för den lokala lagringen
 
         if (localStorage.bw222fgUserinfo){
-
+console.log("hej");
         const intryck = localStorage.getItem("vandring+text");
 
         const utomhus = localStorage.getItem("utomhus+text");
@@ -28,10 +28,11 @@ function init() {  // Allting som ska laddas in före sidan visas
         const adrenalin = localStorage.getItem("adrenalin+text");
 
         const vatten = localStorage.getItem("vatten+text");
-            
+
+            console.log(intryck);
 
         if (intryck === intryck ){
-            console.log(intryck);
+            
             removeElem.remove();          
             vandringElem.innerHTML = intryck;
         }    

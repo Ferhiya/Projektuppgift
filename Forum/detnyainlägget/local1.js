@@ -53,10 +53,6 @@ if (val === "vattensport"){
    localStorage.setItem('vatten+text', vattensporttext); 
 } 
 
-console.log(utomhustext);
-
- 
-
 
        
    getLocalStorage(); // Anropar local storage
