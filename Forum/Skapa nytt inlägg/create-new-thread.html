@@ -1,9 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Forum/Skapa nytt inlägg/skapa-nytt-inlägg.css">
+  <script src="/Forum/detnyainlägget/local1.js"></script>
+    
     <title>Friluftszonen</title>
 </head>
 <body>
@@ -32,19 +35,20 @@
 
 <div id="container"> 
 
+
 <div id="skriv">
 <h3>Skriv ett nytt inlägg</h3>
 <input type="text" id="rubrik" name="fname" placeholder="Fyll i rubrik">
-<textarea name="" id="" cols="55" rows="15" placeholder="Fyll i ditt inlägg. När du är färdig klicka på publicera."></textarea>
+<textarea name="" id="texten" cols="55" rows="15" placeholder="Fyll i ditt inlägg. När du är färdig klicka på publicera."></textarea>
 </div> 
 
 <div class="dropdown">
 
 <div id="forum-dropon"> 
     <h2>Välj forum att publicera din tråd i</h2>
-     <select name="forum"></div>
+     <select id="valj-forum" name="forum"></div>
          
-    <div id="valj-forum"   >
+    <div>
         <option id="a" value ="vandring">Vandring</option>
         <option id="a" value ="utomhus">Utomhusaktivteter</option>
         <option id="a" value="adrenalin">Adrenalin</option>
@@ -64,7 +68,7 @@
 </div> 
 
 
-<div id="publicera-btn"><a href="/Forum/landsida.html">Publicera</a> </div>
+<div id="publicera-btn"><a href="/Forum/detnyainlägget/användarensinlägg.html">Publicera</a> </div>
 </div>
 
 

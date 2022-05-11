@@ -40,11 +40,13 @@ width: 190px;
 height: 50px;
 border-radius: 6px;
 margin-bottom: 30px;
-
 }
 
-
-
+#skapa-trad p {
+font-size: 19px;
+margin-top: 9px;
+margin-left: 5px;
+}
 #plus {
 margin-left: 5px;
 margin-right: 5px;
@@ -61,7 +63,14 @@ border-width: 3px;
 width: 190px;
 height: 50px;
 border-radius: 6px;
+margin-bottom: 30px;    
 }
+
+#se-trad p {
+font-size: 19px;
+margin-top: 9px;  
+}
+
 
 #grid {
 display: flex;
@@ -132,12 +141,6 @@ border-radius: 6px;
 border-style: solid;
 line-height: 30px;
 padding: 40px;
-width: 350px;
-text-align: center;
-}
-
-#landsida-anvandar-span {
-text-align: left;
 }
 
 #grid {
@@ -292,6 +295,7 @@ border: #138558;
 border-style: solid;
 padding: 20px;
 line-height: 25px;
+width: 560px;
 }
 
 #inlagg-kommentar {
@@ -402,6 +406,7 @@ margin-top: 10px;
 
  
 #extra {
+   
     margin-bottom: 10px;
     background-color: white;
     border-bottom: #000;
