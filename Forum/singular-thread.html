@@ -1,55 +1,80 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="/Forum/forum.css">
+   <script src="/Forum/trad.js"></script>
+   <script src="/Forum/kommentarer.js"></script>
     <title>Friluftszonen</title>
 </head>
 <body>
     <div id="navbar"> 
-        <div id="logga"> <img src="/Test-kommentarer/A_black_image.jpg.webp" alt=""></div>  
+        <div id="logga"> </div>  
         <h2>Friluftszonen</h2>
         <h2>Hem</h2> 
         <h2>Sök</h2>
         <h2>Forum</h2>
-        <div id="användare-bild"> <img src="/Test-kommentarer/A_black_image.jpg.webp" alt=""></div>    
+        <div id="användare-bild"> </div>    
         </div>
 
-
-<div id="tillbacka">
-<button>Tillbacka</button></div>
+        <div id="tillbacka">
+            <a href="/Forum/landsida.html">Tillbacka</a>
+              </div>
 
 <div id="container">
 
 <div id="head">
 <div id="inlagg">
-<h3>Bästa vandringsleden i Växjö?</h3>
-<p>Hej!</p><p>
+<h3> <i>Bästa vandringsleden i Växjö?</i> </h3>
+<p><b>Fjällräven Persson</b> </p><p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat vel sequi illo iste reprehenderit ullam quo dicta eaque deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, soluta. Optio, nostrum? Esse rerum nihil repellendus quae. Temporibus non eos veritatis unde quisquam nostrum. Eaque velit labore repellat maxime nobis beatae natus! Asperiores quas animi impedit harum commodi aut. Deleniti.</p>
 </div>
-<button>Kommentera</button>
 </div></div>
 
 
-<div id="container-kommentar">
+<div id="knapp-text">
+<form id="inputForm"> <!-- Textfält för att ge indata -->
 
-<div id="head-kommentar">
-<div id="inlagg-kommentar">
-
-<div id="test">
-<img src="/img/tree-gd1416d50f_640.jpg" alt="" width="100px"> 
-<h3>Användare</h3></div>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat vel sequi illo iste reprehenderit ullam quo dicta eaque deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, soluta. Optio, nostrum? Esse rerum nihil repellendus quae. Temporibus non eos veritatis unde quisquam nostrum. Eaque velit labore repellat maxime nobis beatae natus! Asperiores quas animi impedit harum commodi aut. Deleniti.</p>
+<span><input type="text" id="input1"> </span>
+<button type="button" id="runBtn">Kommentera</button>
+</form>
+        
+ <div id="result"></div>   
 </div>
-<div id="buttonles-kommentar">
-<button>Läs kommentarer</button><button>Kommentera</button>
 
-</div></div>
 
+<div id="andra-inlagg">
+    <div id="har">
+<h3>Kristina Trädkramare</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, impedit. Perferendis sit similique illum. Tempora reiciendis impedit veritatis, voluptas similique facere mollitia aliquam earum atque nisi incidunt recusandae? Suscipit omnis repellendus asperiores iure vitae incidunt dolores cum. Nulla, quis.</p></div></div>
+
+
+<div id="knapparna-komment">
+
+<button onclick="myFunction()" id="myBtn">Läs kommentarer</button>
+<form id="inputForm1"> <!-- Textfält för att ge indata --></form>
+<span><input type="text" id="input2"> </span>
+<button type="button2" id="runBtn2">Kommentera</button>
+
+</div>
+
+<div id="result2-id">
+<div id="result2"></div></div>  
+
+      <div id="container-result">
 
     
+<div id="bea"><span id="dots"></span>
+<span id="more">
+<h3>Flora Lilja</h3><p>
+erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta  <br><br> <hr></p>
+</div>
+</span></p> 
+</div></div> 
+
+    <br><br><br><br>
 
 </body>
 </html>

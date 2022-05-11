@@ -1,3 +1,5 @@
+var thread;
+
 var defaultThreads = [
     {
         id: 1,

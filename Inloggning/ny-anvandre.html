@@ -3,10 +3,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Inloggning/ny-anvandre.css">
+   <script src="/Inloggning/inloggning.js"></script>
     <title>Friluftszonen</title>
 </head>
 <body>
     
+<div id="navbar"> 
+<div id="logga"> <img src="/Test-kommentarer/A_black_image.jpg.webp" alt=""></div>  
+<h2>Friluftszonen</h2>
+<h2>Om oss</h2> 
+<div id="användare-bild"> <img src="/Test-kommentarer/A_black_image.jpg.webp" alt=""></div>    
+</div><br>
+        
+
+
 
 
 
@@ -19,32 +30,50 @@
 				 Annars specificeras program för hantering av formuläret i ett action-attribut. -->
 	
 			<fieldset id="customer">
-				<legend>Kund</legend>
+				<legend>Ny användare</legend>
 				<div>
-					<label for="name">* För och efternamn</label>
+
+				
+					<label for="name" id="name2">Användarnamn</label>
 						<input type="text" id="name" name="name" required>
-					<label for="street">Mejladress</label>
+					<label for="street" id="name2">Mejladress</label>
 						<input type="text" id="street" name="street">
-					<label for="zipcode">Mobilnummer</label>
+					<label for="zipcode" id="name2">Mobilnummer</label>
 						<div>
 							<input type="text" id="zipcode" name="zipcode">
 							<span></span> <!-- Element för felmeddelande-->
 						</div>
-					<label for="city">Ort</label>
-						<input type="text" id="city" name="city">
-					<label for="telephone">Telefon</label>
+					<label for="telephone" id="name2">Lösenord</label>
 						<div>
-							<input type="text" id="telephone" name="telephone">
+							<input type="text" id="telephone" class="tie"
+							name="telephone">
 							<span></span> <!-- Element för felmeddelande-->
 						</div>
-					<label for="email">* E-post</label>
-						<input type="text" id="email" name="email" required>
 				</div>
 			</fieldset>
 			<div id="send">
-				<input type="submit" value="Skicka förfrågan">
+				<a href="/Forum/landsida.html">Börja utforska</a>
 			</div>
 		</form>
+
+
+		<div id="nojda-recenstioner">
+		<h2>Gör som 3000 andra - hitta en <i>gemenskap</i> </h2>
+		<p>Friluftszonen är en plattform för dig som älskar naturen och vill ha ut mer av dina utflykter. Här är hemmet för mer än 3000 användare runt om Småland & Öland. Här samlas gamla som unga, erfarna som oerfarna, i ett möte med naturen. Friluftszonen önskar ge dig som användare vänner för livet och erfarenheter att dela med dessa vänner. </p> <br><p>Våga ta steget, ut i naturen, likväl som till din näste. Dags att lämna trygghetszonen och komma in i <b>Friluftszonen</b>. </p>
+		</div>
+
 	</main>
+	
+	<div id="img-gallery">
+			<img src="/img/family-g16b13d8e0_640.jpg" alt="">
+			<img src="/img/mountaineers-g51f27f398_640.jpg" alt="">
+			<img src="/img/family-g16b13d8e0_640.jpg" alt="">
+			<img src="/img/mountaineers-g51f27f398_640.jpg" alt="">
+			<img src="/img/family-g16b13d8e0_640.jpg" alt="">
+			<img src="/img/mountaineers-g51f27f398_640.jpg" alt="">
+		
+		</div>
+
+
 </body>
 </html>
