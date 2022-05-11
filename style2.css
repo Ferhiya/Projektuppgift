@@ -182,6 +182,15 @@ font-family: 'Playfair Display', serif;
             visibility:hidden;
         }
 
+        #outdoorinfo{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            margin-bottom: 2%;
+            padding-left: 0%;
+            margin-left: 3%;
+            visibility:hidden;
+        }
+
         #valt2{
             width: 80%;
             border: 2px solid black;
@@ -196,4 +205,9 @@ font-family: 'Playfair Display', serif;
             padding-left: 80%;
         }
 
-        
+        #utomhus{
+            padding-top: 2%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap:20px;
+        }
