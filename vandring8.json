@@ -7,6 +7,10 @@
             "längd":"5 km",
             "handikapsanpassat":"Ja",
             "beskrivning": "Leden går i naturskönt område med möjlighet att ta sig runt med rullstol. Grillplats under tak finns utmed leden.",
+            "image":{
+                "url":"image/vandringsbild10.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"1",
              "parkering":"Ja"
             },
@@ -16,6 +20,10 @@
             "längd":"10 km km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Gubbamilen går igenom ett varierat landskap med varierad terräng. Några stigningar men också lättvandrad mark.",
+            "image":{
+                "url":"image/vandringsbild1.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"2",
              "parkering":"Ja"
              },
@@ -25,26 +33,12 @@
             "längd":"3 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Leden är lätt kuperad. Lämplig att koppla ihop med Muggeboleden. Grillplats och raststuga finns utmed leden.",
+            "image":{
+                "url":"image/vandringsbild6.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"2",
              "parkering":"Ja"
-             },
-
-             {
-            "led":"J.K Rowling",
-            "längd":"",
-            "handikapsanpassat":"1997",
-            "beskrivning": "",
-            "svårighetsnivå":"",
-             "parkering":"parkering"
-            },
-
-             {
-            "led":"J.K Rowling",
-            "längd":"",
-            "handikapsanpassat":"1997",
-            "beskrivning": "",
-            "svårighetsnivå":"",
-             "parkering":"parkering"
         }
     ]
 }

@@ -6,24 +6,36 @@
             "längd":"4.9 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Torskingeleden är en på privat initiativ blåmarkerad vandringsled runt byn Torskinge. En fin runda som går från hembygdsparken genom gammal odlingsbygd, bland annat utmed de gamla gravkullarna ”Mattlabackarna”, och runt i skogen innan den leder tillbaks till kyrkan på bilvägen som sträcker sig söderut från Torskinge.",
+            "image":{
+                "url":"image/vandringsbild8.jpg"},
+            "link":{
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/torskingeleden?guide_id=61"},
             "svårighetsnivå":"3",
              "parkering":"Ja"
              },
-             
+
              {
             "led":"Prostsjörundan",
             "längd":"1.5 km",
             "handikapsanpassat":"Ja",
             "beskrivning": "Prostsjörundan löper runt den centralt belägna Prostsjön. Rundan är ca. 1,5 km lång och bjuder både på utsiktsplats, grillplats och badplats. Leden är delvis asfalterad och parkeringsmöjlighet finns både utmed Prostgårdsvägen och vid Prostsjövägen.",
+            "image":{
+                "url":"image/vandringsbild2.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"1",
              "parkering":"Ja"
              },
 
             {
             "led":"Havsjöleden",
-            "längd":"2 km",
+            "längd":"1.5 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Promenera på spänger runt sjön och njut av en fantastisk utsikt och fin natur. Runt leden, i sjöns norra del, finns ett vindskydd med tillgång till eldstad när du vill ta en paus. Havsjön ligger fint till mellan Annebergssjön och Tovarydsjön.",
+            "image":{
+                "url":"image/vandringsbild9.jpg"},
+            "link":{
+            "linkurl":"https://www.naturkartan.se/en/jonkopings-lan/prostsjorundan?guide_id=61"},
             "svårighetsnivå":"3",
              "parkering":"Ja"
             },
@@ -33,6 +45,10 @@
             "längd":"3.6 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Leden är 3,6 km lång och går i det kuperade skogslandskapet helt på fast mark.",
+            "image":{
+                "url":"image/vandringsbild1.jpg"},
+            "link":{
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/lovo-runt?guide_id=61"},
             "svårighetsnivå":"2",
              "parkering":"Nej"
             },
@@ -42,18 +58,13 @@
             "längd":"12 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Leden går mest i skogen med avstickare till ett fågeltorn på Kävsjösidan och ett vid Svänö. På östra sidan av sjön kommer man in till själva högmossen och vid stigskälet går det att ta östra stigen och ansluta till Svartgölsleden med rullstolsspång ut till Svartgölen.",
+            "image":{
+                "url":"image/vandringsbild10.jpg"},
+            "link":{
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/kavsjo-runt?guide_id=61"},
             "svårighetsnivå":"2",
              "parkering":"Nej"
-             },
-
-             {
-            "led6":"J.K Rowling",
-            "längd6":"",
-            "handikapsanpassat6":"1997",
-            "beskvivning6": "",
-            "svårighetsnivå6":"",
-             "parkering6":"Värnamo oklart"
-        }
+             }
     ]
     }
 

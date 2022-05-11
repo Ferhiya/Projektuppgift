@@ -14,7 +14,7 @@
                 
                 "beskrivning": "Leden sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
                 "image":{
-                    "url":"img/inloggning-img.png"},
+                    "url":"image/vandringsbild1.jpg"},
                 "svårighetsnivå":"1",
                 "parkering":"Nej"
              },
@@ -27,7 +27,7 @@
             "link":{
             "linkurl":"https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/ljungbyleden.html"},
             "image":{
-                "url":"img/inloggning-img.png"},
+                "url":"image/vandringsbild2.jpg"},
             "svårighetsnivå":"2",
              "parkering":"Nej"
          },
@@ -41,7 +41,7 @@
              "link":{
              "linkurl":"https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/linneslingan.html"},
              "image":{
-                "url":"img/inloggning-img.png"},
+                "url":"image/vandringsbild3.jpg"},
              "svårighetsnivå":"1",
              "parkering":"Nej"
              },
@@ -53,10 +53,10 @@
                          "handikapsanpassat":"Nej",
                          "beskrivning":"Leden börjar i södermöres kustlandskap och slutar i källebäcksmåla som ligger väster om klamar. Naturen du går igenom är omväxklande med odlingslandskap, stränder, skog och lummiga grönområden.",
                          "link":{
-                         "linkurl":"https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/ostra-sigfridsleden.html",
-                         "svårighetsnivå":"2"},
+                         "linkurl":"https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/ostra-sigfridsleden.html"},
+                         "svårighetsnivå":"2",
                          "image":{
-                            "url":"img/inloggning-img.png"},
+                            "url":"image/vandringsbild4.jpg"},
                          "parkering":"Nej"
                  },
                  { 
@@ -68,7 +68,7 @@
                          "link":{
                          "linkurl":"https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/halsoslingan.html"},
                          "image":{
-                            "url":"img/inloggning-img.png"},
+                            "url":"image/vandringsbild5.jpg"},
                          "svårighetsnivå":"2",
                          "parkering":"Nej"
                      },
@@ -79,7 +79,7 @@
                          "handikapsanpassat":"Ja",
                          "beskrivning":"Hälsoslingan är stadsnära men går också genom skog, trädgårdar, kust och vikar det kan dock skilja sig lite beroende på vilken slinga du går. Alla slingor är lätt framkomliga men vissa är lättare och mer anpassade för rullstol och rullator natt ta sig fram på.Det är en väldig fin och mysig promenadslinga att gå.",
                          "image":{
-                            "url":"img/inloggning-img.png"},
+                            "url":"image/vandringsbild6.jpg"},
                             "link":{
                          "linkurl":"https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/halsoslingan.html"},
                          "svårighetsnivå":"1",

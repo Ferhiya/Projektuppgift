@@ -7,6 +7,10 @@
             "längd":"0.5 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Genom Helvetets portar, eller Holavedens urskogs naturreservat, finns några enklare strövstigar med orange färgmarkeringar på träd och stolpar som det är enkelt att följa för att få ett smakprov på naturreservatets speciella karaktär. Längs med stigen kan du också läsa om skogens dur och växter på en enklare informationstavla.",
+            "image":{
+                "url":"image/vandringsbild5.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"2",
              "parkering":"Ja"
         },
@@ -17,6 +21,10 @@
             "längd":"3.1 km",
             "handikapsanpassat":"Ja",
             "beskrivning": "Här rör du dig längs Svartåns forsande vatten och under sommaren är det särskilt vackert med alla blommor i Ekmarksparken. Det finns gott om bänkar att vila på längs vägen där den som behöver kan pusta ut en stund eller bara njuta av vattnet, grönskan och blomsterprakten runtomkring.",
+            "image":{
+                "url":"image/vandringsbild7.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"2",
              "parkering":"Ja"
         },
@@ -27,6 +35,10 @@
             "längd":"4 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Gå den vackra leden runt sjön Illern som ryms inom Illerns naturreservat. Ett bra spår både för dig som vill vandra, jogga, plocka bär eller bara uppleva naturskön skog och sjö. Skogen är mestadels uppvuxen tallskog med några partier av yngre planteringar. Marken är bitvis täckt med blåbärs- och lingonris.",
+            "image":{
+                "url":"image/vandringsbild4.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"3",
              "parkering":"Nej"
         },
@@ -36,6 +48,10 @@
             "längd":"10 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Aggas - Gröna spåret är 10 km långt och tar dig en bra bit norrut in i Östergötland och sedan tillbaks söderut till Sommen. Inledningsvis följer man samma sträckor som det gula och det röda spåret.",
+            "image":{
+                "url":"image/vandringsbild3.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"3",
              "parkering":"Ja"
         },
@@ -45,6 +61,10 @@
             "längd":"2.3 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Ta en promenad genom vacker lövskog längs ett hjorthägn och besök familjen Brahes gamla jaktslott Brahälla där du får en fantastisk utsikt över sjön Noen.",
+            "image":{
+                "url":"image/vandringsbild9.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"2",
              "parkering":"Ja"
         }

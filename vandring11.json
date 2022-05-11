@@ -8,6 +8,10 @@
             "handikapsanpassat":"Ja",
             "beskrivning": "Tillgänglig vandringsled även för rullstolsburna och barnvagn. Leden går genom Illharjens naturreservat och utefter Emån",
             "svårighetsnivå":"1",
+            "image":{
+                "url":"image/vandringsbild1.jpg"},
+            "link":{
+            "linkurl":""},
              "parkering":"Ja"
         },
         {
@@ -16,6 +20,10 @@
             "längd":"27 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Vetlandarundan går i och utanför Vetlandas omedelbara närhet. Vi passerar allt från rekreationsområden med motionsspår till kyrkor och forntida gravfält i en natur med sjön Grumlan, Emån och Vetlandabäcken som tätortens livsnerv.",
+            "image":{
+                "url":"image/vandringsbild2.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"4",
              "parkering":"Ja"
         },
@@ -25,6 +33,10 @@
             "längd":"10 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Runt Klockesjön är det en varierad terräng med odlingslandskap och skogar. Den idylliska kyrkbyn Ramkvilla ligger som en pärla där sjöarna Örken och Klockesjön möts.",
+            "image":{
+                "url":"image/vandringsbild3.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå":"2",
              "parkering":"Nej"
         },
@@ -35,6 +47,10 @@
             "längd":"3.1 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Följ med på en historisk vandring i Vetlanda - från det medeltida bysamhället till den moderna handelsstaden. Rundan passerar platser som har varit viktiga i ortens tveckling, allt från kyrkan med de äldsta delarna från 1100-talet till kommunens administrativa centrum med det originella stadshuset vid stadens torg.",
+            "image":{
+                "url":"image/vandringsbild4.jpg"},
+            "link":{
+            "linkurl":""},
             "svårighetsnivå4":"3",
              "parkering4":"Nej"
         }

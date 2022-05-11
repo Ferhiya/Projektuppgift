@@ -25,13 +25,55 @@ function init() {
 
 	skicka= document.getElementById("skicka");
 	skicka.addEventListener("click", function(){
+		var kommentera2Value=document.getElementById("kommentera2");
+		
+		var kommenteraValue=document.getElementById("kommentera");
+		
+
+		var div=document.getElementById("unordered");
+
+		let led=(kommentera2Value.value);
+	
+
+		let kommentar=(kommenteraValue.value);
+	     
+		div.innerHTML+="<div id='testid'>"+led+"<br>"+kommentar+"</div>";
+		
+		//document.getElementById("unordered").style.border="2px solid black";
+
+		/*
+		console.log(kommentera2Value);
+		var lp = document.createElement("p");
+		var text2 = document.createTextNode(kommentera2Value);
+		lp.appendChild(text2);
+		var div=document.getElementById("unordered");
+        
+
+
 		var kommenteraValue= document.getElementById("kommentera").value;
-	 
 		var p = document.createElement("p");
 		var text = document.createTextNode(kommenteraValue);
 		p.appendChild(text);
 		document.getElementById("unordered").appendChild(p);
-        document.getElementById("unordered").appendChild(p).style.border="2px solid black";
+
+		document.getElementById("unordered").appendChild(lp,p).style.border="2px solid black";
+       
+		
+            var fragment = document.createDocumentFragment();
+            for (var i = 0; i < Elements.length; i++) {
+                var e = document.createElement("div");
+                e.innerHTML = Elements[i];
+                fragment.appendChild(e);
+            }
+            var UlElement = document.getElementById('test');
+            UlElement.appendChild(fragment);
+        
+	
+
+
+		//document.getElementById("unordered").appendChild(lp);
+        //document.getElementById("unordered").appendChild(lp).style.border="2px solid black";
+		*/
 	});
   
 
@@ -67,8 +109,12 @@ function getData(JSONtext) {
 
 	let HTMLcode = ""; //tom html sträng för utskriften av innehållet i JSON 
 
-	HTMLcode += 
-	"<h1><b></b> " + vandring.stad + "</h1>" +"<hr>";
+
+
+	/*for (let i = 0; i < vandring.length; i++) {
+		HTMLcode += 
+    "<h1><b>Vandringsleder i </b> " + vandring[i].stad + "</h1>" +"<hr>";
+	}*/
     
     
 	for (let i = 0; i < vandring.length; i++) {
