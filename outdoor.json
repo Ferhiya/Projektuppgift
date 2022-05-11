@@ -1,0 +1,55 @@
+{
+    "bike": [
+        {
+            "city": "Kalmar", 
+            "name": "Snurrom Bike Park",
+            "description": "Snurrom Bike Park är en cirka 4 kilometer lång mountainbikebana med hinder anpassade både för barn och vuxna. Cirka 3 kilometer är slingrande skogsstigar och 600 meter är anlagd teknikbana.",
+            "distance": "3 km",
+            "link": {
+                "url": "https://kalmar.se/trafik-och-resor/cykel/snurrom-bike-park.html"
+            }, 
+            "img": {
+                "url": "img/bike1.jpg"
+            }
+        },
+
+        {
+            "city": "Kalmar", 
+            "name": "Kalmarsundsleden",
+            "description": "Kalmarsundsleden är en vacker natur- och kulturled som går från Slakmöre i norr till Bröms i söder. Cykelsträckningen är samma som vandringsleden med undantag för sträckor där det är svårt att ta sig fram med cykel. Cykelleden är inte skyltad, men finns markerad på kartan.",
+            "distance": "200 km",
+            "link": {
+                "url": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/kalmarsundsleden.html"
+            }, 
+            "img": {
+                "url": "img/bike2.jpg"
+            }
+        },
+
+        {
+            "city": "Kalmar", 
+            "name": "En tur norrut",
+            "description": "Med dess slingrande landsvägar bland fält och ängar är Kläckeberga populärt bland cyklister. Området har en vacker kyrka och i närheten ligger gården Västerslät med lantkafé och gårdsbutik. Värsnäs är en halvö med vacker natur som ingår i naturreservatet Horsö-Värsnäs. Här finns möjlighet att grilla, vandra, bada och spela golf. ",
+            "distance": "71 km",
+            "link": {
+                "url": "https://kalmar.com/download/18.6c4bfdaf17a9cde4307ab/1626240519751/2021_Cykelkarta_Norr_korr_20210709.pdf"
+            }, 
+            "img": {
+                "url": "img/bike3.jpg"
+            }
+        },
+
+        {
+            "city": "Kalmar", 
+            "name": "En tur söderut",
+            "description": "Södermöre har flera natursköna vägar, gamla kyrkor och idylliska kustsamhällen att upptäcka. Ställ kosan söderut mot Hossmo. Härifrån kan du cykla längs kusten via Bottorp och ner till Hagby där Sveriges största rundkyrka finns. Eller tar du av mot Vassmolösa som erbjuder trevliga gårdsbutiker och lantkaféer.",
+            "distance": "96 km",
+            "link": {
+                "url": "https://kalmar.com/download/18.677aa54a178ec4c7e503c1/1619164206892/2021_Cykelkarta_S%C3%B6der_korr_20210422.pdf"
+            }, 
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        }
+    ]
+}
