@@ -76,10 +76,11 @@ function getData(response) {
         let hi = response.payload;
         // Referenser till olika egenskaper i vandrings objektet i JSON
         HTMLcode +=
+            "<hr>" +
             "<p><b>Namn:</b> " + hi[i].name + "</p>" + //lägger in namnet på ledet i html strängen
             "<p><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</p>" + //lägger in längden på ledet i html strängen
-            "<p><b>beskrivning:</b> " + hi[i].description + "</p>" + //lägger in info om handikapsanpassning i ledet i html strängen
-            "<hr>";
+            "<p><b>beskrivning:</b> " + hi[i].description + "</p>" //lägger in info om handikapsanpassning i ledet i html strängen
+            ;
     }
 
     valt2.innerHTML += HTMLcode; //utskrift av datan i JSON filen
@@ -114,18 +115,19 @@ function getBikeData(JSONtext, cityname) {
     let HTMLcode = "";
 
     HTMLcode +=
-        "<h1><b>" + cityname + "</b></h1>" + "<hr>";
+        "<h1><b>" + cityname + weatherElem + "</b></h1>";
 
     for (let i = 0; i < bike.length; i++) {
 
         if (cityname === bike[i].city) {
 
             HTMLcode +=
+                "<hr>" +
                 "<p><b>Namn:</b> " + bike[i].name + "</p>" +
                 "<img src='" + bike[i].img.url + "'</img>" +
                 "<p><b>Beskrivning:</b> " + bike[i].description + "</p>" +
                 "<p><b>Längd:</b> " + bike[i].distance + "</p>" +
-                "<a href=" + bike[i].link.url + " target='_blank'>Läs mer</a>" + "<hr>";
+                "<a href=" + bike[i].link.url + " target='_blank'>Läs mer</a>";
         }
     }
 
@@ -185,8 +187,8 @@ function getTemp(response) {
         img.src = "ikoner/thunder.svg"
     }
 
-    img.height = 60;
-    img.width = 60;
+    img.height = 80;
+    img.width = 80;
 
     weatherElem.appendChild(img);
     weatherElem.innerHTML += "<br>" + Math.round(temp) + "°C" + "<br>";
