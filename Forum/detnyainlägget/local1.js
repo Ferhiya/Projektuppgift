@@ -22,42 +22,50 @@ console.log(val);
 }
 
 function myFunction() {
+
+   // Koden för det privata inlägget
+   
      x = document.getElementById("rubrik").value;
      
      y = document.getElementById("texten").value;
      
-     container = " <i>" + "Användaren" + "</i>" + "<b>"+ x + "</b>" + "<br>" + y;
+     container = "  <h3><i>" + x + "</h3></i>" + "<b>" +  "Användarn" +"</b>" + "<br>" + y;
 
      localStorage.setItem('texten', container);
 
 console.log("container");
 
+// Koden för inlägget
+
+if (val === undefined){
+alert("Välj forum innan du publicerar");
+return;
+} 
+
+
 if (val === "vandring"){
 vandringtext = "<b>"+ x + "</b>" + "</br>" +  "Användaren namn" + "</div>" ; 
-
 localStorage.setItem('vandring+text', vandringtext); 
 }  
 
 if (val === "utomhus"){
 utomhustext = "<b>"+ x + "</b>" + "</br>" +  "Användaren namn" + "</div>" ;
-
- localStorage.setItem('utomhus+text', utomhustext); 
+   localStorage.setItem('utomhus+text', utomhustext); 
 }  
 
 if (val === "adrenalin"){
    adrenalintext = "<b>"+ x + "</b>" + "</br>" +  "Användaren namn" + "</div>" ;
+   localStorage.setItem('adrenalin+text', adrenalintext); 
    
-    localStorage.setItem('adrenalin+text', adrenalintext); 
    } 
 
 if (val === "vattensport"){
    vattensporttext = "<b>"+ x + "</b>" + "</br>" +  "Användaren namn" + "</div>" ;
-      
    localStorage.setItem('vatten+text', vattensporttext); 
 } 
-
-   
+window.location.href = "/Forum/detnyainlägget/användarensinlägg.html";
 }
+   
 
 
  

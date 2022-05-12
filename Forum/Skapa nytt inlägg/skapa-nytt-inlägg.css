@@ -139,9 +139,10 @@ margin-left: 15px;
 padding: 10px;
 margin-top: 35px;
 margin-bottom: 100px;
+width:120px
 }
 
-#publicera-btn a {
+#publicera-btn p {
 text-decoration: none;
 padding:8px;
 color: black;
@@ -150,6 +151,7 @@ background-color:#e0b767 ;
 border-color: #e0b767;
 border-radius: 5px;
 font-size: 23px;
+cursor: pointer;
 }
 
 

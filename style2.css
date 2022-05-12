@@ -1,20 +1,48 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
-* {
 
+* {
 font-family: 'Playfair Display', serif;
 padding: 0%;
 margin: 0%;
-
 }
 
 #navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-
+    height: 100px;
+    background-color: #138558;
+    color:white;
+    font-size: 20px;
     }
+    
+    #navbar h2 {
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+    }
+    
+    #logga-ikon img {
+        width: 100px;
+        }
+    
+    #logga-ikon {
+    display: flex;
+    }
+
+
+
+
+
+    
     #list{
         visibility: hidden;
         width: 0%;
@@ -22,21 +50,7 @@ margin: 0%;
     #upperpart {
     background-color:#65806d;
     }
-    #navbar a {
-    color: white;  
-    font-size: 20px;
-    }
-    #navbar h2 {
-        color: white;  
-        font-size: 30px;
-        }
-     
-    #navbar p {
-
-    margin-top: 40px;
-    font-size: 25px;
-}
-
+   
 #sokruta {
     width: 350px;
     margin-top: 30px;
@@ -56,23 +70,6 @@ margin: 0%;
 }
 
 /*CSS för navbar */
-#navbar img {
-    width: 100px;
-    border-radius: 100%;
-    margin-top: 12px;
-}
-
-#navbar {
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    background-color: #138558;
-    color: white;
-}
-
-#navbar h2 {
-    margin-top: 40px;
-}
 
 .filtering {
     display: grid;
@@ -202,7 +199,7 @@ a {
     margin-top: 2%;
     margin-left: 40%;
     margin-top: 10%;
-    width: 20%;
+    width: 120px;
 }
 .tillknappar a{
     font-size: 1.8rem;
