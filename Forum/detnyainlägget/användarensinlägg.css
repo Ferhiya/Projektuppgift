@@ -21,16 +21,16 @@ background-color: #138558;
 color:white;
 }
 
+
 #navbar h2 {
-margin-top: 40px;
-text-decoration: none;
-color: white;
-}
-#navbar a {
+    margin-top: 40px;
     text-decoration: none;
     color: white;
-}
-
+    }
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
 
  /* CSS för forumssidan, landsida*/ 
 
@@ -46,11 +46,13 @@ width: 190px;
 height: 50px;
 border-radius: 6px;
 margin-bottom: 30px;
-
 }
 
-
-
+#skapa-trad p {
+font-size: 19px;
+margin-top: 9px;
+margin-left: 5px;
+}
 #plus {
 margin-left: 5px;
 margin-right: 5px;
@@ -67,7 +69,14 @@ border-width: 3px;
 width: 190px;
 height: 50px;
 border-radius: 6px;
+margin-bottom: 30px;    
 }
+
+#se-trad p {
+font-size: 19px;
+margin-top: 9px;  
+}
+
 
 #grid {
 display: flex;
@@ -138,12 +147,6 @@ border-radius: 6px;
 border-style: solid;
 line-height: 30px;
 padding: 40px;
-width: 350px;
-text-align: center;
-}
-
-#landsida-anvandar-span {
-text-align: left;
 }
 
 #grid {
@@ -298,6 +301,7 @@ border: #138558;
 border-style: solid;
 padding: 20px;
 line-height: 25px;
+width: 560px;
 }
 
 #inlagg-kommentar {
@@ -408,6 +412,7 @@ margin-top: 10px;
 
  
 #extra {
+   
     margin-bottom: 10px;
     background-color: white;
     border-bottom: #000;
@@ -544,17 +549,6 @@ margin-top: 50px;
 
 }
 
-#egna-inlagg a {
-text-decoration: none;
-color: black;
-}
-
-
-#egna-inlagg h2 {
-    margin-bottom: 35px;
-    border-bottom: #138558 5px solid;
-    width: 600px;
-    }
 
  /* CSS för open-thread */ 
 

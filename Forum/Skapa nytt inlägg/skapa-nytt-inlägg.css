@@ -21,17 +21,18 @@ background-color: #138558;
 color:white;
 }
 
-#navbar h2 {
-margin-top: 40px;
-}
-
-
   
-
+#navbar h2 {
+  margin-top: 40px;
+  text-decoration: none;
+  color: white;
+  }
+  #navbar a {
+      text-decoration: none;
+      color: white;
+  }
   
   #valj-forum {
-    display: none;
-    position: absolute;
     background-color: #f1f1f1;
     width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
