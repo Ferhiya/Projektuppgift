@@ -7,10 +7,6 @@ font-family: 'Playfair Display', serif;
 }
 
  /*CSS för navbar */ 
-#logga  {
-margin-bottom: 100px;
-
-}
 
 #navbar {
 display: flex;
@@ -30,6 +26,12 @@ color: white;
     color: white;
 }
 
+#logga img {
+width: 100px;
+}
+#logga-ikon {
+display: flex;
+}
 
  /* CSS för forumssidan, landsida*/ 
 

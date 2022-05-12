@@ -7,22 +7,15 @@ font-family: 'Playfair Display', serif;
 }
 
  /*CSS för navbar */ 
-#navbar img {
-width: 100px;
-border-radius: 100%;
-margin-top: 12px;
-}
-
-#navbar {
-display: flex;
-justify-content: space-around;
-height: 100px;
-background-color: #138558;
-color:white;
-}
-
+ #navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #138558;
+  color:white;
+  }
   
-#navbar h2 {
+  #navbar h2 {
   margin-top: 40px;
   text-decoration: none;
   color: white;
@@ -31,6 +24,15 @@ color:white;
       text-decoration: none;
       color: white;
   }
+  
+  #logga img {
+  width: 100px;
+  }
+  #logga-ikon {
+  display: flex;
+  }
+
+
   
   #valj-forum {
     background-color: #f1f1f1;
