@@ -26,8 +26,11 @@ function myFunction() {
      
      y = document.getElementById("texten").value;
      
-    
-console.log("val");
+     container = " <i>" + "Användaren" + "</i>" + "<b>"+ x + "</b>" + "<br>" + y;
+
+     localStorage.setItem('texten', container);
+
+console.log("container");
 
 if (val === "vandring"){
 vandringtext = "<b>"+ x + "</b>" + "</br>" +  "Användaren namn" + "</div>" ; 
@@ -53,29 +56,8 @@ if (val === "vattensport"){
    localStorage.setItem('vatten+text', vattensporttext); 
 } 
 
-
-       
-   getLocalStorage(); // Anropar local storage
    
 }
 
 
-  function getLocalStorage() { // Funktion för den lokala lagringen
-    if (localStorage.bw222fgUserinfo){
-
-  
-   console.log("vandringtext");
-
-     // container = "<b>"+ x + "</b>" + "<br>" + y;
-
-      //kategori =  "<b>"+ x + "</b>" + "</br>" +  "Användaren namn" + "</div>" ;   
-    
-      //localStorage.setItem('texten', container);
-
-      // localStorage.setItem('kategori2', kategori);
-       
-
-   
-        
-}
-}
+ 
