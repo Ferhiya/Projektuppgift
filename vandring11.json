@@ -1,58 +1,6 @@
 {
     "vandring":[
 
-        {
-            "stad":"Vetlanda",
-            "led":"Illharjenrundan",
-            "längd":"2.7 km",
-            "handikapsanpassat":"Ja",
-            "beskrivning": "Tillgänglig vandringsled även för rullstolsburna och barnvagn. Leden går genom Illharjens naturreservat och utefter Emån",
-            "svårighetsnivå":"Lätt",
-            "image":{
-                "url":"image/vandringsbild1.jpg"},
-            "link":{
-            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/illharjenrundan.5.54b9e8781785e07728310a7d.html"},
-             "parkering":"Ja"
-        },
-        {
-
-            "led":"Vetlandarundan",
-            "längd":"27 km",
-            "handikapsanpassat":"Nej",
-            "beskrivning": "Vetlandarundan går i och utanför Vetlandas omedelbara närhet. Vi passerar allt från rekreationsområden med motionsspår till kyrkor och forntida gravfält i en natur med sjön Grumlan, Emån och Vetlandabäcken som tätortens livsnerv.",
-            "image":{
-                "url":"image/vandringsbild2.jpg"},
-            "link":{
-            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/vetlandarundan.5.54b9e8781785e0772831064d.html"},
-            "svårighetsnivå":"Svår",
-             "parkering":"Ja"
-        },
-
-        {
-            "led":"Klockesjön",
-            "längd":"10 km",
-            "handikapsanpassat":"Nej",
-            "beskrivning": "Runt Klockesjön är det en varierad terräng med odlingslandskap och skogar. Den idylliska kyrkbyn Ramkvilla ligger som en pärla där sjöarna Örken och Klockesjön möts.",
-            "image":{
-                "url":"image/vandringsbild3.jpg"},
-            "link":{
-            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/vandraiskogochmark.5.1d2a7c7616342fe18ec4a9d8.html"},
-            "svårighetsnivå":"Lätt",
-             "parkering":"Nej"
-        },
-
-        {
-
-            "led":"Historisk vandring i Vetlanda",
-            "längd":"3.1 km",
-            "handikapsanpassat":"Nej",
-            "beskrivning": "Följ med på en historisk vandring i Vetlanda - från det medeltida bysamhället till den moderna handelsstaden. Rundan passerar platser som har varit viktiga i ortens tveckling, allt från kyrkan med de äldsta delarna från 1100-talet till kommunens administrativa centrum med det originella stadshuset vid stadens torg.",
-            "image":{
-                "url":"image/vandringsbild4.jpg"},
-            "link":{
-            "linkurl":"https://vetlanda.se/artikelarkiv/upplev/historiskvandring.5.4e5a78211797942ac1553b4.html"},
-            "svårighetsnivå":"Mellan",
-             "parkering":"Nej"
-        }
+        
     ]
 }

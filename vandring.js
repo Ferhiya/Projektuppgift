@@ -6,6 +6,14 @@ var valt; //refrens till div elemetet där info om vandrignsledet ska visas
 var knappar; //refens till tryckt knapp
 var display;
 var ledinfo;
+var testElem;
+let cities = [
+    //{name: "Älmhult", lat: 56.552421, lng: 14.137449, temp: 0, conditions: 0},
+    //{name: "Växjö", lat: 56.879025, lng: 14.805434, temp: 0, conditions: 0},
+    //{name: "Ljungby", lat: 56.832700, lng: 13.941018, temp: 0, conditions: 0},
+    {name: "Kalmar", lat: 56.663177, lng: 16.356674, temp: 0, conditions: 0},
+    //{name: "Jönköping", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0}
+];
 	
 // Initiering av globala variabler och händelsehanterare
 function init() {
@@ -20,8 +28,16 @@ function init() {
         
 	}
 
+	testElem = document.getElementById("väder2");
+	for (let i = 0; i < cities.length; i++) {
+			requestTemp(cities[i]);
+		
+        
+    }
+    
 
-	
+
+
 
 	skicka= document.getElementById("skicka");
 	skicka.addEventListener("click", function(){
@@ -39,46 +55,11 @@ function init() {
 	     
 		div.innerHTML+="<div id='testid'>"+led+"<br>"+kommentar+"</div>";
 		
-		//document.getElementById("unordered").style.border="2px solid black";
-
-		/*
-		console.log(kommentera2Value);
-		var lp = document.createElement("p");
-		var text2 = document.createTextNode(kommentera2Value);
-		lp.appendChild(text2);
-		var div=document.getElementById("unordered");
-        
-
-
-		var kommenteraValue= document.getElementById("kommentera").value;
-		var p = document.createElement("p");
-		var text = document.createTextNode(kommenteraValue);
-		p.appendChild(text);
-		document.getElementById("unordered").appendChild(p);
-
-		document.getElementById("unordered").appendChild(lp,p).style.border="2px solid black";
-       
 		
-            var fragment = document.createDocumentFragment();
-            for (var i = 0; i < Elements.length; i++) {
-                var e = document.createElement("div");
-                e.innerHTML = Elements[i];
-                fragment.appendChild(e);
-            }
-            var UlElement = document.getElementById('test');
-            UlElement.appendChild(fragment);
-        
-	
-
-
-		//document.getElementById("unordered").appendChild(lp);
-        //document.getElementById("unordered").appendChild(lp).style.border="2px solid black";
-		*/
 	});
   
 
 	//requestData();
-	requestvader();
   
 } // End init
 window.addEventListener("load",init);
@@ -90,13 +71,14 @@ window.addEventListener("load",init);
 
 // Gör ett Ajax-anrop för att läsa in begärd fil
 function requestData(e) { 
-    let id = e.target.id;
+   // let id = e.target.id;
+	let cityname = e.target.attributes.city.value;
 	let request = new XMLHttpRequest(); // Object för Ajax-anropet
-	request.open("GET","vandring" + id + ".json",true);
+	request.open("GET","vandring1.json",true);
 	request.send(null); // Skicka begäran till servern
 	request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
 		if (request.readyState == 4) //staus 4=kommunikation klar
-			if (request.status == 200) getData(request.responseText); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
+			if (request.status == 200) getData(request.responseText, cityname); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
 			else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
 	};
 
@@ -104,21 +86,19 @@ function requestData(e) {
 } 
 
 // Tolkar koden och skriv ut den på önskad form
-function getData(JSONtext) {
+function getData(JSONtext,cityname) {
 	let vandring = JSON.parse(JSONtext).vandring; //hämtar arryen med vandringsledernas data.
 
-	let HTMLcode = ""; //tom html sträng för utskriften av innehållet i JSON 
+	let HTMLcode = "";
 
-
-
-	/*for (let i = 0; i < vandring.length; i++) {
-		HTMLcode += 
-    "<h1><b>Vandringsleder i </b> " + vandring[i].stad + "</h1>" +"<hr>";
-	}*/
-    
+    HTMLcode +=
+	"<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
     
 	for (let i = 0; i < vandring.length; i++) {
-			// Referenser till olika egenskaper i vandrings objektet i JSON
+
+        if (cityname === vandring[i].city) {
+
+           	// Referenser till olika egenskaper i vandrings objektet i JSON
 			HTMLcode += 
             "<h2><b></b> " + vandring[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
 			//console.log(vandring[i].imgurl);
@@ -137,7 +117,8 @@ function getData(JSONtext) {
 			
 	
 			//valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
-		}
+    }
+}
 
 
 	    valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
@@ -162,22 +143,45 @@ function showledinfo(){
 }
 
 
+//Start requestTemp
+function requestTemp(city) {
+	let request = new XMLHttpRequest();
+    request.open("GET", "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/" + city.lng + "/lat/" + city.lat + "/data.json");
+    request.send(null);
+    request.onreadystatechange = function() {
+        if (request.readyState == 4) {
+            if (request.status == 200); {
+            getTemp(request.responseText, city);
+            }
+        }
+    };
+}//End requestTemp
 
-function requestvader() {
-	let request = new XMLHttpRequest(); // Object för Ajax-anropet
-	request.open("GET"," https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/16.158/lat/58.5812/data.json");//hämtar lat och lng i bildens id objekt
-	request.send(null); // Skicka begäran till servern
-	request.onreadystatechange = function () { // Funktion för att avläsa status i kommunikationen
-		if (request.readyState == 4)
-			if (request.status == 200) (request.responseText);// status 200 (OK) --> filen fanns, gå vidare till funktionen där datan tolkas och skrivs ut
-			else flickrImgElem.innerHTML = "Den begärda resursen finns inte.";
-	};
-	
-} // End requestLocation
+function getTemp(response, city) {
 
-function newvader(response) {
-	console.log(response);
-	
+    response = JSON.parse(response);
+    params = response.timeSeries[0].parameters;
+    city.temp = params[10].values[0];
+    city.conditions = params[18].values[0];
+
+    let img = document.createElement("img");
+
+    if (city.conditions <= 4) {
+        img.src = "ikoner/sun.svg";
+    } else if (city.conditions <= 8) {
+        img.src = "ikoner/cloudy.svg";
+    } else if (city.conditions <= 20) {
+        img.src = "ikoner/rain.svg";
+    } else {
+        img.src = "ikoner/thunder.svg"
+    }
+
+    img.height = 60;
+    img.width = 60;
+
+    testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
+    testElem.appendChild(img);
+
 } 
 
 // JavaScript code
