@@ -3,12 +3,13 @@
 
 * {
 font-family: 'Playfair Display', serif;
+padding: 0%;
+margin: 0%;
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
-    color: white;
     justify-content: space-around;
     }
     #list{
@@ -22,9 +23,9 @@ font-family: 'Playfair Display', serif;
     color: white;  
     font-size: 20px;
     }
-    #title {
+    #navbar h2 {
         color: white;  
-        font-size: 20px;
+        font-size: 30px;
         }
      
     #navbar p {
