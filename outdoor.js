@@ -115,7 +115,7 @@ function getBikeData(JSONtext, cityname) {
     let HTMLcode = "";
 
     HTMLcode +=
-        "<h1><b>" + cityname + weatherElem + "</b></h1>";
+        "<h1><b>" + cityname + "</b></h1>";
 
     for (let i = 0; i < bike.length; i++) {
 
