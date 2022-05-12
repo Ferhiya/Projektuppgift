@@ -2,35 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 * {
-    font-family: 'Playfair Display', serif;
+
+font-family: 'Playfair Display', serif;
+padding: 0%;
+margin: 0%;
+
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
-    color: white;
     justify-content: space-around;
-}
 
-#list {
-    visibility: hidden;
-    width: 0%;
-}
+    }
+    #list{
+        visibility: hidden;
+        width: 0%;
+    }
+    #upperpart {
+    background-color:#65806d;
+    }
+    #navbar a {
+    color: white;  
+    font-size: 20px;
+    }
+    #navbar h2 {
+        color: white;  
+        font-size: 30px;
+        }
+     
+    #navbar p {
 
-#upperpart {
-    background-color: #65806d;
-}
-
-#navbar a:active {
-    background-color: #2196F3;
-    color: white;
-}
-
-#navbar h1 {
-    font-size: 40px;
-}
-
-#navbar p {
     margin-top: 40px;
     font-size: 25px;
 }
