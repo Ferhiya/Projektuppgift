@@ -10,7 +10,7 @@
             "image":{
                 "url":"image/vandringsbild5.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/helvetets-portar-strovstig?guide_id=60"},
             "svårighetsnivå":"2",
              "parkering":"Ja"
         },
@@ -24,7 +24,7 @@
             "image":{
                 "url":"image/vandringsbild7.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/halsans-stig-tranas?guide_id=19"},
             "svårighetsnivå":"2",
              "parkering":"Ja"
         },
@@ -38,7 +38,7 @@
             "image":{
                 "url":"image/vandringsbild4.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/illern-runt-2?guide_id=60"},
             "svårighetsnivå":"3",
              "parkering":"Nej"
         },
@@ -51,7 +51,7 @@
             "image":{
                 "url":"image/vandringsbild3.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/aggas-grona-sparet-10-km?guide_id=60"},
             "svårighetsnivå":"3",
              "parkering":"Ja"
         },
@@ -64,7 +64,7 @@
             "image":{
                 "url":"image/vandringsbild9.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.naturkartan.se/sv/jonkopings-lan/brahalla-slottsruin?guide_id=60"},
             "svårighetsnivå":"2",
              "parkering":"Ja"
         }

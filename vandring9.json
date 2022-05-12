@@ -9,33 +9,33 @@
             "image":{
                 "url":"image/vandringsbild3.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.naturkartan.se/sv/kronobergs-lan/bergastigen?guide_id=412"},
             "svårighetsnivå":"2",
              "parkering":"Nej"
         },
 
         { 
-            "led":"Kronoskogen, Ljungby",
+            "led":"Kronoskogen",
             "längd":"3 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "I Kronoskogen finns tre ellljusspår: 1 km (blå), 2,6 km (röd) och 3 km (gul).Belysningen i Kronoskogen tänds kl. 6 på morgonen och är tänd tills det ljusnar. Belysningen tänds igen när det mörknar på kvällen och är tänd fram till kl. 22. I området finns ett utegym.",
             "image":{
                 "url":"image/vandringsbild8.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.ljungby.se/sv/uppleva-och-gora/friluftsliv-och-motionsspar/motionsspar/"},
             "svårighetsnivå":"2",
              "parkering":"nej"
             },
 
              {
-            "led":"Hälsans stig - Ljungby",
+            "led":"Hälsans stig",
             "längd":"6 km",
             "handikapsanpassat":"Nej",
             "beskrivning": "Hälsans stig är 6 km lång och slingrar sig både längs ån Lagan och genom Ljungby centrum.",
             "image":{
                 "url":"image/vandringsbild9.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.ljungby.se/sv/uppleva-och-gora/friluftsliv-och-motionsspar/motionsspar/"},
             "svårighetsnivå":"3",
              "parkering":"Nej"
               },
@@ -48,7 +48,7 @@
             "image":{
                 "url":"image/vandringsbild10.jpg"},
             "link":{
-            "linkurl":""},
+            "linkurl":"https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/kronoskogen.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=&municipalities=&reserveTypes=&natureTypes=&facilities="},
             "svårighetsnivå":"2",
              "parkering":"Nej"
             }

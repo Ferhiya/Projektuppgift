@@ -1,7 +1,7 @@
 * {
     text-align: center;
     font-size: 16px;
-    font-family: 'Playfair Display', serif;   
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,27 +27,38 @@ p {
     font-size: 13px;
 }
 
-ul {
-    background: linear-gradient(#9DCFA2, #3FAA4A) ;
+ /*ul {
+    background-color: #138558;
     list-style-type: none;
     margin: 0;
     padding: 3px;
     overflow: hidden;
-    border-radius: 0 0 7px 7px;
+    justify-content: space-around;
 }
 
 li a {
     color: white;
-    float: right;
-    display: block;
-    padding: 14px 16px;
     text-decoration: none;
-    padding-right: 20px;
-    padding-left: 20px;
+
+}*/
+ 
+/*CSS för navbar */
+#navbar img {
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 12px;
 }
 
-li a:hover {
-    background-color: rgba(7, 70, 7, 0.434);
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #138558;
+    color: white;
+}
+
+#navbar h2 {
+    margin-top: 40px;
 }
 
 .column {
@@ -55,6 +66,11 @@ li a:hover {
     width: 50%;
     padding: 10px;
     height: 669px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .row::after {
@@ -67,7 +83,9 @@ label {
     font-weight: 600;
 }
 
-input[type=text], textarea {
+
+input[type=text],
+textarea {
     width: 100%;
     padding: 12px;
     border-radius: 4px;

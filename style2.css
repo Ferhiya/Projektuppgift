@@ -2,221 +2,288 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 * {
+
 font-family: 'Playfair Display', serif;
+padding: 0%;
+margin: 0%;
+
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
-    color: white;
     justify-content: space-around;
+
     }
-    
+    #list{
+        visibility: hidden;
+        width: 0%;
+    }
     #upperpart {
     background-color:#65806d;
     }
-    #navbar h1 {
-    font-size: 40px;
+    #navbar a {
+    color: white;  
+    font-size: 20px;
     }
-    
-    
+    #navbar h2 {
+        color: white;  
+        font-size: 30px;
+        }
+     
     #navbar p {
+
     margin-top: 40px;
     font-size: 25px;
-    }
-    #sokruta {
-    background-color: #C8CbC0;
-    width: 400px;
-    padding-bottom: 0px;
+}
+
+#sokruta {
+    width: 350px;
     margin-top: 30px;
     border-radius: 25px;
-    border-color: #072F38;
+    border-color: #138558;
     height: 60px;
     margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
-    }
-    #sokruta p {
+}
+
+.animals {
+    display: list-item;
+}
+
+#sokruta p {
     text-align: center;
     padding-top: 20px;
-    }
-    
-     /*CSS för navbar */ 
+}
+
+/*CSS för navbar */
 #navbar img {
     width: 100px;
     border-radius: 100%;
     margin-top: 12px;
-    }
-    
-    #navbar {
+}
+
+#navbar {
     display: flex;
     justify-content: space-around;
     height: 100px;
     background-color: #138558;
-    color:white;
-    }
-    
-    #navbar h2 {
+    color: white;
+}
+
+#navbar h2 {
     margin-top: 40px;
-    }
-    
-            .filtering {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-                grid-gap: 5px;
-                padding-bottom: 3%;
-                padding-left: 0%;
-            }
+}
 
-            form{
-                font-size: 1.5rem;
-            }
+.filtering {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding-bottom: 3%;
+    padding-left: 0%;
+}
 
-            h1{
-                text-align: center;
-            }
+form {
+    font-size: 1.5rem;
+}
 
-            #vandringslederna{
-                padding-top: 2%;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-gap:20px;
-            }
+h1 {
+    text-align: center;
+}
 
-            
-            #ledinfo{
-                display: grid;
-                grid-template-columns: 2fr 1fr;
-                margin-bottom: 2%;
-                padding-left: 0%;
-                margin-left: 3%;
-                visibility:hidden;
-            }
-
-           #valt li{
-            display: inline-block;
-           padding: 1%;
-            list-style: none;
-            background-color: rgb(245, 242, 242);
-            }
-
-            #valt{
-                width: 80%;
-               
-            }
-
-            #cross{
-                margin-left:80%;
-            }
+#rubrik1 {
+    border-bottom: solid 5px #138558;
+    width: fit-content;
+    margin-left: 38%;
+}
 
 
-            #valt img{
-                padding-top: 0.5%;
-                width: 80%;
-            }
+#vandringslederna {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
 
-            img{
-                max-height: 300px;
-            }
-         
+#aktivtetssidan {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
 
-            
-            #väderImg{
-                padding-left: 80%;
-            }
-            
-        a{
-            font-size: 1.2rem;
-            color: black;
-            text-decoration: none;
-        }
+img.bildtest {
+    padding-top: 0.5%;
+    width: 100%;
+}
 
-        #kommentera, #skicka {
-            border: 1px solid black;
-            border-radius: 5px;
-           
-        }
+img.aktivtetsbilder {
+    padding-top: 0.5%;
+    padding-top: 0.5%;
+    width: 93%;
+    height: 100%;
 
-       #testid{
-         border: #138558;
-         border-style: solid;
-         padding: 20px;
-         line-height: 25px;
-         margin-bottom: 10px;
-
-       }
-
-        #kommentera2{
-            width: 200px;
-            height: 50px;
-            margin-bottom: 0.5%;
-        }
-
-        
-        #skicka:hover{
-            background-color: lightgreen;
-        }
-
-        
-        #aktivitetsnav {
-            text-decoration: none;
-            margin: 0%;
-        }
-
-        #aktivitetsnav a {
-            font-size: 1.5rem;
-            padding: 0%;
-            text-decoration: none;
-            list-style-type: none;
-            display: block;
-        }
-
-        #aktivitetsnav  a:active{
-            color: black;
-            text-decoration:underline;
-        }
-
-        #aktivitetsnav a:visited{
-            color: black;
-            text-decoration:none;
-        }
+}
 
 
-        #vatteninfo{
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            margin-bottom: 2%;
-            padding-left: 0%;
-            margin-left: 3%;
-            visibility:hidden;
-        }
+#ledinfo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 2%;
+    padding-left: 0%;
+    margin-left: 3%;
+    visibility: hidden;
+}
 
-        #outdoorinfo{
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            margin-bottom: 2%;
-            padding-left: 0%;
-            margin-left: 3%;
-            visibility:hidden;
-        }
+#valt li {
+    display: inline-block;
+    padding: 1%;
+    list-style: none;
+    background-color: rgb(245, 242, 242);
+}
 
-        #valt2{
-            width: 80%;
-            border: 2px solid black;
-        }
+#valt {
+    width: 80%;
 
-        #flickrImg2{
-            width: 100%;
-        }
+}
 
-        
-        #väderImg2{
-            padding-left: 80%;
-        }
+#cross {
+    margin-left: 80%;
+}
 
-        #utomhus{
-            padding-top: 2%;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-gap:20px;
-        }
+
+#valt img {
+    padding-top: 0.5%;
+    width: 80%;
+}
+
+img {
+    max-height: 300px;
+}
+
+a {
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+
+#kommentera,
+#skicka {
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.knappar,
+.knappar2 {
+    border: #e0b767;
+    background-color: #e0b767;
+    padding: 5px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    margin-top: 2%;
+}
+
+.städer {
+    border-bottom: solid 3px #138558;
+    padding-bottom: 1%;
+}
+
+.aktiviter {
+    border-bottom: solid 3px #138558;
+    padding-bottom: 1%;
+}
+
+#testid {
+    border: #138558;
+    border-style: solid;
+    padding: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+
+}
+
+#kommentera2 {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 0.5%;
+}
+
+
+#skicka:hover {
+    background-color: lightgreen;
+}
+
+
+#aktivitetsnav {
+    text-decoration: none;
+    margin: 0%;
+}
+
+#aktivitetsnav a {
+    font-size: 1.5rem;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+}
+
+#aktivitetsnav a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+#aktivitetsnav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+#vatteninfo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 2%;
+    padding-left: 0%;
+    margin-left: 3%;
+    visibility: hidden;
+}
+
+#outdoorinfo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 2%;
+    padding-left: 0%;
+    margin-left: 3%;
+    visibility: hidden;
+}
+
+#valt2 {
+    width: 80%;
+    border: 2px solid black;
+}
+
+#flickrImg2 {
+    width: 100%;
+}
+
+
+#väderImg2 {
+    padding-left: 80%;
+}
+
+#utomhus {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#väder2 {
+    font-size: 24px;
+    text-align: center;
+}

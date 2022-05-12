@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,17 +13,40 @@
     <div id="navbar"> 
         <div id="logga"> <img src="/Test-kommentarer/A_black_image.jpg.webp" alt=""></div>  
         <h2>Friluftszonen</h2>
-        <h2>Hem</h2> 
-        <h2>Sök</h2>
-        <h2>Forum</h2>
+        <h2><a href="landingpage.html">Hem</a></h2> 
+        <h2><a href="aktiviteter.html">Sök</a></h2>
+        <h2><a href="/Forum/landsida.html">Forum</a></h2>
+        <h2><a href="aboutpage.html">Om oss</a></h2>
         
         <div id="användare-bild"> <img src="/Test-kommentarer/A_black_image.jpg.webp" alt=""></div>    
         </div>
         
    <div class="filtering">
-    <div id="sokruta">
-        <p>Sök här</p>
+         <div class="topnav"> 
+            <input id="sokruta" onkeyup="search_animal()" type="text"
+            name="search" placeholder="Sök"> 
     </div>
+      <!-- input tag -->
+    
+  <!-- ordered list -->
+  <ol id='list'>
+      <li class="animals">kalmar</li>
+      <li class="animals">älmhult</li>
+      <li class="animals">växjö</li>
+      <li class="animals">värnamo</li>
+      <li class="animals">jönköping</li>
+      <li class="animals">västervik</li>
+      <li class="animals">Tranås</li>
+      <li class="animals">Vetlanda</li>
+      <li class="animals">Nässjö</li>
+      <li class="animals">Ljungby</li>
+      <li class="animals">Vattenaktiviter</li>
+      <li class="animals">Vatten</li>
+      <li class="animals">Vandringsleder</li>
+      <li class="animals">vandring</li>
+      <li class="animals">aderalin</li>
+      <li class="animals">utomhusaktivteter</li>
+  </ol>
        <div id="städer">
        <h2>Städer</h2>
        <form>
@@ -86,15 +110,31 @@
 
 </div>
 
-<div id="anpassningar"> 
-    <h2>Anpassningar</h2>
-    <form> 
-   
-
-        </form>
+</div>
+<div id="aktivtetssidan">
+<div class="aktiviter">
+    <h1>Vatten aktiviter i småland och öland</h1>
+    <img  class="aktivtetsbilder" src="image/vattensporter.jpg">
+<button class="knappar"><a href="Vattenaktiviter.html">Läs mer</button></a>
 </div>
 
+<div class="aktiviter">
+    <h1>Vandringsleder i småland och öland</h1>
+    <img  class="aktivtetsbilder" src="image/vandringsbild11.jpg">
+    <button class="knappar"><a href="vandring.html">Läs mer</button></a>
 </div>
 
+<div class="aktiviter">
+    <h1>Utomhus aktivteter i småland och öland</h1>
+    <img  class="aktivtetsbilder" src="image/utomhusaktivteter.jpg">
+    <button class="knappar"><a href="outdoor.html">Läs mer</button></a>
+</div>
+
+<div class="aktiviter">
+    <h1>Adrenalin aktiviter i småland och öland</h1>
+    <img  class="aktivtetsbilder" src="image/adrenalin.jpg">
+    <button class="knappar"><a href="aderalina.html">Läs mer</button></a>
+</div>
+</div>
 </body>
 </html>
