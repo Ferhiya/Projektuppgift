@@ -16,7 +16,7 @@ var conditions = 0;
 function init() {
     flickrImgElem = document.getElementById("flickrImg2");
     valt2 = document.getElementById("valt2");
-    knappar = document.getElementsByClassName("outdoor");
+    knappar = document.getElementsByClassName("knappar");
     display = document.getElementById("utomhus");
     weatherElem = document.getElementById("väder2");
 
@@ -97,10 +97,11 @@ function getData(response) {
 
 //start bike info
 function requestBikeData(e) {
-    let id = e.target.className;
+    let id = e.target.attributes.type.value;
     let cityname = e.target.attributes.city.value;
     let request = new XMLHttpRequest();
     request.open("GET", id + ".json", true);
+    console.log(id)
     request.send(null);
     request.onreadystatechange = function () {
         if (request.readyState == 4)
