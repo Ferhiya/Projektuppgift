@@ -1,0 +1,584 @@
+{
+    "vatten": [
+        {
+            "city": "Kalmar",
+            "Adress": "Stensövägen 100392 47 Kalmar",
+            "aktivitet": "SUP – Stand up paddle board",
+            "längd": "Halvdag eller heldag beroende på anläggning",
+            "handikapsanpassat": "Nej",
+            "link": {
+                "linkurl": "https://www.upzone.se/upplevelser/aventyr_pa_vatten/"
+            },
+            "beskrivning": "står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper.",
+            "image": {
+                "url": "image/paddleboard.jpg"
+            },
+            "pris": "Från 200 kr per kajak",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Kalmar",
+            "Adress": "Stensövägen 100392 47 Kalmar",
+            "aktivitet": "Havskajak",
+            "längd": "Hel dag eller halv dag beroende på anläggning",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Havkajaken är perfekt för indvider som söker lite mer fart i livet. Man sitter i en sittbrunn och styr med hjälp av skedde eller roder (beroende på typ). Havskajaken kräver lite mer vana och balans.",
+            "link": {
+                "linkurl": "https://www.upzone.se/upplevelser/aventyr_pa_vatten/"
+            },
+            "image": {
+                "url": "image/kajak.jpg"
+            },
+            "pris": "Från 300 kr per kajak",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Kalmar",
+            "Adress": "Stensövägen 100392 47 Kalmar",
+            "aktivitet": "Sit on top-Kajak",
+            "längd": "Halvdag eller heldag beroende på anläggning",
+            "handikapsanpassat": "",
+            "link": {
+                "linkurl": "https://www.upzone.se/upplevelser/aventyr_pa_vatten/"
+            },
+            "beskrivning": "Vill man prova på kajak utan att sitta fast med benen i en sittbrunna så är sit-on-topkajaker perfekta alternativet.I sit-on-topkajaker så sitter man ovanpå kajaken och glider bara av om man skulle tippa. Dessa kajajer är även något stabilare än Havskajaken.",
+            "image": {
+                "url": "image/sitontopkajak.jpg"
+            },
+            "pris": "Från 200 kr per kajak",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Växjö",
+            "Adress":"Evedalsvägen, 352 63 Växjö",
+            "aktivitet": "Kom-igång SUP",
+            "längd": "2 timmar",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Med en så kallad SUP-bräda kan du vara ute på vattnet oavsett väder och vind. Kom-igång paddling är en aktivitet för nya och befintliga medlemmar (samt barn från 11 år) med syftet att introducera nya medlemmar till grunderna i SUP på Helgasjön",
+            "link": {
+                "linkurl": "https://idrottonline.se/VaxjoKC-Kanot/Aktiviteter/provapa/kom-igangsup"
+            },
+            "image": {
+                "url": "image/paddleboard.jpg"
+            },
+            "pris": "100 kr",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Växjö",
+            "Adress":"Evedalsvägen, 352 63 Växjö",
+            "aktivitet": "Kom-igång paddling",
+            "längd": "2-3 timmar",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Kom-igång paddling är en aktivitet för nya och befintliga medlemmar i alla åldrar (från 16 år) med syftet att introducera nya medlemmar till grunderna i kajakpaddlining i Helgasjön men aktiviteten passar även medlemmar som vill njuta av en avkopplande kvällstur på torsdagar eller lära känna nya kanotister",
+            "link": {
+                "linkurl": "https://idrottonline.se/VaxjoKC-Kanot/Aktiviteter/provapa/kom-igangsup"
+            },
+            "image": {
+                "url": "image/kajak.jpg"
+            },
+            "pris": "100 kr",
+            "parkering": "Nej"
+        },
+          {
+            "city": "Växjö",
+            "Adress":"Sandsbro",
+            "aktivitet": "Fiske",
+            "längd": "Halv eller heldag",
+            "handikapsanpassat": "Ja/nej",
+            "link": {
+                "linkurl": "https://www.ifiske.se/fiske-toftasjon-yasjon-skirsjon.htm"
+            },
+            "beskrivning": "Toftasjön ligger vid Sandsbro ca 5 km från Växjö centrum. Fiskekortet gäller även i Yasjön och Skirsjön som tillsammans omfattar ca 320 ha vatten. Närheten till Växjö gör resan kort om man vill ha ett bra fiske nära centrum",
+            "image": {
+                "url":"image/image/fiske.jpg.jpg"
+            },
+            "pris": "Kostandsfritt",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Älmhult",
+            "Adress":"Bökhult 343 38 Älmhult",
+            "Aktivitet": "Kanot",
+            "längd": "Heldag",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Om du vill ta en halvdag och bara njuta av en stilla tur på ån, så är sträckan mellan Bråthult och Möllekulla perfekt. Det är kanske den finaste delen av hela Helge Å med varierande landskap, rikt fågelliv och mycket lugn å. Vill du läsa mer om sträckan kan du göra det här",
+            "link": {
+                "linkurl": "https://sjostugan.com/aktiviteter/"
+            },
+            "image": {
+                "url": "imaage/kanot.jpg"
+            },
+            "pris": "350",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Älmhult",
+            "Adress":"Bökhult 343 38 Älmhult",
+            "Aktivitet": "Fiske",
+            "längd": "",
+            "handikapsanpassat": "",
+            "beskrivning": "I sjön Möckeln finns det gott om fisk – abborre, mört och gädda men även gös och mal. Det går utmärkt att fiska från strandkanten men vill man få de riktigt stora fiskarna kan man hyra en båt och ro ut till de djupare delarna av sjön.För att fiska i sjön krävs det ett fiskekort,prisserna på kortet varierar beroende på hur länge kortet ska gälla. Ett dagskort kostar 100 kr.",
+            "link": {
+                "linkurl": "https://sjostugan.com/aktiviteter/"
+            },
+            "image": {
+                "url":"image/image/fiske.jpg.jpg"
+            },
+            "pris":"Dagskort 100 kr",
+            "parkering": "Ja"
+        },
+          {
+            "city": "Älmhukt",
+            "Adress":"Bökhult 343 38 Älmhult",
+            "aktivitet": "Bastubåt",
+            "längd":"Oklart",
+            "handikapsanpassat": "Ja",
+            "link": {
+                "linkurl": "https://sjostugan.com/aktiviteter/"
+            },
+            "beskrivning": "Hyr vår helt nya bastubåt för en spakväll med kompisgänget eller företaget. Basta, bada och njut av utsikten året om. Perfekt för att slappna av, ta en paus från vardagen och umgås.",
+            "image": {
+                "url": "image/bastu.jpg"
+            },
+            "pris":"180:-/ vuxen, 90:-/ barn",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Jönköping",
+            "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
+            "Aktivitet": "Kajakutflykter",
+            "längd":"Förmiddag eller heldagstur",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Vi har kajaker i både plast och glasfiber.Många av våra grupper väljer till en måltid i samband med aktiviteterna i äventyrsbyn. Vårt Café serverar fika och enklare mat. Vi ordnar gärna med piknickkorgar till din utflykt om du önskar.",
+            "link": {
+                "linkurl": "https://ramoa.se/catalog/groups/aktiviteter"
+            },
+            "image": {
+                "url": "image/kajak.jpg"
+            },
+            "pris": "380-960 kr",
+            "parkering":"Ja"
+        },
+        {
+            "city": "Jönköping",
+            "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
+            "Aktivtet": "Kräftfiske för familjen",
+            "längd":"Heldag",
+            "Barnvanligt":"Ja",
+            "beskrivning":"När du kommer till oss instruerar vi i hur det går till att fiska kräftor och du får betesfisk, kräftburar och tillgång till båt.Vi berättar om kräftan och var du skall lägga dina burar. Ni betar kräftburarna och ror ut i Klockesjön för att lägga ut 4 burar per person. Efter iläggningen av burarna har ni tillgång till någon av våra grillar där ni kan grilla och umgås. Det finns även flera aktiviteter att göra i äventyrsbyn medan ni väntar på att kräftorna skall krypa in i burarna. ",
+            "link": {
+                "linkurl": "https://ramoa.se/catalog/groups/aktiviteter"
+            },
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "pris":"350kr/p",
+            "parkering": "Nej"
+        },
+          {
+            "city": "Jönköping",
+            "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
+            "Aktivtet":"Äventyrsorientering",
+            "längd":"",
+            "handikapsanpassat":"Nej",
+            "link": {
+                "linkurl":"https://ramoa.se/catalog/groups/aktiviteter"
+            },
+            "beskrivning":"En äventyrsorientering äger rum till sjöss och på land.Vi har placerat 40 positioner i och runt Klockesjön. Laget får sedan en Samsung Tablet med GPS för att hitta dessa positioner. Med tre timmar till förfogande så kommer ni inte att hinna med alla positioner utan det gäller att välja bana strategiskt. Max poäng är 407 poäng. När laget kommer inom 10 meter från markerad position så komer en uppgift/fråga upp på läsplattan och genomför ni det rätt så får ni poängen. Vilken färdväg kommer ni att välja och vilka frågor klarsar ni av att lösa?",
+            "image": {
+                "url": "image/kanot.jpg"
+            },
+            "pris":"595kr/p",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Västervik",
+            "Adress":"Lysingsvägen, 593 53 Västervik",
+            "Aktivtet":"Kajak kurs",
+            "längd":"Heldag och 2 dagars kurs",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"Kursen fokuserar på de tre områdenerna teknik, säkerhet och miljö.Kursen är framtagen i ett europeiskt samarbete för att erbjuda en gemensam, metodisk och tydlig utbildning för bättre kunskaper inom paddling på olika nivåer.",
+            "link": {
+                "linkurl": "https://www.ostkustenkajak.se/kajakkurser/"
+            },
+            "image": {
+                "url": "image/kajak.jpg"
+            },
+            "pris":"Heldag 1200 kr och 2-dagars 1000 kr",
+            "parkering":"Ja"
+        },
+        {
+            "city": "Västervik",
+            "Adress":"Lysingsvägen, 593 53 Västervik",
+            "Aktivtet":"Juniorpaddling",
+            "längd":"2.5 timmar",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"Målet i kursen är att ha en kul dag på vattnet och få lära sig paddla och känna sig säker i kajaken. Vi börjar med torrpaddling på land innan vi kliver i kajakerna. Vi ser till att barnet kommer igång med teknik, genomgång av lite teori, prat om allemansrätten. Vår erfarenhet är att barnen snabbt blir trygga och är snabba att få till paddlingen.Kursen är för barn mellan 6-12 år. De som anmäler sig måste vara simkunniga.Kursen hålls mellan 16:00-18:30 varje torsdags på ostkustenskajak,ekön med start 30/6-11/6 och varje tisdag på Västervik resort med start 28/6 till den 9/8.",
+            "link": {
+                "linkurl":"https://www.ostkustenkajak.se/kajakkurser/"
+            },
+            "image": {
+                "url": "image/kajak.jpg"
+            },
+            "pris":"400 kr",
+            "parkering": "Nej"
+        },
+          {
+            "city": "Västervik",
+            "Adress":"Ljusterbrovägen 30 781 62 Gustafs",
+            "Aktivtet":"Kajak",
+            "längd":"Oklart",
+            "handikapsanpassat":"Nej",
+            "link": {
+                "linkurl":"https://www.tjustsport.se/"
+            },
+            "beskrivning":"Tjust Sport & Kayak erbjuder turer som utgår från ytterskärgården men innomskärs",
+            "image": {
+                "url": "image/Kajak.jpg"
+            },
+            "pris":"350-600",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Värnamo",
+            "Adress":"",
+            "Aktivtet":"Kajak eller kanot utflykt",
+            "längd":"Dagstur",
+            "handikapsanpassat": "Nej",
+            "beskrivning":"Zino's Natur hyr ut kajaker och kanoter på södra Bolmsö som ligger i sjön Bolmen. Bolmen erbjuder en fantastiskt fin natur och här passar det både att paddla en kort tur på några timmar men också längre turer med flera övernattningar. Varför inte paddla Bolmsö runt",
+            "link": {
+                "linkurl":"https://zinosnatur.se/"
+            },
+            "image": {
+                "url":"image/Kanot.jpg"
+            },
+            "pris":"500-700 kr",
+            "parkering": ""
+        },
+     
+          {
+            "city": "Värnamo",
+            "Adress":"Hindsen, 331 93 Värnamo",
+            "Aktivtet": "Fiske",
+            "längd":"Oklart",
+            "handikapsanpassat":"Ja",
+            "link": {
+                "linkurl":"https://www.ifiske.se/fiske-hindsen.htm"
+            },
+            "beskrivning":"Hindsen är en källvattensjö med klart rent vatten.Riklig tillgång på abborre och gädda. Sjön är mycket populär bland vinterns pimpelfiskare och rejäla gäddor fångas med bl.a. trolling.",
+            "image": {
+                "url": "image/fiske.jpg"
+            },
+            "pris":"Kostnadsfritt",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Värnamo",
+            "Adress":"",
+            "Aktivtet":"",
+            "längd": "",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "",
+            "link": {
+                "linkurl": ""
+            },
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "pris": "",
+            "parkering": ""
+        },
+        {
+            "city":"Orskarshamn",
+            "Adress":"Malghultsvägen, 572 73 Kristdala",
+            "Aktivtet":"paddeltur till Råsvik",
+            "längd":"7 timmar",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"En kort paddelturerna till meteoritsjöns badplats är perfekt för mindre barn. Här finns bryggor, omklädningsrum, fräscha toaletter, fikabord och en fin grillplats",
+            "link": {
+                "linkurl":"http://kristdalakanot.se/rasvik/"
+            },
+            "image": {
+                "url":"image/kanot.jpg"
+            },
+            "pris":"300 kr/vuxen eller Grupputflykt för 375 kr",
+            "parkering":"Ja"
+        },
+          {
+            "city":"Orskarshamn",
+            "Adress":"Malghultsvägen, 572 73 Kristdala",
+            "Aktivtet":"paddeltur runt hummeln ",
+            "längd":"Dygn",
+            "handikapsanpassat":"",
+            "link": {
+                "linkurl":"https://kristdalakanot.se/hummeln-runt/#/"
+            },
+            "beskrivning":"Boka en dygnspaddling på 24 timmar så ni kan paddla runt hela skön och övernatta i tält!",
+            "image": {
+                "url":"image/kanot.jpg"
+            },
+            "pris":"600 kr/vuxen",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Oskarshamn",
+            "Adress":"Malghultsvägen, 572 73 Kristdala",
+            "Aktivtet":"Paddeltur till Humlenäs naturreservat",
+            "längd":"",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"Humlenäs naturreservat ligger vid den södra delen av sjön och passar utmärkt för dom som vill paddla lite längre.Under paddelningen får man även en utmärkt utsikt över djuphålan där meteoriten slog ner.",
+            "link": {
+                "linkurl":"http://kristdalakanot.se/humlenas/#/"
+            },
+            "image": {
+                "url": "image/kanot.jpg"
+            },
+            "pris":"300 kr/vuxen eller Grupputflykt för 375 kr",
+            "parkering":"Ja"
+        },
+     
+        {
+            "city": "Nässjö",
+            "Adress":"Kyrkogatan 50, 571 78 Forserum",
+            "Aktivtet":"Guidad kajaktur",
+            "längd": "",
+            "handikapsanpassat": "Nej",
+            "beskrivning":"Våra licensierade instruktörer guidar gruppen säkert fram på vattnet och gör aktiviteten till en riktig småländsk upplevelsemin. Gruppen ska vara minst 4 personer och max 12 personer",
+            "link": {
+                "linkurl":"https://aventyrsmaland.se/aventyr-och-upplevelser/paddla-kajak/"
+            },
+            "image": {
+                "url":"image/kajak.jpg"
+            },
+            "pris":" startavgift; 1800 kr +450 kr/person och timme",
+            "parkering":"Ja"
+        },
+        {
+            "city": "Nässjö",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "link": {
+                "linkurl": ""
+            },
+            "beskrivning": "",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "pris": "",
+            "parkering": "Ja"
+        },
+
+        {
+            "city":"Nässjö",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "beskrivning": "",
+            "link": {
+                "linkurl": ""
+            },
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "pris": "",
+            "parkering": "Nej"
+        },
+
+        {
+            "city":"Ljungby",
+            "Adress":"Bråna Näs 1, 34390, Agunnaryd",
+            "Aktivtet":"Stand Up Paddle board",
+            "längd":"Oklart",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper.",
+            "link": {
+                "linkurl":"https://www.agundaborg.com/se/boka-en-%C3%A4ventur/#!/e/eed550874853c3faf317fce6aece5ddf"
+            },
+            "image": {
+                "url":"image/paddelboard.jpg"
+            },
+            "pris":"Från 200 kr",
+            "parkering":"Ja"
+        },
+        {
+            "city": "Ljungby",
+            "Adress":"Bråna Näs 1, 34390, Agunnaryd",
+            "Aktivtet":"Dagskurs i kajak för nybörjare",
+            "längd":"8 timmar",
+            "handikapsanpassat":"A one day introduction to Kayaking Course for beginners or those of you who have paddled a bit before but never followed a kayak course. Develop your paddling in the wonderful surroundings of Agunnaryd! Our kayak instructors will go through all the parts of the yellow paddlepass. During the course we will teach you different paddle, safety and rescuing techniques. The hire of a kayak is included (översätt till svenska)",
+            "link": {
+                "linkurl":"https://www.agundaborg.com/se/boka-en-%C3%A4ventur/#!/e/2a1076b089e1ee18020099063cbea318"
+            },
+            "beskrivning":"",
+            "image": {
+                "url": "image/kajak.jpg"
+            },
+            "pris":"900 kr",
+            "parkering":"Ja"
+        },
+        {
+            "city": "Ljungby",
+            "Adress":"Bråna Näs 1, 34390, Agunnaryd",
+            "Aktivtet":"vilmarks kanotpaddling med camping",
+            "längd":"2 dagar",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"Kanot äventyr med en campings övernattning i vildmarken.Du får allt du behöver för en säker och spännande vildmarks äventyr.",
+            "link": {
+                "linkurl":"https://www.agundaborg.com/se/boka-en-%C3%A4ventur/#!/e/a6d49c810d2443c439ec12701e30c4cb"
+            },
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "pris":"1500 kr",
+            "parkering":"Ja"
+        },
+          {
+            "city": "Tranås",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "link": {
+                "linkurl": ""
+            },
+            "beskrivning": "",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "pris": "",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Tranås",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "",
+            "link": {
+                "linkurl": ""
+            },
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "pris": "",
+            "parkering": ""
+        },
+        {
+            "city": "Tranås",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "beskrivning": "",
+            "link": {
+                "linkurl": ""
+            },
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "pris": "",
+            "parkering": "Nej"
+        },
+          {
+            "city": "Vetlanda",
+            "Adress":"Emhult 7, 574 55 Kvillsfors",
+            "Aktivtet":"Kanottur med middag vid stranden av Emån",
+            "längd":"Eftermiddag",
+            "handikapsanpassat":"Nek",
+            "link": {
+                "linkurl":"https://emventure.se/sv/upplevelser-smaland.html"
+            },
+            "beskrivning":"Kvällskanottur med middag längs Emån. Ca 5 km lång kanottur, sedan väntar en härlig vildmarksmiddag med lax som grillas vid öppen eld",
+            "image": {
+                "url": "image/kanot.jpg"
+            },
+            "pris":" 850 kr/person, barn upp till 16 år 460 kr/pp, barn-9 år 230 kr/pp",
+            "parkering":"Ja"
+        },
+        {
+            "city": "Vetlanda",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "",
+            "link": {
+                "linkurl": ""
+            },
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "pris": "",
+            "parkering": ""
+        },
+        {
+            "city": "Vetlanda",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "beskrivning": "",
+            "link": {
+                "linkurl": ""
+            },
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "pris": "",
+            "parkering": "Nej"
+        },
+          {
+            "city": "Öland",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "link": {
+                "linkurl": ""
+            },
+            "beskrivning": "",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "pris": "",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Öland",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "link": {
+                "linkurl": ""
+            },
+            "beskrivning": "",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "pris": "",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Öland",
+            "Adress":"",
+            "Aktivtet": "",
+            "längd": "",
+            "handikapsanpassat": "",
+            "link": {
+                "linkurl": ""
+            },
+            "beskrivning": "",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "pris": "",
+            "parkering": "Ja"
+        }
+    ]
+}
