@@ -21,7 +21,10 @@ font-size: 16px;
 margin-top: 40px;
 text-decoration: none;
 color: white;
+}
 
+#navbar h2 :hover {
+border-bottom: 4px #0d462fb9 solid;
 }
 
 #navbar a {
@@ -542,7 +545,12 @@ font-size: 22px;
 #egna-inlagg{
 margin-left: 90px;
 margin-top: 50px;
+}
 
+#omgivande-eget {
+border-right: #138558 5px solid ;
+width: 600px;
+height: 500px;
 }
 
 #egna-inlagg a {
@@ -550,6 +558,15 @@ text-decoration: none;
 color: black;
 }
 
+
+
+#egna-inlagg-rubrik {
+margin-left: 80px;
+margin-top: 3%;
+padding-bottom: 10px;
+border-bottom: #138558 5px solid;
+
+}
 
 #egna-inlagg h2 {
     margin-bottom: 35px;

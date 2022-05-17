@@ -20,8 +20,9 @@ font-family: 'Playfair Display', serif;
     margin-top: 40px;
     text-decoration: none;
     color: white;
-    
     }
+
+    
     
     #navbar a {
         text-decoration: none;
@@ -306,7 +307,15 @@ border-style: solid;
 padding: 20px;
 line-height: 25px;
 width: 560px;
+cursor:default;
 }
+
+#inlagg a {
+text-decoration: none;
+color: black;
+cursor:default;
+}
+
 
 #inlagg-kommentar {
 border: #138558;

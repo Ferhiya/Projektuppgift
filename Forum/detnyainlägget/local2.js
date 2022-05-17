@@ -1,6 +1,7 @@
 let textElem;
 var input1Elem;
 var resultElem;
+var adrenalin;
 
 function init() {  // Allting som ska laddas in före sidan visas
    input1Elem = document.getElementById("input1") ;
@@ -14,7 +15,8 @@ function init() {  // Allting som ska laddas in före sidan visas
    function getLocalStorage() { // Funktion för den lokala lagringen
 
    const innehall = localStorage.getItem("texten");
-   console.log(innehall);
+   
+   
    textElem.innerHTML = innehall;  
    }
 
@@ -26,7 +28,7 @@ kommentar = (input1Elem.value);
 console.log(input1Elem.value); 
 
 if (kommentar.length === 0){
-alert("Hello! I am an alert box!!");
+alert("Fyll i en kommentar");
 return;
 
 } 
