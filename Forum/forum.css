@@ -550,7 +550,7 @@ margin-top: 50px;
 #omgivande-eget {
 border-right: #138558 5px solid ;
 width: 600px;
-height: 500px;
+height: 550px;
 }
 
 #egna-inlagg a {
@@ -627,3 +627,26 @@ width: 500px;
 border-radius: 5px;
  }
 
+#open-thread-visa-inlagget {
+margin-bottom: 20px;
+}
+
+
+#eget-inlagg-container {
+margin-left: 13%;
+margin-top: 30px;
+}
+
+.eget-inlagg-invid {
+margin-bottom: 20px;
+}
+
+.eget-inlagg-invid h2 {
+margin-bottom: 10px;
+border-bottom: #138558 solid 3.1px;
+}
+
+.eget-inlagg-invid a {
+text-decoration: none;
+color: #000;
+}

@@ -7,6 +7,7 @@
    <link rel="stylesheet" href="/Forum/forum.css">
    <script src="/Forum/trad.js"></script>
    <script src="/Forum/kommentarer.js"></script>
+   <script src="/Inloggning/hide/hide-statiska.js"></script>
     <title>Friluftszonen</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <h2>Hem</h2> 
         <h2>Sök</h2>
         <h2>Forum</h2>
-        <h2>Logga in</h2>
+      <div class="show"><h2>Logga in</h2></div>
         <div id="användare-bild"> </div>    
         </div>
 
@@ -37,15 +38,15 @@
 </div></div>
 
 
-<div id="knapp-text">
+<div class="hidden">
+<div id="knapp-text">  
 <form id="inputForm"> <!-- Textfält för att ge indata -->
-
 <span><input type="text" id="input1"> </span>
 <button type="button" id="runBtn">Kommentera</button>
 </form>
         
  <div id="result"></div>   
-</div>
+</div></div>
 
 
 <div id="andra-inlagg">
@@ -58,10 +59,13 @@
 
 <button onclick="myFunction()" id="myBtn">Läs kommentarer</button>
 <form id="inputForm1"> <!-- Textfält för att ge indata --></form>
+
+<div class="hidden">
 <span><input type="text" id="input2"> </span>
 <button type="button2" id="runBtn2">Kommentera</button>
+</div></div></div>
 
-</div>
+
 
 <div id="result2-id">
 <div id="result2"></div></div>  
