@@ -20,27 +20,13 @@ p {
     padding-left: 60px;
     flex-direction: column;
     letter-spacing: .2rem;
+    overflow: hidden;
 }
 
 .contact {
     margin-top: 30px;
     font-size: 13px;
 }
-
- /*ul {
-    background-color: #138558;
-    list-style-type: none;
-    margin: 0;
-    padding: 3px;
-    overflow: hidden;
-    justify-content: space-around;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-
-}*/
  
 /*CSS för navbar */
 #navbar img {
@@ -65,7 +51,7 @@ li a {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 669px;
+    height: 837px;
 }
 
 a {
@@ -103,4 +89,20 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 16px;
+}
+
+.lpIcon {
+    width: 4rem;
+    float: left;
+}
+
+.toActivities {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.extra {
+    color: black;
+    text-decoration: underline;
 }
