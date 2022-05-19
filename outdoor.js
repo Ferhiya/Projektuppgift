@@ -79,8 +79,7 @@ function getData(response) {
             "<hr>" +
             "<p><b>Namn:</b> " + hi[i].name + "</p>" + //lägger in namnet på ledet i html strängen
             "<p><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</p>" + //lägger in längden på ledet i html strängen
-            "<p><b>beskrivning:</b> " + hi[i].description + "</p>" //lägger in info om handikapsanpassning i ledet i html strängen
-            ;
+            "<p><b>beskrivning:</b> " + hi[i].description + "</p>"; //lägger in info om handikapsanpassning i ledet i html strängen
     }
 
     valt2.innerHTML += HTMLcode; //utskrift av datan i JSON filen
