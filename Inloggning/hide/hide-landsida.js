@@ -1,11 +1,11 @@
 let hideElem;
 
 function init() {  // Allting som ska laddas in före sidan visas  
-    getLocalStorage();
+    hidecreateoption();
     //loggainknappen();
      }
         window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
-function getLocalStorage() {// Funktion för den lokala lagringen
+function hidecreateoption() {// Funktion för den lokala lagringen
 
         const hide = localStorage.getItem("hidevalue");
         let hideElem =  document.getElementsByClassName("hidden");  
