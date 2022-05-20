@@ -113,20 +113,20 @@
 
   {
     "city":"Älmhult",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Delary Industripark 7, 343 95 Älmhult",
+    "Företag":"Delary gokart",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Ja",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://delarygokart.se/"
     },
-    "beskrivning":"",
+    "beskrivning":"Oavsett vem du tar med dig garanterar vi en fartfylld upplevelse med mycket skratt, adrenalin och framförallt en oförglömlig vistelse hos oss",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url":"image/gokart.jpg"
     },
-    "pris":"",
+    "pris":"100-395 kr/person",
     "parkering":"Ja"
   },
   {
@@ -142,7 +142,7 @@
     },
     "beskrivning":"",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url":"image/vandringsbild1.jpg"
     },
     "pris":"",
     "parkering":"Ja"
@@ -223,7 +223,7 @@
 
   {
     "city":"Västervik",
-    "Adress":" Lysingsvägen, 593 53 Västervik",
+    "Adress":" Lysingsvägen,593 53 Västervik",
     "Företag":"Upzone västervik",
     "Aktivtet":"Höghöjdsbana",
     "barnvanligt":"Ja",
@@ -241,38 +241,20 @@
   },
   {
     "city":"Västervik",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Videgrensgatan 10, 593 32 Västervik",
+    "Företag":"Action center",
+    "Aktivtet":"Paintball",
+    "barnvanligt":"Ja",
+    "längd":"1-1.5 timmar",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://action-center.se/paintball.html"
     },
-    "beskrivning":"",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav. Action center erbjuder barn och undomsevent i paintball",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/paintball.jpg"
     },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"Västervik",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
+    "pris":"200-300 kr/person",
     "parkering":"Ja"
   },
 
@@ -296,38 +278,38 @@
   },
   {
     "city":"Värnamo",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Nennesmovägen 21, 334 21 Anderstorp",
+    "Företag":"Scandinavian Kartwa Aby",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Ja",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"http://www.hyrkart.se/start/"
     },
-    "beskrivning":"",
+    "beskrivning":"Oavsett vem du tar med dig garanterar vi en fartfylld upplevelse med mycket skratt, adrenalin och framförallt en oförglömlig vistelse hos oss.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url":"image/gokart.jpg"
     },
-    "pris":"",
+    "pris":"900 kr/per gokart",
     "parkering":"Ja"
   },
   {
     "city":"Värnamo",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Nissastigen, 330 27 Hestra",
+    "Företag":"Isaberg Mountain resort",
+    "Aktivtet":"Höghöjdsbana",
+    "barnvanligt":"Ja",
+    "längd":"2.5 timmar",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.isaberg.com/sv/aktiviteter/hoeghoejdsbana/"
     },
-    "beskrivning":"",
+    "beskrivning":"En höghöjdsbana är en rolig kombination av lek, klättring och äventyr där alla kan hitta en spännande utmaning att övervinna. Vi törs lova att du kommer att klara mer än du tror och stärka ditt självförtroende, samtidigt som du får en rolig upplevelse som du garanterat aldrig glömmer",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/zipline.jpg"
     },
-    "pris":"",
+    "pris":"280-400 kr/person",
     "parkering":"Ja"
   },
 
@@ -378,7 +360,7 @@
     "link": {
         "linkurl":""
     },
-    "beskrivning":"",
+    "beskrivning":"läs mer på https://firstcamp.se/destination/gunnarso-oskarshamn/att-gora-i-naromradet/nils-holgerssons-aventyrspark/",
     "image": {
         "url": "image/vandringsbild1.jpg"
     },
@@ -498,8 +480,8 @@
 
   {
     "city":"Tranås",
-    "Adress":"",
-    "Företag":"Höglandsklättarna Tranås",
+    "Adress":"Ringvägen 10, 573 41 Tranås",
+    "Företag":"Höglandsklättrarna Tranås",
     "Aktivtet":"Bouldering",
     "barnvanligt":"Ja",
     "längd":"1-2 timmar",
@@ -516,7 +498,7 @@
   },
   {
     "city":"Tranås",
-    "Adress":"",
+    "Adress":"Färjeläget, 573 94 Tranås",
     "Företag":"Torpöns Färjeläge",
     "Aktivtet":"Höghöjdsbana",
     "barnvanligt":"Ja",
@@ -527,30 +509,12 @@
     },
     "beskrivning":"Att klättra höghöjdsbana är ett fantastiskt sätt att umgås – som familj, kompisgäng, förening eller företag. Gemensamma strapatser som skapar sammanhållning och samtalsämnen.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url":"image/zipline.jpg"
     },
     "pris":"300 kr/person",
     "parkering":"Ja"
   },
-  {
-    "city":"Tranås",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
+  
   {
     "city":"Vetlanda",
     "Adress":"",
@@ -607,387 +571,57 @@
   },
 
   {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "city":"Öland",
+    "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
+    "Företag":"Addwater",
+    "Aktivtet":"SPEEDCATS -GOKART PÅ VATTEN",
+    "barnvanligt":"Ja",
+    "längd":"1.5-2.5 timmar",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.addwater.se/speedcats"
     },
-    "beskrivning":"",
+    "beskrivning":"Aktiviteten Speedcats passar grupper från 4-50 personer.Vi börjar med lite information om sporten och båtarna och därefter ombyte innan vi går ut på bryggan för att börja själva träningen i vår bana. Varje båt framförs av två personer. En som gasar och styr båten och en som fördelar vikten. Genom att samarbeta kommer ni få en grym prestanda ur båten. Maxfarten på våra båtar är 38 knop.Aktivtet avslutas med en tävling i matchrace stil. Två båtar åtgåengen möts tills man har en slutlig vinnare.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url":"image/vandringsbild1.jpg"
     },
-    "pris":"",
+    "pris":"1095 kr/person",
     "parkering":"Ja"
   },
   {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "city":"Öland",
+    "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
+    "Företag":"Addwater",
+    "Aktivtet":"Flyboard",
+    "barnvanligt":"Nej",
+    "längd":"30 min",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.addwater.se/flyboard"
     },
-    "beskrivning":"",
+    "beskrivning":"Att åka Flyboard är så pass enkelt att alla klarar att flyga efter bara några minuters träning.Under tiden du åker Flyboard med oss på Addwater så är instruktören hela tiden med på vattenskotern. Instruktören sköter styrkan på vattenstrålarna så du behöver bara koncentrera dig på att flyga som en fågel eller dyka som en delfin. Med andra ord att hålla balansen på FlyboardenNär du åker Flyboard så ingår lån av våtdräkt, flytväst och hjälm.",
     "image": {
         "url": "image/vandringsbild1.jpg"
     },
-    "pris":"",
+    "pris":"1995 kr",
     "parkering":"Ja"
   },
   {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "city":"Öland",
+    "Adress":"Glabogatan 3, 38773 Löttorp",
+    "Företag":"Glabo Gokart & Paintball",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Ja",
+    "längd":"7 min",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.glabogokart.se/gokart"
     },
-    "beskrivning":"",
+    "beskrivning":"Gokart Öland längsta och bredaste bana med toppmoderna gokartar som inbjuder till många omkörningar och passar såväl stora som små sällskap. Hjälmar i alla storlekar finns att låna. Till de minsta förarna har vi en egen bana med elbilar.Alla bilar är utrustade med tidtagningssystem",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/gokart.jpg"
     },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
+    "pris":"130-180 kr",
     "parkering":"Ja"
   }
   
