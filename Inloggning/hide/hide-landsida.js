@@ -11,11 +11,10 @@ function getLocalStorage() {// Funktion för den lokala lagringen
         let hideElem =  document.getElementsByClassName("hidden");  
         
 
-    if (localStorage.getItem("hidevalue") ){     
-            console.log("hej");     
+    if (localStorage.getItem("hidevalue") ){          
         hideElem[0].style.visibility = 'visible';
        
-        
+
 
     }else{
         hideElem[0].style.visibility = 'hidden';
