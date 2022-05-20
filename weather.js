@@ -29,7 +29,6 @@ function requestTemp(city) {
         if (request.readyState == 4) {
             if (request.status == 200); {
             getTemp(request.responseText, city);
-            console.log(city);
             }
         }
     };

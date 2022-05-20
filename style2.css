@@ -185,6 +185,7 @@ a {
     border-width: 3px;
     border-radius: 6px;
     margin-top: 2%;
+    cursor: pointer;
 }
 #testaralt{
     margin-top: 80%; 
