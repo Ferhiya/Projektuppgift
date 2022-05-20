@@ -16,7 +16,7 @@ var conditions = 0;
 function init() {
     flickrImgElem = document.getElementById("flickrImg2");
     valt2 = document.getElementById("valt2");
-    knappar = document.getElementsByClassName("outdoor");
+    knappar = document.getElementsByClassName("knappar");
     display = document.getElementById("utomhus");
     weatherElem = document.getElementById("väder2");
 
@@ -79,8 +79,7 @@ function getData(response) {
             "<hr>" +
             "<p><b>Namn:</b> " + hi[i].name + "</p>" + //lägger in namnet på ledet i html strängen
             "<p><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</p>" + //lägger in längden på ledet i html strängen
-            "<p><b>beskrivning:</b> " + hi[i].description + "</p>" //lägger in info om handikapsanpassning i ledet i html strängen
-            ;
+            "<p><b>beskrivning:</b> " + hi[i].description + "</p>"; //lägger in info om handikapsanpassning i ledet i html strängen
     }
 
     valt2.innerHTML += HTMLcode; //utskrift av datan i JSON filen
@@ -97,10 +96,11 @@ function getData(response) {
 
 //start bike info
 function requestBikeData(e) {
-    let id = e.target.className;
+    let id = e.target.attributes.type.value;
     let cityname = e.target.attributes.city.value;
     let request = new XMLHttpRequest();
     request.open("GET", id + ".json", true);
+    console.log(id)
     request.send(null);
     request.onreadystatechange = function () {
         if (request.readyState == 4)

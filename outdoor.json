@@ -1,52 +1,517 @@
 {
     "bike": [
         {
-            "city": "Kalmar", 
+            "city": "Kalmar",
             "name": "Snurrom Bike Park",
             "description": "Snurrom Bike Park är en cirka 4 kilometer lång mountainbikebana med hinder anpassade både för barn och vuxna. Cirka 3 kilometer är slingrande skogsstigar och 600 meter är anlagd teknikbana.",
             "distance": "3 km",
             "link": {
                 "url": "https://kalmar.se/trafik-och-resor/cykel/snurrom-bike-park.html"
-            }, 
+            },
             "img": {
                 "url": "img/bike1.jpg"
             }
         },
-
         {
-            "city": "Kalmar", 
+            "city": "Kalmar",
             "name": "Kalmarsundsleden",
             "description": "Kalmarsundsleden är en vacker natur- och kulturled som går från Slakmöre i norr till Bröms i söder. Cykelsträckningen är samma som vandringsleden med undantag för sträckor där det är svårt att ta sig fram med cykel. Cykelleden är inte skyltad, men finns markerad på kartan.",
             "distance": "200 km",
             "link": {
                 "url": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/kalmarsundsleden.html"
-            }, 
+            },
             "img": {
                 "url": "img/bike2.jpg"
             }
         },
-
         {
-            "city": "Kalmar", 
+            "city": "Kalmar",
             "name": "En tur norrut",
             "description": "Med dess slingrande landsvägar bland fält och ängar är Kläckeberga populärt bland cyklister. Området har en vacker kyrka och i närheten ligger gården Västerslät med lantkafé och gårdsbutik. Värsnäs är en halvö med vacker natur som ingår i naturreservatet Horsö-Värsnäs. Här finns möjlighet att grilla, vandra, bada och spela golf. ",
             "distance": "71 km",
             "link": {
                 "url": "https://kalmar.com/download/18.6c4bfdaf17a9cde4307ab/1626240519751/2021_Cykelkarta_Norr_korr_20210709.pdf"
-            }, 
+            },
             "img": {
                 "url": "img/bike3.jpg"
             }
         },
-
         {
-            "city": "Kalmar", 
+            "city": "Kalmar",
             "name": "En tur söderut",
             "description": "Södermöre har flera natursköna vägar, gamla kyrkor och idylliska kustsamhällen att upptäcka. Ställ kosan söderut mot Hossmo. Härifrån kan du cykla längs kusten via Bottorp och ner till Hagby där Sveriges största rundkyrka finns. Eller tar du av mot Vassmolösa som erbjuder trevliga gårdsbutiker och lantkaféer.",
             "distance": "96 km",
             "link": {
                 "url": "https://kalmar.com/download/18.677aa54a178ec4c7e503c1/1619164206892/2021_Cykelkarta_S%C3%B6der_korr_20210422.pdf"
-            }, 
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Växjö",
+            "name": "Växjö Runt",
+            "description": "Drygt fyra mil långa Växjö runt gör ett komplett varv runt staden och binder samman de sex sjöarna, de åtta naturreservaten och stadens bostadsområden. Den välmarkerade leden bjuder på välkända miljöer, men också flera överraskningar som är dolda för den som färdas i bil. Broar och vatten vid Trummen och Helgevärma, Knutsgårds ljusa höjder, Fylleryds tallskog och smalspåret till Evedal.",
+            "distance": "41 km",
+            "link": {
+                "url": "https://www.vaxjo.se/sidor/se-och-gora/motion-och-friluftsliv/cykel--och-vandringsleder/vaxjo-runt.html"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Växjö",
+            "name": "Hoppets cykelväg - Gårdsby",
+            "description": "Gårdsby hembygdsförening har genomfört ett projekt för bättre och tryggare cykelvägar i gårdsbytrakten utmed riksväg 23. Numera kan du cykla säkert på lättrullade grusvägar, vilket gynnar både boende och besökande turister. Cykelvägen går mellan byar, passerar genom skog och vackra öppna fält. ",
+            "distance": "10 km",
+            "link": {
+                "url": "http://www.gardsby.se/readarticle.php?article_id=83"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Växjö",
+            "name": "Norra Sjörundan",
+            "description": "Arbete pågår för ett komplett tillgängligt varv runt hela sjön, som har ett rikt fågelliv. Sista pusselbiten på stråket var den nya lagunöverfarten mellan Bredvik och Bäckaslöv som öppnades i början av april 2021.",
+            "distance": "5.3 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kronobergs-lan/norra-sjorundan"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Växjö",
+            "name": "Åsnen runt",
+            "description": "Flera unika målpunkter inom natur och kultur passeras på varvet runt vackra Åsnen. Bland annat Sveriges senaste nationalpark och flera naturreservat samt Huseby bruk. ",
+            "distance": "140 km",
+            "link": {
+                "url": "https://visitasnen.se/outdoor/cykling/"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Älmhult",
+            "name": "Pjätterydsrundan",
+            "description": "Cykelrundan går i traditionellt småländskt landskap och du passerar både sjöar och vattendrag. Dessutom kan du upptäcka kulturhistoria på två kulturstigar utmed vägen.",
+            "distance": "38 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kronobergs-lan/pjatterydsrundan?guide_id=262"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Älmhult",
+            "name": "Råshultsrundan",
+            "description": "Från centrala Älmhult till Carl von Linnés födelseplats finns en lättcyklad väg till Råshult. Därifrån finns sedan flera möjligheter att upptäcka fantastiska naturområden med cykel eller till fots.",
+            "distance": "24 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kronobergs-lan/rashultsrundan?guide_id=262"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Älmhult",
+            "name": "Linnés Hembygd",
+            "description": "En varierande och lättcyklad sträckning som går genom ett naturskönt landskap med mycket historia. Sju naturreservat och ett kulturreservat på en cykeltur måste väl vara rekord? ",
+            "distance": "26 km",
+            "link": {
+                "url": "https://www.almhult.se/download/18.72d9f8c817e8ce3de0255263/1643626432434/Cykel-%20och%20vandrarbroschyr%20svensk%202019%20webb.pdf"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Älmhult",
+            "name": "Virestadssjön runt",
+            "description": "Den här cykelrundan sträcker sig runt den vackra Virestadssjön och här får du många möjligheter till vila och vackra vyer.",
+            "distance": "26 km",
+            "link": {
+                "url": "https://www.almhult.se/download/18.72d9f8c817e8ce3de0255263/1643626432434/Cykel-%20och%20vandrarbroschyr%20svensk%202019%20webb.pdf"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Jönköping",
+            "name": "Lyngemadssjön runt",
+            "description": "I området norr om Hooks Herrgård ligger Lyngemadssjöns naturreservat med slingrande grusvägar som passerar porlande vattendrag och vacker skogsmiljö. Dessa två kortare  cykelrundor tar dig genom reservatet och tillbaka till Hook. För den nyfikne cyklisten finns  fler stigar, leder och andra grusvägar att utforska.  ",
+            "distance": "16 km",
+            "link": {
+                "url": "https://ridewithgps.com/routes/27242700"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Jönköping",
+            "name": "Sjöarundan",
+            "description": "Mittemot infarten till Hooks Herrgård finns en grusväg som leder mot sjöarna Fängen och Sandsjön. Ett populärt och naturskönt område. Från sjöarna fortsätter du norröver på mindre vägar mot Ödestugu där rutten vänder mot Hook igen. Efter ett större fält, där du kan få se segelflyg lyfta och landa en vacker dag, möts du av en längre klättring där belöningen blir en lång skön utförskörning ner igen mot Hokasjön och herrgården.  ",
+            "distance": "32 km",
+            "link": {
+                "url": "https://ridewithgps.com/routes/27242703"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Jönköping",
+            "name": "Vaggerydaren",
+            "description": "En 3-mils cykelrunda som passerar Vaggeryd och leder tillbaka till Hooks Herrgård via Svenarum. Perfekt för dig som är ny på landsvägscykeln eller har du bara tid med ett kort intensivt pass innan Spa eller frukost. ",
+            "distance": "30 km",
+            "link": {
+                "url": "https://ridewithgps.com/routes/27242704"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Jönköping",
+            "name": "Bonnarundan",
+            "description": "Här stiftar du bekantskap med klassiska vägar för traktens landsvägscyklister. Med största sannolikhet möter du andra cyklister från Jönköping och Vaggeryd längs vägen. Landskapet varierar mellan öppna odlingslandskap och lummig skog. Vägarna böljar fram och bilarna lyser med sin frånvaro.",
+            "distance": "70 km",
+            "link": {
+                "url": "https://ridewithgps.com/routes/27242699"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Västervik",
+            "name": "Maren runt",
+            "description": "Härlig cykeltur runt sjön Maren vid Gertrudsvik i Västervik.",
+            "distance": "5 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kalmar-lan/maren-runt"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Västervik",
+            "name": "Luddes Trail",
+            "description": "Leden är till sin karaktär ganska lik klassikern VO-Slingan, som du också hittar här, men bjuder på mer av allt genom sin längre sträckning. Den har också några avsnitt där du kan välja svårighetsgrad genom att ta en lättare eller svårare passage.",
+            "distance": "11.9 km",
+            "link": {
+                "url": "https://www.bikingsoutheast.se/omr%C3%A5den/karstorp-v%C3%A4stervik"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Västervik",
+            "name": "VO-Slingan",
+            "description": "Större delen av leden är av röd svårighetsgrad, särskilt om det är fuktigt då hällarna du cyklar över kan vara lite hala och luriga. En skön runda och utöver den markerade leden finns det gott om stigar både här och i omgivningen",
+            "distance": "5.1 km",
+            "link": {
+                "url": "https://www.bikingsoutheast.se/omr%C3%A5den/karstorp-v%C3%A4stervik"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Västervik",
+            "name": "XCO-banorna",
+            "description": "Detta är tre leder, eller banor, av tävlingskaraktär. Inom MTB-världen kör man på banor av detta slag i tävlingar bestående av flera varv, med totala tävlingstider på omkring två timmar (XCO) eller ca 20 minuter (XCC).",
+            "distance": "2.9 km",
+            "link": {
+                "url": "https://www.bikingsoutheast.se/omr%C3%A5den/karstorp-v%C3%A4stervik"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Värnamo",
+            "name": "Vidöstern Runt",
+            "description": "En lätt men lång runda. Cykelvägen går rakt söderut till Tånnö, utmed sjön Vidöstern. Efter Vittaryds vackra gamla vitkalkade kyrka, kommer du till en gammal labyrint vid vägens högra sida. ",
+            "distance": "18 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/vidostern-rundan"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Värnamo",
+            "name": "Näsuddenrundan",
+            "description": "En lättcyklad runda som går i ett varierat landskap med skog och öppna marker från Värnamo till sjön Hindsen.",
+            "distance": "18 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/nasuddenrundan"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Värnamo",
+            "name": "Osuddenrundan",
+            "description": "Rundan följer Lagan cirka 6 km från centrala Värnamo, genom Apladalens hembygdspark, förbi kolonistugeområdet och vippande sädesfält ner till Osudden vid sjön Vidöstern.",
+            "distance": "6 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/osuddenrundan"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Värnamo",
+            "name": "Drömmingerundan",
+            "description": "En mestadels lätt runda som passerar gravfält och den mysiga lilla byn Drömminge som även har en hantverksbutik.",
+            "distance": "22 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/drommingerundan"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Oskarshamn",
+            "name": "Fredriksbergsturen",
+            "description": "En mysig cykeltur på cirka 9 kilometer som tar dig genom vackra miljöer, både i stad och skog.",
+            "distance": "9 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kalmar-lan/fredriksbergsturen"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Oskarshamn",
+            "name": "Figeholmsleden",
+            "description": "Cykelleden börjar och slutar vid Allégatan i Figeholm och stationshuset i Oskarshamn. Leden är tydligt skyltad med blåa vägskyltar mot Figeholm och Oskarshamn.",
+            "distance": "17.2 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kalmar-lan/figeholmsleden"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Oskarshamn",
+            "name": "Södra cykelturen",
+            "description": "Södermöre har flera natursköna vägar, gamla kyrkor och idylliska kustsamhällen att upptäcka. Ställ kosan söderut mot Hossmo. Härifrån kan du cykla längs kusten via Bottorp och ner till Hagby där Sveriges största rundkyrka finns. Eller tar du av mot Vassmolösa som erbjuder trevliga gårdsbutiker och lantkaféer.",
+            "distance": "27.1 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kalmar-lan/sodra-cykelturen"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Nässjö",
+            "name": "Grusvägsrull",
+            "description": "Njut av en dagstur på cykel tillsammans med familjen eller kompisarna i en lantligt idyllisk miljö.",
+            "distance": "24 km",
+            "link": {
+                "url": "https://nassjo.se/uppleva-och-gora/gora/cykel/cykelrundor/2022-05-16-grusvagsrull-24-eller-51-km.html"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Nässjö",
+            "name": "Nässjö runt",
+            "description": "Upptäck Nässjö stad, med dess naturnära guldkorn och ruffa street art, på cykel!",
+            "distance": "10 km",
+            "link": {
+                "url": "https://nassjo.se/uppleva-och-gora/gora/cykel/cykelrundor/2022-05-16-nassjo-runt-10-km.html"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Nässjö",
+            "name": "Kulturrundan",
+            "description": "Upplev Nässjös levande och urbana kulturliv på två hjul.",
+            "distance": "45 km",
+            "link": {
+                "url": "https://nassjo.se/uppleva-och-gora/gora/cykel/cykelrundor/2022-05-16-kulturrundan-45-km.html"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Nässjö",
+            "name": "Asfaltsrundan",
+            "description": "Ta dig fram elegant på lättrullade asfaltsvägar, sida vid sida med den storslagna höglandsnaturen.",
+            "distance": "43 km",
+            "link": {
+                "url": "https://nassjo.se/uppleva-och-gora/gora/cykel/cykelrundor/2022-05-16-asfaltsrundan-43-km.html"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Ljungby",
+            "name": "I historiens spår - norrut",
+            "description": "Turförslaget går på cykelväg och hårt trafikerad landsväg. Cykla norrut från Ljungby centrum längs den gamla banvallen genom Kronoskogen till Vittaryd.",
+            "distance": "28 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kronobergs-lan/i-historiens-spar-norrut"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Ljungby",
+            "name": "I historiens spår - söderut",
+            "description": "Turförslaget går på den tidigare banvallen, Småland-Skånes järnväg, bitvis grusad stig och längs slingrande landsvägar. Turen går under långa sträckor längs med ån Lagan.",
+            "distance": "40 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kronobergs-lan/i-historiens-spar-soderut"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Ljungby",
+            "name": "Angelstadsrundan i sägenbygd",
+            "description": "Börja vid hembygdsparken, men cykla försiktigt vid grusvägen nära Söderala för där håller Gloson till. Sväng av mot Ularp och det gamla gravfältet Ryakulla där man under mörka höstkvällar kunde höra Odins jakt olycksbådande dra fram över himmelen.",
+            "distance": "29 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kronobergs-lan/angelstadsrundan-i-sagenbygd"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Ljungby",
+            "name": "Sunnerboturen",
+            "description": "Starta vid busstationen i Ljungby och cykla mot Kulturhuset Grand.",
+            "distance": "123.4 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kronobergs-lan/sunnerboturen"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Tranås",
+            "name": "Tranås runt",
+            "description": "En bra träningsrunda mörka kvällar. Den har belysning hela vägen och därför går utmärkt att köra sena höstkvällar. Kör så många varv som du orkar!",
+            "distance": "10.8 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/tranas-runt"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Tranås",
+            "name": "Örsbäckens mountainbikespår",
+            "description": "Pröva det nya mountainbikespåret med anpassade stigmarkeringar som gör att man snabbt hittar fram på en lagom utmanande slinga.",
+            "distance": "7 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/orsbacken-mountainbikespar"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Tranås",
+            "name": "Norra usstorp",
+            "description": "En väldigt vacker runda som ligger så nära Tranås att de flesta cyklister har missat den.",
+            "distance": "7.3 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/norra-usstorp"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Tranås",
+            "name": "Madarundan",
+            "description": "En vacker runda med massor av natur. Rundan sträcker sig både över skog samt vanliga vägar.",
+            "distance": "16 km",
+            "link": {
+                "url": "https://www.naturkartan.se/sv/jonkopings-lan/madarundan"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Vetlanda",
+            "name": "Grumlan runt",
+            "description": "Du cyklar i ett vackert landskap runt sjön Grumlan i lagom kuperad natur. Du passerar både herrgårdsmiljö och bondgårdar.",
+            "distance": "25 km",
+            "link": {
+                "url": "https://vetlanda.se/download/18.77417bfa17284684cdf1662/1591782045087/Grumlan%20runt%20Svenska.pdf"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Vetlanda",
+            "name": "Gruvrundan",
+            "description": "Gruvrundan passerar tre gruvor. Det ges tillfälle att besöka Kleva gruva och vaska guld i Ädelfors. Turen går längs med den brusande Emån med både bad- och fiskemöjligheter.",
+            "distance": "30 km",
+            "link": {
+                "url": "https://vetlanda.se/download/18.77417bfa17284684cdf1663/1591782063498/Gruvrundan%20Svenska.pdf"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Vetlanda",
+            "name": "Hjärtasjön runt",
+            "description": "Du cyklar i ett varierat småländskt kulturlandskap runt Hjärtasjön. Längs med leden finns en äventyrsgolfbana och ett café i Korsberga.",
+            "distance": "17 km",
+            "link": {
+                "url": "https://vetlanda.se/download/18.77417bfa17284684cdf1664/1591782079938/Hj%C3%A4rtasj%C3%B6n%20runt%20Svenska.pdf"
+            },
+            "img": {
+                "url": "img/bike4.jpg"
+            }
+        },
+        {
+            "city": "Vetlanda",
+            "name": "Landsbrorundan",
+            "description": "Rundan går genom fem socknar och passerar de tre medeltida Njudungskyrkorna Myresjö, Lannaskede och Nävelsjö.",
+            "distance": "48 km",
+            "link": {
+                "url": "https://vetlanda.se/download/18.77417bfa17284684cdf1666/1591782095398/Landsbrorundan%20Svenska.pdf"
+            },
             "img": {
                 "url": "img/bike4.jpg"
             }

@@ -1,0 +1,629 @@
+{
+    "aderalin": [
+{
+  "city":"Kalmar",
+  "Adress":"Stensövägen 100392 47 Kalmar",
+  "Företag":"Upzone Kalmar",
+  "Aktivtet":"zipline",
+  "barnvanligt":"ja",
+  "längd":"1-3 timmar",
+  "handikapsanpassat":"nej",
+  "link": {
+      "linkurl":"https://www.upzone.se/stader/upzone-kalmar/"
+  },
+  "beskrivning":"Klättra uppe bland trädtopparna och åk ziplines i våra höghöjdsbanor. Svinga dig i nät, balansera på vajrar och kasta dig ut mellan träden. Utmana kompisarna i Combat Archery Tag och se vilket lag som är pricksäkrast med pil och båge. Utmana bruden under möhippan i vårt klätterträd och se vem som kommer snabbast upp till toppen. Eller varför inte möta kollegorna eller vännerna i en duell? Se vilket lag som samarbetar och löser problem bäst i våra Escape Games eller utmana varandra i en Teamchallange.",
+  "image": {
+      "url": "image/zipline.jpg"
+  },
+  "pris":"300 kr/person",
+  "parkering":"Ja"
+},
+{
+  "city":"Kalmar",
+  "Adress":"Kläckerbergavägen 92, 395 90 Kalmar",
+  "Företag":"Kalmar hyrkart",
+  "Aktivtet":"Gokart",
+  "barnvanligt":"Ja",
+  "längd":"1 timme",
+  "handikapsanpassat":"Nej",
+  "link": {
+      "linkurl":"http://kalmargokart.se/"
+  },
+  "beskrivning":"Kom till oss och kör våra nya toppmoderna gokarts på en av Sveriges finaste banor. Med Kalmar/Ölands längsta bana (1013 m) och farter på upp till 80 km/h erbjuder hyrkartbanan en aktivitet utöver det vanliga.",
+  "image": {
+      "url": "image/gokart.jpg"
+  },
+  "pris":"250 kr/person",
+  "parkering": "Ja"
+},
+{
+  "city":"Kalmar",
+  "Adress":"Skeppsbrogatan 49, 392 31 Kalmar",
+  "Företag":"KalmarSalen",
+  "Aktivtet":"VR",
+  "barnvanligt":"Ja",
+  "längd":"",
+  "handikapsanpassat":"Ja",
+  "link": {
+      "linkurl":"https://kalmarsalen.se/aktiviteter-som-forhojer/"
+  },
+  "beskrivning":"I samarbete med Didgeridoo Event kan vi erbjuda en VR station på ert event. Perfekt för alla typer av deltagare, konferenssom mässor som kickoffer. Virtual Reality innebär att man med hjälp av en dator och ett headset går in i en helt ny värld. En magisk värld, en rolig värld, en läskig värld eller kanske en kreativ värld, den som utför väljer själv!",
+  "image": {
+      "url": "image/vr.jpg"
+  },
+  "pris":"300 kr/person",
+  "parkering":"Ja"
+},
+
+{
+    "city":"Växjö",
+    "Adress":"Tingsrydvägen 12 A, 355 91 Växjö",
+    "Företag":"Onset Paintball",
+    "Aktivtet":"Paintball",
+    "barnvanligt":"Nej",
+    "längd":"1-2 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"http://www.onset.se/"
+    },
+    "beskrivning":"Vi är Växjös första och största paintballpark. Etablerade redan 1998. Våra många år inom paintballbranschen garanterar dig en seriös och rolig upplevelse. Oavsett om du aldrig spelat innan eller om du provat på flera gånger finns det alltid något för dig att uppleva hos oss.",
+    "image": {
+        "url": "image/paintball.jpg"
+    },
+    "pris":"400 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Växjö",
+    "Adress":"Bollgatan 1, 352 46 VÄXJÖ",
+    "Företag":"Idrottshuset",
+    "Aktivtet":"Klättring på Idrottshuset",
+    "barnvanligt":"Ja",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"http://idrottshuset.se/klattring/"
+    },
+    "beskrivning":"I idrotthuset kan du klättra upp för en 10 m hög klättervägg. Klätringen kan du göra själv eller betala lite extra och klättra med en instruktör i en tryggare upplevelse.",
+    "image": {
+        "url":"image/klättervägg.jpg"
+    },
+    "pris":"130 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Växjö",
+    "Adress":"Norraby gård, 363 33 Rottne",
+    "Företag":"Norraby skytte och event",
+    "Aktivtet":"skjutbiografen",
+    "barnvanligt":"Nej",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.norrabyevent.se/skjutbiograf.html"
+    },
+    "beskrivning":"På skjutbiografen på Norraby Gård utanför Växjö projiceras en filmsekvens upp på en pappersduk varpå man skjuter med skarp ammunition.Vappen finns att hyra och ammunitionen får man köpa på plats.",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"350kr/vapen",
+    "parkering":"Ja"
+  },
+  
+
+  {
+    "city":"Älmhult",
+    "Adress":"Delary Industripark 7, 343 95 Älmhult",
+    "Företag":"Delary gokart",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Ja",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://delarygokart.se/"
+    },
+    "beskrivning":"Oavsett vem du tar med dig garanterar vi en fartfylld upplevelse med mycket skratt, adrenalin och framförallt en oförglömlig vistelse hos oss",
+    "image": {
+        "url":"image/gokart.jpg"
+    },
+    "pris":"100-395 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Älmhult",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url":"image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Älmhult",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Jönköping",
+    "Adress":"",
+    "Företag":"Flyboard",
+    "Aktivtet":"Flyboard",
+    "barnvanligt":"Nej",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.upplevelse.com/flyboard?trackID=113874289"
+    },
+    "beskrivning":"Upplevelsen börjar med ett välkomnande av din instruktör som hjälper till med utrustningen. Efter en teoretisk genomgång så har du allt du behöver veta för att bemästra en flyboard. Du kommer känna att det är vingligt till en början, men efter normalt 10-20 minuter så styr du din flyboard utan svårigheter. En personlig instruktör finns med under hela upplevelsen vilket underlättar lärandet. Du kommer ha gott om tid att leka fritt i vattnet och högt uppe i luften.",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"1271 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Jönköping",
+    "Adress":"",
+    "Företag":"Speedcats",
+    "Aktivtet":"Speedcats",
+    "barnvanligt":"",
+    "längd":"2 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.upplevelse.com/kor-speedcats?trackID=113874402"
+    },
+    "beskrivning":"Under 2 timmar får du lära dig att behärska dessa havsmonster. Körningen är förlagd på en rundbana av internationellt snitt (4 vänstersvängar och 1 högersväng) i plattvatten. Instruktören hjälper dig att manövrera fordonet säkert och att hitta fart.",
+    "image": {
+        "url":"image/vandringsbild1.jpg"
+    },
+    "pris":"1271 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Jönköping",
+    "Adress":"",
+    "Företag":"Dodge Challenger Redeye/Demon",
+    "Aktivtet":"Muskelbil körning",
+    "barnvanligt":"Nej",
+    "längd":"40 min",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.upplevelse.com/muskelbil-20km?trackID=113874546"
+    },
+    "beskrivning":"Önskar du att du fick möjlighet att pressa fartgränserna och få fartmonster som Ferrarri och Lamborghini att kännas långsamma? Då har du hittat rätt i en av världens snabbaste muskelbilar, Dodge Challenger Redeye Demon.",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"1299 kr/person",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Västervik",
+    "Adress":" Lysingsvägen,593 53 Västervik",
+    "Företag":"Upzone västervik",
+    "Aktivtet":"Höghöjdsbana",
+    "barnvanligt":"Ja",
+    "längd":"2.5 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.upzone.se/stader/upzone-vastervik/hoghojdsbana-vastervik/"
+    },
+    "beskrivning":"En äventyrlig upplevelse bland trädtopparna. I en kombination av klättring, sport, mod och lek tar du dig fram genom olika hinder och ziplines.",
+    "image": {
+        "url":"image/zipline.jpg"
+    },
+    "pris":"319-419 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Västervik",
+    "Adress":"Videgrensgatan 10, 593 32 Västervik",
+    "Företag":"Action center",
+    "Aktivtet":"Paintball",
+    "barnvanligt":"Ja",
+    "längd":"1-1.5 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://action-center.se/paintball.html"
+    },
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav. Action center erbjuder barn och undomsevent i paintball",
+    "image": {
+        "url": "image/paintball.jpg"
+    },
+    "pris":"200-300 kr/person",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Värnamo",
+    "Adress":"",
+    "Företag":"Kvarnagårdens",
+    "Aktivtet":"Paintball",
+    "barnvanligt":"Nej",
+    "längd":"1-2 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://kvarnagårdenspaintball.se/"
+    },
+    "beskrivning":"Spela som back och täck medspelare från dom bakre regionerna från egna planhalvan.",
+    "image": {
+        "url": "image/paintball.jpg"
+    },
+    "pris":"399 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Värnamo",
+    "Adress":"Nennesmovägen 21, 334 21 Anderstorp",
+    "Företag":"Scandinavian Kartwa Aby",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Ja",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"http://www.hyrkart.se/start/"
+    },
+    "beskrivning":"Oavsett vem du tar med dig garanterar vi en fartfylld upplevelse med mycket skratt, adrenalin och framförallt en oförglömlig vistelse hos oss.",
+    "image": {
+        "url":"image/gokart.jpg"
+    },
+    "pris":"900 kr/per gokart",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Värnamo",
+    "Adress":"Nissastigen, 330 27 Hestra",
+    "Företag":"Isaberg Mountain resort",
+    "Aktivtet":"Höghöjdsbana",
+    "barnvanligt":"Ja",
+    "längd":"2.5 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.isaberg.com/sv/aktiviteter/hoeghoejdsbana/"
+    },
+    "beskrivning":"En höghöjdsbana är en rolig kombination av lek, klättring och äventyr där alla kan hitta en spännande utmaning att övervinna. Vi törs lova att du kommer att klara mer än du tror och stärka ditt självförtroende, samtidigt som du får en rolig upplevelse som du garanterat aldrig glömmer",
+    "image": {
+        "url": "image/zipline.jpg"
+    },
+    "pris":"280-400 kr/person",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Oskarshamn",
+    "Adress":"",
+    "Företag":"KartCenter",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Ja",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.kartcenter.se/"
+    },
+    "beskrivning":"Oavsett vem du tar med dig garanterar vi en fartfylld upplevelse med mycket skratt, adrenalin och framförallt en oförglömlig vistelse hos oss.",
+    "image": {
+        "url":"image/gokart.jpg"
+    },
+    "pris":"580 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Oskarshamn",
+    "Adress":"",
+    "Företag":"Jailbreak Oskarshamn",
+    "Aktivtet":"Escape Room",
+    "barnvanligt":"Nej",
+    "längd":"1 timme",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://jailbreakoskarshamn.com/om/"
+    },
+    "beskrivning":"Här blir du inlåst i ett rum och ska inom 60 minuter lösa rummets mysterier i form av kluriga gåtor, pussel och utmaningar.",
+    "image": {
+        "url": "image/escape.jpg"
+    },
+    "pris":"260 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Oskarshamn",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"läs mer på https://firstcamp.se/destination/gunnarso-oskarshamn/att-gora-i-naromradet/nils-holgerssons-aventyrspark/",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Nässjö",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Nässjö",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Nässjö",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Ljungby",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Ljungby",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Ljungby",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Tranås",
+    "Adress":"Ringvägen 10, 573 41 Tranås",
+    "Företag":"Höglandsklättrarna Tranås",
+    "Aktivtet":"Bouldering",
+    "barnvanligt":"Ja",
+    "längd":"1-2 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.hkt.nu/"
+    },
+    "beskrivning":"Om du vill prova på att klättra är det perfekt att komma till oss på onsdagar, då behöver du inga förkunskaper och vi har instruktörer på plats som säkrar på repväggen, vi har även två bouldergråttor där man kan klättra fritt.",
+    "image": {
+        "url":"image/bouldering.jpg"
+    },
+    "pris":"300 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Tranås",
+    "Adress":"Färjeläget, 573 94 Tranås",
+    "Företag":"Torpöns Färjeläge",
+    "Aktivtet":"Höghöjdsbana",
+    "barnvanligt":"Ja",
+    "längd":"1-4 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.torponsfarjelage.se/hoghojdsbana/"
+    },
+    "beskrivning":"Att klättra höghöjdsbana är ett fantastiskt sätt att umgås – som familj, kompisgäng, förening eller företag. Gemensamma strapatser som skapar sammanhållning och samtalsämnen.",
+    "image": {
+        "url":"image/zipline.jpg"
+    },
+    "pris":"300 kr/person",
+    "parkering":"Ja"
+  },
+  
+  {
+    "city":"Vetlanda",
+    "Adress":"",
+    "Företag":"Vetlanda Paintboll",
+    "Aktivtet":"Paintball",
+    "barnvanligt":"Nej",
+    "längd":"1-2 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://vetlandapaintball.se/"
+    },
+    "beskrivning":"Hej och välkommen till Kettilsås Paintball. Vi driver en fantastisk paintballpark i skogsmiljön. Är ni ett kompisgäng, skall ni ha en möhippa/svensexa då är vi helt rätt koncept för er. Paintball är ett utmärkt sätt att svetsa samman vänner, kollegor eller grupper.",
+    "image": {
+        "url": "image/paintball.jpg"
+    },
+    "pris":"300 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"vetlanda",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url":"image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Vetlanda",
+    "Adress":"",
+    "Företag":"",
+    "Aktivtet":"",
+    "barnvanligt":"",
+    "längd":"",
+    "handikapsanpassat":"",
+    "link": {
+        "linkurl":""
+    },
+    "beskrivning":"",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"",
+    "parkering":"Ja"
+  },
+
+  {
+    "city":"Öland",
+    "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
+    "Företag":"Addwater",
+    "Aktivtet":"SPEEDCATS -GOKART PÅ VATTEN",
+    "barnvanligt":"Ja",
+    "längd":"1.5-2.5 timmar",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.addwater.se/speedcats"
+    },
+    "beskrivning":"Aktiviteten Speedcats passar grupper från 4-50 personer.Vi börjar med lite information om sporten och båtarna och därefter ombyte innan vi går ut på bryggan för att börja själva träningen i vår bana. Varje båt framförs av två personer. En som gasar och styr båten och en som fördelar vikten. Genom att samarbeta kommer ni få en grym prestanda ur båten. Maxfarten på våra båtar är 38 knop.Aktivtet avslutas med en tävling i matchrace stil. Två båtar åtgåengen möts tills man har en slutlig vinnare.",
+    "image": {
+        "url":"image/vandringsbild1.jpg"
+    },
+    "pris":"1095 kr/person",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Öland",
+    "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
+    "Företag":"Addwater",
+    "Aktivtet":"Flyboard",
+    "barnvanligt":"Nej",
+    "längd":"30 min",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.addwater.se/flyboard"
+    },
+    "beskrivning":"Att åka Flyboard är så pass enkelt att alla klarar att flyga efter bara några minuters träning.Under tiden du åker Flyboard med oss på Addwater så är instruktören hela tiden med på vattenskotern. Instruktören sköter styrkan på vattenstrålarna så du behöver bara koncentrera dig på att flyga som en fågel eller dyka som en delfin. Med andra ord att hålla balansen på FlyboardenNär du åker Flyboard så ingår lån av våtdräkt, flytväst och hjälm.",
+    "image": {
+        "url": "image/vandringsbild1.jpg"
+    },
+    "pris":"1995 kr",
+    "parkering":"Ja"
+  },
+  {
+    "city":"Öland",
+    "Adress":"Glabogatan 3, 38773 Löttorp",
+    "Företag":"Glabo Gokart & Paintball",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Ja",
+    "längd":"7 min",
+    "handikapsanpassat":"Nej",
+    "link": {
+        "linkurl":"https://www.glabogokart.se/gokart"
+    },
+    "beskrivning":"Gokart Öland längsta och bredaste bana med toppmoderna gokartar som inbjuder till många omkörningar och passar såväl stora som små sällskap. Hjälmar i alla storlekar finns att låna. Till de minsta förarna har vi en egen bana med elbilar.Alla bilar är utrustade med tidtagningssystem",
+    "image": {
+        "url": "image/gokart.jpg"
+    },
+    "pris":"130-180 kr",
+    "parkering":"Ja"
+  }
+  
+]
+}
