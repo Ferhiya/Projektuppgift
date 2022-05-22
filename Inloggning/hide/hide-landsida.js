@@ -1,7 +1,9 @@
 let hideElem;
+let skapakonto;
 
 function init() {  // Allting som ska laddas in före sidan visas  
     hidecreateoption();
+    
     //loggainknappen();
      }
         window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
@@ -36,5 +38,14 @@ if (localStorage.getItem("hidevalue") ){
         showElem[0].style.visibility = 'visible';
         
     }
+    hideskapakonto();
+}
 
+function hideskapakonto() {
+skapakonto = document.getElementById("hide-skapatrad")
+
+    if (localStorage.getItem("hidevalue") ){          
+        skapakonto.style.visibility = 'hidden';
+      skapakonto.style.height= "0px";
+    }
 }

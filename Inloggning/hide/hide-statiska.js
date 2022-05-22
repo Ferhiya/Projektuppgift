@@ -24,7 +24,6 @@ function getLocalStorage() {// Funktion för den lokala lagringen
         showElem[0].style.visibility = 'visible';
     }
 
-    }
-
+}
 
         

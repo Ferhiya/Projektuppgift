@@ -50,27 +50,49 @@ border-radius: 25px;
 border-style: solid;
 border-color: white;
 padding: 10px;
-margin-right: 20px;
-margin-left: 20px;
+width: 50%;
+
+box-shadow: 5px 10px #10714a;
 }
 
 #button-loggain {
 font-size: 20px;
+width: 20%;
 padding: 10px;
-width: 100px;
 display: flex;
 justify-content: center;
 border-radius: 25px;
-margin-top: 10px;
-margin-right:20px;
 background-color: #e0b767;
+cursor: pointer;
+margin-top: 20px;
+box-shadow: 5px 6px #ab8d50;
 }
+
 
 
 
 #nya-anvandare {
-width: 45%;
+display: flex;
+width: 55%;
+background-image: url(/img/inloggning-img.png);
+align-items: center;
+flex-direction: column;
+justify-content: center;
 }
+
+
+
+#nya-anvandare h2 {
+  background-color: rgba(255, 255, 255);
+  width: 70%;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 5px 10px #d5e4de9c;
+}
+    
 
 
 #Login-container {
@@ -79,7 +101,7 @@ width: 45%;
         }
 
 #button-nyanvander  {
-
+text-align: center;
 border-style: solid;
 border-radius: 25px;
 padding: 10px;
@@ -87,26 +109,37 @@ background-color: #e0b767;
 border-color: #e0b767;
 border-width: 1px;
 color:black;
-width: 240px;
+width: 25%;
+font-size: 25px;
 margin-top: 20px;
+box-shadow: 5px 10px #ab8d50;
 }
 
 
+#test {
+margin-top: 15%;
+}
+
+#test p {
+border-radius: 25px;
+margin-bottom: 20px;
+}
 
 #loggain-användare {
 background-color: #138557ec;
 display: flex;
 flex-direction: column;
 width: 45%;
-height: 90vh;
+height: 86vh;
+align-items: center;
 }
 
 #loggain-användare p {
-margin-top: 30px;
-font-size: 25px;
+text-align: center;
+font-size: 30px;
 background-color: white;
-padding: 10px;
-
+padding: 15px;
+box-shadow: 7px 10px #10714a;
 
 }
 
@@ -119,10 +152,10 @@ margin-bottom: 30px;
 
 
 form {
-
 margin-right: 20px;
 margin-left: 20px;
 padding: 10px;
+
 }
 
 #nr1 {

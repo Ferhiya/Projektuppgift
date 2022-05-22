@@ -1,5 +1,6 @@
 var input1Elem, input1Elem2, resultElem;
 var resultElem2;
+var skapa;
 
 function init() {
  input1Elem = document.getElementById("input1") ;
@@ -9,6 +10,8 @@ function init() {
 input1Elem2 = document.getElementById("input2") ;
 resultElem2 = document.getElementById("result2");
 document.getElementById("runBtn2").onclick = hamtakommentarkommentar;
+skapa = document.getElementById("villduskapakonto");
+skapakonto();
 }
 window.onload = init;
 
@@ -41,4 +44,13 @@ function hamtakommentarkommentar () {
    resultElem2.innerHTML += "<div id='extra'><p>Användare</p>" + kommentarkommentar +  "<br></div>" ;
    console.log(kommentarkommentar.length); 
    }
+   }
+
+   function skapakonto(){
+   if (localStorage.getItem("hidevalue") ){ 
+         skapa.style.visibility = "hidden";
+      skapa.style.height = "0px";
+     }
+ 
+ 
    }
