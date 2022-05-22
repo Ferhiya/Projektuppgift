@@ -2,17 +2,17 @@
 function init() {  // Allting som ska laddas in före sidan visas
     inlagget = document.getElementById("open-thread-visa-inlagget");
 
-    getLocalStorage();
+    hamtautomhus();
      }
         window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
      
 
-    function getLocalStorage() { // Funktion för den lokala lagringen
+    function hamtautomhus() { // Funktion för den lokala lagringen
 
-        const intryck = localStorage.getItem("adrenalin+text");
+        const intryck = localStorage.getItem("utomhus+text");
             
 
-        if (localStorage.getItem("adrenalin+text") ){         
+        if (localStorage.getItem("utomhus+text") ){         
             inlagget.innerHTML = intryck;
         }    
 }

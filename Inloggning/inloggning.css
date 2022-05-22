@@ -6,14 +6,13 @@ margin: 0px;
 font-family: 'Playfair Display', serif;
 }
 
-
-
 #navbar {
     display: flex;
     justify-content: space-around;
     height: 100px;
     background-color: #138558;
     color:white;
+    font-size: 16px;
     }
     
     #navbar h2 {
@@ -22,18 +21,28 @@ font-family: 'Playfair Display', serif;
     color: white;
     }
     
+    #navbar h2 :hover {
+    border-bottom: 4px #0d462fb9 solid;
+    }
+    
     #navbar a {
         text-decoration: none;
         color: white;
     }
+
+
+    
     
     #logga-ikon img {
         width: 100px;
+        
         }
     
     #logga-ikon {
     display: flex;
     }
+
+    
 
 .text {
 font-size: 20px;
@@ -41,64 +50,58 @@ border-radius: 25px;
 border-style: solid;
 border-color: white;
 padding: 10px;
-margin-right: 20px;
-margin-left: 20px;
+width: 50%;
+
+box-shadow: 5px 10px #10714a;
 }
 
 #button-loggain {
 font-size: 20px;
+width: 20%;
 padding: 10px;
-background-color: white;
-width: 100px;
 display: flex;
 justify-content: center;
 border-radius: 25px;
-margin-top: 10px;
-margin-right:20px;
 background-color: #e0b767;
+cursor: pointer;
+margin-top: 20px;
+box-shadow: 5px 6px #ab8d50;
 }
 
-#button-loggain a {
-text-decoration: none;
-color: black;
-}
 
-.flex-end {
-display: flex;
-justify-content: flex-end;
-}
 
 
 #nya-anvandare {
-background-image:url(/img/inloggning-img.png);
-background-repeat: no-repeat;
-color: white;
-font-size: 24px;
-width: 100%;
-height: 100%;
 display: flex;
+width: 55%;
+background-image: url(/img/inloggning-img.png);
 align-items: center;
 flex-direction: column;
-
+justify-content: center;
 }
 
-#nya-anvandare a {
-text-decoration: none;
-color: black;
-}
+
 
 #nya-anvandare h2 {
-background-color: rgb(255, 255, 255);
-color: black;
-padding: 15px;
-border-radius: 25px;
-margin-top: 16%;
-
+  background-color: rgba(255, 255, 255);
+  width: 70%;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 5px 10px #d5e4de9c;
 }
+    
 
+
+#Login-container {
+    display: flex;
+    justify-content: space-between;
+        }
 
 #button-nyanvander  {
-display: flex;
+text-align: center;
 border-style: solid;
 border-radius: 25px;
 padding: 10px;
@@ -106,40 +109,42 @@ background-color: #e0b767;
 border-color: #e0b767;
 border-width: 1px;
 color:black;
-width: 240px;
-justify-content: center;
+width: 25%;
+font-size: 25px;
 margin-top: 20px;
+box-shadow: 5px 10px #ab8d50;
 }
 
-#login-container {
-display: flex;
+
+#test {
+margin-top: 15%;
+}
+
+#test p {
+border-radius: 25px;
 margin-bottom: 20px;
-justify-content:center;
-flex-direction: row;
-height: 100%;
-
-
 }
 
 #loggain-användare {
 background-color: #138557ec;
+display: flex;
+flex-direction: column;
+width: 45%;
+height: 86vh;
+align-items: center;
 }
 
 #loggain-användare p {
-margin-top: 30px;
-font-size: 25px;
+text-align: center;
+font-size: 30px;
 background-color: white;
-padding: 10px;
-display: flex;
-border-radius: 25px;
-width: 400px;
-justify-content: center;
+padding: 15px;
+box-shadow: 7px 10px #10714a;
 
 }
 
 #valkommen-loggain {
-display: flex;
-justify-content: center;
+
 padding: 10px;
 margin-bottom: 30px;
 }
@@ -147,31 +152,13 @@ margin-bottom: 30px;
 
 
 form {
-display: flex;
-flex-direction: column;
 margin-right: 20px;
 margin-left: 20px;
 padding: 10px;
+
 }
 
 #nr1 {
 margin-bottom: 10px;
 }
 
-#navbar img {
-    width: 100px;
-    border-radius: 100%;
-    margin-top: 12px;
-    }
-    
-    #navbar {
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    background-color: #138558;
-    color:white;
-    }
-    
-    #navbar h2 {
-    margin-top: 40px;
-    }

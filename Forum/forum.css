@@ -54,7 +54,7 @@ width: 190px;
 height: 50px;
 border-radius: 6px;
 margin-bottom: 30px;
-
+box-shadow: 6px 5px #a2854a;
 }
 
 
@@ -75,18 +75,17 @@ border-width: 3px;
 width: 190px;
 height: 50px;
 border-radius: 6px;
+box-shadow: 6px 5px #a2854a;
 }
 
 #grid {
 display: flex;
-margin-left: 10px;
-margin-top: 30px;
+margin-top: 40px;
 }
 
 
 #box1 {
 margin-bottom: 50px;
-margin-left: 30px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -107,26 +106,27 @@ align-items: center;
 }
 
 #box3 {
-margin-left: 30px;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
 #box4 {
-margin-top: 10px;
 display: flex;
 flex-direction: column;
 align-items: center;
+
 }
 
 
 #grid h2 {
 border: #138558;
 border-radius: 6px;
+margin-bottom: 8px;
 border-style: solid;
 padding: 20px;
 text-decoration: none;
+box-shadow: 6px 7px #138558;
 }
 #grid a {
 text-decoration: none;
@@ -146,13 +146,28 @@ width: 350px;
 text-align: center;
 }
 
+
+.text h3 :hover {
+border-bottom: #138558 2px solid;
+}
+
+#vandring-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#utomhus-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#adrenalin-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+
 #landsida-anvandar-span {
 text-align: left;
 }
 
 #grid {
 display: grid;
-
+gap: 30px;
 }
 
 #grid-box1 {
@@ -191,10 +206,8 @@ grid-column-end: 3;
 grid-row-start: 1;
 grid-row-end:1 ; 
 margin-bottom: 10px;
-margin-right: 50px;
-margin-left: 18%;
+margin-left: 24%;
 margin-top: 15px;
-
 }
 
 #grid-box5 h3 {
@@ -534,6 +547,7 @@ border:#e0b767;
 background-color:#e0b767;
 border-style: solid;
 border-radius: 5px;
+box-shadow: 5px 7px #a2854a;
 }
 
 #tillbacka  {
@@ -541,6 +555,7 @@ padding: 10px;
 margin-top: 20px;
 margin-left: 20px;
 font-size: 22px;
+
 }
 #egna-inlagg{
 margin-left: 90px;
@@ -592,8 +607,12 @@ margin-bottom: 20px;
  .open-thread-thread a {
 text-decoration: none;
 color: black;
-
  }
+
+ #open-thread-container h3 :hover {
+border-bottom: 3px solid #138558;
+}
+
 
  .open-thread-thread p {
 text-decoration: none;
@@ -649,4 +668,35 @@ border-bottom: #138558 solid 3.1px;
 .eget-inlagg-invid a {
 text-decoration: none;
 color: #000;
+}
+
+
+
+#villduskapakonto {
+display: flex;
+text-align: center;
+background-color: #e0b767;
+padding: 5px;
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+}
+
+#hide-skapatrad {
+    border:#e0b767;
+    background-color: #e0b767;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 6px 5px #a2854a;
+  text-align: center;
+  justify-content: center;
+}
+
+#hide-skapatrad p {
+line-height: 45px;
+
 }

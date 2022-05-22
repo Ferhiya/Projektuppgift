@@ -12,16 +12,16 @@ function init() {  // Allting som ska laddas in före sidan visas
     removeElem3 = document.getElementById("remove3");
     removeElem4 = document.getElementById("remove4");
 
-    getLocalStorage();
+    hamtalocal();
      }
         window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
      
 
-    function getLocalStorage() { // Funktion för den lokala lagringen
+    function hamtalocal() { // Funktion för den lokala lagringen
 
         if ( localStorage.getItem("vandring+text") ){
         const intryck = localStorage.getItem("vandring+text");
-
+console.log("hej");
         const utomhus = localStorage.getItem("utomhus+text");
 
         const adrenalin = localStorage.getItem("adrenalin+text");

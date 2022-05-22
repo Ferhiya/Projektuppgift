@@ -123,9 +123,10 @@ width: 560px;
 	margin-top: 20px;
 }
 
-#send a {
+#send p {
 text-decoration: none;
 color: black;
+cursor: pointer;
 }
 
 

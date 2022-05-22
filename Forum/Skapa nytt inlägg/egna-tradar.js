@@ -9,10 +9,10 @@ function init() {  // Allting som ska laddas in före sidan visas
     egenElem3 = document.getElementById("egna-inlagg-adrenalin");
     egenElem4 = document.getElementById("egna-inlagg-vatten");
     
-    getLocalStorage();
+    hamtaegnainlagg();
      }
         window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
-function getLocalStorage() { // Funktion för den lokala lagringen
+function hamtaegnainlagg() { // Funktion för den lokala lagringen
 
 
     if ( localStorage.getItem("vandring+text") ){
