@@ -46,35 +46,48 @@ li a {
  
 /*CSS för navbar */
     
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+padding: 0px;
+margin: 0px;
+font-family: 'Playfair Display', serif;
+}
+
+ /*CSS för navbar */ 
+
 #navbar {
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    background-color: #138558;
-    color:white;
-    font-size: 16px;
-    }
-    
-    #navbar h2 {
-    margin-top: 40px;
+display: flex;
+justify-content: space-around;
+height: 100px;
+background-color: #138558;
+color:white;
+font-size: 16px;
+}
+
+#navbar h2 {
+margin-top: 40px;
+text-decoration: none;
+color: white;
+}
+
+#navbar h2 :hover {
+border-bottom: 4px #0d462fb9 solid;
+}
+
+#navbar a {
     text-decoration: none;
     color: white;
-    
+}
+
+#logga-ikon img {
+    width: 100px;
     }
-    
-    #navbar a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    #logga-ikon img {
-        width: 100px;
-        }
-    
-    #logga-ikon {
-    display: flex;
-    }
-    
+
+#logga-ikon {
+display: flex;
+}
+
 
     
 
