@@ -157,11 +157,6 @@ img.aktivtetsbilder {
     width: 90%;
 }
 
-#testdiv img{
-  
-        padding-top: 0.5%;
-        width: 90%;
-}
 img {
     max-height: 300px;
 }
@@ -227,6 +222,8 @@ a {
 }
 
 #testid {
+    display: grid;
+
     border: #138558;
     border-style: solid;
     padding: 20px;
@@ -281,18 +278,7 @@ a {
     width: 50%;
     border: 2px solid black;
 }
-#testdiv li {
-    display: inline-block;
-    padding: 1%;
-    list-style: none;
-    background-color: rgb(245, 242, 242);
-}
 
-#testdiv {
-    margin-top: 0%;
-    width: 80%;
-
-}
 
 #flickrImg2 {
     width: 100%;
@@ -315,7 +301,184 @@ a {
     text-align: center;
 }
 
-#valt{
+/*css för kommentar delen under aktivterna*/
+
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 600px;
+    }
     
-}
+    #head button {
+    width: 100px;
+    margin-top: 10px;
+    }
+    
+    #inlagg {
+    border: #138558;
+    border-style: solid;
+    padding: 20px;
+    line-height: 25px;
+    }
+    
+    #inlagg-kommentar {
+    border: #138558;
+    border-style: solid;
+    padding: 20px;
+    line-height: 25px;
+    display: flex;
+    }
+    
+    #container {
+     visibility: hidden;
+     margin-left: 2.5%;
+     margin-top: 40px;
+    }
+    
+    #container-kommentar {
+    margin-left: 2.5%;
+    margin-top: 40px;
+    }
+    
+    
+    
+    #buttonles button {
+    width: 110px;
+    padding: 1px;
+    margin: 5px;
+    }
+    
+    #test {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    #head-kommentar {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 600px;
+    }
+    
+    #head-kommentar p{
+    margin-left: 10px;
+    }
+    
+    #container-result {
+        display: flex;
+        margin-left: 2.3%;
+        }
+        #knapparna-komment {
+            display: flex;
+         margin-left: 2.3%;
+            }
+            
+            #andra-inlagg {
+            margin-left: 2.5%;
+            }
+            
+            #input2 {
+            width: 390px;
+            height: 30px;
+            }
+            
+            #myBtn{
+            margin-right: 10px;
+            }
+            #har {
+                margin-bottom: 10px;
+                background-color: white;
+                border-bottom: #000;
+                border-style: solid;
+                border-width: 2px;
+                border: #138558;
+                border-style: solid;
+                line-height: 25px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                padding-top: 5px;
+                border-radius: 1px;
+                width: 590px;
+               
+            }
+
+            #runBtn2{
+                margin-left: 10px;
+                }
+
+                #input1 {
+                    width: 500px; 
+                    height: 50px;
+                    margin-top: 10px;
+                    
+                    }
+                    
+                    #runBtn {
+                    margin-left: 9px;
+                    padding: 5px;
+                    margin-top: 10px;
+                    }
+
+                    #inputform{
+                        display: flex;
+                        margin-left: 2.3%;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 20px;
+                    
+                    }
+                    #knapp-text {
+                        display: flex;
+                        margin-left: 2.3%;
+                        margin-bottom: 10px;
+                    }
+                    #bea {
+                        margin-left: 0%;
+                        width: 590px;
+                        margin-bottom: 10px;
+                        background-color: white;
+                        line-height: 25px;
+                        padding-left: 10px;
+                        padding-bottom: 10px;
+                        padding-top: 15px;
+                        }
+                        #testarboder{
+                            line-height: 25px;
+                            padding-left: 10px;
+                            padding-bottom: 10px;
+                            padding-top: 15px;
+                            border: #138558;
+                            border-style: solid;
+                        }
+
+                     
+
+                        #testdiv{
+                          margin-left: 2.3%;
+                          width:900px;
+                         background: transparent; 
+                         display: inline-flexbox;
+                        }
+                        
+                        #laddabild,#laddabild2,#laddabild3{
+                            width:280px;
+                            height:150px; 
+                            background: transparent; 
+                            border: 2px solid black;
+                            float: left; 
+                            margin: 0.5%;
+                            margin-bottom: 3%;
+                          
+                        }
+                      
+                    
+
+                        #bildrubrik{
+                            margin-left: 2.3%;
+                            font-size: 2rem;
+                        }
+                       
+
+                     
 

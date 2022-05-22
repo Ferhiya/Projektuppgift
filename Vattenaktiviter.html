@@ -119,19 +119,19 @@
     <div class="städer">
         <h1>Vatten aktiviter i kalmar</h1>
         <img class="bildtest" src="image/kalmarslott.jpg">
-<button class="knappar2" id="56.6634,16.3568">Läs mer</button>
+<button class="knappar2" id="56.66658265953328, 16.355940474408204" city="Kalmar">Läs mer</button>
 </div>
 
 <div class="städer">
     <h1>Vatten aktiviter i Växjö</h1>
      <img class="bildtest"src="image/växjö.jpg">
-<button class="knappar2" id="56.88346662134278, 14.798134921287454">Läs mer</button>
+<button class="knappar2" id="56.88346662134278, 14.798134921287454" city="Växjö">Läs mer</button>
 </div>
 
 <div class="städer">
     <h1>Vatten aktiviter i Ämlhult</h1>
     <img  class="bildtest" src="image/älmhult.jpg">
-<button class="knappar2" id="56.55363784393317, 14.126762031513652">Läs mer</a></button>
+<button class="knappar2" id="56.55363784393317, 14.126762031513652" city="Älmhult">Läs mer</a></button>
 
 </div>
 
@@ -190,13 +190,18 @@ Blanditiis cupiditate ea a tempora dignissimos nam tempore quam aut. Veniam ut e
 </div>
 </div>
 <div id="vatteninfo">
-    
+    <div>
     <div id="valt2">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quaerat qui iusto laboriosam dolorem officia natus, minus dolore error harum laborum officiis voluptas excepturi repellendus quisquam itaque eius nemo vero.
-            Nostrum, repellendus repellat! Dolore et neque fuga quod quia, ullam natus dolor assumenda veniam nam molestias ex a aperiam laudantium doloremque quasi vel! Deserunt iure delectus temporibus architecto quis iste.
-        </p>
     </div>
+
+    <div id="valt">
+      
+    </div>
+  
+</div>
+     
+   
+    <div id="testaralt"></div>
     <aside id="väder2">
         <p><a href="Vattenaktiviter.html">&#10060</a></p>
         <div>  <p>här ska vädret visas</p>
@@ -207,13 +212,17 @@ Blanditiis cupiditate ea a tempora dignissimos nam tempore quam aut. Veniam ut e
             </div>
 
         </aside> 
-            
-<section id="kommentarfältet">
-    <div id="unordered">
+        <div id="testdiv">  
+            <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;" multiple></p>
+            <p><label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label></p>
+        
+            <p><img id="laddabild"/></p>
+            <p><img id="laddabild2"/></p>
+            <p><img id="laddabild3"/></p>
+   
        
-    </div>
-    <input type="text" id="kommentera" name="kommentera" placeholder="Skriv kommentar"><br>
-    <button id="skicka">Lägg till kommentar</button>
-
+            </div>
+            </div>
+        
 </body>
 </html>

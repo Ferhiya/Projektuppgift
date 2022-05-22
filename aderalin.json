@@ -2,6 +2,7 @@
     "aderalin": [
 {
   "city":"Kalmar",
+  "id":"1",
   "Adress":"Stensövägen 100392 47 Kalmar",
   "Företag":"Upzone Kalmar",
   "Aktivtet":"zipline",
@@ -20,6 +21,7 @@
 },
 {
   "city":"Kalmar",
+  "id":"2",
   "Adress":"Kläckerbergavägen 92, 395 90 Kalmar",
   "Företag":"Kalmar hyrkart",
   "Aktivtet":"Gokart",
@@ -38,6 +40,7 @@
 },
 {
   "city":"Kalmar",
+  "id":"3",
   "Adress":"Skeppsbrogatan 49, 392 31 Kalmar",
   "Företag":"KalmarSalen",
   "Aktivtet":"VR",

@@ -2,7 +2,7 @@
     "vatten": [
         {
             "city": "Kalmar",
-            "id":"",
+            "id":"1",
             "Adress": "Stensövägen 100392 47 Kalmar",
             "aktivitet": "SUP – Stand up paddle board",
             "längd": "Halvdag eller heldag beroende på anläggning",
@@ -19,7 +19,7 @@
         },
         {
             "city": "Kalmar",
-            "id":"",
+            "id":"2",
             "Adress": "Stensövägen 100392 47 Kalmar",
             "aktivitet": "Havskajak",
             "längd": "Hel dag eller halv dag beroende på anläggning",
@@ -36,7 +36,7 @@
         },
         {
             "city": "Kalmar",
-            "id":"",
+            "id":"3",
             "Adress": "Stensövägen 100392 47 Kalmar",
             "aktivitet": "Sit on top-Kajak",
             "längd": "Halvdag eller heldag beroende på anläggning",
@@ -87,7 +87,7 @@
         },
           {
             "city": "Växjö",
-            "id":"",
+            "id":"3",
             "Adress":"Sandsbro",
             "aktivitet": "Fiske",
             "längd": "Halv eller heldag",
@@ -97,14 +97,14 @@
             },
             "beskrivning": "Toftasjön ligger vid Sandsbro ca 5 km från Växjö centrum. Fiskekortet gäller även i Yasjön och Skirsjön som tillsammans omfattar ca 320 ha vatten. Närheten till Växjö gör resan kort om man vill ha ett bra fiske nära centrum",
             "image": {
-                "url":"image/image/fiske.jpg.jpg"
+                "url":"image/fiske.jpg"
             },
             "pris": "Kostandsfritt",
             "parkering": "Ja"
         },
         {
             "city": "Älmhult",
-            "id":"",
+            "id":"1",
             "Adress":"Bökhult 343 38 Älmhult",
             "Aktivitet": "Kanot",
             "längd": "Heldag",
@@ -114,14 +114,14 @@
                 "linkurl": "https://sjostugan.com/aktiviteter/"
             },
             "image": {
-                "url": "imaage/kanot.jpg"
+                "url": "image/kanot.jpg"
             },
             "pris": "350",
             "parkering": "Ja"
         },
         {
             "city": "Älmhult",
-            "id":"",
+            "id":"2",
             "Adress":"Bökhult 343 38 Älmhult",
             "Aktivitet": "Fiske",
             "längd": "",
@@ -131,14 +131,14 @@
                 "linkurl": "https://sjostugan.com/aktiviteter/"
             },
             "image": {
-                "url":"image/image/fiske.jpg.jpg"
+                "url":"image/fiske.jpg"
             },
             "pris":"Dagskort 100 kr",
             "parkering": "Ja"
         },
           {
-            "city": "Älmhukt",
-            "id":"",
+            "city": "Älmhult",
+            "id":"3",
             "Adress":"Bökhult 343 38 Älmhult",
             "aktivitet": "Bastubåt",
             "längd":"Oklart",
