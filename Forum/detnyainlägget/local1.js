@@ -47,6 +47,12 @@ return;
 } 
 
 
+
+if(!x || !y) { 
+alert("Fyll i rubrik och inlägg");
+return;
+} 
+
 if (val === "vandring"){
 vandringtext =  "<a href='/Forum/detnyainlägget/användarensinlägg.html'><b>" + x + "</b></a>"  + "<br>" +  "Användaren namn" + "</div>" ; 
 localStorage.setItem('vandring+text', vandringtext); 

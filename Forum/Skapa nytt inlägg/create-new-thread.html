@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/Forum/Skapa nytt inlägg/skapa-nytt-inlägg.css">
   <script src="/Forum/detnyainlägget/local1.js"></script>
   <script src="/Inloggning/hide/hide-statiska.js"></script>
+  <script src="/Forum/Skapa nytt inlägg/lagg-till-bild.js"></script>
     
     <title>Friluftszonen</title>
 </head>
@@ -19,7 +20,7 @@
         <h2> <a href="/Forum/landsida.html">Forum</a> </h2>
         <h2> <a href="/aboutpage.html">Om oss</a> </h2>
         <div class="show"> <h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div> 
-        <div id="användare-bild"> </div>    
+         
         </div>
 
 <div id="tillbacka">
@@ -39,7 +40,12 @@
 <h3>Skriv ett nytt inlägg</h3>
 <input type="text" id="rubrik" name="fname" placeholder="Fyll i rubrik">
 <textarea name="" id="texten" cols="55" rows="15" placeholder="Fyll i ditt inlägg. När du är färdig klicka på publicera."></textarea>
-</div> 
+
+
+<div id="bilder-container">
+<div id="bilder" onclick="visabild()">Lägg till bild</div> 
+<div id="bild-placeholder"></div>
+</div> </div>
 
 <div class="dropdown">
 

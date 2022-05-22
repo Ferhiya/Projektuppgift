@@ -146,6 +146,21 @@ width: 350px;
 text-align: center;
 }
 
+
+.text h3 :hover {
+border-bottom: #138558 2px solid;
+}
+
+#vandring-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#utomhus-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#adrenalin-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+
 #landsida-anvandar-span {
 text-align: left;
 }

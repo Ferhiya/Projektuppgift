@@ -8,11 +8,11 @@ function init() {  // Allting som ska laddas in före sidan visas
    resultElem = document.getElementById("result");
    document.getElementById("runBtn").onclick = areaCalculations;
    textElem =document.getElementById("inlagg");
-   getLocalStorage();
+   integetlocalstorage();
    }
    window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
 
-   function getLocalStorage() { // Funktion för den lokala lagringen
+   function integetlocalstorage() { // Funktion för den lokala lagringen
 
    const innehall = localStorage.getItem("texten");
    

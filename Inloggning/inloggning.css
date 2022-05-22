@@ -6,14 +6,13 @@ margin: 0px;
 font-family: 'Playfair Display', serif;
 }
 
-
-
 #navbar {
     display: flex;
     justify-content: space-around;
     height: 100px;
     background-color: #138558;
     color:white;
+    font-size: 16px;
     }
     
     #navbar h2 {
@@ -22,18 +21,28 @@ font-family: 'Playfair Display', serif;
     color: white;
     }
     
+    #navbar h2 :hover {
+    border-bottom: 4px #0d462fb9 solid;
+    }
+    
     #navbar a {
         text-decoration: none;
         color: white;
     }
+
+
+    
     
     #logga-ikon img {
         width: 100px;
+        
         }
     
     #logga-ikon {
     display: flex;
     }
+
+    
 
 .text {
 font-size: 20px;
@@ -48,7 +57,6 @@ margin-left: 20px;
 #button-loggain {
 font-size: 20px;
 padding: 10px;
-background-color: white;
 width: 100px;
 display: flex;
 justify-content: center;
@@ -58,47 +66,20 @@ margin-right:20px;
 background-color: #e0b767;
 }
 
-#button-loggain a {
-text-decoration: none;
-color: black;
-}
-
-.flex-end {
-display: flex;
-justify-content: flex-end;
-}
 
 
 #nya-anvandare {
-background-image:url(/img/inloggning-img.png);
-background-repeat: no-repeat;
-color: white;
-font-size: 24px;
-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-flex-direction: column;
-
+width: 45%;
 }
 
-#nya-anvandare a {
-text-decoration: none;
-color: black;
-}
 
-#nya-anvandare h2 {
-background-color: rgb(255, 255, 255);
-color: black;
-padding: 15px;
-border-radius: 25px;
-margin-top: 16%;
-
-}
-
+#Login-container {
+    display: flex;
+    justify-content: space-between;
+        }
 
 #button-nyanvander  {
-display: flex;
+
 border-style: solid;
 border-radius: 25px;
 padding: 10px;
@@ -107,22 +88,17 @@ border-color: #e0b767;
 border-width: 1px;
 color:black;
 width: 240px;
-justify-content: center;
 margin-top: 20px;
 }
 
-#login-container {
-display: flex;
-margin-bottom: 20px;
-justify-content:center;
-flex-direction: row;
-height: 100%;
 
-
-}
 
 #loggain-användare {
 background-color: #138557ec;
+display: flex;
+flex-direction: column;
+width: 45%;
+height: 90vh;
 }
 
 #loggain-användare p {
@@ -130,16 +106,12 @@ margin-top: 30px;
 font-size: 25px;
 background-color: white;
 padding: 10px;
-display: flex;
-border-radius: 25px;
-width: 400px;
-justify-content: center;
+
 
 }
 
 #valkommen-loggain {
-display: flex;
-justify-content: center;
+
 padding: 10px;
 margin-bottom: 30px;
 }
@@ -147,8 +119,7 @@ margin-bottom: 30px;
 
 
 form {
-display: flex;
-flex-direction: column;
+
 margin-right: 20px;
 margin-left: 20px;
 padding: 10px;

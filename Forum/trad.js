@@ -4,37 +4,41 @@ var resultElem2;
 function init() {
  input1Elem = document.getElementById("input1") ;
  resultElem = document.getElementById("result");
- document.getElementById("runBtn").onclick = areaCalculations;
+ document.getElementById("runBtn").onclick = hamtainlaggkommentarer;
 
 input1Elem2 = document.getElementById("input2") ;
 resultElem2 = document.getElementById("result2");
-document.getElementById("runBtn2").onclick = areaCalculations2;
+document.getElementById("runBtn2").onclick = hamtakommentarkommentar;
 }
 window.onload = init;
 
 
-function areaCalculations () {
-var length; // Längd i meter
-var area; // Yta i kvadratmeter
+function hamtainlaggkommentarer () {
+var inlaggkommentar; // Längd i meter
 
-length = (input1Elem.value);
+inlaggkommentar = (input1Elem.value);
 //input1Elem.value.style.border="2px solid blue"
-area = length; // Rektangelns area
-resultElem.innerHTML += "<div id='extra'><p>Användare</p>" + area +  "<br></div>" ; 
-console.log(resultElem.innerHTML);
-
+if (inlaggkommentar.length === 0){
+   alert("Fyll i en kommentar");
+   return;
+   } 
+   else {
+resultElem.innerHTML += "<div id='extra'><p>Användare</p>" + inlaggkommentar +  "<br></div>" ; 
+}
 }
 
-
-function areaCalculations2() {
-   var comment; // Längd i meter
-   var area2; // Yta i kvadratmeter
+function hamtakommentarkommentar () {
+   var kommentarkommentar; // Längd i meter
    
-   comment = (input1Elem.value);
+   kommentarkommentar = (input1Elem2.value);
    //input1Elem.value.style.border="2px solid blue"
-   area2 = comment; // Rektangelns area
-   resultElem2.innerHTML += "<div id='extra'><p>Användare</p>" + area2 +  "<br></div>" ; 
-   console.log(resultElem.innerHTML);
-   
-}   
-   
+   if (kommentarkommentar.length === 0){
+      alert("Fyll i en kommentar");
+      return;
+      
+      } 
+      else {
+   resultElem2.innerHTML += "<div id='extra'><p>Användare</p>" + kommentarkommentar +  "<br></div>" ;
+   console.log(kommentarkommentar.length); 
+   }
+   }
