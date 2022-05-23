@@ -44,7 +44,6 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	
 }
 
 #customer {
@@ -79,6 +78,7 @@ padding: 5px;
     font-weight: bold;
 	margin-bottom: 20px;
 	padding: 8px;
+	font-size: 25px;
 
 }
 #booking fieldset div {
@@ -121,6 +121,7 @@ width: 560px;
 	border-radius: 5px;
 	margin-left: 433px;
 	margin-top: 20px;
+	text-align: center;
 }
 
 #send p {
