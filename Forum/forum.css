@@ -315,6 +315,8 @@ border: #138558;
 border-style: solid;
 padding: 20px;
 line-height: 25px;
+box-shadow: 6px 6px #0f6a46;
+
 }
 
 #inlagg-kommentar {
@@ -522,6 +524,7 @@ justify-content:center;
 #andra-inlagg {
 display: flex;
 justify-content: center;
+margin-top: 10px;
 }
 
 #input2 {

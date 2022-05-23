@@ -7,58 +7,72 @@
    <link rel="stylesheet" href="/Forum/forum.css">
    <script src="/Forum/trad.js"></script>
    <script src="/Forum/kommentarer.js"></script>
+   <script src="/Inloggning/hide/hide-statiska.js"></script>
     <title>Friluftszonen</title>
 </head>
 <body>
-    <div id="navbar"> 
-        <div id="logga"> </div>  
-        <h2>Friluftszonen</h2>
-        <h2>Hem</h2> 
-        <h2>Sök</h2>
-        <h2>Forum</h2>
-        <div id="användare-bild"> </div>    
-        </div>
+  <div id="navbar"> 
+    <div id="logga-ikon">
+    <div id="logga"> <img src="/img/logo.svg" > </div ><h2>Friluftszonen</h2> </div> 
+    <h2>  <a href="/landingpage.html">Hem</a></h2> 
+    <h2>  <a href="/aktiviteter.html">Aktivitet</a></h2>
+    <h2> <a href="/Forum/landsida.html">Forum</a> </h2>
+   
+    <div class="show"><h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div>
+      
+    </div>
+
 
         <div id="tillbacka">
-            <a href="/Forum/landsida.html">Tillbacka</a>
+            <a href="/Forum/Open-threads/open-thread-adrenalin.html">Tillbacka</a>
               </div>
+
+<div id="villduskapakonto">
+<p>Vill du lämna kommentarer?<br>
+Skapa ett konto och delta i trådarna</p>
+</div>
+
 
 <div id="container">
 
 <div id="head">
 <div id="inlagg">
-<h3> <i>Bästa vandringslederna på Öland?</i> </h3>
-<p><b>Fjällräven Persson</b> </p><p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat vel sequi illo iste reprehenderit ullam quo dicta eaque deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, soluta. Optio, nostrum? Esse rerum nihil repellendus quae. Temporibus non eos veritatis unde quisquam nostrum. Eaque velit labore repellat maxime nobis beatae natus! Asperiores quas animi impedit harum commodi aut. Deleniti.</p>
+<h3> <i>Zipline för möhippa? Ja/Nej?</i> </h3>
+<p><b>Kajsa Mortensson</b> </p><p>
+    Min vännina häxan surtant ska snart gifta sig med Bamse och vi har funderat på att åka zipline. Häxan surtant har dock inga ben och inget djupseende. Är det för avancerat som möhippa? Man gifter ju sig ändå bara en gång med Bamse.
+  </p>
 </div>
 </div></div>
 
 
-<div id="knapp-text">
+<div class="hidden">
+<div id="knapp-text">  
 <form id="inputForm"> <!-- Textfält för att ge indata -->
-
 <span><input type="text" id="input1"> </span>
 <button type="button" id="runBtn">Kommentera</button>
 </form>
         
  <div id="result"></div>   
-</div>
+</div></div>
 
 
 <div id="andra-inlagg">
     <div id="har">
-<h3>Kristina Trädkramare</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, impedit. Perferendis sit similique illum. Tempora reiciendis impedit veritatis, voluptas similique facere mollitia aliquam earum atque nisi incidunt recusandae? Suscipit omnis repellendus asperiores iure vitae incidunt dolores cum. Nulla, quis.</p></div></div>
+<h3>Orver Korvar</h3>
+<p>Tycker hon kan skärpa sig och bruka lite allvar. Zipline e ju kul</p></div></div>
 
 
 <div id="knapparna-komment">
 
 <button onclick="myFunction()" id="myBtn">Läs kommentarer</button>
 <form id="inputForm1"> <!-- Textfält för att ge indata --></form>
+
+<div class="hidden">
 <span><input type="text" id="input2"> </span>
 <button type="button2" id="runBtn2">Kommentera</button>
+</div></div></div>
 
-</div>
+
 
 <div id="result2-id">
 <div id="result2"></div></div>  
@@ -69,12 +83,12 @@
 <div id="bea"><span id="dots"></span>
 <span id="more">
 <h3>Flora Lilja</h3><p>
-erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta  <br><br> <hr></p>
+Nej gud! Inte korv <br><br> <hr></p>
 </div>
 </span></p> 
 </div></div> 
 
     <br><br><br><br>
-
+    
 </body>
 </html>
