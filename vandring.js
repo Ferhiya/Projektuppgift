@@ -17,6 +17,9 @@ let cities = [
 ];
 var exdiv;
 
+
+
+	
 // Initiering av globala variabler och händelsehanterare
 function init() {
 	flickrImgElem = document.getElementById("flickrImg");
@@ -277,38 +280,23 @@ function showledinfo2(){
   
 }*/
 
-//Start requestTemp
-function requestTemp(city) {
-	let request = new XMLHttpRequest();
-    request.open("GET", "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/" + city.lng + "/lat/" + city.lat + "/data.json");
-    request.send(null);
-    request.onreadystatechange = function() {
-        if (request.readyState == 4) {
-            if (request.status == 200); {
-            getTemp(request.responseText, city);
-            }
+// JavaScript code
+function search_animal() {
+	document.getElementById("list").style.visibility="hidden";
+    let input = document.getElementById('sokruta').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('animals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
         }
-    };
-}//End requestTemp
-
-function getTemp(response, city) {
-
-    response = JSON.parse(response);
-    params = response.timeSeries[0].parameters;
-    city.temp = params[10].values[0];
-    city.conditions = params[18].values[0];
-
-    let img = document.createElement("img");
-
-    if (city.conditions <= 4) {
-        img.src = "ikoner/sun.svg";
-    } else if (city.conditions <= 8) {
-        img.src = "ikoner/cloudy.svg";
-    } else if (city.conditions <= 20) {
-        img.src = "ikoner/rain.svg";
-    } else {
-        img.src = "ikoner/thunder.svg"
+        else {
+            x[i].style.display="list-item";                 
+        }
     }
+}
+{
 
     img.height = 60;
     img.width = 60;
@@ -317,6 +305,7 @@ function getTemp(response, city) {
     testElem.appendChild(img);
 
 } 
+
 
 
 
