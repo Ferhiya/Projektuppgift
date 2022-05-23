@@ -1,6 +1,8 @@
+var weatherElem;
 var latitude;
 var longitude;
 var testElem;
+var knappar; //refens till tryckt knapp
 let cities = [
     {name: "Älmhult", lat: 56.552421, lng: 14.137449, temp: 0, conditions: 0},
     {name: "Växjö", lat: 56.879025, lng: 14.805434, temp: 0, conditions: 0},
@@ -11,9 +13,15 @@ let cities = [
 
 function init() {
     testElem = document.getElementById("test");
+    knappar = document.getElementsByClassName("knappar");
+    weatherElem = document.getElementById("väder2");
 
     for (let i = 0; i < cities.length; i++) {
         requestTemp(cities[i]);
+    }
+
+    for (let i = 0; i < knappar.length; i++) {
+        knappar[i].addEventListener("click", something);
     }
 
 }
@@ -41,6 +49,20 @@ function getTemp(response, city) {
     city.temp = params[10].values[0];
     city.conditions = params[18].values[0];
 
+
+}
+
+function something(e) {
+
+    let cityname = e.target.attributes.city.value;
+
+    console.log(cityname)
+    for (i = 0; i < cities.length; i++) {
+        if (cities[i].name == cityname) {
+            city = cities[i]; 
+        }
+    }
+
     let img = document.createElement("img");
 
     if (city.conditions <= 4) {
@@ -56,10 +78,9 @@ function getTemp(response, city) {
     img.height = 60;
     img.width = 60;
 
-    testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
-    testElem.appendChild(img);
 
+    weatherElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
+    weatherElem.appendChild(img);
 }
-
 
 //http://opendata.smhi.se/apidocs/metfcst/parameters.html#parameter-wsymb info about conditions 1-4 sun, 5-8 cloud, 9-20 rain, 21-27 thunder
