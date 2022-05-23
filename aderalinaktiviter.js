@@ -85,7 +85,7 @@ function getData(response) {
        // valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
     }
 
-	    valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
+	    valt2.innerHTML = HTMLcode; //utskrift av datan i JSON filen
         valt.style.fontSize = "150%";
         valt.style.visibility="visable";
         valt.style.marginBottom = "5%";
@@ -191,7 +191,7 @@ function requestJSONData(e) {
  }
  
  
-         valt2.innerHTML= HTMLcode;//utskrift av datan i JSON filen
+         valt.innerHTML= HTMLcode;//utskrift av datan i JSON filen
          //li.style.display=" flex";
          
  

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="vandring.js"></script>
+    <script type="text/javascript" src="/Inloggning/hide/hide-statiska.js"></script>
     <script src="/Forum/trad.js"></script>
     <script src="/Forum/kommentarer.js"></script>
 
@@ -178,8 +179,9 @@
      <button class="tillknappar"><a href="vandring.html">Tillbaka</button></a>
         <div id="väder2"></div>
         </aside> 
-            </div>
-            <div id="container">
+           
+          
+            <div class="hidden">
 
                 <div id="head">
                 <div id="inlagg">
@@ -234,18 +236,20 @@
                 <div id="testdiv">  
                     <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;" multiple></p>
                     <p><label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label></p>
-                
+                    <div id="läggtillbider">
                     <p><img id="laddabild"/></p>
                     <p><img id="laddabild2"/></p>
                     <p><img id="laddabild3"/></p>
-           
+                    </div>
                
-                    </div>
-                    </div>
-            </div> 
+          
+    
                 
                     <br><br><br><br>
-              
+                             
+                </div>
+            </div> 
+        
             
 
 

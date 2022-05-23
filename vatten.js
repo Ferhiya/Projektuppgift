@@ -49,7 +49,7 @@ function requestData(e) {
 	request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
 		if (request.readyState == 4) //staus 4=kommunikation klar
 			if (request.status == 200) getData(request.responseText); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
-			else valt2.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
+			else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
 	};
 
     
@@ -71,13 +71,15 @@ function getData(response) {
 	response = JSON.parse(response) //hämtar arryen med vandringsledernas data.
 
 	let HTMLcode = ""; //tom html sträng för utskriften av innehållet i JSON 
+    let img = document.createElement("img");
     
     for (let i = 0; i < response.payload.length; i++) {
         let hi=response.payload;
         // Referenser till olika egenskaper i vandrings objektet i JSON
         HTMLcode += 
-        "<p><b>Namn:</b> " + hi[i].name + "</p>" + //lägger in namnet på ledet i html strängen
-        "<p><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</p>" + //lägger in längden på ledet i html strängen
+        "<li><b>Namn:</b> " + hi[i].name + "</li>" + //lägger in namnet på ledet i html strängen
+        "<li><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</li>" + //lägger in längden på ledet i html strängen
+        "<img src='"+"image/fiske.jpg"+"'</img>" +
         "<p><b>beskrivning:</b> " + hi[i].description + "</p>" + //lägger in info om handikapsanpassning i ledet i html strängen
         //lägger in en kort beskrivning om 
         "<hr>"
@@ -114,7 +116,7 @@ function requestJSONData(e) {
      request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
          if (request.readyState == 4) //staus 4=kommunikation klar
              if (request.status == 200) getJSONData(request.responseText, cityname); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
-             else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
+             else valt2.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
      };
  
      
@@ -135,7 +137,7 @@ function requestJSONData(e) {
  
                 // Referenser till olika egenskaper i vandrings objektet i JSON
              HTMLcode += 
-             "<h2><b></b> " + vatten[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
+             "<h2><b></b> " + vatten[i].aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
              //console.log(vandring[i].imgurl);
              //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
              
@@ -143,7 +145,7 @@ function requestJSONData(e) {
              //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
              "<li><b>längd:</b> " + vatten[i].längd + "</li>" + //lägger in längden på ledet i html strängen
              "<li><b>handikapsanpassat:</b> " + vatten[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-             "<li><b>svårighetsnivå:</b> " + vatten[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
+             "<li><b>Pris:</b> " + vatten[i].pris + "</li>" + //lägger in ledets svårighetsnivå i html strängen
              "<li><b>parkering:</b> " + vatten[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
              "<img src='"+vatten[i].image.url+"'></img>"+
              "<p><b></b> " + vatten[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
@@ -196,9 +198,9 @@ function requestJSONData(e) {
          
  
       
-         valt.style.marginBottom = "2%";
-         valt.style.fontSize = "150%";
-         valt.style.marginBottom = "2%";
+         valt2.style.marginBottom = "2%";
+         valt2.style.fontSize = "150%";
+         valt2.style.marginBottom = "2%";
          //document.getElementById("unordered").style.border= "2px solid black"; 
      clearcontent(display);
      //getData2(JSONtext,btn);
@@ -243,7 +245,7 @@ function requestJSONData(e) {
         console.log("funkar2");
             // Referenser till olika egenskaper i vandrings objektet i JSON
          HTMLcode2 += 
-         "<h2><b></b> " + vatten[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
+         "<h2><b></b> " + vatten[i].aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
          //console.log(vandring[i].imgurl);
          //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
          
@@ -251,7 +253,7 @@ function requestJSONData(e) {
          //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
          "<li><b>längd:</b> " + vatten[i].längd + "</li>" + //lägger in längden på ledet i html strängen
          "<li><b>handikapsanpassat:</b> " + vatten[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-         "<li><b>svårighetsnivå:</b> " + vatten[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
+         "<li><b>Pris:</b> " + vatten[i].pris + "</li>" + //lägger in ledets svårighetsnivå i html strängen
          "<li><b>parkering:</b> " + vatten[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
          "<img src='"+vatten[i].image.url+"'></img>"+
          "<p><b></b> " + vatten[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
@@ -268,8 +270,8 @@ function requestJSONData(e) {
  }
  exdiv.style.marginBottom = "5%";
  exdiv.style.fontSize = "150%";
- valt.innerHTML= HTMLcode2;
- let testdiv=document.getElementById("container");
+ valt2.innerHTML= HTMLcode2;
+ let testdiv=document.getElementById("testdiv");
  testdiv.style.visibility="visible";
  
  }

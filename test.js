@@ -231,6 +231,14 @@ function showledinfo(){
 ledinfo.style.visibility="visible";
 	
 }
+function showimgbox(){
+    let imgbox=document.getElementById("läggtillbider");
+    imgbox.style.visibility="hidden";
+
+    let imgrubrik=document.getElementById("bildrubrik");
+    imgrubrik.addEventListener("click").style.visibility="vissable";
+        
+    }
 function clearcontent(valt) {
     valt.innerHTML = "";
      //alt.remove();
