@@ -7,11 +7,6 @@ font-family: 'Playfair Display', serif;
 }
 
  /*CSS för navbar */ 
-#navbar img {
-width: 100px;
-border-radius: 100%;
-margin-top: 12px;
-}
 
 #navbar {
 display: flex;
@@ -19,6 +14,7 @@ justify-content: space-around;
 height: 100px;
 background-color: #138558;
 color:white;
+font-size: 16px;
 }
 
 #navbar h2 {
@@ -26,11 +22,23 @@ margin-top: 40px;
 text-decoration: none;
 color: white;
 }
+
+#navbar h2 :hover {
+border-bottom: 4px #0d462fb9 solid;
+}
+
 #navbar a {
     text-decoration: none;
     color: white;
 }
 
+#logga-ikon img {
+    width: 100px;
+    }
+
+#logga-ikon {
+display: flex;
+}
 
  /* CSS för forumssidan, landsida*/ 
 
@@ -46,7 +54,7 @@ width: 190px;
 height: 50px;
 border-radius: 6px;
 margin-bottom: 30px;
-
+box-shadow: 6px 5px #a2854a;
 }
 
 
@@ -67,18 +75,17 @@ border-width: 3px;
 width: 190px;
 height: 50px;
 border-radius: 6px;
+box-shadow: 6px 5px #a2854a;
 }
 
 #grid {
 display: flex;
-margin-left: 10px;
+margin-top: 40px;
 }
 
 
 #box1 {
-margin-top: 10px;
 margin-bottom: 50px;
-margin-left: 30px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -91,10 +98,7 @@ border-radius: 5px;
 }
 
 
-
-
 #box2 {
-margin-top: 10px;
 margin-bottom: 50px;
 display: flex;
 flex-direction: column;
@@ -102,27 +106,27 @@ align-items: center;
 }
 
 #box3 {
-margin-top: 10px;
-margin-left: 30px;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
 #box4 {
-margin-top: 10px;
 display: flex;
 flex-direction: column;
 align-items: center;
+
 }
 
 
 #grid h2 {
 border: #138558;
 border-radius: 6px;
+margin-bottom: 8px;
 border-style: solid;
 padding: 20px;
 text-decoration: none;
+box-shadow: 6px 7px #138558;
 }
 #grid a {
 text-decoration: none;
@@ -142,13 +146,28 @@ width: 350px;
 text-align: center;
 }
 
+
+.text h3 :hover {
+border-bottom: #138558 2px solid;
+}
+
+#vandring-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#utomhus-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#adrenalin-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+
 #landsida-anvandar-span {
 text-align: left;
 }
 
 #grid {
 display: grid;
-margin-top: 40px;
+gap: 30px;
 }
 
 #grid-box1 {
@@ -187,10 +206,8 @@ grid-column-end: 3;
 grid-row-start: 1;
 grid-row-end:1 ; 
 margin-bottom: 10px;
-margin-right: 50px;
-margin-left: 18%;
+margin-left: 24%;
 margin-top: 15px;
-
 }
 
 #grid-box5 h3 {
@@ -530,6 +547,7 @@ border:#e0b767;
 background-color:#e0b767;
 border-style: solid;
 border-radius: 5px;
+box-shadow: 5px 7px #a2854a;
 }
 
 #tillbacka  {
@@ -537,11 +555,17 @@ padding: 10px;
 margin-top: 20px;
 margin-left: 20px;
 font-size: 22px;
+
 }
 #egna-inlagg{
 margin-left: 90px;
 margin-top: 50px;
+}
 
+#omgivande-eget {
+border-right: #138558 5px solid ;
+width: 600px;
+height: 550px;
 }
 
 #egna-inlagg a {
@@ -549,6 +573,15 @@ text-decoration: none;
 color: black;
 }
 
+
+
+#egna-inlagg-rubrik {
+margin-left: 80px;
+margin-top: 3%;
+padding-bottom: 10px;
+border-bottom: #138558 5px solid;
+
+}
 
 #egna-inlagg h2 {
     margin-bottom: 35px;
@@ -574,8 +607,12 @@ margin-bottom: 20px;
  .open-thread-thread a {
 text-decoration: none;
 color: black;
-
  }
+
+ #open-thread-container h3 :hover {
+border-bottom: 3px solid #138558;
+}
+
 
  .open-thread-thread p {
 text-decoration: none;
@@ -609,3 +646,57 @@ width: 500px;
 border-radius: 5px;
  }
 
+#open-thread-visa-inlagget {
+margin-bottom: 20px;
+}
+
+
+#eget-inlagg-container {
+margin-left: 13%;
+margin-top: 30px;
+}
+
+.eget-inlagg-invid {
+margin-bottom: 20px;
+}
+
+.eget-inlagg-invid h2 {
+margin-bottom: 10px;
+border-bottom: #138558 solid 3.1px;
+}
+
+.eget-inlagg-invid a {
+text-decoration: none;
+color: #000;
+}
+
+
+
+#villduskapakonto {
+display: flex;
+text-align: center;
+background-color: #e0b767;
+padding: 5px;
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+}
+
+#hide-skapatrad {
+    border:#e0b767;
+    background-color: #e0b767;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 6px 5px #a2854a;
+  text-align: center;
+  justify-content: center;
+}
+
+#hide-skapatrad p {
+line-height: 45px;
+
+}

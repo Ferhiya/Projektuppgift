@@ -2,6 +2,7 @@
     "vandring": [
         {
             "city": "Kalmar",
+            "id":"1",
             "led": "Kalmarsundsleden",
             "längd": "200 km",
             "handikapsanpassat": "Nej",
@@ -13,10 +14,16 @@
                 "url": "image/vandringsbild1.jpg"
             },
             "svårighetsnivå": "1",
-            "parkering": "Nej"
+            "parkering": "Nej",
+            "kommentarer":{ "kommentar1": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            
         },
         {
             "city": "Kalmar",
+            "id":"2",
             "led": "Ljungbyleden",
             "längd": "2.5 km",
             "handikapsanpassat": "Nej",
@@ -28,10 +35,16 @@
                 "url": "image/vandringsbild2.jpg"
             },
             "svårighetsnivå": "2",
-            "parkering": "Nej"
+            "parkering": "Nej",
+            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            
         },
         {
             "city": "Kalmar",
+            "id":"3",
             "led": "Linneslingan",
             "längd": "10 km",
             "handikapsanpassat": "Ja",
@@ -43,10 +56,16 @@
                 "url": "image/vandringsbild3.jpg"
             },
             "svårighetsnivå": "1",
-            "parkering": "Nej"
+            "parkering": "Nej",
+        "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            
         },
         {
             "city": "Kalmar",
+            "id":"4",
             "led": "Östra Sigfridsleden",
             "längd": "30 km",
             "handikapsanpassat": "Nej",
@@ -58,10 +77,16 @@
             "image": {
                 "url": "image/vandringsbild4.jpg"
             },
-            "parkering": "Nej"
+            "parkering": "Nej",
+            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            
         },
         {
             "city": "Kalmar",
+            "id":"5",
             "led": "Dackeslingan",
             "längd": "8 km",
             "handikapsanpassat": "nej",
@@ -73,10 +98,16 @@
                 "url": "image/vandringsbild5.jpg"
             },
             "svårighetsnivå": "2",
-            "parkering": "Nej"
+            "parkering": "Nej",
+            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            
         },
         {
             "city": "Kalmar",
+            "id":"6",
             "led": "Hälsoslingan",
             "längd": "3.5 km",
             "handikapsanpassat": "Ja",
@@ -88,10 +119,16 @@
                 "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/halsoslingan.html"
             },
             "svårighetsnivå": "1",
-            "parkering": "Nej"
+            "parkering": "Nej",
+            "kommentarer":{ "kommentar1": "hrhrhrhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            
         },
         {
             "city": "Växjö",
+            "id":"1",
             "led": "Sigfridsleden",
             "längd": "102 km",
             "handikapsanpassat": "nej",
@@ -107,6 +144,7 @@
         },
         {
             "city": "Växjö",
+            "id":"2",
             "led": "Bokhultet naturreservat",
             "längd": "463 hektar",
             "handikapsanpassat": "ja",
@@ -122,6 +160,7 @@
         },
         {
             "city": "Växjö",
+            "id":"3",
             "led": "Agnäs vandringsled",
             "längd": "2.8 km",
             "handikapsanpassat": "Nej",
@@ -137,6 +176,7 @@
         },
         {
             "city": "Växjö",
+            "id":"4",
             "led": "Braås parks vandringsled",
             "längd": "3.1 km",
             "handikapsanpassat": "Nej",
@@ -152,6 +192,7 @@
         },
         {
             "city": "Växjö",
+            "id":"5",
             "led": "Skårtaryds vandringsled",
             "längd": "1.4 km",
             "handikapsanpassat": "Nej",
@@ -167,6 +208,7 @@
         },
         {
             "city": "Växjö",
+            "id":"6",
             "led": "Kalvsviks vandringsled",
             "längd": "2 km",
             "handikapsanpassat": "nej",
@@ -182,6 +224,7 @@
         },
         {
             "city": "Älmhult",
+            "id":"1",
             "led": "Taxås vandringsled",
             "längd": "1.7 km",
             "handikapsanpassat": "Nej",
@@ -197,6 +240,7 @@
         },
         {
             "city": "Älmhult",
+            "id":"2",
             "led": "Hökhult vandringsled",
             "längd": "o.4 km",
             "handikapsanpassat": "Nej",
@@ -212,6 +256,7 @@
         },
         {
             "city": "Älmhult",
+            "id":"3",
             "led": "Stenbrohult vandringsled",
             "längd": "1.2 km",
             "handikapsanpassat": "Nej",
@@ -227,6 +272,7 @@
         },
         {
             "city": "Jönköping",
+            "id":"1",
             "led": "Biosfärled Uppgränna",
             "längd": "4.1 km km",
             "handikapsanpassat": "Nej",
@@ -242,6 +288,7 @@
         },
         {
             "city": "Jönköping",
+            "id":"2",
             "led": "Vidablickspåret",
             "längd": "1.5 km",
             "handikapsanpassat": "1997",
@@ -257,6 +304,7 @@
         },
         {
             "city": "Jönköping",
+            "id":"3",
             "led": "Furuvikspåret",
             "längd": "3.1 km",
             "handikapsanpassat": "Nej",
@@ -272,6 +320,7 @@
         },
         {
             "city": "Jönköping",
+            "id":"4",
             "led": "Domsandspåret",
             "längd": "5 km",
             "handikapsanpassat": "Nej",
@@ -287,6 +336,7 @@
         },
         {
             "city": "Jönköping",
+            "id":"5",
             "led": "Råbyskogen",
             "längd": "2.1 km",
             "handikapsanpassat": "Nej",
@@ -302,6 +352,7 @@
         },
         {
             "city": "Västervik",
+            "id":"1",
             "led": "Hälsans Stig - Västervik",
             "längd": "5.1 km",
             "handikapsanpassat": "Nej",
@@ -317,6 +368,7 @@
         },
         {
             "city": "Västervik",
+            "id":"2",
             "led": "Ryvenäsleden",
             "längd": "4 km",
             "handikapsanpassat": "Nej",
@@ -332,6 +384,7 @@
         },
         {
             "city": "Västervik",
+            "id":"3",
             "led": "Holmsjöleden",
             "längd": "9 km",
             "handikapsanpassat": "Nej",
@@ -347,6 +400,7 @@
         },
         {
             "city": "Västervik",
+            "id":"4",
             "led": "Loftaleden",
             "längd": "20 km",
             "handikapsanpassat": "Nej",
@@ -362,6 +416,7 @@
         },
         {
             "city": "Västervik",
+            "id":"5",
             "led": "Sladöleden ",
             "längd": "4.5 km",
             "handikapsanpassat": "Nej",
@@ -377,6 +432,7 @@
         },
         {
             "city": "Värnamo",
+            "id":"1",
             "led": "Torskingeleden",
             "längd": "4.9 km",
             "handikapsanpassat": "Nej",
@@ -392,6 +448,7 @@
         },
         {
             "city": "Värnamo",
+            "id":"2",
             "led": "Prostsjörundan",
             "längd": "1.5 km",
             "handikapsanpassat": "Ja",
@@ -407,6 +464,7 @@
         },
         {
             "city": "Värnamo",
+            "id":"3",
             "led": "Havsjöleden",
             "längd": "1.5 km",
             "handikapsanpassat": "Nej",
@@ -422,6 +480,7 @@
         },
         {
             "city": "Värnamo",
+            "id":"4",
             "led": "Lövö Runt",
             "längd": "3.6 km",
             "handikapsanpassat": "Nej",
@@ -437,6 +496,7 @@
         },
         {
             "city": "Värnamo",
+            "id":"5",
             "led": "Kävsjön runt",
             "längd": "12 km",
             "handikapsanpassat": "Nej",
@@ -452,6 +512,7 @@
         },
         {
             "city": "Oskarshamn",
+            "id":"1",
             "led": "Äspöstigen",
             "längd": "2 km",
             "handikapsanpassat": "Nej",
@@ -467,6 +528,7 @@
         },
         {
             "city": "Oskarshamn",
+            "id":"2",
             "led": "Uvö",
             "längd": "2.1 km",
             "handikapsanpassat": "Nej",
@@ -482,6 +544,7 @@
         },
         {
             "city": "Oskarshamn",
+            "id":"3",
             "led": "Fallebo vandringsled",
             "längd": "1.9 km",
             "handikapsanpassat": "Nej",
@@ -497,6 +560,7 @@
         },
         {
             "city": "Oskarshamn",
+            "id":"4",
             "led": "Sjöbovikens vandringsled",
             "längd": "2.5 km",
             "handikapsanpassat": "Nej",
@@ -512,6 +576,7 @@
         },
         {
             "city": "Oskarshamn",
+            "id":"5",
             "led": "Stenhuggarleden",
             "längd": "9.4 km",
             "handikapsanpassat": "Nej",
@@ -527,6 +592,7 @@
         },
         {
             "city": "Nässjö",
+            "id":"1",
             "led": "Höglandsleden",
             "längd": "44 mil",
             "handikapsanpassat": "Nej",
@@ -542,6 +608,7 @@
         },
         {
             "city": "Nässjö",
+            "id":"2",
             "led": "Muggebo leden Gula Spåret",
             "längd": "5 km",
             "handikapsanpassat": "Ja",
@@ -557,6 +624,7 @@
         },
         {
             "city": "Nässjö",
+            "id":"3",
             "led": "Muggeboleden Blå Spåret",
             "längd": "3 km",
             "handikapsanpassat": "Nej",
@@ -572,6 +640,7 @@
         },
         {
             "city": "Nässjö",
+            "id":"4",
             "led": "Gubbamilen ",
             "längd": "10 km km",
             "handikapsanpassat": "Nej",
@@ -587,6 +656,7 @@
         },
         {
             "city": "Ljungby",
+            "id":"1",
             "led": "Bergastigen",
             "längd": "6 km",
             "handikapsanpassat": "Mellan Ljungbyvägen i söder och Värnamovägen i norr är den tillgänglig för rullstolsburna",
@@ -602,6 +672,7 @@
         },
         {
             "city": "Ljungby",
+            "id":"2",
             "led": "Kronoskogen",
             "längd": "3 km",
             "handikapsanpassat": "Nej",
@@ -617,6 +688,7 @@
         },
         {
             "city": "Ljungby",
+            "id":"3",
             "led": "Hälsans stig",
             "längd": "6 km",
             "handikapsanpassat": "Nej",
@@ -632,6 +704,7 @@
         },
         {
             "city": "Ljungby",
+            "id":"4",
             "led": "Naturreservat Kronoskogen",
             "längd": "3.3 km",
             "handikapsanpassat": "Nej",
@@ -647,6 +720,7 @@
         },
         {
             "city": "Tranås",
+            "id":"1",
             "led": "Helvetets portar",
             "längd": "0.5 km",
             "handikapsanpassat": "Nej",
@@ -662,6 +736,7 @@
         },
         {
             "city": "Tranås",
+            "id":"2",
             "led": "Hälsans Stig - Tranås",
             "längd": "3.1 km",
             "handikapsanpassat": "Ja",
@@ -677,6 +752,7 @@
         },
         {
             "city": "Tranås",
+            "id":"3",
             "led": "Illern runt",
             "längd": "4 km",
             "handikapsanpassat": "Nej",
@@ -692,6 +768,7 @@
         },
         {
             "city": "Tranås",
+            "id":"4",
             "led": "Aggas",
             "längd": "10 km",
             "handikapsanpassat": "Nej",
@@ -707,6 +784,7 @@
         },
         {
             "city": "Tranås",
+            "id":"5",
             "led": "Led Brahälla slottsruin",
             "längd": "2.3 km",
             "handikapsanpassat": "Nej",
@@ -722,6 +800,7 @@
         },
         {
             "city": "Vetlanda",
+            "id":"1",
             "led": "Illharjenrundan",
             "längd": "2.7 km",
             "handikapsanpassat": "Ja",
@@ -737,6 +816,7 @@
         },
         {
             "city": "Vetlanda",
+            "id":"2",
             "led": "Vetlandarundan",
             "längd": "27 km",
             "handikapsanpassat": "Nej",
@@ -752,6 +832,7 @@
         },
         {
             "city": "Vetlanda",
+            "id":"3",
             "led": "Klockesjön",
             "längd": "10 km",
             "handikapsanpassat": "Nej",
@@ -767,6 +848,7 @@
         },
         {
             "city": "Vetlanda",
+            "id":"4",
             "led": "Historisk vandring i Vetlanda",
             "längd": "3.1 km",
             "handikapsanpassat": "Nej",
@@ -782,6 +864,7 @@
         },
         {
             "city": "Öland",
+            "id":"1",
             "led": "",
             "längd": "",
             "handikapsanpassat": "Ja",
@@ -797,10 +880,11 @@
         },
         {
             "city": "Öland",
+            "id":"2",
             "led": "Vetlandarundan",
             "längd": "27 km",
             "handikapsanpassat": "Nej",
-            "beskrivning": "Vetlandarundan går i och utanför Vetlandas omedelbara närhet. Vi passerar allt från rekreationsområden med motionsspår till kyrkor och forntida gravfält i en natur med sjön Grumlan, Emån och Vetlandabäcken som tätortens livsnerv.",
+            "beskrivning": ".",
             "image": {
                 "url": "image/vandringsbild1.jpg"
             },
@@ -812,6 +896,7 @@
         },
         {
             "city": "Öland",
+            "id":"3",
             "led": "",
             "längd": "",
             "handikapsanpassat": "",
@@ -827,6 +912,7 @@
         },
         {
             "city": "Öland",
+            "id":"4",
             "led": "",
             "längd": "3.1 km",
             "handikapsanpassat": "Nej",

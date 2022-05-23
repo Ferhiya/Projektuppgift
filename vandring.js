@@ -5,6 +5,7 @@ var skicka; //knapp för att lägga till kommentar
 var valt; //refrens till div elemetet där info om vandrignsledet ska visas
 var knappar; //refens till tryckt knapp
 var display;
+var testknapp;
 var ledinfo;
 
 
@@ -13,6 +14,8 @@ var ledinfo;
 function init() {
 	flickrImgElem = document.getElementById("flickrImg");
 	valt=document.getElementById("valt");
+	testknapp=document.getElementById("testknapp");
+
 	knappar=document.getElementsByClassName("knappar");
     display=document.getElementById("vandringslederna");
 
@@ -22,9 +25,6 @@ function init() {
         
 	}
     
-
-
-
 
 	skicka= document.getElementById("skicka");
 	skicka.addEventListener("click", function(){
@@ -100,23 +100,48 @@ function getData(JSONtext,cityname) {
 			"<img src='"+vandring[i].image.url+"'></img>"+
 			"<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
 			"<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
+			//"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
+			`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`+
 			"<hr>"
-			
+			// 1. Create the button
+			//var div=document.createElement("div")
+
 	
 			//valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
     }
 }
 
-
-	    valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
+	    valt.innerHTML= HTMLcode;//utskrift av datan i JSON filen
 		//li.style.display=" flex";
+		
+		let button=document.getElementsByClassName("idk");
+	
+		for (let i = 0; i < button.length; i++){
+			button[i].style.fontSize = "100%";
+			button[i].style.width="130px";
+			button[i].style.margin="0.5%";
+			button[i].style.color="red";
+			let elementClicked = false;
+			
+			button[i].addEventListener('click', function handleClick(e) {
+				console.log('element clicked');
+				
+			
+				if (elementClicked) {
+				console.log("clicked");
+				
+				}
+				elementClicked = true;
+		});
+	}
+		
+	
         valt.style.fontSize = "150%";
         valt.style.marginBottom = "5%";
         document.getElementById("kommentera").style.width= "350px";
         document.getElementById("kommentera").style.height= "150px";
         document.getElementById("skicka").style.width= "100px";
         //document.getElementById("unordered").style.border= "2px solid black"; 
-
     clearcontent(display);
 	
 } // End getData
@@ -127,7 +152,11 @@ function clearcontent(display) {
 function showledinfo(){
       ledinfo=document.getElementById("ledinfo");
         ledinfo.style.visibility="visible";
+	
 }
+function showledinfo2(){
+	valt=document.getElementById("valt");
+
 
 // JavaScript code
 function search_animal() {
@@ -146,3 +175,6 @@ function search_animal() {
     }
 }
 
+	  valt.style.visibility="hidden";
+  
+}

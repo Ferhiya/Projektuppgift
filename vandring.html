@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
+
     <script type="text/javascript" src="vandring.js"></script>
     <script type="text/javascript" src="weather.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+    <script src="/Forum/trad.js"></script>
+    <script src="/Forum/kommentarer.js"></script>
 
     <title>Friluftszonen</title>
 </head>
@@ -157,37 +161,93 @@
     <h1>Vandringsleder i Vetlanda</h1>
     <img  class="bildtest" src="image/vetlanda.jpg">
 <button class="knappar" city="Vetlanda">Läs mer</button>
+<button class="knappar2" city="Vetlanda">testknapp</button>
 </div>
 
 </div>
+
 
 <div id="ledinfo">
-    <div id="valt">
-        <div>
-            <img src="img/blank.png" alt="Bild i bildspel">
-        </div>
-        <div>
-        <p>
-
-        </p>
-        </div>
+    
+   
+    <div id="valt"> 
+        
     </div>
     <aside id="väder2">
+
      <button class="tillknappar"><a href="vandring.html">Tillbaka</button></a>
         <div id="väder2"></div>
         </aside> 
+            </div>
+            <div id="container">
+
+                <div id="head">
+                <div id="inlagg">
+                <h3> <i>Bästa vandringsleden i Växjö?</i> </h3>
+                <p><b>Fjällräven Persson</b> </p><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat vel sequi illo iste reprehenderit ullam quo dicta eaque deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, soluta. Optio, nostrum? Esse rerum nihil repellendus quae. Temporibus non eos veritatis unde quisquam nostrum. Eaque velit labore repellat maxime nobis beatae natus! Asperiores quas animi impedit harum commodi aut. Deleniti.</p>
+                </div>
+                </div>
+                
+                
+                <div id="knapp-text">
+                <form id="inputForm"> <!-- Textfält för att ge indata -->
+                
+                <span><input type="text" id="input1"> </span>
+                <button type="button" id="runBtn">Kommentera</button>
+                </form>
+                        
+                 <div id="result"></div>   
+                </div>
+                
+                
+                <div id="andra-inlagg">
+                    <div id="har">
+                <h3>Kristina Trädkramare</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, impedit. Perferendis sit similique illum. Tempora reiciendis impedit veritatis, voluptas similique facere mollitia aliquam earum atque nisi incidunt recusandae? Suscipit omnis repellendus asperiores iure vitae incidunt dolores cum. Nulla, quis.</p></div></div>
+                
+                
+                <div id="knapparna-komment">
+                
+                <button onclick="myFunction()" id="myBtn">Läs kommentarer</button>
+                <form id="inputForm1"> <!-- Textfält för att ge indata --></form>
+                <span><input type="text" id="input2"> </span>
+                <button type="button2" id="runBtn2">Kommentera</button>
+                
+                </div>
+                
+                <div id="result2-id">
+                <div id="result2"></div></div>  
+                
+                      <div id="container-result">
+                
+                    
+                <div id="bea"><span id="dots"></span>
+                <span id="more">
+                    <div id="testarboder">
+                <h3>Flora Lilja</h3><p>
+                erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta  <br><br></p>
+                </div>
+                </div>
+              </p></span>
+                </div>
+                <div id="testdiv">  
+                    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;" multiple></p>
+                    <p><label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label></p>
+                
+                    <p><img id="laddabild"/></p>
+                    <p><img id="laddabild2"/></p>
+                    <p><img id="laddabild3"/></p>
+           
+               
+                    </div>
+                    </div>
+            </div> 
+                
+                    <br><br><br><br>
+              
             
-<section id="kommentarfältet">
-    <div id="unordered">
 
-    </div>
 
-    <div id="test">
-    <input type="text" id="kommentera2" name="kommentera2" placeholder="Skriv namnet på ledet här"><br>
-    <input type="text" id="kommentera" name="kommentera" placeholder="Skriv kommentar"><br>
-    <button id="skicka">Lägg till kommentar</button>
-</div>
-
-</section>
 </body>
 </html>

@@ -1,20 +1,53 @@
-@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 * {
-
+padding: 0px;
+margin: 0px;
 font-family: 'Playfair Display', serif;
-padding: 0%;
-margin: 0%;
-
 }
 
 #navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-
+    height: 100px;
+    background-color: #138558;
+    color:white;
+    font-size: 16px;
     }
+    
+    #navbar h2 {
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    }
+    
+    #navbar h2 :hover {
+    border-bottom: 4px #0d462fb9 solid;
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+    
+    
+    #logga-ikon img {
+        width: 100px;
+        
+        }
+    
+    #logga-ikon {
+    display: flex;
+    }
+
+
+
+
+
+    
     #list{
         visibility: hidden;
         width: 0%;
@@ -22,21 +55,7 @@ margin: 0%;
     #upperpart {
     background-color:#65806d;
     }
-    #navbar a {
-    color: white;  
-    font-size: 20px;
-    }
-    #navbar h2 {
-        color: white;  
-        font-size: 30px;
-        }
-     
-    #navbar p {
-
-    margin-top: 40px;
-    font-size: 25px;
-}
-
+   
 #sokruta {
     width: 350px;
     margin-top: 30px;
@@ -56,23 +75,6 @@ margin: 0%;
 }
 
 /*CSS för navbar */
-#navbar img {
-    width: 100px;
-    border-radius: 100%;
-    margin-top: 12px;
-}
-
-#navbar {
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    background-color: #138558;
-    color: white;
-}
-
-#navbar h2 {
-    margin-top: 40px;
-}
 
 .filtering {
     display: grid;
@@ -131,7 +133,7 @@ img.aktivtetsbilder {
 
 #ledinfo {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.1fr 0.2fr 1fr;
     margin-bottom: 2%;
     padding-left: 0%;
     margin-left: 3%;
@@ -157,28 +159,26 @@ img.aktivtetsbilder {
 
 #valt img {
     padding-top: 0.5%;
-    width: 80%;
+    width: 90%;
 }
 
 img {
     max-height: 300px;
 }
 
-a {
+#aktivtetssidan a {
     font-size: 1.2rem;
     color: black;
     text-decoration: none;
 }
 
-#kommentera,
-#skicka {
-    border: 1.8px solid #138558;
-    border-radius: 5px;
+#vandringslederna a {
+font-size: 1.2rem;
+color: black;
+text-decoration: none;  
+}
 
-}
-#kommentera{
-    margin-bottom: 0.5%;
-}
+
 .knappar,
 .knappar2 {
     border: #e0b767;
@@ -190,6 +190,20 @@ a {
     border-radius: 6px;
     margin-top: 2%;
     cursor: pointer;
+}
+#testaralt{
+    margin-top: 80%; 
+    margin-right: 80%;
+    padding: 10%;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0px;
+   
+}
+#testaralt button{
+    margin: 50%;
+    display: block;
 }
 
 .tillknappar{
@@ -203,10 +217,12 @@ a {
     margin-top: 2%;
     margin-left: 40%;
     margin-top: 10%;
-    width: 20%;
+    width: 120px;
 }
 .tillknappar a{
     font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
 }
 
 .städer {
@@ -220,6 +236,8 @@ a {
 }
 
 #testid {
+    display: grid;
+
     border: #138558;
     border-style: solid;
     padding: 20px;
@@ -227,20 +245,6 @@ a {
     margin-bottom: 10px;
 
 }
-
-#kommentera2 {
-    width: 200px;
-    height: 50px;
-    margin-bottom: 0.5%;
-    border-radius: 5px;
-    border: 1.8px solid #138558;
-}
-
-
-#skicka:hover {
-    background-color: lightgreen;
-}
-
 
 #aktivitetsnav {
     text-decoration: none;
@@ -285,9 +289,10 @@ a {
 }
 
 #valt2 {
-    width: 80%;
+    width: 50%;
     border: 2px solid black;
 }
+
 
 #flickrImg2 {
     width: 100%;
@@ -309,3 +314,185 @@ a {
     font-size: 24px;
     text-align: center;
 }
+
+/*css för kommentar delen under aktivterna*/
+
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 600px;
+    }
+    
+    #head button {
+    width: 100px;
+    margin-top: 10px;
+    }
+    
+    #inlagg {
+    border: #138558;
+    border-style: solid;
+    padding: 20px;
+    line-height: 25px;
+    }
+    
+    #inlagg-kommentar {
+    border: #138558;
+    border-style: solid;
+    padding: 20px;
+    line-height: 25px;
+    display: flex;
+    }
+    
+    #container {
+     visibility: hidden;
+     margin-left: 2.5%;
+     margin-top: 40px;
+    }
+    
+    #container-kommentar {
+    margin-left: 2.5%;
+    margin-top: 40px;
+    }
+    
+    
+    
+    #buttonles button {
+    width: 110px;
+    padding: 1px;
+    margin: 5px;
+    }
+    
+    #test {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    #head-kommentar {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 600px;
+    }
+    
+    #head-kommentar p{
+    margin-left: 10px;
+    }
+    
+    #container-result {
+        display: flex;
+        margin-left: 2.3%;
+        }
+        #knapparna-komment {
+            display: flex;
+         margin-left: 2.3%;
+            }
+            
+            #andra-inlagg {
+            margin-left: 2.5%;
+            }
+            
+            #input2 {
+            width: 390px;
+            height: 30px;
+            }
+            
+            #myBtn{
+            margin-right: 10px;
+            }
+            #har {
+                margin-bottom: 10px;
+                background-color: white;
+                border-bottom: #000;
+                border-style: solid;
+                border-width: 2px;
+                border: #138558;
+                border-style: solid;
+                line-height: 25px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                padding-top: 5px;
+                border-radius: 1px;
+                width: 590px;
+               
+            }
+
+            #runBtn2{
+                margin-left: 10px;
+                }
+
+                #input1 {
+                    width: 500px; 
+                    height: 50px;
+                    margin-top: 10px;
+                    
+                    }
+                    
+                    #runBtn {
+                    margin-left: 9px;
+                    padding: 5px;
+                    margin-top: 10px;
+                    }
+
+                    #inputform{
+                        display: flex;
+                        margin-left: 2.3%;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 20px;
+                    
+                    }
+                    #knapp-text {
+                        display: flex;
+                        margin-left: 2.3%;
+                        margin-bottom: 10px;
+                    }
+                    #bea {
+                        margin-left: 0%;
+                        width: 590px;
+                        margin-bottom: 10px;
+                        background-color: white;
+                        line-height: 25px;
+                        padding-left: 10px;
+                        padding-bottom: 10px;
+                        padding-top: 15px;
+                        }
+                        #testarboder{
+                            line-height: 25px;
+                            padding-left: 10px;
+                            padding-bottom: 10px;
+                            padding-top: 15px;
+                            border: #138558;
+                            border-style: solid;
+                        }
+
+                     
+
+                        #testdiv{
+                          margin-left: 2.3%;
+                          width:900px;
+                         background: transparent; 
+                         display: inline-flexbox;
+                        }
+                        
+                        #laddabild,#laddabild2,#laddabild3{
+                            width:280px;
+                            height:150px; 
+                            background: transparent; 
+                            border: 2px solid black;
+                            float: left; 
+                            margin: 0.5%;
+                            margin-bottom: 3%;
+                          
+                        }
+                      
+                    
+
+                        #bildrubrik{
+                            margin-left: 2.3%;
+                            font-size: 2rem;
+                        }
+                       
+
+                     
+
