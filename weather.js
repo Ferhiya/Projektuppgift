@@ -8,7 +8,14 @@ let cities = [
     {name: "Växjö", lat: 56.879025, lng: 14.805434, temp: 0, conditions: 0},
     {name: "Ljungby", lat: 56.832700, lng: 13.941018, temp: 0, conditions: 0},
     {name: "Kalmar", lat: 56.663177, lng: 16.356674, temp: 0, conditions: 0},
-    {name: "Jönköping", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0}
+    {name: "Jönköping", lat: 57.757687, lng: 16.637028, temp: 0, conditions: 0},
+    {name: "Västervik", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0},
+    {name: "Värnamo", lat: 57.183132, lng: 14.047798, temp: 0, conditions: 0},
+    {name: "Oskarshamn", lat: 57.265678, lng: 16.447400, temp: 0, conditions: 0},
+    {name: "Nässjö", lat: 57.653020, lng: 14.696725, temp: 0, conditions: 0},
+    {name: "Tranås", lat: 58.035507, lng: 14.975694, temp: 0, conditions: 0},
+    {name: "Vetlanda", lat: 57.427446, lng: 15.085333, temp: 0, conditions: 0},
+    {name: "Öland", lat: 56.664757, lng: 16.636482, temp: 0, conditions: 0}
 ];
 
 function init() {
