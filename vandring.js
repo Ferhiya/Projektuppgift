@@ -44,7 +44,7 @@ function init() {
 exdiv=document.getElementById("testdiv");
 	
 		
-		
+
 	
 
 	//requestData();
@@ -76,8 +76,13 @@ function requestData(e) {
 // Tolkar koden och skriv ut den på önskad form
 function getData(JSONtext,cityname) {
 	let vandring = JSON.parse(JSONtext).vandring; //hämtar arryen med vandringsledernas data.
-	
 	let HTMLcode = "";
+    let backBTN=document.getElementById("tillknappar");
+    backBTN.style.visibility="visible";
+
+    let backBTN2=document.getElementById("testbtn");
+    //backBTN2.style.visibility="hidden";
+    backBTN2.innerHTML="";
 
     HTMLcode +=
 	"<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
@@ -103,7 +108,7 @@ function getData(JSONtext,cityname) {
 			"<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
 			//"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
 			//`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-           
+            "<button id='testg'>"+ body + "Läs mer</button>"+
             //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
 			"<hr>"
         
@@ -126,6 +131,8 @@ function getData(JSONtext,cityname) {
             //body.appendChild(button2);
             body.append(btnx2);
             btnx2.setAttribute("class","btncl");
+            var bu=document.getElementById("testg");
+            console.log(bu);
 
             btnx2.style.fontSize = "100%";
             btnx2.style.style
@@ -164,10 +171,10 @@ for (let i = 0; i < btnx.length; i++) {
         //alert("did something");
         clearcontent(valt);
         requesttest(e);
+       
       });
     
 }
-
 
 } // End getData
 function requesttest(e) { 
@@ -190,7 +197,22 @@ function requesttest(e) {
 function getData2(JSONtext,btn,cityname){
     let vandring = JSON.parse(JSONtext).vandring;
     let HTMLcode2="";
-
+    let backBTN=document.getElementById("tillknappar");
+    backBTN.style.visibility="hidden";
+    let backBTN2=document.getElementById("testbtn");
+    backBTN2.style.visibility="visible";
+    
+    var x = document.createElement("BUTTON");
+    var t = document.createTextNode("Tillbaka");
+    x.setAttribute("class","tcl");
+    x.setAttribute("city",cityname);
+    x.appendChild(t);
+    document.getElementById("testbtn").appendChild(x);
+    x.style.visibility="visible";
+ 
+       x.addEventListener("click", requestData);
+       x.addEventListener("click", showledinfo);
+  
 for (let i = 0; i < vandring.length; i++) {
     if (cityname === vandring[i].city && btn === vandring[i].id) {
        console.log("funkar2");
@@ -219,8 +241,6 @@ for (let i = 0; i < vandring.length; i++) {
         
 }
 }
-exdiv.style.marginBottom = "5%";
-exdiv.style.fontSize = "150%";
 valt.innerHTML= HTMLcode2;
 let testdiv=document.getElementById("container");
 testdiv.style.visibility="visible";
@@ -237,7 +257,8 @@ ledinfo.style.visibility="visible";
 function showimgbox(){
     let imgbox=document.getElementById("läggtillbider");
     imgbox.style.visibility="hidden";
-
+    img.height = 60;
+    img.width = 60;
     let imgrubrik=document.getElementById("bildrubrik");
     imgrubrik.addEventListener("click").style.visibility="vissable";
         
@@ -297,9 +318,6 @@ function search_animal() {
     }
 }
 {
-
-    img.height = 60;
-    img.width = 60;
 
     testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
     testElem.appendChild(img);

@@ -155,7 +155,7 @@
         },
         {
             "city": "Jönköping",
-            "id":"",
+            "id":"1",
             "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
             "Aktivitet": "Kajakutflykter",
             "längd":"Förmiddag eller heldagstur",
@@ -172,7 +172,7 @@
         },
         {
             "city": "Jönköping",
-            "id":"",
+            "id":"2",
             "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
             "Aktivtet": "Kräftfiske för familjen",
             "längd":"Heldag",
@@ -189,7 +189,7 @@
         },
           {
             "city": "Jönköping",
-            "id":"",
+            "id":"3",
             "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
             "Aktivtet":"Äventyrsorientering",
             "längd":"",
@@ -206,7 +206,7 @@
         },
         {
             "city": "Västervik",
-            "id":"",
+            "id":"1",
             "Adress":"Lysingsvägen, 593 53 Västervik",
             "Aktivtet":"Kajak kurs",
             "längd":"Heldag och 2 dagars kurs",
@@ -223,7 +223,7 @@
         },
         {
             "city": "Västervik",
-            "id":"",
+            "id":"2",
             "Adress":"Lysingsvägen, 593 53 Västervik",
             "Aktivtet":"Juniorpaddling",
             "längd":"2.5 timmar",
@@ -240,7 +240,7 @@
         },
           {
             "city": "Västervik",
-            "id":"",
+            "id":"3",
             "Adress":"Ljusterbrovägen 30 781 62 Gustafs",
             "Aktivtet":"Kajak",
             "längd":"Oklart",
@@ -257,7 +257,7 @@
         },
         {
             "city": "Värnamo",
-            "id":"",
+            "id":"1",
             "Adress":"",
             "Aktivtet":"Kajak eller kanot utflykt",
             "längd":"Dagstur",
@@ -275,7 +275,7 @@
      
           {
             "city": "Värnamo",
-            "id":"",
+            "id":"2",
             "Adress":"Hindsen, 331 93 Värnamo",
             "Aktivtet": "Fiske",
             "längd":"Oklart",
@@ -292,6 +292,7 @@
         },
         {
             "city": "Värnamo",
+            "id":"3",
             "Adress":"",
             "Aktivtet":"",
             "längd": "",
@@ -308,7 +309,7 @@
         },
         {
             "city":"Orskarshamn",
-            "id":"",
+            "id":"1",
             "Adress":"Malghultsvägen, 572 73 Kristdala",
             "Aktivtet":"paddeltur till Råsvik",
             "längd":"7 timmar",
@@ -325,7 +326,7 @@
         },
           {
             "city":"Orskarshamn",
-            "id":"",
+            "id":"2",
             "Adress":"Malghultsvägen, 572 73 Kristdala",
             "Aktivtet":"paddeltur runt hummeln ",
             "längd":"Dygn",
@@ -342,7 +343,7 @@
         },
         {
             "city": "Oskarshamn",
-            "id":"",
+            "id":"3",
             "Adress":"Malghultsvägen, 572 73 Kristdala",
             "Aktivtet":"Paddeltur till Humlenäs naturreservat",
             "längd":"",
@@ -360,7 +361,7 @@
      
         {
             "city": "Nässjö",
-            "id":"",
+            "id":"1",
             "Adress":"Kyrkogatan 50, 571 78 Forserum",
             "Aktivtet":"Guidad kajaktur",
             "längd": "",
@@ -377,7 +378,7 @@
         },
         {
             "city": "Nässjö",
-            "id":"",
+            "id":"2",
             "Adress":"",
             "Aktivtet": "",
             "längd": "",
@@ -395,7 +396,7 @@
 
         {
             "city":"Ljungby",
-            "id":"",
+            "id":"1",
             "Adress":"Bråna Näs 1, 34390, Agunnaryd",
             "Aktivtet":"Stand Up Paddle board",
             "längd":"Oklart",
@@ -412,7 +413,7 @@
         },
         {
             "city": "Ljungby",
-            "id":"",
+            "id":"2",
             "Adress":"Bråna Näs 1, 34390, Agunnaryd",
             "Aktivtet":"Dagskurs i kajak för nybörjare",
             "längd":"8 timmar",
@@ -429,7 +430,7 @@
         },
         {
             "city": "Ljungby",
-            "id":"",
+            "id":"3",
             "Adress":"Bråna Näs 1, 34390, Agunnaryd",
             "Aktivtet":"vilmarks kanotpaddling med camping",
             "längd":"2 dagar",
@@ -447,7 +448,7 @@
 
           {
             "city":"Tranås",
-            "id":"",
+            "id":"1",
             "Adress":"",
             "Aktivtet":"Kanot/kajaktur i sommen",
             "längd":"1 dygn",
@@ -464,7 +465,7 @@
         },
         {
             "city":"Tranås",
-            "id":"",
+            "id":"2",
             "Adress":"",
             "Aktivtet": "",
             "längd": "",
@@ -482,7 +483,7 @@
 
           {
             "city": "Vetlanda",
-            "id":"",
+            "id":"1",
             "Adress":"Emhult 7, 574 55 Kvillsfors",
             "Aktivtet":"Kanottur med middag vid stranden av Emån",
             "längd":"Eftermiddag",
@@ -499,7 +500,7 @@
         },
         {
             "city": "Vetlanda",
-            "Adress":"",
+            "Adress":"2",
             "Aktivtet": "",
             "längd": "",
             "handikapsanpassat": "Nej",
@@ -516,7 +517,7 @@
       
           {
             "city": "Öland",
-            "id":"",
+            "id":"1",
             "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
             "Aktivtet":"WATERBALLS - SPRING PÅ VATTNET",
             "längd":"10 minuter",
@@ -533,7 +534,7 @@
         },
         {
             "city": "Öland",
-            "id":"",
+            "id":"2",
             "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
             "Aktivtet":"Stand up paddle",
             "längd":"2 timmar",
@@ -551,7 +552,7 @@
         },
         {
             "city": "Öland",
-            "id":"",
+            "id":"3",
             "Adress":"",
             "Aktivtet":"Mega sup",
             "längd":"1-1.5 timmar",
