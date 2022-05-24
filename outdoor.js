@@ -74,7 +74,7 @@ function getData(response) {
         HTMLcode +=
             "<hr>" +
             "<p><b>Namn:</b> " + hi[i].name + "</p>" + //lägger in namnet på ledet i html strängen
-            // "<img src='" + bike.png + "'</img>" +
+            "<img src='img/" + hi[i].description + ".jpg'></img>" + // hi[i].description hämtar beskrivningen på aktiviteten så därför behöver du lägga in bilder i img/ mappen som heter samma sak som beskrivningen, om det är lite konstigt kan jag förklara bättre imon 
             "<p><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</p>" + //lägger in längden på ledet i html strängen
             "<p><b>beskrivning:</b> " + hi[i].description + "</p>"; //lägger in info om handikapsanpassning i ledet i html strängen
     }
