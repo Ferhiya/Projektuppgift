@@ -125,7 +125,11 @@ function requestJSONData(e) {
      let aderalin = JSON.parse(JSONtext).aderalin; //hämtar arryen med vandringsledernas data.
      console.log(aderalin);
      let HTMLcode = "";
- 
+     let backBTN2=document.getElementById("testbtn");
+     //backBTN2.style.visibility="hidden";
+     backBTN2.innerHTML="";
+     let backBTN=document.getElementById("tillknappar");
+     backBTN.style.visibility="visible";
      HTMLcode +=
      "<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
      
@@ -237,7 +241,25 @@ function requestJSONData(e) {
  function getData2(JSONtext,btn,cityname){
      let aderalin = JSON.parse(JSONtext).aderalin;
      let HTMLcode2="";
- 
+     document.getElementById("har").style.visibility="visible";
+     document.getElementById("head").style.visibility="visible";
+     document.getElementById("testdiv").style.visibility="visible";
+     let backBTN=document.getElementById("tillknappar");
+     backBTN.style.visibility="hidden";
+     let backBTN2=document.getElementById("testbtn");
+     backBTN2.style.visibility="visible";
+     
+     var x = document.createElement("BUTTON");
+     var t = document.createTextNode("Tillbaka");
+     x.setAttribute("class","tcl");
+     x.setAttribute("city",cityname);
+     x.appendChild(t);
+     document.getElementById("testbtn").appendChild(x);
+     x.style.visibility="visible";
+  
+        x.addEventListener("click", requestJSONData);
+        x.addEventListener("click", showledinfo);
+
  for (let i = 0; i < aderalin.length; i++) {
      if (cityname === aderalin[i].city && btn === aderalin[i].id) {
         console.log("funkar2");
@@ -269,7 +291,7 @@ function requestJSONData(e) {
  exdiv.style.marginBottom = "5%";
  exdiv.style.fontSize = "150%";
  valt.innerHTML= HTMLcode2;
- let testdiv=document.getElementById("container");
+ let testdiv=document.getElementsByClassName("hidden");
  testdiv.style.visibility="visible";
  
  }
@@ -311,15 +333,64 @@ function requestJSONData(e) {
  };
  
  
-   
- /*
- function showledinfo2(){
-     valt=document.getElementById("valt");
- 
-       valt.style.visibility="hidden";
-   
- }*/
- 
+
+ function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("mertext");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Läs kommentar";
+      btnText.style.fontSize="1.3em";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Göm kommentar";
+      btnText.style.fontSize="1.3em";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function Visakommentarruta() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("textruta1");
+    var btnText = document.getElementById("runBtn");
+    btnText.style.marginLeft = "80%";
+    if (dots.style.display === "none") {
+      dots.style.display = "flex";
+      btnText.innerHTML = "kommentarera";
+     btnText.style.fontSize="1.2em";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "kommentarera";
+      btnText.style.fontSize="1.2em";
+      btnText.style.marginLeft = "80%";
+      moreText.style.display = "inline";
+      moreText.style.margin="2%";
+    }
+  }
+
+  function Visakommentarruta2() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("textruta2");
+    var btnText = document.getElementById("runBtn2");
+    btnText.style.marginLeft = "58%";
+    if (dots.style.display === "none") {
+      dots.style.display = "flex";
+      btnText.innerHTML = "kommentarera";
+     btnText.style.fontSize="1.3em";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "kommentarera";
+      btnText.style.fontSize="1.3em";
+      btnText.style.marginLeft = "58%";
+      moreText.style.display = "inline";
+      moreText.style.margin="2%";
+    }
+  }
  //Start requestTemp
  function requestTemp(city) {
      let request = new XMLHttpRequest();
@@ -353,10 +424,10 @@ function requestJSONData(e) {
          img.src = "ikoner/thunder.svg"
      }
  
-     img.height = 60;
-     img.width = 60;
+     //img.height = 60;
+     //img.width = 60;
  
-     testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
-     testElem.appendChild(img);
+     //testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
+     //testElem.appendChild(img);
  
  } 

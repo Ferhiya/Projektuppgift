@@ -336,6 +336,7 @@ text-decoration: none;
 /*css för kommentar delen under aktivterna*/
 
 #head {
+   visibility: hidden;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
@@ -345,6 +346,7 @@ text-decoration: none;
     #head button {
     width: 100px;
     margin-top: 10px;
+    
     }
     
     #inlagg {
@@ -403,7 +405,6 @@ text-decoration: none;
         }
         #knapparna-komment {
             display: flex;
-         margin-left: 2.3%;
             }
             
             #andra-inlagg {
@@ -416,9 +417,11 @@ text-decoration: none;
             }
             
             #myBtn{
-            margin-right: 10px;
+            margin-right:  0%;
+            font-size: 1.3em;
             }
             #har {
+                visibility: hidden;
                 margin-bottom: 10px;
                 background-color: white;
                 border-bottom: #000;
@@ -436,7 +439,8 @@ text-decoration: none;
             }
 
             #runBtn2{
-                margin-left: 10px;
+                margin-left: 60%;
+                font-size: 1.3em;
                 }
 
                 #input1 {
@@ -445,11 +449,11 @@ text-decoration: none;
                     margin-top: 10px;
                     
                     }
-                    
-                    #runBtn {
-                    margin-left: 9px;
-                    padding: 5px;
-                    margin-top: 10px;
+
+                    #runBtn{
+                        font-size: 1.3em;
+                        margin-left: 80%;
+                        margin-bottom: 0%;
                     }
 
                     #inputform{
@@ -487,6 +491,7 @@ text-decoration: none;
                      
 
                         #testdiv{
+                            visibility: hidden;
                           margin-left: 2.3%;
                           width:900px;
                          background: transparent; 
@@ -511,8 +516,19 @@ text-decoration: none;
                             font-size: 2rem;
                         }
 
-                      
-                       
+          #mertext{
+              display: none;
+          }  
+          
+          #textruta2{
+            
+              display:none;
+          }
+
+          #textruta1{
+              display: none;
+          }
+                     
 
                      
 
