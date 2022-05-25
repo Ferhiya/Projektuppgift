@@ -79,7 +79,7 @@ function getData(response) {
         HTMLcode += 
         "<li><b>Namn:</b> " + hi[i].name + "</li>" + //lägger in namnet på ledet i html strängen
         "<li><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</li>" + //lägger in längden på ledet i html strängen
-        "<img src='"+"image/fiske.jpg"+"'</img>" +
+        "<img src='image/"+hi[i].description+".jpg'></img>" +
         "<p><b>beskrivning:</b> " + hi[i].description + "</p>" + //lägger in info om handikapsanpassning i ledet i html strängen
         //lägger in en kort beskrivning om 
         "<hr>"

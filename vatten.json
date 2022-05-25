@@ -53,7 +53,7 @@
         },
         {
             "city": "Växjö",
-            "id":"",
+            "id":"1",
             "Adress":"Evedalsvägen, 352 63 Växjö",
             "Aktivitet": "Kom-igång SUP",
             "längd": "2 timmar",
@@ -70,7 +70,7 @@
         },
         {
             "city": "Växjö",
-            "id":"",
+            "id":"2",
             "Adress":"Evedalsvägen, 352 63 Växjö",
             "Aktivitet": "Kom-igång paddling",
             "längd": "2-3 timmar",
@@ -136,24 +136,7 @@
             "pris":"Dagskort 100 kr",
             "parkering": "Ja"
         },
-          {
-            "city": "Älmhult",
-            "id":"3",
-            "Adress":"Bökhult 343 38 Älmhult",
-            "aktivitet":"Bastubåt",
-            "längd":"Oklart",
-            "Barnvanligt":"Ja",
-            "handikapsanpassat": "Ja",
-            "link": {
-                "linkurl": "https://sjostugan.com/aktiviteter/"
-            },
-            "beskrivning": "Hyr vår helt nya bastubåt för en spakväll med kompisgänget eller företaget. Basta, bada och njut av utsikten året om. Perfekt för att slappna av, ta en paus från vardagen och umgås.",
-            "image": {
-                "url": "image/bastu.jpg"
-            },
-            "pris":"180:-/ vuxen, 90:-/ barn",
-            "parkering": "Ja"
-        },
+         
         {
             "city": "Jönköping",
             "id":"1",
@@ -293,23 +276,7 @@
             "pris":"Kostnadsfritt",
             "parkering": "Ja"
         },
-        {
-            "city": "Värnamo",
-            "id":"3",
-            "Adress":"",
-            "Aktivitet":"",
-            "längd": "",
-            "handikapsanpassat": "Nej",
-            "beskrivning":"läs mer på här http://storanskanotled.se/kanot/",
-            "link": {
-                "linkurl": ""
-            },
-            "image": {
-                "url": "image/vandringsbild2.jpg"
-            },
-            "pris": "",
-            "parkering": ""
-        },
+     
         {
             "city":"Orskarshamn",
             "id":"1",
@@ -367,8 +334,8 @@
             "id":"1",
             "Adress":"Kyrkogatan 50, 571 78 Forserum",
             "Aktivitet":"Guidad kajaktur",
-            "längd": "",
-            "handikapsanpassat": "Nej",
+            "längd":"1 timme",
+            "handikapsanpassat":"Nej",
             "beskrivning":"Våra licensierade instruktörer guidar gruppen säkert fram på vattnet och gör aktiviteten till en riktig småländsk upplevelsemin. Gruppen ska vara minst 4 personer och max 12 personer",
             "link": {
                 "linkurl":"https://aventyrsmaland.se/aventyr-och-upplevelser/paddla-kajak/"
@@ -376,7 +343,7 @@
             "image": {
                 "url":"image/kajak.jpg"
             },
-            "pris":" startavgift; 1800 kr +450 kr/person och timme",
+            "pris":" startavgift; 1800 kr +450 kr/person",
             "parkering":"Ja"
         },
         {
@@ -409,7 +376,7 @@
                 "linkurl":"https://www.agundaborg.com/se/boka-en-%C3%A4ventur/#!/e/eed550874853c3faf317fce6aece5ddf"
             },
             "image": {
-                "url":"image/paddelboard.jpg"
+                "url":"image/paddleboard.jpg"
             },
             "pris":"Från 200 kr",
             "parkering":"Ja"

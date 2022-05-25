@@ -138,20 +138,20 @@
   {
     "city":"Älmhult",
     "id":"2",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Barkhult 2631, 343 91 Älmhult",
+    "Företag":"Barkhults paintball",
+    "Aktivtet":"Barkhults paintball",
+    "barnvanligt":"Ja",
+    "längd":"3 timmar",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.facebook.com/barkhultspaintball/"
     },
-    "beskrivning":"",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav. För att boka en av våra banor måste ni vara inst 6 deltagre. För bokning mejla barkhultspaintball@gmail.com.",
     "image": {
-        "url":"image/vandringsbild1.jpg"
+        "url":"image/paintball.jpg"
     },
-    "pris":"",
+    "pris":"600 kr",
     "parkering":"Ja"
   },
 
@@ -257,7 +257,7 @@
   {
     "city":"Värnamo",
     "id":"1",
-    "Adress":"",
+    "Adress":"STORA KVARNAGÅRD, 331 72 Forsheda",
     "Företag":"Kvarnagårdens",
     "Aktivtet":"Paintball",
     "barnvanligt":"Nej",
@@ -266,11 +266,11 @@
     "link": {
         "linkurl":"https://kvarnagårdenspaintball.se/"
     },
-    "beskrivning":"Spela som back och täck medspelare från dom bakre regionerna från egna planhalvan.",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav.",
     "image": {
         "url": "image/paintball.jpg"
     },
-    "pris":"399 kr/person",
+    "pris":"399-499 kr/person",
     "parkering":"Ja"
   },
 
@@ -317,7 +317,7 @@
   {
     "city":"Oskarshamn",
     "id":"1",
-    "Adress":"",
+    "Adress":"Gengasvägen 3, 572 36 Oskarshamn",
     "Företag":"KartCenter",
     "Aktivtet":"Gokart",
     "barnvanligt":"Ja",
@@ -336,57 +336,38 @@
   {
     "city":"Oskarshamn",
     "id":"2",
-    "Adress":"",
+    "Adress":"Slottsgatan 19, 572 42 Oskarshamn",
     "Företag":"Jailbreak Oskarshamn",
-    "Aktivtet":"Escape Room",
+    "Aktivtet":"Escape Room blackout",
     "barnvanligt":"Nej",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":"https://jailbreakoskarshamn.com/om/"
+        "linkurl":"https://jailbreakoskarshamn.com/blackout/"
     },
     "beskrivning":"Här blir du inlåst i ett rum och ska inom 60 minuter lösa rummets mysterier i form av kluriga gåtor, pussel och utmaningar.",
     "image": {
         "url": "image/escape.jpg"
     },
-    "pris":"260 kr/person",
-    "parkering":"Ja"
-  },
-  {
-    "city":"Oskarshamn",
-    "id":"3",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"läs mer på https://firstcamp.se/destination/gunnarso-oskarshamn/att-gora-i-naromradet/nils-holgerssons-aventyrspark/",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
+    "pris":"780 kr/person",
     "parkering":"Ja"
   },
 
   {
     "city":"Nässjö",
     "id":"1",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Höglandsgatan 52, 571 65 Grimstorp",
+    "Företag":"Hölandlandets Paintball",
+    "Aktivtet":"Paintball",
+    "barnvanligt":"Ja",
+    "längd":"1-2 timme",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.facebook.com/H%C3%B6glandets-Paintball-108862175881050/"
     },
-    "beskrivning":"",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav. Angående prifrågor och bokningar så kan ni kontakta Höglands paintball på deras facebook sida.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/paintball.jpg"
     },
     "pris":"",
     "parkering":"Ja"
@@ -412,40 +393,20 @@
   },
 
   {
-    "city":"Nässjö",
-    "id":"3",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
     "city":"Ljungby",
     "id":"1",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
+    "Adress":"Trolle Paintboll",
+    "Företag":"Trolle Paintboll",
+    "Aktivtet":"Paintboll",
     "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "längd":"1-2 timmar",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.facebook.com/TrollePaintballNewsFeed/"
     },
-    "beskrivning":"",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav.Angående bokningar och prisfrågor kan ni Kontakta Trolle Paintboll på deras facebook sida.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url":"image/paintball.jpg"
     },
     "pris":"",
     "parkering":"Ja"
@@ -453,39 +414,20 @@
   {
     "city":"Ljungby",
     "id":"2",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Klippans Gokart, 264 94 Klippan",
+    "Företag":"Klippans gokart",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Nej",
+    "längd":"10 minuter",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"http://www.klippansgokart.se/"
     },
-    "beskrivning":"",
+    "beskrivning":"Gokart passar utmärkt till fart älskare. Få upp pulsen i bara tio minuter och njut av vinden i håret. Alla barnförare måste vara över tio år för att köra en av klippans gokarts.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/gokart.jpg"
     },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"Ljungby",
-    "id":"3",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
+    "pris":"170 kr/person",
     "parkering":"Ja"
   },
 
@@ -551,20 +493,20 @@
   {
     "city":"vetlanda",
     "id":"2",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Solhöjdsvägen 2, 570 34 Bruzaholm",
+    "Företag":"BRUZAGOKART",
+    "Aktivtet":"Gokart",
+    "barnvanligt":"Nej",
+    "längd":"2x8 min",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://bruzagokart.se/"
     },
-    "beskrivning":"",
+    "beskrivning":"För att köra en av våra gokart behöver du vara minst 130 cm lång.",
     "image": {
-        "url":"image/vandringsbild1.jpg"
+        "url":"image/gokart.jpg"
     },
-    "pris":"",
+    "pris":"240 kr",
     "parkering":"Ja"
   },
 
@@ -606,6 +548,7 @@
     "pris":"1995 kr",
     "parkering":"Ja"
   },
+  
   {
     "city":"Öland",
     "id":"3",
@@ -618,7 +561,7 @@
     "link": {
         "linkurl":"https://www.glabogokart.se/gokart"
     },
-    "beskrivning":"Gokart Öland längsta och bredaste bana med toppmoderna gokartar som inbjuder till många omkörningar och passar såväl stora som små sällskap. Hjälmar i alla storlekar finns att låna. Till de minsta förarna har vi en egen bana med elbilar.Alla bilar är utrustade med tidtagningssystem",
+    "beskrivning":"Gokart Öland längsta och bredaste bana med toppmoderna gokartar som inbjuder till många omkörningar och passar såväl stora som små sällskap. Hjälmar i alla storlekar finns att låna. Till de minsta förarna har vi en egen bana med elbilar. Alla bilar är utrustade med tidtagningssystem",
     "image": {
         "url": "image/gokart.jpg"
     },
