@@ -13,7 +13,7 @@ function init() {
 	flickrImgElem = document.getElementById("flickrImg2");
 	valt2=document.getElementById("valt2");
     valt=document.getElementById("valt");
-	knappar=document.getElementsByClassName("knappar2");
+	knappar=document.getElementsByClassName("knappar");
     display=document.getElementById("vandringslederna");
 
 	for (let i = 0; i < knappar.length; i++) {
