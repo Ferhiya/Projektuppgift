@@ -2,6 +2,7 @@
     "aderalin": [
 {
   "city":"Kalmar",
+  "id":"1",
   "Adress":"Stensövägen 100392 47 Kalmar",
   "Företag":"Upzone Kalmar",
   "Aktivtet":"zipline",
@@ -20,6 +21,7 @@
 },
 {
   "city":"Kalmar",
+  "id":"2",
   "Adress":"Kläckerbergavägen 92, 395 90 Kalmar",
   "Företag":"Kalmar hyrkart",
   "Aktivtet":"Gokart",
@@ -38,6 +40,7 @@
 },
 {
   "city":"Kalmar",
+  "id":"3",
   "Adress":"Skeppsbrogatan 49, 392 31 Kalmar",
   "Företag":"KalmarSalen",
   "Aktivtet":"VR",
@@ -57,6 +60,7 @@
 
 {
     "city":"Växjö",
+    "id":"1",
     "Adress":"Tingsrydvägen 12 A, 355 91 Växjö",
     "Företag":"Onset Paintball",
     "Aktivtet":"Paintball",
@@ -75,6 +79,7 @@
   },
   {
     "city":"Växjö",
+    "id":"2",
     "Adress":"Bollgatan 1, 352 46 VÄXJÖ",
     "Företag":"Idrottshuset",
     "Aktivtet":"Klättring på Idrottshuset",
@@ -93,6 +98,7 @@
   },
   {
     "city":"Växjö",
+    "id":"3",
     "Adress":"Norraby gård, 363 33 Rottne",
     "Företag":"Norraby skytte och event",
     "Aktivtet":"skjutbiografen",
@@ -110,9 +116,9 @@
     "parkering":"Ja"
   },
   
-
   {
     "city":"Älmhult",
+    "id":"1",
     "Adress":"Delary Industripark 7, 343 95 Älmhult",
     "Företag":"Delary gokart",
     "Aktivtet":"Gokart",
@@ -131,6 +137,7 @@
   },
   {
     "city":"Älmhult",
+    "id":"2",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -147,27 +154,10 @@
     "pris":"",
     "parkering":"Ja"
   },
-  {
-    "city":"Älmhult",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
 
   {
     "city":"Jönköping",
+    "id":"1",
     "Adress":"",
     "Företag":"Flyboard",
     "Aktivtet":"Flyboard",
@@ -184,8 +174,10 @@
     "pris":"1271 kr/person",
     "parkering":"Ja"
   },
+
   {
     "city":"Jönköping",
+    "id":"2",
     "Adress":"",
     "Företag":"Speedcats",
     "Aktivtet":"Speedcats",
@@ -204,6 +196,7 @@
   },
   {
     "city":"Jönköping",
+    "id":"3",
     "Adress":"",
     "Företag":"Dodge Challenger Redeye/Demon",
     "Aktivtet":"Muskelbil körning",
@@ -223,6 +216,7 @@
 
   {
     "city":"Västervik",
+    "id":"1",
     "Adress":" Lysingsvägen,593 53 Västervik",
     "Företag":"Upzone västervik",
     "Aktivtet":"Höghöjdsbana",
@@ -239,8 +233,10 @@
     "pris":"319-419 kr/person",
     "parkering":"Ja"
   },
+
   {
     "city":"Västervik",
+    "id":"2",
     "Adress":"Videgrensgatan 10, 593 32 Västervik",
     "Företag":"Action center",
     "Aktivtet":"Paintball",
@@ -260,6 +256,7 @@
 
   {
     "city":"Värnamo",
+    "id":"1",
     "Adress":"",
     "Företag":"Kvarnagårdens",
     "Aktivtet":"Paintball",
@@ -276,8 +273,10 @@
     "pris":"399 kr/person",
     "parkering":"Ja"
   },
+
   {
     "city":"Värnamo",
+    "id":"2",
     "Adress":"Nennesmovägen 21, 334 21 Anderstorp",
     "Företag":"Scandinavian Kartwa Aby",
     "Aktivtet":"Gokart",
@@ -294,8 +293,10 @@
     "pris":"900 kr/per gokart",
     "parkering":"Ja"
   },
+
   {
     "city":"Värnamo",
+    "id":"3",
     "Adress":"Nissastigen, 330 27 Hestra",
     "Företag":"Isaberg Mountain resort",
     "Aktivtet":"Höghöjdsbana",
@@ -315,6 +316,7 @@
 
   {
     "city":"Oskarshamn",
+    "id":"1",
     "Adress":"",
     "Företag":"KartCenter",
     "Aktivtet":"Gokart",
@@ -333,6 +335,7 @@
   },
   {
     "city":"Oskarshamn",
+    "id":"2",
     "Adress":"",
     "Företag":"Jailbreak Oskarshamn",
     "Aktivtet":"Escape Room",
@@ -351,6 +354,7 @@
   },
   {
     "city":"Oskarshamn",
+    "id":"3",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -370,6 +374,7 @@
 
   {
     "city":"Nässjö",
+    "id":"1",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -388,6 +393,7 @@
   },
   {
     "city":"Nässjö",
+    "id":"2",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -404,8 +410,10 @@
     "pris":"",
     "parkering":"Ja"
   },
+
   {
     "city":"Nässjö",
+    "id":"3",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -425,6 +433,7 @@
 
   {
     "city":"Ljungby",
+    "id":"1",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -443,6 +452,7 @@
   },
   {
     "city":"Ljungby",
+    "id":"2",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -461,6 +471,7 @@
   },
   {
     "city":"Ljungby",
+    "id":"3",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -480,6 +491,7 @@
 
   {
     "city":"Tranås",
+    "id":"1",
     "Adress":"Ringvägen 10, 573 41 Tranås",
     "Företag":"Höglandsklättrarna Tranås",
     "Aktivtet":"Bouldering",
@@ -498,6 +510,7 @@
   },
   {
     "city":"Tranås",
+    "id":"2",
     "Adress":"Färjeläget, 573 94 Tranås",
     "Företag":"Torpöns Färjeläge",
     "Aktivtet":"Höghöjdsbana",
@@ -517,6 +530,7 @@
   
   {
     "city":"Vetlanda",
+    "id":"1",
     "Adress":"",
     "Företag":"Vetlanda Paintboll",
     "Aktivtet":"Paintball",
@@ -533,8 +547,10 @@
     "pris":"300 kr/person",
     "parkering":"Ja"
   },
+
   {
     "city":"vetlanda",
+    "id":"2",
     "Adress":"",
     "Företag":"",
     "Aktivtet":"",
@@ -551,27 +567,10 @@
     "pris":"",
     "parkering":"Ja"
   },
-  {
-    "city":"Vetlanda",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
 
   {
     "city":"Öland",
+    "id":"1",
     "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
     "Företag":"Addwater",
     "Aktivtet":"SPEEDCATS -GOKART PÅ VATTEN",
@@ -583,13 +582,14 @@
     },
     "beskrivning":"Aktiviteten Speedcats passar grupper från 4-50 personer.Vi börjar med lite information om sporten och båtarna och därefter ombyte innan vi går ut på bryggan för att börja själva träningen i vår bana. Varje båt framförs av två personer. En som gasar och styr båten och en som fördelar vikten. Genom att samarbeta kommer ni få en grym prestanda ur båten. Maxfarten på våra båtar är 38 knop.Aktivtet avslutas med en tävling i matchrace stil. Två båtar åtgåengen möts tills man har en slutlig vinnare.",
     "image": {
-        "url":"image/vandringsbild1.jpg"
+        "url":"image/gokart.jpg"
     },
     "pris":"1095 kr/person",
     "parkering":"Ja"
   },
   {
     "city":"Öland",
+    "id":"2",
     "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
     "Företag":"Addwater",
     "Aktivtet":"Flyboard",
@@ -601,13 +601,14 @@
     },
     "beskrivning":"Att åka Flyboard är så pass enkelt att alla klarar att flyga efter bara några minuters träning.Under tiden du åker Flyboard med oss på Addwater så är instruktören hela tiden med på vattenskotern. Instruktören sköter styrkan på vattenstrålarna så du behöver bara koncentrera dig på att flyga som en fågel eller dyka som en delfin. Med andra ord att hålla balansen på FlyboardenNär du åker Flyboard så ingår lån av våtdräkt, flytväst och hjälm.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/flyboard.jpg"
     },
     "pris":"1995 kr",
     "parkering":"Ja"
   },
   {
     "city":"Öland",
+    "id":"3",
     "Adress":"Glabogatan 3, 38773 Löttorp",
     "Företag":"Glabo Gokart & Paintball",
     "Aktivtet":"Gokart",

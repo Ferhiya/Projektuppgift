@@ -1,19 +1,34 @@
+var weatherElem;
 var latitude;
 var longitude;
 var testElem;
+var knappar; //refens till tryckt knapp
 let cities = [
     {name: "Älmhult", lat: 56.552421, lng: 14.137449, temp: 0, conditions: 0},
     {name: "Växjö", lat: 56.879025, lng: 14.805434, temp: 0, conditions: 0},
     {name: "Ljungby", lat: 56.832700, lng: 13.941018, temp: 0, conditions: 0},
     {name: "Kalmar", lat: 56.663177, lng: 16.356674, temp: 0, conditions: 0},
-    {name: "Jönköping", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0}
+    {name: "Jönköping", lat: 57.757687, lng: 16.637028, temp: 0, conditions: 0},
+    {name: "Västervik", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0},
+    {name: "Värnamo", lat: 57.183132, lng: 14.047798, temp: 0, conditions: 0},
+    {name: "Oskarshamn", lat: 57.265678, lng: 16.447400, temp: 0, conditions: 0},
+    {name: "Nässjö", lat: 57.653020, lng: 14.696725, temp: 0, conditions: 0},
+    {name: "Tranås", lat: 58.035507, lng: 14.975694, temp: 0, conditions: 0},
+    {name: "Vetlanda", lat: 57.427446, lng: 15.085333, temp: 0, conditions: 0},
+    {name: "Öland", lat: 56.664757, lng: 16.636482, temp: 0, conditions: 0}
 ];
 
 function init() {
     testElem = document.getElementById("test");
+    knappar = document.getElementsByClassName("knappar");
+    weatherElem = document.getElementById("väder2");
 
     for (let i = 0; i < cities.length; i++) {
         requestTemp(cities[i]);
+    }
+
+    for (let i = 0; i < knappar.length; i++) {
+        knappar[i].addEventListener("click", something);
     }
 
 }
@@ -41,6 +56,20 @@ function getTemp(response, city) {
     city.temp = params[10].values[0];
     city.conditions = params[18].values[0];
 
+
+}
+
+function something(e) {
+
+    let cityname = e.target.attributes.city.value;
+
+    console.log(cityname)
+    for (i = 0; i < cities.length; i++) {
+        if (cities[i].name == cityname) {
+            city = cities[i]; 
+        }
+    }
+
     let img = document.createElement("img");
 
     if (city.conditions <= 4) {
@@ -56,10 +85,9 @@ function getTemp(response, city) {
     img.height = 60;
     img.width = 60;
 
-    testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
-    testElem.appendChild(img);
 
+    weatherElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
+    weatherElem.appendChild(img);
 }
-
 
 //http://opendata.smhi.se/apidocs/metfcst/parameters.html#parameter-wsymb info about conditions 1-4 sun, 5-8 cloud, 9-20 rain, 21-27 thunder

@@ -218,9 +218,9 @@ for (let i = 0; i < vandring.length; i++) {
 }
 exdiv.style.marginBottom = "5%";
 exdiv.style.fontSize = "150%";
-exdiv.style.marginBottom = "5%";
-exdiv.style.border="2px solid red";
 valt.innerHTML= HTMLcode2;
+let testdiv=document.getElementById("container");
+testdiv.style.visibility="visible";
 
 }
 function clearcontent(display) {
@@ -231,6 +231,14 @@ function showledinfo(){
 ledinfo.style.visibility="visible";
 	
 }
+function showimgbox(){
+    let imgbox=document.getElementById("läggtillbider");
+    imgbox.style.visibility="hidden";
+
+    let imgrubrik=document.getElementById("bildrubrik");
+    imgrubrik.addEventListener("click").style.visibility="vissable";
+        
+    }
 function clearcontent(valt) {
     valt.innerHTML = "";
      //alt.remove();
@@ -240,6 +248,27 @@ function clearcontent(valt) {
     //exdiv.style.marginRight="550px";
     //valt.style.visibility="hidden";
 }
+var loadFile = function(event) {
+    var input = document.getElementById('file');
+    
+    const numberofFiles = input.files.length;
+    console.log(numberofFiles);
+	for( i=0;i< numberofFiles; i++){
+			//do the upload for each file.
+			var image = document.getElementById('laddabild');
+	        image.src = URL.createObjectURL(event.target.files[0]);
+           
+            var image2 = document.getElementById('laddabild2');
+            image2.src = URL.createObjectURL(event.target.files[1]);
+            
+            var image3 = document.getElementById('laddabild3');
+            image3.src = URL.createObjectURL(event.target.files[2]);	
+	}
+
+};
+
+
+  
 /*
 function showledinfo2(){
 	valt=document.getElementById("valt");

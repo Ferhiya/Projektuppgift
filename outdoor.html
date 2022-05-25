@@ -7,23 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fb4b593625.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="outdoor.js"></script>
+    <script type="text/javascript" src="weather.js"></script>
+    <script src="/Inloggning/hide/hide-statiska.js"></script>
 
     <link rel="stylesheet" href="/style2.css">
     <title>Utomhusaktiviteter</title>
 </head>
 
 <body>
-    <div id="upperpart">
-        <div id="navbar">
-            <h1>Friluftszonen</h1>
-
-            <p>Logga in</p>
-            <p>Forum</p>
-            <p>Om oss</p>
-
-
+    <div id="navbar"> 
+        <div id="logga-ikon">
+        <div id="logga"> <img src="/img/logo.svg" > </div ><h2>Friluftszonen</h2> </div> 
+        <h2>  <a href="/landingpage.html">Hem</a></h2> 
+        <h2>  <a href="/aktiviteter.html">Aktivitet</a></h2>
+        <h2> <a href="/Forum/landsida.html">Forum</a> </h2>
+       
+        <div class="show"><h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div>
+          
         </div>
-    </div>
 
     <div class="filtering">
         <!-- <div id="sokruta">
@@ -37,7 +38,7 @@
                 <label for="Stad1"> Jönköping</label><br>
                 <input type="checkbox" id="Växjö" name="Växjö" value="Växjö">
                 <label for="Stad2"> Växjö</label><br>
-                <input type="checkbox" id="Ämlhult" name="Ämlhult" value="Ämlhult">
+                <input type="checkbox" id="Älmhult" name="Ämlhult" value="Ämlhult">
                 <label for="stad3"> Ämlhult</label><br>
                 <input type="checkbox" id="Västervik" name="Västervik" value="Västervik">
                 <label for="Stad4"> Västervik</label><br>
@@ -89,12 +90,6 @@
 
             </div>
 
-        </div>
-
-        <div id="anpassningar">
-            <h2>Anpassningar</h2>
-            <form>
-            </form>
         </div>
 
     </div>
@@ -169,6 +164,12 @@
             <h1>Utomhusaktiviteter i Vetlanda</h1>
             <img class="bildtest" src="image/vetlanda.jpg">
             <button class="knappar" city="Vetlanda" type="outdoor">Läs mer</button>
+        </div>
+
+        <div class="städer">
+            <h1>Utomhusaktiviteter på Öland</h1>
+            <img class="bildtest" src="image/öland.jpg">
+            <button class="knappar" city="Öland" type="outdoor">Läs mer</button>
         </div>
 
     </div>

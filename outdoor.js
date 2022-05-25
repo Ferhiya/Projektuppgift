@@ -6,11 +6,7 @@ var valt2; //refrens till div elemetet där info om vandrignsledet ska visas
 var knappar; //refens till tryckt knapp
 var display;
 var outdoorinfo;
-var weatherinfo; 
-var lat = 56.663177;
-var lng =16.356674;
-var temp = 0; 
-var conditions = 0;
+ 
 
 // Initiering av globala variabler och händelsehanterare
 function init() {
@@ -18,13 +14,13 @@ function init() {
     valt2 = document.getElementById("valt2");
     knappar = document.getElementsByClassName("knappar");
     display = document.getElementById("utomhus");
-    weatherElem = document.getElementById("väder2");
+
 
     for (let i = 0; i < knappar.length; i++) {
         knappar[i].addEventListener("click", requestData);
         knappar[i].addEventListener("click", requestBikeData);
         knappar[i].addEventListener("click", showledinfo);
-        knappar[i].addEventListener("click", requestTemp);
+
 
     }
 
@@ -78,6 +74,7 @@ function getData(response) {
         HTMLcode +=
             "<hr>" +
             "<p><b>Namn:</b> " + hi[i].name + "</p>" + //lägger in namnet på ledet i html strängen
+            "<img src='img/" + hi[i].description + ".jpg'></img>" + // hi[i].description hämtar beskrivningen på aktiviteten så därför behöver du lägga in bilder i img/ mappen som heter samma sak som beskrivningen, om det är lite konstigt kan jag förklara bättre imon 
             "<p><b>Fysisktkrävande:</b> " + hi[i].physical_effort + "</p>" + //lägger in längden på ledet i html strängen
             "<p><b>beskrivning:</b> " + hi[i].description + "</p>"; //lägger in info om handikapsanpassning i ledet i html strängen
     }
@@ -153,44 +150,3 @@ function showledinfo() {
     outdoorinfo.style.visibility = "visible";
 }
 
-//Start requestTemp
-function requestTemp() {
-
-    let request = new XMLHttpRequest();
-    request.open("GET", "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/" + lng + "/lat/" + lat + "/data.json");
-    request.send(null);
-    request.onreadystatechange = function() {
-        if (request.readyState == 4) {
-            if (request.status == 200); {
-            getTemp(request.responseText);
-            }
-        }
-    };
-}//End requestTemp
-
-function getTemp(response) {
-
-    response = JSON.parse(response);
-    params = response.timeSeries[0].parameters;
-    temp = params[10].values[0];
-    conditions = params[18].values[0];
-
-    let img = document.createElement("img");
-
-    if (conditions <= 4) {
-        img.src = "ikoner/sun.svg";
-    } else if (conditions <= 8) {
-        img.src = "ikoner/cloudy.svg";
-    } else if (conditions <= 20) {
-        img.src = "ikoner/rain.svg";
-    } else {
-        img.src = "ikoner/thunder.svg"
-    }
-
-    img.height = 80;
-    img.width = 80;
-
-    weatherElem.appendChild(img);
-    weatherElem.innerHTML += "<br>" + Math.round(temp) + "°C" + "<br>";
-
-}

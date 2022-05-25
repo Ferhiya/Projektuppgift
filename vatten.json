@@ -2,9 +2,9 @@
     "vatten": [
         {
             "city": "Kalmar",
-            "id":"",
+            "id":"1",
             "Adress": "Stensövägen 100392 47 Kalmar",
-            "aktivitet": "SUP – Stand up paddle board",
+            "Aktivitet": "SUP – Stand up paddle board",
             "längd": "Halvdag eller heldag beroende på anläggning",
             "handikapsanpassat": "Nej",
             "link": {
@@ -19,9 +19,9 @@
         },
         {
             "city": "Kalmar",
-            "id":"",
+            "id":"2",
             "Adress": "Stensövägen 100392 47 Kalmar",
-            "aktivitet": "Havskajak",
+            "Aktivitet": "Havskajak",
             "längd": "Hel dag eller halv dag beroende på anläggning",
             "handikapsanpassat": "Nej",
             "beskrivning": "Havkajaken är perfekt för indvider som söker lite mer fart i livet. Man sitter i en sittbrunn och styr med hjälp av skedde eller roder (beroende på typ). Havskajaken kräver lite mer vana och balans.",
@@ -36,9 +36,9 @@
         },
         {
             "city": "Kalmar",
-            "id":"",
+            "id":"3",
             "Adress": "Stensövägen 100392 47 Kalmar",
-            "aktivitet": "Sit on top-Kajak",
+            "Aktivitet": "Sit on top-Kajak",
             "längd": "Halvdag eller heldag beroende på anläggning",
             "handikapsanpassat": "",
             "link": {
@@ -55,7 +55,7 @@
             "city": "Växjö",
             "id":"",
             "Adress":"Evedalsvägen, 352 63 Växjö",
-            "aktivitet": "Kom-igång SUP",
+            "Aktivitet": "Kom-igång SUP",
             "längd": "2 timmar",
             "handikapsanpassat": "Nej",
             "beskrivning": "Med en så kallad SUP-bräda kan du vara ute på vattnet oavsett väder och vind. Kom-igång paddling är en aktivitet för nya och befintliga medlemmar (samt barn från 11 år) med syftet att introducera nya medlemmar till grunderna i SUP på Helgasjön",
@@ -72,7 +72,7 @@
             "city": "Växjö",
             "id":"",
             "Adress":"Evedalsvägen, 352 63 Växjö",
-            "aktivitet": "Kom-igång paddling",
+            "Aktivitet": "Kom-igång paddling",
             "längd": "2-3 timmar",
             "handikapsanpassat": "Nej",
             "beskrivning": "Kom-igång paddling är en aktivitet för nya och befintliga medlemmar i alla åldrar (från 16 år) med syftet att introducera nya medlemmar till grunderna i kajakpaddlining i Helgasjön men aktiviteten passar även medlemmar som vill njuta av en avkopplande kvällstur på torsdagar eller lära känna nya kanotister",
@@ -87,9 +87,9 @@
         },
           {
             "city": "Växjö",
-            "id":"",
+            "id":"3",
             "Adress":"Sandsbro",
-            "aktivitet": "Fiske",
+            "Aktivitet": "Fiske",
             "längd": "Halv eller heldag",
             "handikapsanpassat": "Ja/nej",
             "link": {
@@ -97,33 +97,33 @@
             },
             "beskrivning": "Toftasjön ligger vid Sandsbro ca 5 km från Växjö centrum. Fiskekortet gäller även i Yasjön och Skirsjön som tillsammans omfattar ca 320 ha vatten. Närheten till Växjö gör resan kort om man vill ha ett bra fiske nära centrum",
             "image": {
-                "url":"image/image/fiske.jpg.jpg"
+                "url":"image/fiske.jpg"
             },
             "pris": "Kostandsfritt",
             "parkering": "Ja"
         },
         {
             "city": "Älmhult",
-            "id":"",
+            "id":"1",
             "Adress":"Bökhult 343 38 Älmhult",
-            "Aktivitet": "Kanot",
-            "längd": "Heldag",
+            "Aktivitet":"Kanot",
+            "längd":"Heldag",
             "handikapsanpassat": "Nej",
             "beskrivning": "Om du vill ta en halvdag och bara njuta av en stilla tur på ån, så är sträckan mellan Bråthult och Möllekulla perfekt. Det är kanske den finaste delen av hela Helge Å med varierande landskap, rikt fågelliv och mycket lugn å. Vill du läsa mer om sträckan kan du göra det här",
             "link": {
                 "linkurl": "https://sjostugan.com/aktiviteter/"
             },
             "image": {
-                "url": "imaage/kanot.jpg"
+                "url": "image/kanot.jpg"
             },
             "pris": "350",
             "parkering": "Ja"
         },
         {
             "city": "Älmhult",
-            "id":"",
+            "id":"2",
             "Adress":"Bökhult 343 38 Älmhult",
-            "Aktivitet": "Fiske",
+            "Aktivitet":"Fiske",
             "längd": "",
             "handikapsanpassat": "",
             "beskrivning": "I sjön Möckeln finns det gott om fisk – abborre, mört och gädda men även gös och mal. Det går utmärkt att fiska från strandkanten men vill man få de riktigt stora fiskarna kan man hyra en båt och ro ut till de djupare delarna av sjön.För att fiska i sjön krävs det ett fiskekort,prisserna på kortet varierar beroende på hur länge kortet ska gälla. Ett dagskort kostar 100 kr.",
@@ -131,17 +131,18 @@
                 "linkurl": "https://sjostugan.com/aktiviteter/"
             },
             "image": {
-                "url":"image/image/fiske.jpg.jpg"
+                "url":"image/fiske.jpg"
             },
             "pris":"Dagskort 100 kr",
             "parkering": "Ja"
         },
           {
-            "city": "Älmhukt",
-            "id":"",
+            "city": "Älmhult",
+            "id":"3",
             "Adress":"Bökhult 343 38 Älmhult",
-            "aktivitet": "Bastubåt",
+            "aktivitet":"Bastubåt",
             "längd":"Oklart",
+            "Barnvanligt":"Ja",
             "handikapsanpassat": "Ja",
             "link": {
                 "linkurl": "https://sjostugan.com/aktiviteter/"
@@ -155,9 +156,9 @@
         },
         {
             "city": "Jönköping",
-            "id":"",
+            "id":"1",
             "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
-            "Aktivitet": "Kajakutflykter",
+            "Aktivitet":"Kajakutflykter",
             "längd":"Förmiddag eller heldagstur",
             "handikapsanpassat": "Nej",
             "beskrivning": "Vi har kajaker i både plast och glasfiber.Många av våra grupper väljer till en måltid i samband med aktiviteterna i äventyrsbyn. Vårt Café serverar fika och enklare mat. Vi ordnar gärna med piknickkorgar till din utflykt om du önskar.",
@@ -172,11 +173,12 @@
         },
         {
             "city": "Jönköping",
-            "id":"",
+            "id":"2",
             "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
-            "Aktivtet": "Kräftfiske för familjen",
+            "Aktivitet":"Kräftfiske för familjen",
             "längd":"Heldag",
             "Barnvanligt":"Ja",
+            "handikapsanpassat":"Nej",
             "beskrivning":"När du kommer till oss instruerar vi i hur det går till att fiska kräftor och du får betesfisk, kräftburar och tillgång till båt.Vi berättar om kräftan och var du skall lägga dina burar. Ni betar kräftburarna och ror ut i Klockesjön för att lägga ut 4 burar per person. Efter iläggningen av burarna har ni tillgång till någon av våra grillar där ni kan grilla och umgås. Det finns även flera aktiviteter att göra i äventyrsbyn medan ni väntar på att kräftorna skall krypa in i burarna. ",
             "link": {
                 "linkurl": "https://ramoa.se/catalog/groups/aktiviteter"
@@ -189,10 +191,11 @@
         },
           {
             "city": "Jönköping",
-            "id":"",
+            "id":"3",
             "Adress":"Ramkvilla torp 16, 574 74 Ramkvilla",
-            "Aktivtet":"Äventyrsorientering",
+            "Aktivitet":"Äventyrsorientering",
             "längd":"",
+            "Barnvanligt":"Ja",
             "handikapsanpassat":"Nej",
             "link": {
                 "linkurl":"https://ramoa.se/catalog/groups/aktiviteter"
@@ -206,9 +209,9 @@
         },
         {
             "city": "Västervik",
-            "id":"",
+            "id":"1",
             "Adress":"Lysingsvägen, 593 53 Västervik",
-            "Aktivtet":"Kajak kurs",
+            "Aktivitet":"Kajak kurs",
             "längd":"Heldag och 2 dagars kurs",
             "handikapsanpassat":"Nej",
             "beskrivning":"Kursen fokuserar på de tre områdenerna teknik, säkerhet och miljö.Kursen är framtagen i ett europeiskt samarbete för att erbjuda en gemensam, metodisk och tydlig utbildning för bättre kunskaper inom paddling på olika nivåer.",
@@ -223,9 +226,9 @@
         },
         {
             "city": "Västervik",
-            "id":"",
+            "id":"2",
             "Adress":"Lysingsvägen, 593 53 Västervik",
-            "Aktivtet":"Juniorpaddling",
+            "Aktivitet":"Juniorpaddling",
             "längd":"2.5 timmar",
             "handikapsanpassat":"Nej",
             "beskrivning":"Målet i kursen är att ha en kul dag på vattnet och få lära sig paddla och känna sig säker i kajaken. Vi börjar med torrpaddling på land innan vi kliver i kajakerna. Vi ser till att barnet kommer igång med teknik, genomgång av lite teori, prat om allemansrätten. Vår erfarenhet är att barnen snabbt blir trygga och är snabba att få till paddlingen.Kursen är för barn mellan 6-12 år. De som anmäler sig måste vara simkunniga.Kursen hålls mellan 16:00-18:30 varje torsdags på ostkustenskajak,ekön med start 30/6-11/6 och varje tisdag på Västervik resort med start 28/6 till den 9/8.",
@@ -240,9 +243,9 @@
         },
           {
             "city": "Västervik",
-            "id":"",
+            "id":"3",
             "Adress":"Ljusterbrovägen 30 781 62 Gustafs",
-            "Aktivtet":"Kajak",
+            "Aktivitet":"Kajak",
             "längd":"Oklart",
             "handikapsanpassat":"Nej",
             "link": {
@@ -257,9 +260,9 @@
         },
         {
             "city": "Värnamo",
-            "id":"",
+            "id":"1",
             "Adress":"",
-            "Aktivtet":"Kajak eller kanot utflykt",
+            "Aktivitet":"Kajak eller kanot utflykt",
             "längd":"Dagstur",
             "handikapsanpassat": "Nej",
             "beskrivning":"Zino's Natur hyr ut kajaker och kanoter på södra Bolmsö som ligger i sjön Bolmen. Bolmen erbjuder en fantastiskt fin natur och här passar det både att paddla en kort tur på några timmar men också längre turer med flera övernattningar. Varför inte paddla Bolmsö runt",
@@ -275,9 +278,9 @@
      
           {
             "city": "Värnamo",
-            "id":"",
+            "id":"2",
             "Adress":"Hindsen, 331 93 Värnamo",
-            "Aktivtet": "Fiske",
+            "Aktivitet": "Fiske",
             "längd":"Oklart",
             "handikapsanpassat":"Ja",
             "link": {
@@ -292,8 +295,9 @@
         },
         {
             "city": "Värnamo",
+            "id":"3",
             "Adress":"",
-            "Aktivtet":"",
+            "Aktivitet":"",
             "längd": "",
             "handikapsanpassat": "Nej",
             "beskrivning":"läs mer på här http://storanskanotled.se/kanot/",
@@ -308,9 +312,9 @@
         },
         {
             "city":"Orskarshamn",
-            "id":"",
+            "id":"1",
             "Adress":"Malghultsvägen, 572 73 Kristdala",
-            "Aktivtet":"paddeltur till Råsvik",
+            "Aktivitet":"paddeltur till Råsvik",
             "längd":"7 timmar",
             "handikapsanpassat":"Nej",
             "beskrivning":"En kort paddelturerna till meteoritsjöns badplats är perfekt för mindre barn. Här finns bryggor, omklädningsrum, fräscha toaletter, fikabord och en fin grillplats",
@@ -325,9 +329,9 @@
         },
           {
             "city":"Orskarshamn",
-            "id":"",
+            "id":"2",
             "Adress":"Malghultsvägen, 572 73 Kristdala",
-            "Aktivtet":"paddeltur runt hummeln ",
+            "Aktivitet":"paddeltur runt hummeln ",
             "längd":"Dygn",
             "handikapsanpassat":"",
             "link": {
@@ -342,9 +346,9 @@
         },
         {
             "city": "Oskarshamn",
-            "id":"",
+            "id":"3",
             "Adress":"Malghultsvägen, 572 73 Kristdala",
-            "Aktivtet":"Paddeltur till Humlenäs naturreservat",
+            "Aktivitet":"Paddeltur till Humlenäs naturreservat",
             "längd":"",
             "handikapsanpassat":"Nej",
             "beskrivning":"Humlenäs naturreservat ligger vid den södra delen av sjön och passar utmärkt för dom som vill paddla lite längre.Under paddelningen får man även en utmärkt utsikt över djuphålan där meteoriten slog ner.",
@@ -360,9 +364,9 @@
      
         {
             "city": "Nässjö",
-            "id":"",
+            "id":"1",
             "Adress":"Kyrkogatan 50, 571 78 Forserum",
-            "Aktivtet":"Guidad kajaktur",
+            "Aktivitet":"Guidad kajaktur",
             "längd": "",
             "handikapsanpassat": "Nej",
             "beskrivning":"Våra licensierade instruktörer guidar gruppen säkert fram på vattnet och gör aktiviteten till en riktig småländsk upplevelsemin. Gruppen ska vara minst 4 personer och max 12 personer",
@@ -377,9 +381,9 @@
         },
         {
             "city": "Nässjö",
-            "id":"",
+            "id":"2",
             "Adress":"",
-            "Aktivtet": "",
+            "Aktivitet": "",
             "längd": "",
             "handikapsanpassat": "",
             "link": {
@@ -395,9 +399,9 @@
 
         {
             "city":"Ljungby",
-            "id":"",
+            "id":"1",
             "Adress":"Bråna Näs 1, 34390, Agunnaryd",
-            "Aktivtet":"Stand Up Paddle board",
+            "Aktivitet":"Stand Up Paddle board",
             "längd":"Oklart",
             "handikapsanpassat":"Nej",
             "beskrivning":"står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper.",
@@ -412,9 +416,9 @@
         },
         {
             "city": "Ljungby",
-            "id":"",
+            "id":"2",
             "Adress":"Bråna Näs 1, 34390, Agunnaryd",
-            "Aktivtet":"Dagskurs i kajak för nybörjare",
+            "Aktivitet":"Dagskurs i kajak för nybörjare",
             "längd":"8 timmar",
             "handikapsanpassat":"A one day introduction to Kayaking Course for beginners or those of you who have paddled a bit before but never followed a kayak course. Develop your paddling in the wonderful surroundings of Agunnaryd! Our kayak instructors will go through all the parts of the yellow paddlepass. During the course we will teach you different paddle, safety and rescuing techniques. The hire of a kayak is included (översätt till svenska)",
             "link": {
@@ -429,9 +433,9 @@
         },
         {
             "city": "Ljungby",
-            "id":"",
+            "id":"3",
             "Adress":"Bråna Näs 1, 34390, Agunnaryd",
-            "Aktivtet":"vilmarks kanotpaddling med camping",
+            "Aktivitet":"vilmarks kanotpaddling med camping",
             "längd":"2 dagar",
             "handikapsanpassat":"Nej",
             "beskrivning":"Kanot äventyr med en campings övernattning i vildmarken.Du får allt du behöver för en säker och spännande vildmarks äventyr.",
@@ -447,9 +451,9 @@
 
           {
             "city":"Tranås",
-            "id":"",
+            "id":"1",
             "Adress":"",
-            "Aktivtet":"Kanot/kajaktur i sommen",
+            "Aktivitet":"Kanot/kajaktur i sommen",
             "längd":"1 dygn",
             "handikapsanpassat":"Nej",
             "link": {
@@ -464,9 +468,9 @@
         },
         {
             "city":"Tranås",
-            "id":"",
+            "id":"2",
             "Adress":"",
-            "Aktivtet": "",
+            "Aktivitet": "",
             "längd": "",
             "handikapsanpassat": "Nej",
             "beskrivning": "",
@@ -482,9 +486,9 @@
 
           {
             "city": "Vetlanda",
-            "id":"",
+            "id":"1",
             "Adress":"Emhult 7, 574 55 Kvillsfors",
-            "Aktivtet":"Kanottur med middag vid stranden av Emån",
+            "Aktivitet":"Kanottur med middag vid stranden av Emån",
             "längd":"Eftermiddag",
             "handikapsanpassat":"Nek",
             "link": {
@@ -499,8 +503,8 @@
         },
         {
             "city": "Vetlanda",
-            "Adress":"",
-            "Aktivtet": "",
+            "Adress":"2",
+            "Aktivitet":"",
             "längd": "",
             "handikapsanpassat": "Nej",
             "beskrivning": "",
@@ -515,10 +519,10 @@
         },
       
           {
-            "city": "Öland",
-            "id":"",
+            "city":"Oland",
+            "id":"1",
             "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
-            "Aktivtet":"WATERBALLS - SPRING PÅ VATTNET",
+            "Aktivitet":"WATERBALLS - SPRING PÅ VATTNET",
             "längd":"10 minuter",
             "handikapsanpassat":"Nej",
             "link": {
@@ -526,16 +530,16 @@
             },
             "beskrivning":"Waterballs är en boll som är två meter i diameter och försedd med en dragkedja. Du kliver in i bollen och sen stänger instruktören dragkedjan.Nu tar du ett kliv ut i vattnet och försöker sedan hålla balansen i waterballen. Att försöka gå, stå och springa i en waterball är inte enkelt men det går med lite träning. Efter cirka 10 minuter är du nöjd och då drar instruktören in bollen till bryggan igen med hjälp av ett snöre som är knutet i bollen under hela tiden du vistas i bollen.",
             "image": {
-                "url": "image/vandringsbild1.jpg"
+                "url": "image/vattenboll.jpg"
             },
             "pris":"250 kr/person",
             "parkering": "Ja"
         },
         {
-            "city": "Öland",
-            "id":"",
+            "city":"Oland",
+            "id":"2",
             "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
-            "Aktivtet":"Stand up paddle",
+            "Aktivitet":"Stand up paddle",
             "längd":"2 timmar",
             "Barnvanligt":"Ja",
             "handikapsanpassat":"Nej",
@@ -544,16 +548,16 @@
             },
             "beskrivning":"står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper",
             "image": {
-                "url":"image/paddelboard.jpg"
+                "url":"image/paddleboard.jpg"
             },
             "pris":"500 kr per bräda",
             "parkering":"Ja"
         },
         {
-            "city": "Öland",
-            "id":"",
+            "city": "Oland",
+            "id":"3",
             "Adress":"",
-            "Aktivtet":"Mega sup",
+            "Aktivitet":"Mega sup",
             "längd":"1-1.5 timmar",
             "handikapsanpassat":"Nej",
             "link": {
@@ -561,7 +565,7 @@
             },
             "beskrivning":"Varje bräda i mega sup är stor nog att rymma upp till åtta personer. Alla har varsin paddel.Aktiviteten Mega SUP gåt till som så att alla får testa brädor och teknik. Därefter är det stafetter tills vi har en vinnare. Det går att lägga in moment i stafetten som gör det svårare och mer spännande. T ex att brädan ska passera ett snöre där brädan går under snöret och deltagarna på brädan måste hoppa över snöret.Det finns flytväst och våtdräkt att låna för de som önskar",
             "image": {
-                "url":"image/vandringsbild1.jpg"
+                "url":"image/paddleboard.jpg"
             },
             "pris":"1500 kr",
             "parkering":"Ja"

@@ -1,7 +1,7 @@
 // Globala variabler
 var myApiKey = "385c01f06e7fc079126bc42be657e5d6";	// Ersätt DIN-API-KEY med din egen API key
 var flickrImgElem;		// Referens till element där bilderna ska visas
-var skicka; //knapp för att lägga till kommentar
+//var skicka; //knapp för att lägga till kommentar
 var valt; //refrens till div elemetet där info om vandrignsledet ska visas
 var knappar; //refens till tryckt knapp
 var display;
@@ -15,22 +15,24 @@ let cities = [
     {name: "Kalmar", lat: 56.663177, lng: 16.356674, temp: 0, conditions: 0},
     //{name: "Jönköping", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0}
 ];
+var exdiv;
+
+
+
 	
 // Initiering av globala variabler och händelsehanterare
 function init() {
 	flickrImgElem = document.getElementById("flickrImg");
 	valt=document.getElementById("valt");
 	testknapp=document.getElementById("testknapp");
-
 	knappar=document.getElementsByClassName("knappar");
     display=document.getElementById("vandringslederna");
-
+    ledinfo=document.getElementById("ledinfo");
 	for (let i = 0; i < knappar.length; i++) {
 		knappar[i].addEventListener("click", requestData);
         knappar[i].addEventListener("click", showledinfo);
         
 	}
-	
 
 	testElem = document.getElementById("väder2");
 	for (let i = 0; i < cities.length; i++) {
@@ -39,29 +41,14 @@ function init() {
         
     }
     
-
-	skicka= document.getElementById("skicka");
-	skicka.addEventListener("click", function(){
-		var kommentera2Value=document.getElementById("kommentera2");
-		
-		var kommenteraValue=document.getElementById("kommentera");
+exdiv=document.getElementById("testdiv");
+	
 		
 
-		var div=document.getElementById("unordered");
-
-		let led=(kommentera2Value.value);
 	
 
-		let kommentar=(kommenteraValue.value);
-	     
-		div.innerHTML+="<div id='testid'>"+led+"<br>"+kommentar+"</div>";
-		
-		
-	});
-  
-
 	//requestData();
-  
+ 
 } // End init
 window.addEventListener("load",init);
 
@@ -89,9 +76,13 @@ function requestData(e) {
 // Tolkar koden och skriv ut den på önskad form
 function getData(JSONtext,cityname) {
 	let vandring = JSON.parse(JSONtext).vandring; //hämtar arryen med vandringsledernas data.
-
 	let HTMLcode = "";
-
+    let backBTN=document.getElementById("tillknappar");
+    backBTN.style.visibility="visible";
+    let backBTN2=document.getElementById("testbtn");
+    //backBTN2.style.visibility="hidden";
+    backBTN2.innerHTML="";
+    
     HTMLcode +=
 	"<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
     
@@ -115,106 +106,286 @@ function getData(JSONtext,cityname) {
 			"<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
 			"<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
 			//"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
-			`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`+
+			//`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
+            "<button id='testg'>"+ body + "Läs mer</button>"+
+            //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
 			"<hr>"
-			// 1. Create the button
-			//var div=document.createElement("div")
-
+        
 	
 			//valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
-    }
+    
+            var btnx2 = document.createElement("button");
+            btnx2.innerHTML = "Do Something Else";
+            //const cl = document.createAttribute("class");
+            
+            // Set the value of the class attribute:
+            //cl.value = "btncl";
+            
+            const id = document.createAttribute("id");
+            
+            // Set the value of the class attribute:
+            id.value = "2";
+            btnx2.setAttributeNode(id);
+            var body = document.getElementById("testaralt");
+            //body.appendChild(button2);
+            body.append(btnx2);
+            btnx2.setAttribute("class","btncl");
+            var bu=document.getElementById("testg");
+            console.log(bu);
+
+            btnx2.style.fontSize = "100%";
+            btnx2.style.style
+            btnx2.style.width="130px";
+            btnx2.style.margin="0.5%";
+            btnx2.style.color="red";
+            let btnx3=document.getElementsByClassName("btncl");
+            for (let i = 0; i < btnx3.length; i++) {
+               //city classen
+               btnx3[i].setAttribute("city",cityname);
+               btnx3[i].setAttribute("id","1");
+               btnx3[i].id=i+1;
+            } 
+        }
+ 
 }
+
 
 	    valt.innerHTML= HTMLcode;//utskrift av datan i JSON filen
 		//li.style.display=" flex";
 		
-		let button=document.getElementsByClassName("idk");
-	
-		for (let i = 0; i < button.length; i++){
-			button[i].style.fontSize = "100%";
-			button[i].style.width="130px";
-			button[i].style.margin="0.5%";
-			button[i].style.color="red";
-			let elementClicked = false;
-			
-			button[i].addEventListener('click', function handleClick(e) {
-				console.log('element clicked');
-				
-			
-				if (elementClicked) {
-				console.log("clicked");
-				
-				}
-				elementClicked = true;
-		});
-	}
-		
-	
+
+     
+        valt.style.marginBottom = "2%";
         valt.style.fontSize = "150%";
-        valt.style.marginBottom = "5%";
-        document.getElementById("kommentera").style.width= "350px";
-        document.getElementById("kommentera").style.height= "150px";
-        document.getElementById("skicka").style.width= "100px";
+        valt.style.marginBottom = "2%";
         //document.getElementById("unordered").style.border= "2px solid black"; 
     clearcontent(display);
-	
-} // End getData
+    //getData2(JSONtext,btn);
 
+//lägger på onclick event till läs kommentar knappar
+let btnx=document.getElementsByClassName("btncl");
+// 3. Add event handler
+for (let i = 0; i < btnx.length; i++) {
+    btnx[i].addEventListener ("click", function(e) {
+        //alert("did something");
+        clearcontent(valt);
+        requesttest(e);
+       
+      });
+    
+}
+
+} // End getData
+function requesttest(e) { 
+    console.log(e.target);
+    let cityname = e.target.attributes.city.value;
+    
+    let btn=e.target.getAttributeNode("id").value;
+    //btn.id;
+     console.log(btn);
+     let request = new XMLHttpRequest(); // Object för Ajax-anropet
+     request.open("GET","vandring1.json",true);
+     request.send(null); // Skicka begäran till servern
+     request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
+         if (request.readyState == 4) //staus 4=kommunikation klar
+             if (request.status == 200) getData2(request.responseText,btn,cityname); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
+             else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
+     };
+ 
+ } 
+function getData2(JSONtext,btn,cityname){
+    let vandring = JSON.parse(JSONtext).vandring;
+    let HTMLcode2="";
+    document.getElementById("har").style.visibility="visible";
+    document.getElementById("head").style.visibility="visible";
+    document.getElementById("testdiv").style.visibility="visible";
+    let backBTN=document.getElementById("tillknappar");
+    backBTN.style.visibility="hidden";
+    let backBTN2=document.getElementById("testbtn");
+    backBTN2.style.visibility="visible";
+    
+    var x = document.createElement("BUTTON");
+    var t = document.createTextNode("Tillbaka");
+    x.setAttribute("class","tcl");
+    x.setAttribute("city",cityname);
+    x.appendChild(t);
+    document.getElementById("testbtn").appendChild(x);
+    x.style.visibility="visible";
+ 
+       x.addEventListener("click", requestData);
+       x.addEventListener("click", showledinfo);
+  
+for (let i = 0; i < vandring.length; i++) {
+    if (cityname === vandring[i].city && btn === vandring[i].id) {
+       console.log("funkar2");
+           // Referenser till olika egenskaper i vandrings objektet i JSON
+        HTMLcode2 += 
+        "<h2><b></b> " + vandring[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
+        //console.log(vandring[i].imgurl);
+        //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
+        
+        //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
+        //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
+        "<li><b>längd:</b> " + vandring[i].längd + "</li>" + //lägger in längden på ledet i html strängen
+        "<li><b>handikapsanpassat:</b> " + vandring[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
+        "<li><b>svårighetsnivå:</b> " + vandring[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
+        "<li><b>parkering:</b> " + vandring[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
+        "<img src='"+vandring[i].image.url+"'></img>"+
+        "<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
+        "<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
+        //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
+        //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
+       
+        //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
+        "<hr>"
+
+        //valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
+        
+}
+}
+valt.innerHTML= HTMLcode2;
+valt.style.height="50%";
+let testdiv=document.getElementById("container");
+testdiv.style.visibility="visible";
+
+}
 function clearcontent(display) {
     display.innerHTML = "";
 }
+
 function showledinfo(){
-      ledinfo=document.getElementById("ledinfo");
-        ledinfo.style.visibility="visible";
+ledinfo.style.visibility="visible";
 	
 }
+function showimgbox(){
+    let imgbox=document.getElementById("läggtillbider");
+    imgbox.style.visibility="hidden";
+    img.height = 60;
+    img.width = 60;
+    let imgrubrik=document.getElementById("bildrubrik");
+    imgrubrik.addEventListener("click").style.visibility="vissable";
+        
+    }
+function clearcontent(valt) {
+    valt.innerHTML = "";
+     //alt.remove();
+    //ledinfo.removeChild(ledinfo.firstElementChild)
+   // ledinfo.removeChild(valt);
+    //valt.style.display="none";
+    //exdiv.style.marginRight="550px";
+    //valt.style.visibility="hidden";
+}
+var loadFile = function(event) {
+    var input = document.getElementById('file');
+    
+    const numberofFiles = input.files.length;
+    console.log(numberofFiles);
+	for( i=0;i< numberofFiles; i++){
+			//do the upload for each file.
+			var image = document.getElementById('laddabild');
+	        image.src = URL.createObjectURL(event.target.files[0]);
+           
+            var image2 = document.getElementById('laddabild2');
+            image2.src = URL.createObjectURL(event.target.files[1]);
+            
+            var image3 = document.getElementById('laddabild3');
+            image3.src = URL.createObjectURL(event.target.files[2]);	
+	}
+
+};
+
+
+  
+/*
 function showledinfo2(){
 	valt=document.getElementById("valt");
 
 	  valt.style.visibility="hidden";
   
-}
+}*/
 
-//Start requestTemp
-function requestTemp(city) {
-	let request = new XMLHttpRequest();
-    request.open("GET", "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/" + city.lng + "/lat/" + city.lat + "/data.json");
-    request.send(null);
-    request.onreadystatechange = function() {
-        if (request.readyState == 4) {
-            if (request.status == 200); {
-            getTemp(request.responseText, city);
-            }
+// JavaScript code
+function search_animal() {
+	document.getElementById("list").style.visibility="hidden";
+    let input = document.getElementById('sokruta').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('animals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
         }
-    };
-}//End requestTemp
-
-function getTemp(response, city) {
-
-    response = JSON.parse(response);
-    params = response.timeSeries[0].parameters;
-    city.temp = params[10].values[0];
-    city.conditions = params[18].values[0];
-
-    let img = document.createElement("img");
-
-    if (city.conditions <= 4) {
-        img.src = "ikoner/sun.svg";
-    } else if (city.conditions <= 8) {
-        img.src = "ikoner/cloudy.svg";
-    } else if (city.conditions <= 20) {
-        img.src = "ikoner/rain.svg";
-    } else {
-        img.src = "ikoner/thunder.svg"
+        else {
+            x[i].style.display="list-item";                 
+        }
     }
-
-    img.height = 60;
-    img.width = 60;
+}
+{
 
     testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
     testElem.appendChild(img);
 
 } 
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("mertext");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Läs kommentar";
+      btnText.style.fontSize="1.3em";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Göm kommentar";
+      btnText.style.fontSize="1.3em";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function Visakommentarruta() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("textruta1");
+    var btnText = document.getElementById("runBtn");
+    btnText.style.marginLeft = "80%";
+    if (dots.style.display === "none") {
+      dots.style.display = "flex";
+      btnText.innerHTML = "kommentarera";
+     btnText.style.fontSize="1.2em";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "kommentarera";
+      btnText.style.fontSize="1.2em";
+      btnText.style.marginLeft = "80%";
+      moreText.style.display = "inline";
+      moreText.style.margin="2%";
+    }
+  }
+
+  function Visakommentarruta2() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("textruta2");
+    var btnText = document.getElementById("runBtn2");
+    btnText.style.marginLeft = "58%";
+    if (dots.style.display === "none") {
+      dots.style.display = "flex";
+      btnText.innerHTML = "kommentarera";
+     btnText.style.fontSize="1.3em";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "kommentarera";
+      btnText.style.fontSize="1.3em";
+      btnText.style.marginLeft = "58%";
+      moreText.style.display = "inline";
+      moreText.style.margin="2%";
+    }
+  }
+
+
 
 
 
