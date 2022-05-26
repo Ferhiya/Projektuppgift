@@ -11,7 +11,7 @@ var exdiv;
 function init() {
 	flickrImgElem = document.getElementById("flickrImg2");
 	valt=document.getElementById("aderalinv");
-	knappar=document.getElementsByClassName("knappar2");
+	knappar=document.getElementsByClassName("knappar");
     display=document.getElementById("vandringslederna");
 
 	for (let i = 0; i < knappar.length; i++) {
