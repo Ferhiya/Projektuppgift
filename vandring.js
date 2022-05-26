@@ -7,14 +7,6 @@ var knappar; //refens till tryckt knapp
 var display;
 var testknapp;
 var ledinfo;
-var testElem;
-let cities = [
-    //{name: "Älmhult", lat: 56.552421, lng: 14.137449, temp: 0, conditions: 0},
-    //{name: "Växjö", lat: 56.879025, lng: 14.805434, temp: 0, conditions: 0},
-    //{name: "Ljungby", lat: 56.832700, lng: 13.941018, temp: 0, conditions: 0},
-    {name: "Kalmar", lat: 56.663177, lng: 16.356674, temp: 0, conditions: 0},
-    //{name: "Jönköping", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0}
-];
 var exdiv;
 var check;
 
@@ -24,7 +16,6 @@ var check;
 function init() {
 	flickrImgElem = document.getElementById("flickrImg");
 	valt=document.getElementById("valt");
-	testknapp=document.getElementById("testknapp");
 	knappar=document.getElementsByClassName("knappar");
     display=document.getElementById("vandringslederna");
     check=document.getElementsByClassName("check");
@@ -36,12 +27,7 @@ function init() {
         
 	}
 
-	testElem = document.getElementById("väder2");
-	for (let i = 0; i < cities.length; i++) {
-			requestTemp(cities[i]);
-		
-        
-    }
+
     
 exdiv=document.getElementById("testdiv");
 	

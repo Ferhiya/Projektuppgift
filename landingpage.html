@@ -7,21 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="/Inloggning/hide/hide-statiska.js"></script>
+    <script type="text/javascript" src="contactpage.js"></script>
     <title>Friluftszonen</title>
 </head>
 
 <body>
-  
-    <div id="navbar"> 
+
+    <div id="navbar">
         <div id="logga-ikon">
-        <div id="logga"> <img src="/img/logo.svg" > </div ><h2>Friluftszonen</h2> </div> 
-        <h2>  <a href="/landingpage.html">Hem</a></h2> 
-        <h2>  <a href="/aktiviteter.html">Aktivitet</a></h2>
-        <h2> <a href="/Forum/landsida.html">Forum</a> </h2>
-       
-        <div class="show"><h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div>
-          
+            <div id="logga"> <img src="/img/logo.svg"> </div>
+            <h2>Friluftszonen</h2>
         </div>
+        <h2> <a href="/landingpage.html">Hem</a></h2>
+        <h2> <a href="/aktiviteter.html">Aktivitet</a></h2>
+        <h2> <a href="/Forum/landsida.html">Forum</a> </h2>
+
+        <div class="show">
+            <h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2>
+        </div>
+
+    </div>
 
 
     <div class="row">
@@ -34,10 +39,11 @@
                 nemo debitis, nisi error deserunt odit cum dicta excepturi eos nam accusantium magnam dolorum sit omnis.
                 Quam voluptatem dignissimos ad soluta repellendus? Consectetur deserunt repellendus quia odit soluta,
                 at, facere necessitatibus minima iste fuga culpa corrupti voluptatum magnam harum ipsam quis dolorum?
-                Eos, vitae placeat? Assumenda, soluta.</p>
+                Eos, vitae placeat? Assumenda, soluta.</p><br> <hr>
 
-                <h3>Kontakta oss här!</h3><br>
-            <form>
+            <button id="contact" class="formbtns">Kontakta oss här!</button>
+
+            <form id="contactform">
                 <label for="fname">Namn:</label>
                 <input type="text" id="fname" name="firstname" placeholder="Ditt namn här...">
                 <label for="email">Email:</label>
@@ -46,7 +52,7 @@
                 <label for="subject">Ämne:</label>
                 <textarea name="subject" id="subject" placeholder="Skriv ditt meddelande här..." rows="5"></textarea>
 
-                <input type="submit" value="Skicka">
+                <input type="submit" value="Skicka" class="formbtns">
             </form>
 
 
@@ -57,7 +63,9 @@
                 <img src="/ikoner/stickman.svg" class="lpIcon">
                 <p>
                     Hittar alla våra aktiviteter <a href="aktiviteter.html" class="extra">här!</a>
-                    Om du letar efter något mer specifikt, här kan du hitta <a href="Vattenaktiviter.html" class="extra"> vatten</a>, <a href="aderalina.html" class="extra">adrenalin</a>, <a href="vandring.html" class="extra">vandring</a> eller andra
+                    Om du letar efter något mer specifikt, här kan du hitta <a href="Vattenaktiviter.html"
+                        class="extra"> vatten</a>, <a href="aderalina.html" class="extra">adrenalin</a>, <a
+                        href="vandring.html" class="extra">vandring</a> eller andra
                     <a href="outdoor.html" class="extra">utomhus</a> aktiviteter!
                 </p>
             </div>
@@ -66,13 +74,15 @@
             <div class="toActivities">
                 <img src="/ikoner/textbox.svg" class="lpIcon">
                 <p>Vill du istället läsa andra användares tankar om aktiviteter eller helt enkelt
-                    hitta liksinnande folk, kolla in vårt forum <a href="Forum/landsida.html" class="extra">här!</a> </p>
+                    hitta liksinnande folk, kolla in vårt forum <a href="Forum/landsida.html" class="extra">här!</a>
+                </p>
             </div>
             <img src="/ikoner/forumboxes.svg" style="width: 600px;">
         </div>
 
     </div>
-    <div class="hidden"></div><div class="hidden"></div>
+    <div class="hidden"></div>
+    <div class="hidden"></div>
 </body>
 
 </html>
