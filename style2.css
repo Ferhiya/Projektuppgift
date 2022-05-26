@@ -128,7 +128,7 @@ img.aktivtetsbilder {
 }
 
 
-#ledinfo, #vatteninfo {
+#ledinfo, #vatteninfo, #adinfo {
     display: grid;
     grid-template-columns: 2.1fr 0.2fr 1fr;
     margin-bottom: 2%;
@@ -137,17 +137,19 @@ img.aktivtetsbilder {
     visibility: hidden;
 }
 
-#valt li, #valt2 li {
+#valt li, #valt3 li,#valt2 li, #aderalinv li , #vattenv2 li, #vattenv3 li{
     display: inline-block;
     padding: 1%;
     list-style: none;
     background-color: rgb(245, 242, 242);
 }
 
-#valt,#valt2 {
+#valt,#valt3,#valt2, #aderalinv, #vattenv2, #vattenv3 {
     width: 80%;
 
 }
+
+
 
 
 
@@ -160,7 +162,7 @@ img.aktivtetsbilder {
     padding-top: 0.5%;
     width: 90%;
 }
-#valt2 img {
+#valt2 img, #valt3 img{
     padding-top: 0.5%;
     width: 80%;
 }
@@ -182,8 +184,8 @@ text-decoration: none;
 }
 
 
-.knappar,
-.knappar2 {
+.knappar, .knappar2,
+.vattenbtn {
     border: #e0b767;
     background-color: #e0b767;
     padding: 5px;
@@ -528,6 +530,51 @@ text-decoration: none;
           #textruta1{
               display: none;
           }
+
+          /* Dropdown Button */
+#dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  #dropbtn:hover, #dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
                      
 
                      

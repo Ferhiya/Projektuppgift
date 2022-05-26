@@ -15,10 +15,7 @@
             },
             "svårighetsnivå": "1",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+           "button":"Läs kommentar"
             
         },
         {
@@ -36,10 +33,7 @@
             },
             "svårighetsnivå": "2",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            "button":"Läs kommentar"
             
         },
         {
@@ -57,11 +51,7 @@
             },
             "svårighetsnivå": "1",
             "parkering": "Nej",
-        "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
-            
+            "button":"Läs kommentar"
         },
         {
             "city": "Kalmar",
@@ -78,10 +68,7 @@
                 "url": "image/vandringsbild4.jpg"
             },
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            "button":"Läs kommentar"
             
         },
         {
@@ -99,11 +86,7 @@
             },
             "svårighetsnivå": "2",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
-            
+            "button":"Läs kommentar"
         },
         {
             "city": "Kalmar",
@@ -120,10 +103,7 @@
             },
             "svårighetsnivå": "1",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "hrhrhrhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            "button":"Läs kommentar"
             
         },
         {
