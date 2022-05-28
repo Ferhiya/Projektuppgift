@@ -100,12 +100,14 @@ form {
 
 h1 {
     text-align: center;
+    font-size: 30px;
 }
 
 #rubrik1 {
     border-bottom: solid 5px #138558;
-    width: fit-content;
-    margin-left: 38%;
+padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -207,6 +209,20 @@ text-decoration: none;
     margin-top: 2%;
     cursor: pointer;
 }
+
+
+.knappar:hover {
+background-color: #b09152;
+border-color: #b09152;
+border-radius: 5px;
+}
+
+.knappar2:hover {
+background-color: #b09152;
+border-color: #b09152;
+border-radius: 5px;
+}
+
 #testaralt{
     margin-top: 80%; 
     margin-right: 80%;
@@ -268,8 +284,13 @@ text-decoration: none;
 
 #städer {
     margin-top: 5%;
-    padding-bottom: 1%;
-    
+    padding-bottom: 1%;  
+}
+
+.städer {
+border-bottom: 5px #138558 solid;
+padding-bottom: 10px;
+border-radius: 3px;
 }
 
 #städer2 {
