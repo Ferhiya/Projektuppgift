@@ -65,8 +65,6 @@ function requestData(e) {
 function getData(JSONtext,cityname) {
 	let vandring = JSON.parse(JSONtext).vandring; //hämtar arryen med vandringsledernas data.
 	let HTMLcode = "";
-    let test=document.getElementById("testaralt");
-    test.innerHTML="";
     let backBTN=document.getElementById("tillknappar");
     backBTN.style.visibility="visible";
     let backBTN2=document.getElementById("testbtn");

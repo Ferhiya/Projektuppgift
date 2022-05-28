@@ -130,7 +130,7 @@ img.aktivtetsbilder {
 
 #ledinfo, #vatteninfo, #adinfo {
     display: grid;
-    grid-template-columns: 2.1fr 0.2fr 1fr;
+    grid-template-columns: 2fr 1fr;
     margin-bottom: 2%;
     padding-left: 0%;
     margin-left: 3%;
@@ -225,6 +225,7 @@ text-decoration: none;
     margin-left: 40%;
     margin-top: 10%;
     width: 120px;
+    visibility: hidden;
 }
 #tillknappar a{
     font-size: 1.8rem;
@@ -356,6 +357,7 @@ text-decoration: none;
     border-style: solid;
     padding: 20px;
     line-height: 25px;
+    margin: 6.4%;
     }
     
     #inlagg-kommentar {
@@ -448,7 +450,7 @@ text-decoration: none;
                 #input1 {
                     width: 500px; 
                     height: 50px;
-                    margin-top: 10px;
+                    margin-bottom: 10px;
                     
                     }
 
