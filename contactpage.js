@@ -14,14 +14,6 @@ function init() {
 window.addEventListener("load", init); 
 
 
-function showContactForm() {
-
-    if (form.style.visibility === 'visible') {
-        form.style.visibility = 'hidden';
-    } else {
-        form.style.visibility = 'visible';
-    }
-} 
 
 function sumbitForm() {
     alert("Ditt meddelande har skickats!");
