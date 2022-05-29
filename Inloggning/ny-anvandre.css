@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+padding: 0px;
+margin: 0px;
+font-family: 'Playfair Display', serif;
+}
+
+
+#navbar {
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	background-color: #138558;
+	color:white;
+	font-size: 16px;
+	}
+	
+	#navbar h2 {
+	margin-top: 40px;
+	text-decoration: none;
+	color: white;
+	
+	}
+	
+	#navbar a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	#logga-ikon img {
+		width: 100px;
+		}
+	
+	#logga-ikon {
+	display: flex;
+	}
+
+
+
+
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#customer {
+width: 500px;
+}
+button {
+	background-color: #FEC;
+	border-radius: 10px;
+	font-size: 1em;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #FC6;
+}
+
+#name2 {
+margin-left: 10px;
+}
+
+#customer label {
+padding: 5px;
+
+}
+#booking {
+    padding: 20px;
+	width: 600px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+#booking legend {
+    font-weight: bold;
+	margin-bottom: 20px;
+	padding: 8px;
+	font-size: 25px;
+
+}
+#booking fieldset div {
+    display: grid;
+    gap: 10px;
+    white-space: nowrap;
+
+}
+
+
+.tie {
+margin-bottom: 20px;
+width: 190px;
+height: 27px;
+}
+#customer div {
+    grid-template-columns: min-content auto;
+}
+#customer input {
+    width: 190px;
+}
+#customer #zipcode {
+    width: 190px;
+}
+#customer span {
+    color: rgb(203, 30, 30);
+    font-size: 0.8em;
+}
+
+#customer {
+width: 560px;
+}
+
+#send {
+	width: 110px;
+	padding: 7px;
+	background-color:  #e0b767;
+	border-style: solid;
+	border-color:  #e0b767;
+	border-radius: 5px;
+	margin-left: 433px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#send p {
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
+
+
+#img-gallery {
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+#img-gallery img {
+width: 250px;
+}
+
+#nojda-recenstioner {
+width: 590px;
+margin-top: 20px;
+text-align: center;
+}
+
+#nojda-recenstioner h2 {
+margin-bottom: 20px;
+border-bottom: 3px solid #138558;
+padding-bottom: 20px;
+
+}
+
+#nojda-recenstioner p {
+line-height: 30px;
+text-align: justify;
+}

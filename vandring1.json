@@ -1,0 +1,910 @@
+{
+    "vandring": [
+        {
+            "city": "Kalmar",
+            "id":"1",
+            "led": "Kalmarsundsleden",
+            "längd": "200 km",
+            "handikapsanpassat": "Nej",
+            "link": {
+                "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/kalmarsundsleden.html"
+            },
+            "beskrivning": "Leden sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Nej",
+           "button":"Läs kommentar"
+            
+        },
+        {
+            "city": "Kalmar",
+            "id":"2",
+            "led": "Ljungbyleden",
+            "längd": "2.5 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Terrängen är lätt att ta sig fram på då det är fina upptrampade stigar och grusväg. Mycket historia får du uppleva på vandringsleden.",
+            "link": {
+                "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/ljungbyleden.html"
+            },
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej",
+            "button":"Läs kommentar"
+            
+        },
+        {
+            "city": "Kalmar",
+            "id":"3",
+            "led": "Linneslingan",
+            "längd": "10 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Det är en lätt vandrad terräng som går längsmed vattnet och som alla kan vandra. Leden är markerad med skyltar så du lätt ska hitta och inte gå fel. Ut med leden finns det några informationsskyltar som berättar om platser och naturen du passerar. ",
+            "link": {
+                "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/linneslingan.html"
+            },
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Nej",
+            "button":"Läs kommentar"
+        },
+        {
+            "city": "Kalmar",
+            "id":"4",
+            "led": "Östra Sigfridsleden",
+            "längd": "30 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Leden börjar i södermöres kustlandskap och slutar i källebäcksmåla som ligger väster om klamar. Naturen du går igenom är omväxklande med odlingslandskap, stränder, skog och lummiga grönområden.",
+            "link": {
+                "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/ostra-sigfridsleden.html"
+            },
+            "svårighetsnivå": "2",
+            "image": {
+                "url": "image/vandringsbild4.jpg"
+            },
+            "parkering": "Nej",
+            "button":"Läs kommentar"
+            
+        },
+        {
+            "city": "Kalmar",
+            "id":"5",
+            "led": "Dackeslingan",
+            "längd": "8 km",
+            "handikapsanpassat": "nej",
+            "beskrivning": "Slingan startar vid Tullahängen där det sägs att Gustav Vasa hade en tullstation vid gränsen till dåvarande Danmark.Terrängen runt vandringsslingan är lätt att ta sig fram på då det är stigar och grusväg. Leden är markerad med orange färgmarkering. Informationstavlor finns längsmed leden som berättar om historian som utspelade sig här på 1500-talet.",
+            "link": {
+                "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/halsoslingan.html"
+            },
+            "image": {
+                "url": "image/vandringsbild5.jpg"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej",
+            "button":"Läs kommentar"
+        },
+        {
+            "city": "Kalmar",
+            "id":"6",
+            "led": "Hälsoslingan",
+            "längd": "3.5 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Hälsoslingan är stadsnära men går också genom skog, trädgårdar, kust och vikar det kan dock skilja sig lite beroende på vilken slinga du går. Alla slingor är lätt framkomliga men vissa är lättare och mer anpassade för rullstol och rullator natt ta sig fram på.Det är en väldig fin och mysig promenadslinga att gå.",
+            "image": {
+                "url": "image/vandringsbild6.jpg"
+            },
+            "link": {
+                "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/halsoslingan.html"
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Nej",
+            "button":"Läs kommentar"
+            
+        },
+        {
+            "city": "Växjö",
+            "id":"1",
+            "led": "Sigfridsleden",
+            "längd": "102 km",
+            "handikapsanpassat": "nej",
+            "beskrivning": "Sigfridsleden är en del i nätverket av vandringsleder genom Småland och utgör historiskt sett också en liten del av de pilgrimsleder som sträcker sig hela vägen från Spanien till Nidarosdomen i Trondheim. Kommunens enda längre vandringsled går genom sex socknar i Värend och passerar många kulturhistoriskt intressanta platser.",
+            "image": {
+                "url": "image/vandringsbild8.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/sigfridsleden?guide_id=64"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Växjö",
+            "id":"2",
+            "led": "Bokhultet naturreservat",
+            "längd": "463 hektar",
+            "handikapsanpassat": "ja",
+            "beskrivning": "Naturreservatet Bokhultet bjuder in till sköna promenader och joggingturer. Bokskogen är länets största. Alkärr, slåtteräng, sjöstrand, våtmark och tallmosse ingår också i den generösa naturmosaiken. Tillsammans med döda träd och multnande ved skapar mångfalden naturvärden av internationell betydelse.",
+            "image": {
+                "url": "image/vandringsbild10.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/bokhultets-naturreservat?guide_id=64"
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Växjö",
+            "id":"3",
+            "led": "Agnäs vandringsled",
+            "längd": "2.8 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Agnäs naturreservat är beläget på en udde som sträcker sig ut i sjön Åsnen, sydost om Torne bro utmed Julöfjordens östra del. Reservatet omfattar i huvudsak ädellövskog, men även vattenområden och småöar i sjön Åsnen. Skogen på Agnäs utgör en rest av den stora ädellövskog som en gång omslöt hela Åsnen.",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/vandringsled-aganas?guide_id=64"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Växjö",
+            "id":"4",
+            "led": "Braås parks vandringsled",
+            "längd": "3.1 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "ommarmiljöerna i Braås park känns nästan sydligt frodiga. Ek, alm och hassel följer betade hagmarker med pärlemorfjärilar och blåvingar. Sången från rödstjärt, svartvit flugsnappare och grönsångare bildar bakgrund. Backsippa, gullviva, slåttergubbe och kattfot tillhör floran. I området har historia och människohand tillsammans format naturen, från 1600-talets åkrar och 1800-talets engelska trädgård till dagens behagliga landskapsmix.",
+            "image": {
+                "url": "image/vandringsbild4.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/stig-braas-park?guide_id=64"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Växjö",
+            "id":"5",
+            "led": "Skårtaryds vandringsled",
+            "längd": "1.4 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Orangemarkerad slinga tar dig genom Skårtaryds naturreservat och ger dig gröna härliga upplevelser i rofylld vacker urskog. Var aktsam om den känsliga naturen, håll dig till stigen.",
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/skartaryds-vandringsled?guide_id=64"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Växjö",
+            "id":"6",
+            "led": "Kalvsviks vandringsled",
+            "längd": "2 km",
+            "handikapsanpassat": "nej",
+            "beskrivning": "Meditativt lugn, spännande upplevelser och mild skönhet. Kalvsviks vandringsled tillfredsställer många sinnen. Den cirka 2 kilometer långa promenaden passerar alltifrån stenåldersgravar och lömska slukhål till skogssnäppans och ängsbräsmans marker.",
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/kalvsviks-vandringsled?guide_id=64"
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Älmhult",
+            "id":"1",
+            "led": "Taxås vandringsled",
+            "längd": "1.7 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Taxås vandringsled erbjuder mycket grön natur med fin utsikt. Leden erbjuder ett omväxlande utbud av natur och en spännande upplevelse för natursökare.",
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/taxas.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=& municipalities=&reserveTypes=&natureTypes=&facilities="
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Älmhult",
+            "id":"2",
+            "led": "Hökhult vandringsled",
+            "längd": "o.4 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Hökhult är placerad i mitten av skogen och ger vandrare en stor chans att komma naturen nära. Leden går längst flera sjöar och trots sin korta distans erbjuder mycket för ögat.",
+            "image": {
+                "url": "image/vandringsbild6.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/vandringsled-hokhult?guide_id=262",
+                "svårighetsnivå": "2"
+            },
+            "parkering": "Nej"
+        },
+        {
+            "city": "Älmhult",
+            "id":"3",
+            "led": "Stenbrohult vandringsled",
+            "längd": "1.2 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "I Stenbrohult finns många gamla och grova lövträd där det växer flera ovanliga lavar och i gamla bokar och ekar lever hotade ved­insekter. Området bjuder på en rik ängsflora med till exempel jungfru Marie nycklar, jungfrulin, solvända och ängsvädd. På ängs- och äldre åker­marker finns många arter av hotade vildbin.",
+            "image": {
+                "url": "image/vandringsbild9.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/stenbrohult.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=&municipalities=&reserveTypes=&natureTypes=&facilities="
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Jönköping",
+            "id":"1",
+            "led": "Biosfärled Uppgränna",
+            "längd": "4.1 km km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Norr om Gränna går denna led som är två rundslingor. Området bjuder på lummig grönska, odlad mark, gårdar, Uppgränna by och utsikt över Vättern och Visingsö.",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "link": {
+                "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/biosfarleduppgranna.4.45ced1a71633eda93ff16ef.html"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Jönköping",
+            "id":"2",
+            "led": "Vidablickspåret",
+            "längd": "1.5 km",
+            "handikapsanpassat": "1997",
+            "beskrivning": "Promenadslinga tillgänglig även för funktionsnedsatta och barnvagnar i Backamoskogen runt Vidablick.Stranden mot Vätten är brant och har flera fina vyer. Skogen har vuxit här i mer än hundra år därför trivs både orkidén knärot och Smålands landskapsblomma linnéa.",
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "link": {
+                "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/vidablicksparetbankeryd.4.49d4eab9177f21caa2abda7.html"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Jönköping",
+            "id":"3",
+            "led": "Furuvikspåret",
+            "längd": "3.1 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Slingan tar dig genom Backamoskogen som är ett populärt friluftsområde och har branta strandbrinkar längs Vätterstranden. Mellan skjutbanan i väster och Vidablick i öster går stigen uppe på strandvallen och utsikten över Vättern är fullständigt magisk.",
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "link": {
+                "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/furuviksparetbankeryd.4.238a1b96178a657a5f55f3.html"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Jönköping",
+            "id":"4",
+            "led": "Domsandspåret",
+            "längd": "5 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Turen tar dig till randen av Domneåns naturreservat och småbåtshamn för att sedan vända tillbaka till Backamoskogen. Här kan du välja att fortsätta över ån och upp mot Fiskebäcks kapell för att sedan återvända via naturreservatet. En extra slinga på 2 km.",
+            "image": {
+                "url": "image/vandringsbild4.jpg"
+            },
+            "link": {
+                "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/domsandsparetbankeryd.4.411ba1b4178a6640ee22003.html"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Jönköping",
+            "id":"5",
+            "led": "Råbyskogen",
+            "längd": "2.1 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Efter att ha svängt in på en liten grusväg i ett öppet landskap leder vägen djupt in i skogen. Vid vägs ände är du då slutligen framme i Råbyskogen och får fortsätta på en stig. Naturreservatet har värden knutna till en gammal barrblandskog med inslag av myrmark, bergbranter och inägomark vid ett litet torp. Det som gör Råbyskogen unik är områdets storlek, orördhet och avskildhet.",
+            "image": {
+                "url": "image/vandringsbild5.jpg"
+            },
+            "link": {
+                "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/rabyskogensvandringsledskarstad.4.4b30ec621761d85f3da5207.html"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Västervik",
+            "id":"1",
+            "led": "Hälsans Stig - Västervik",
+            "längd": "5.1 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "I Västervik tar Hälsans stig dig på en ca 5 km lång promenad runt Västerviks vackra stadskärna. Du passerar både St Petri och St Gertruds kyrka, Båtsmansstugorna och vår härliga strandpromenad.",
+            "image": {
+                "url": "image/vandringsbild6.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/halsans-stig-vastervik?guide_id=307",
+                "svårighetsnivå": "3"
+            },
+            "parkering": "Ja"
+        },
+        {
+            "city": "Västervik",
+            "id":"2",
+            "led": "Ryvenäsleden",
+            "längd": "4 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Leden startar vid vägen mot Björka och går utmed sjön Ryven och är 4 kilometer lång. På krönet av ”Haks backe” viker den av mot Ryvenäs. Platsen kallas i folkmun ”Kuttens kast” och här skedde ett rånmord 1855. För att skydda sig mot den fruktade maran, offrades på platsen en sten eller en pinne av var och en, som gick förbi. Med tiden växte här upp en rishög, som kallades ”Kuttens kast”.",
+            "image": {
+                "url": "image/vandringsbild7.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/ryvenasleden/"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Västervik",
+            "id":"3",
+            "led": "Holmsjöleden",
+            "längd": "9 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Holmsjöleden är en led, som framför allt går i skogsmark runt Holmsjön. Den ligger väster och sydväst om Överum. Den har anslutning till Tjustledens etapp 8.",
+            "image": {
+                "url": "image/vandringsbild8.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/holmsjoleden/"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Västervik",
+            "id":"4",
+            "led": "Loftaleden",
+            "längd": "20 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Här passeras omväxlande landskap i delvis kuperad terräng med bergbranter genom ett levande jord- och skogsbrukslandskap. Leden börjar vid Lofta kyrka som är från 1837 och är en av Sveriges största landsortskyrkor.",
+            "image": {
+                "url": "image/vandringsbild9.jpg"
+            },
+            "link": {
+                "url": "https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/loftaleden/"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Västervik",
+            "id":"5",
+            "led": "Sladöleden ",
+            "längd": "4.5 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Den slingrar sig runt ön, genom ängslandskapet och ett område med fantastiska klippformationer som vetter mot öppna horisonten på östra sidan av ön. Vattnet är kallare här än i vikarna men i den natursköna miljön kan det ändå vara svårt att motstå ett uppfriskande dopp. Leden fortsätter sedan runt ö-udden, förbi Vinterbryggan och Källarbacken där alla byns stenkällare är samlade, till byn och åter till Sundet.",
+            "image": {
+                "url": "image/vandringsbild10.jpg"
+            },
+            "link": {
+                "url": "https://www.naturkartan.se/sv/kalmar-lan/sladoleden?guide_id=307",
+                "svårighetsnivå": "2"
+            },
+            "parkering": "Nej"
+        },
+        {
+            "city": "Värnamo",
+            "id":"1",
+            "led": "Torskingeleden",
+            "längd": "4.9 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Torskingeleden är en på privat initiativ blåmarkerad vandringsled runt byn Torskinge. En fin runda som går från hembygdsparken genom gammal odlingsbygd, bland annat utmed de gamla gravkullarna ”Mattlabackarna”, och runt i skogen innan den leder tillbaks till kyrkan på bilvägen som sträcker sig söderut från Torskinge.",
+            "image": {
+                "url": "image/vandringsbild8.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/torskingeleden?guide_id=61"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Värnamo",
+            "id":"2",
+            "led": "Prostsjörundan",
+            "längd": "1.5 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Prostsjörundan löper runt den centralt belägna Prostsjön. Rundan är ca. 1,5 km lång och bjuder både på utsiktsplats, grillplats och badplats. Leden är delvis asfalterad och parkeringsmöjlighet finns både utmed Prostgårdsvägen och vid Prostsjövägen.",
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "link": {
+                "linkurl": ""
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Värnamo",
+            "id":"3",
+            "led": "Havsjöleden",
+            "längd": "1.5 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Promenera på spänger runt sjön och njut av en fantastisk utsikt och fin natur. Runt leden, i sjöns norra del, finns ett vindskydd med tillgång till eldstad när du vill ta en paus. Havsjön ligger fint till mellan Annebergssjön och Tovarydsjön.",
+            "image": {
+                "url": "image/vandringsbild9.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/en/jonkopings-lan/prostsjorundan?guide_id=61"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Värnamo",
+            "id":"4",
+            "led": "Lövö Runt",
+            "längd": "3.6 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Leden är 3,6 km lång och går i det kuperade skogslandskapet helt på fast mark.",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/lovo-runt?guide_id=61"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Värnamo",
+            "id":"5",
+            "led": "Kävsjön runt",
+            "längd": "12 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Leden går mest i skogen med avstickare till ett fågeltorn på Kävsjösidan och ett vid Svänö. På östra sidan av sjön kommer man in till själva högmossen och vid stigskälet går det att ta östra stigen och ansluta till Svartgölsleden med rullstolsspång ut till Svartgölen.",
+            "image": {
+                "url": "image/vandringsbild10.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/kavsjo-runt?guide_id=61"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Oskarshamn",
+            "id":"1",
+            "led": "Äspöstigen",
+            "längd": "2 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Stigen är ett bra utflyktsmål som passar stora som små. Det är relativt lättframkomlig men inte handikapp- eller barnvagnsvänlig. Det finns två grillplatser att använda när magen kurrar och till och med ett PokeGym för den intresserade.",
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "link": {
+                "linkurl": "https://oskarshamn.com/aspostigen-lanseras-pa-nytt/"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Oskarshamn",
+            "id":"2",
+            "led": "Uvö",
+            "längd": "2.1 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "På vackra Uvö norr om Oskarshamn kan du ta del av ett vackert promenadstråk längs med havsbandet med gångbroar att stanna till och njuta av naturen vid.",
+            "image": {
+                "url": "image/vandringsbild7.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.oskarshamn.se/kultur-och-fritid/idrott-och-fritid/natur-och-friluftsliv/uvo/"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Oskarshamn",
+            "id":"3",
+            "led": "Fallebo vandringsled",
+            "längd": "1.9 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Ta chansen att vandra på leden som startar och slutar vid Fallebo gård. En perfekt plats för hela familjen.",
+            "image": {
+                "url": "image/vandringsbild4.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/fallebo"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Oskarshamn",
+            "id":"4",
+            "led": "Sjöbovikens vandringsled",
+            "längd": "2.5 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Naturreservatet Sjöbovikens höga naturvärden i kombination med dess närhet till Oskarshamn gör att det har ett stort värde för rekreation, naturpedagogik och friskvård. Det stadsnära läget gör området mycket lättillgängligt, särskilt för människor i södra delarna av Oskarshamns centralort.",
+            "image": {
+                "url": "image/vandringsbild6.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.oskarshamn.se/bygga-bo-miljo/hallbarhet-och-utveckling/hallbarhet-klimat-natur/naturvard/naturreservat/"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Oskarshamn",
+            "id":"5",
+            "led": "Stenhuggarleden",
+            "längd": "9.4 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Välkommen till Stenhuggarleden i Vånevik! Här kan du vandra längs kajer som stensattes för mer än 100 år sedan. Högar av skrotsten kantar spåren av gamla rallvägar och solen speglar sig i vattenfyllda stenbrott.",
+            "image": {
+                "url": "image/vandringsbild5.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/vaanevik?guide_id=327"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Nässjö",
+            "id":"1",
+            "led": "Höglandsleden",
+            "längd": "44 mil",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Höglandsleden är en 44 mil lång naturupplevelse som sträcker sig över hela det Småländska höglandet.",
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "link": {
+                "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-12-hoglandsleden.html"
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Nässjö",
+            "id":"2",
+            "led": "Muggebo leden Gula Spåret",
+            "längd": "5 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Leden går i naturskönt område med möjlighet att ta sig runt med rullstol. Grillplats under tak finns utmed leden.",
+            "image": {
+                "url": "image/vandringsbild10.jpg"
+            },
+            "link": {
+                "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-04-vandra-i-lovhult.html"
+            },
+            "svårighetsnivå": "1",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Nässjö",
+            "id":"3",
+            "led": "Muggeboleden Blå Spåret",
+            "längd": "3 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Leden är lätt kuperad. Lämplig att koppla ihop med Muggeboleden. Grillplats och raststuga finns utmed leden.",
+            "image": {
+                "url": "image/vandringsbild6.jpg"
+            },
+            "link": {
+                "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-04-vandra-i-lovhult.html"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Nässjö",
+            "id":"4",
+            "led": "Gubbamilen ",
+            "längd": "10 km km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Gubbamilen går igenom ett varierat landskap med varierad terräng. Några stigningar men också lättvandrad mark.",
+            "image": {
+                "url": "image/vandringsbild11.jpg"
+            },
+            "link": {
+                "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-04-vandra-i-lovhult.html"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Ljungby",
+            "id":"1",
+            "led": "Bergastigen",
+            "längd": "6 km",
+            "handikapsanpassat": "Mellan Ljungbyvägen i söder och Värnamovägen i norr är den tillgänglig för rullstolsburna",
+            "beskrivning": "Bergastigen är en naturstig runt hela samhället, med ett rikt växt- och djurliv och många natursköna inslag: ängar, lövskog, barrskog,och vattenblänk från Lagaån.",
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/bergastigen?guide_id=412"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Ljungby",
+            "id":"2",
+            "led": "Kronoskogen",
+            "längd": "3 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "I Kronoskogen finns tre ellljusspår: 1 km (blå), 2,6 km (röd) och 3 km (gul).Belysningen i Kronoskogen tänds kl. 6 på morgonen och är tänd tills det ljusnar. Belysningen tänds igen när det mörknar på kvällen och är tänd fram till kl. 22. I området finns ett utegym.",
+            "image": {
+                "url": "image/vandringsbild8.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.ljungby.se/sv/uppleva-och-gora/friluftsliv-och-motionsspar/motionsspar/"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "nej"
+        },
+        {
+            "city": "Ljungby",
+            "id":"3",
+            "led": "Hälsans stig",
+            "längd": "6 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Hälsans stig är 6 km lång och slingrar sig både längs ån Lagan och genom Ljungby centrum.",
+            "image": {
+                "url": "image/vandringsbild9.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.ljungby.se/sv/uppleva-och-gora/friluftsliv-och-motionsspar/motionsspar/"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Ljungby",
+            "id":"4",
+            "led": "Naturreservat Kronoskogen",
+            "längd": "3.3 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Naturreservatet Kronoskogen i Ljungby är utan tvekan ett måste för den som vill uppleva naturen! Med en 80 år gammal granskog, tallskog fantastiskt djurliv, utegym och beachvolleybollplan är Kronoskogen verkligen något för den aktive!",
+            "image": {
+                "url": "image/vandringsbild10.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/kronoskogen.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=&municipalities=&reserveTypes=&natureTypes=&facilities="
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Tranås",
+            "id":"1",
+            "led": "Helvetets portar",
+            "längd": "0.5 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Genom Helvetets portar, eller Holavedens urskogs naturreservat, finns några enklare strövstigar med orange färgmarkeringar på träd och stolpar som det är enkelt att följa för att få ett smakprov på naturreservatets speciella karaktär. Längs med stigen kan du också läsa om skogens dur och växter på en enklare informationstavla.",
+            "image": {
+                "url": "image/vandringsbild5.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/helvetets-portar-strovstig?guide_id=60"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Tranås",
+            "id":"2",
+            "led": "Hälsans Stig - Tranås",
+            "längd": "3.1 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Här rör du dig längs Svartåns forsande vatten och under sommaren är det särskilt vackert med alla blommor i Ekmarksparken. Det finns gott om bänkar att vila på längs vägen där den som behöver kan pusta ut en stund eller bara njuta av vattnet, grönskan och blomsterprakten runtomkring.",
+            "image": {
+                "url": "image/vandringsbild7.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/halsans-stig-tranas?guide_id=19"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Tranås",
+            "id":"3",
+            "led": "Illern runt",
+            "längd": "4 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Gå den vackra leden runt sjön Illern som ryms inom Illerns naturreservat. Ett bra spår både för dig som vill vandra, jogga, plocka bär eller bara uppleva naturskön skog och sjö. Skogen är mestadels uppvuxen tallskog med några partier av yngre planteringar. Marken är bitvis täckt med blåbärs- och lingonris.",
+            "image": {
+                "url": "image/vandringsbild4.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/illern-runt-2?guide_id=60"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Tranås",
+            "id":"4",
+            "led": "Aggas",
+            "längd": "10 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Aggas - Gröna spåret är 10 km långt och tar dig en bra bit norrut in i Östergötland och sedan tillbaks söderut till Sommen. Inledningsvis följer man samma sträckor som det gula och det röda spåret.",
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/aggas-grona-sparet-10-km?guide_id=60"
+            },
+            "svårighetsnivå": "3",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Tranås",
+            "id":"5",
+            "led": "Led Brahälla slottsruin",
+            "längd": "2.3 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Ta en promenad genom vacker lövskog längs ett hjorthägn och besök familjen Brahes gamla jaktslott Brahälla där du får en fantastisk utsikt över sjön Noen.",
+            "image": {
+                "url": "image/vandringsbild9.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/brahalla-slottsruin?guide_id=60"
+            },
+            "svårighetsnivå": "2",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Vetlanda",
+            "id":"1",
+            "led": "Illharjenrundan",
+            "längd": "2.7 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Tillgänglig vandringsled även för rullstolsburna och barnvagn. Leden går genom Illharjens naturreservat och utefter Emån",
+            "svårighetsnivå": "Lätt",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "link": {
+                "linkurl": "https://vetlanda.se/artikelarkiv/upplev/illharjenrundan.5.54b9e8781785e07728310a7d.html"
+            },
+            "parkering": "Ja"
+        },
+        {
+            "city": "Vetlanda",
+            "id":"2",
+            "led": "Vetlandarundan",
+            "längd": "27 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Vetlandarundan går i och utanför Vetlandas omedelbara närhet. Vi passerar allt från rekreationsområden med motionsspår till kyrkor och forntida gravfält i en natur med sjön Grumlan, Emån och Vetlandabäcken som tätortens livsnerv.",
+            "image": {
+                "url": "image/vandringsbild2.jpg"
+            },
+            "link": {
+                "linkurl": "https://vetlanda.se/artikelarkiv/upplev/vetlandarundan.5.54b9e8781785e0772831064d.html"
+            },
+            "svårighetsnivå": "Svår",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Vetlanda",
+            "id":"3",
+            "led": "Klockesjön",
+            "längd": "10 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Runt Klockesjön är det en varierad terräng med odlingslandskap och skogar. Den idylliska kyrkbyn Ramkvilla ligger som en pärla där sjöarna Örken och Klockesjön möts.",
+            "image": {
+                "url": "image/vandringsbild3.jpg"
+            },
+            "link": {
+                "linkurl": "https://vetlanda.se/artikelarkiv/upplev/vandraiskogochmark.5.1d2a7c7616342fe18ec4a9d8.html"
+            },
+            "svårighetsnivå": "Lätt",
+            "parkering": "Nej"
+        },
+        {
+            "city": "Vetlanda",
+            "id":"4",
+            "led": "Historisk vandring i Vetlanda",
+            "längd": "3.1 km",
+            "handikapsanpassat": "Nej",
+            "beskrivning": "Följ med på en historisk vandring i Vetlanda - från det medeltida bysamhället till den moderna handelsstaden. Rundan passerar platser som har varit viktiga i ortens tveckling, allt från kyrkan med de äldsta delarna från 1100-talet till kommunens administrativa centrum med det originella stadshuset vid stadens torg.",
+            "image": {
+                "url": "image/vandringsbild4.jpg"
+            },
+            "link": {
+                "linkurl": "https://vetlanda.se/artikelarkiv/upplev/historiskvandring.5.4e5a78211797942ac1553b4.html"
+            },
+            "svårighetsnivå": "Mellan",
+            "parkering": "Nej"
+        },
+        {
+            "city":"Öland",
+            "id":"1",
+            "led":"Stora Alvarleden",
+            "längd":"13 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"I stora alveret i söda öland hittar du Stora Alvarleden. Leden följer en gammal väg över alvaret. Den är inte iordningställd utan går över befintlig mark, vilket innebär att vägen är av mycket enkel standard. Har man med sig cykel kan den behöva ledas bitvis. Efter snösmältning eller efter kraftiga regn kan vissa partier vara sanka. Leden är markerad med små stenrösen av kalkstensﬂisor och har vid murar och stängsel försetts med cykelstättor som cykeln kan ledas över. ",
+            "svårighetsnivå":"Lätt",
+            "image": {
+                "url": "image/vandringsbild10.jpg"
+            },
+            "link": {
+                "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/stora-alvarleden-2?guide_id=329"
+            },
+            "parkering":"Ja"
+        },
+        {
+            "city": "Öland",
+            "id":"2",
+            "led": "Beijershamn och Svansholmarna",
+            "längd": "5.5 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Beijershamn är en av de viktigaste fågellokalerna på Öland. Det startade med ett pirbygge i mitten av 1800-talet som skulle resultera i en viktig hamn. Så blev det inte. På grund av en felkonstruktion slammade hamnen snabbt igen. Med tiden skapade detta goda förutsättningar för ett rikt fågelliv med vassar, strandängar och öppna vattenytor. Idag finns här flera vackra strövområden och ett stort fågeltorn med utsikt över hela området",
+            "image": {
+                "url": "image/vandringsbild1.jpg"
+            },
+            "link": {
+                "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/lst-beijershamn-beijershamn-och-svansholmarna?guide_id=329"
+            },
+            "svårighetsnivå":"Mellan",
+            "parkering": "Ja"
+        },
+        {
+            "city": "Öland",
+            "id":"3",
+            "led":"Mörbylångaleden Etapp 1",
+            "längd":"18 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"På den här etappen får du inledningsvis uppleva Kalmarsund, Ölandsbron och Färjestadens ytterområde. Lantliga radbyar, den lummiga Mittlandsskogen, åker- och ängsmark samt utkanterna av alvaret bidrar till variationsrika vyer. Etapp 1 är lättgången, med en stor del asfalts- och grusvägar. Vid stenmurar i slutet av etappen måste ett par stättor passeras. Närliggande parkeringar och busshållplatser finns vid både start och mål",
+            "image": {
+                "url": "image/vandringsbild6.jpg"
+            },
+            "link": {
+                "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/olands-turistbyra-station-linne-skogsby-morbylangaleden?guide_id=329"
+            },
+            "svårighetsnivå":"Lätt",
+            "parkering":"Ja"
+        },
+        {
+            "city": "Öland",
+            "id":"4",
+            "led":"Kyrkhamnsleden,",
+            "längd":"5.7-11 Km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"I Ottenby söda ölland hittar du Kyrkhamnsleden.Här kan du vandra genom Ottenbys rika historia och längs havet.Kyrkhamnsleden passar utmarkt till den som vill vandra lite längre och uppleva reservatets varienerande miljö, för de som ska vandra fram och tillbaka så är sträckan 11 km långt.",
+            "image": {
+                "url": "image/vandringsbild4.jpg"
+            },
+            "link": {
+                "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/kyrkhamnsleden?guide_id=329"
+            },
+            "svårighetsnivå":"Mellan",
+            "parkering":"Nej"
+        }
+    ]
+}
