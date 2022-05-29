@@ -7,16 +7,8 @@ var knappar; //refens till tryckt knapp
 var display;
 var testknapp;
 var ledinfo;
-var testElem;
-let cities = [
-    //{name: "Älmhult", lat: 56.552421, lng: 14.137449, temp: 0, conditions: 0},
-    //{name: "Växjö", lat: 56.879025, lng: 14.805434, temp: 0, conditions: 0},
-    //{name: "Ljungby", lat: 56.832700, lng: 13.941018, temp: 0, conditions: 0},
-    {name: "Kalmar", lat: 56.663177, lng: 16.356674, temp: 0, conditions: 0},
-    //{name: "Jönköping", lat: 57.781323, lng: 14.161182, temp: 0, conditions: 0}
-];
 var exdiv;
-
+var check;
 
 
 	
@@ -24,22 +16,18 @@ var exdiv;
 function init() {
 	flickrImgElem = document.getElementById("flickrImg");
 	valt=document.getElementById("valt");
-	testknapp=document.getElementById("testknapp");
 	knappar=document.getElementsByClassName("knappar");
     display=document.getElementById("vandringslederna");
+    check=document.getElementsByClassName("check");
     ledinfo=document.getElementById("ledinfo");
+
 	for (let i = 0; i < knappar.length; i++) {
 		knappar[i].addEventListener("click", requestData);
         knappar[i].addEventListener("click", showledinfo);
         
 	}
 
-	testElem = document.getElementById("väder2");
-	for (let i = 0; i < cities.length; i++) {
-			requestTemp(cities[i]);
-		
-        
-    }
+
     
 exdiv=document.getElementById("testdiv");
 	
@@ -92,6 +80,7 @@ function getData(JSONtext,cityname) {
 
            	// Referenser till olika egenskaper i vandrings objektet i JSON
 			HTMLcode += 
+            "<div id="+ vandring[i].city + "-" + vandring[i].id +">" +
             "<h2><b></b> " + vandring[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
 			//console.log(vandring[i].imgurl);
 			//"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
@@ -107,15 +96,53 @@ function getData(JSONtext,cityname) {
 			"<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
 			//"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
 			//`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-            "<button id='testg'>"+ body + "Läs mer</button>"+
             //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
-			"<hr>"
-        
-	
+			"</div><hr>"
+        //let br=document.getElementById("mynewbtn");
+        //console.log(br);
+        let br = document.getElementsByTagName("button")[25];
+        console.log(document.getElementsByTagName("button")[25]);
 			//valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
-    
-            var btnx2 = document.createElement("button");
-            btnx2.innerHTML = "Do Something Else";
+            var x = document.getElementById("valt").querySelectorAll("#mynewbtn"); 
+          
+
+// Set the background color of the first element with class="example" (index 0) in div
+
+console.log(x);
+            /* Läs kommentar knapparna som ska in under varje aktivitet
+            let bts=vandring[i].button;;
+            bts.setAttribute="id","3";
+            bts.setAttribute("class","btscl");
+            console.log(bts);
+            let btnx5=document.getElementsByClassName("btscl");
+            for (let i = 0; i < btnx5.length; i++) {
+               //city classen
+               btnx5[i].setAttribute("city",cityname);
+               btnx5[i].setAttribute("id","1");
+               btnx5[i].id=i+1;
+            } 
+        }
+        */
+        
+            
+
+        }
+ 
+}
+
+
+
+	    valt.innerHTML= HTMLcode;//utskrift av datan i JSON filen
+		//li.style.display=" flex";
+		
+        for (let i = 0; i < vandring.length; i++) {
+
+            if (cityname === vandring[i].city) {
+
+    var btnx2 = document.createElement("button");
+            //movies=btnx2;
+          //console.log(btnx2=movies);
+            btnx2.innerHTML = "Läs kommentar";
             //const cl = document.createAttribute("class");
             
             // Set the value of the class attribute:
@@ -126,18 +153,18 @@ function getData(JSONtext,cityname) {
             // Set the value of the class attribute:
             id.value = "2";
             btnx2.setAttributeNode(id);
-            var body = document.getElementById("testaralt");
-            //body.appendChild(button2);
+           
+            var body = document.getElementById(vandring[i].city + "-" + vandring[i].id);
+            body.appendChild(btnx2);
             body.append(btnx2);
             btnx2.setAttribute("class","btncl");
-            var bu=document.getElementById("testg");
-            console.log(bu);
 
             btnx2.style.fontSize = "100%";
             btnx2.style.style
             btnx2.style.width="130px";
             btnx2.style.margin="0.5%";
             btnx2.style.color="red";
+       
             let btnx3=document.getElementsByClassName("btncl");
             for (let i = 0; i < btnx3.length; i++) {
                //city classen
@@ -145,15 +172,21 @@ function getData(JSONtext,cityname) {
                btnx3[i].setAttribute("id","1");
                btnx3[i].id=i+1;
             } 
+        
         }
- 
+        // console.log(document.getElementsByClassName("btnc1"))
+
+        vandring[i].butto=btnx2;
+        if(btnx2==vandring[i].button){
+
+           if(btnx2 > vandring.length){
+            //btnx2.style.visibility="hidden";
+            btnx2.style.visibility="hidden";
+            console.log("if sats nya knappar");
+           }
+        }
+    
 }
-
-
-	    valt.innerHTML= HTMLcode;//utskrift av datan i JSON filen
-		//li.style.display=" flex";
-		
-
      
         valt.style.marginBottom = "2%";
         valt.style.fontSize = "150%";
@@ -235,7 +268,6 @@ for (let i = 0; i < vandring.length; i++) {
         "<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
         //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
         //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-       
         //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
         "<hr>"
 
@@ -257,15 +289,7 @@ function showledinfo(){
 ledinfo.style.visibility="visible";
 	
 }
-function showimgbox(){
-    let imgbox=document.getElementById("läggtillbider");
-    imgbox.style.visibility="hidden";
-    img.height = 60;
-    img.width = 60;
-    let imgrubrik=document.getElementById("bildrubrik");
-    imgrubrik.addEventListener("click").style.visibility="vissable";
-        
-    }
+
 function clearcontent(valt) {
     valt.innerHTML = "";
      //alt.remove();
@@ -275,6 +299,16 @@ function clearcontent(valt) {
     //exdiv.style.marginRight="550px";
     //valt.style.visibility="hidden";
 }
+
+function showimgbox(){
+    let imgbox=document.getElementById("läggtillbider");
+    imgbox.style.visibility="hidden";
+    img.height = 60;
+    img.width = 60;
+    let imgrubrik=document.getElementById("bildrubrik");
+    imgrubrik.addEventListener("click").style.visibility="vissable";
+        
+    }
 var loadFile = function(event) {
     var input = document.getElementById('file');
     
@@ -322,8 +356,7 @@ function search_animal() {
 }
 {
 
-    testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
-    testElem.appendChild(img);
+;
 
 } 
 

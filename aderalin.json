@@ -5,7 +5,7 @@
   "id":"1",
   "Adress":"Stensövägen 100392 47 Kalmar",
   "Företag":"Upzone Kalmar",
-  "Aktivtet":"zipline",
+  "Aktivitet":"zipline",
   "barnvanligt":"ja",
   "längd":"1-3 timmar",
   "handikapsanpassat":"nej",
@@ -24,7 +24,7 @@
   "id":"2",
   "Adress":"Kläckerbergavägen 92, 395 90 Kalmar",
   "Företag":"Kalmar hyrkart",
-  "Aktivtet":"Gokart",
+  "Aktivitet":"Gokart",
   "barnvanligt":"Ja",
   "längd":"1 timme",
   "handikapsanpassat":"Nej",
@@ -43,7 +43,7 @@
   "id":"3",
   "Adress":"Skeppsbrogatan 49, 392 31 Kalmar",
   "Företag":"KalmarSalen",
-  "Aktivtet":"VR",
+  "Aktivitet":"VR",
   "barnvanligt":"Ja",
   "längd":"",
   "handikapsanpassat":"Ja",
@@ -63,7 +63,7 @@
     "id":"1",
     "Adress":"Tingsrydvägen 12 A, 355 91 Växjö",
     "Företag":"Onset Paintball",
-    "Aktivtet":"Paintball",
+    "Aktivitet":"Paintball",
     "barnvanligt":"Nej",
     "längd":"1-2 timmar",
     "handikapsanpassat":"Nej",
@@ -82,7 +82,7 @@
     "id":"2",
     "Adress":"Bollgatan 1, 352 46 VÄXJÖ",
     "Företag":"Idrottshuset",
-    "Aktivtet":"Klättring på Idrottshuset",
+    "Aktivitet":"Klättring på Idrottshuset",
     "barnvanligt":"Ja",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
@@ -101,7 +101,7 @@
     "id":"3",
     "Adress":"Norraby gård, 363 33 Rottne",
     "Företag":"Norraby skytte och event",
-    "Aktivtet":"skjutbiografen",
+    "Aktivitet":"skjutbiografen",
     "barnvanligt":"Nej",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
@@ -121,7 +121,7 @@
     "id":"1",
     "Adress":"Delary Industripark 7, 343 95 Älmhult",
     "Företag":"Delary gokart",
-    "Aktivtet":"Gokart",
+    "Aktivitet":"Gokart",
     "barnvanligt":"Ja",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
@@ -138,20 +138,20 @@
   {
     "city":"Älmhult",
     "id":"2",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Barkhult 2631, 343 91 Älmhult",
+    "Företag":"Barkhults paintball",
+    "Aktivitet":"Barkhults paintball",
+    "barnvanligt":"Ja",
+    "längd":"3 timmar",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.facebook.com/barkhultspaintball/"
     },
-    "beskrivning":"",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav. För att boka en av våra banor måste ni vara inst 6 deltagre. För bokning mejla barkhultspaintball@gmail.com.",
     "image": {
-        "url":"image/vandringsbild1.jpg"
+        "url":"image/paintball.jpg"
     },
-    "pris":"",
+    "pris":"600 kr",
     "parkering":"Ja"
   },
 
@@ -160,7 +160,7 @@
     "id":"1",
     "Adress":"",
     "Företag":"Flyboard",
-    "Aktivtet":"Flyboard",
+    "Aktivitet":"Flyboard",
     "barnvanligt":"Nej",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
@@ -180,7 +180,7 @@
     "id":"2",
     "Adress":"",
     "Företag":"Speedcats",
-    "Aktivtet":"Speedcats",
+    "Aktivitet":"Speedcats",
     "barnvanligt":"",
     "längd":"2 timmar",
     "handikapsanpassat":"Nej",
@@ -199,7 +199,7 @@
     "id":"3",
     "Adress":"",
     "Företag":"Dodge Challenger Redeye/Demon",
-    "Aktivtet":"Muskelbil körning",
+    "Aktivitet":"Muskelbil körning",
     "barnvanligt":"Nej",
     "längd":"40 min",
     "handikapsanpassat":"Nej",
@@ -219,7 +219,7 @@
     "id":"1",
     "Adress":" Lysingsvägen,593 53 Västervik",
     "Företag":"Upzone västervik",
-    "Aktivtet":"Höghöjdsbana",
+    "Aktivitet":"Höghöjdsbana",
     "barnvanligt":"Ja",
     "längd":"2.5 timmar",
     "handikapsanpassat":"Nej",
@@ -239,7 +239,7 @@
     "id":"2",
     "Adress":"Videgrensgatan 10, 593 32 Västervik",
     "Företag":"Action center",
-    "Aktivtet":"Paintball",
+    "Aktivitet":"Paintball",
     "barnvanligt":"Ja",
     "längd":"1-1.5 timmar",
     "handikapsanpassat":"Nej",
@@ -257,20 +257,20 @@
   {
     "city":"Värnamo",
     "id":"1",
-    "Adress":"",
+    "Adress":"STORA KVARNAGÅRD, 331 72 Forsheda",
     "Företag":"Kvarnagårdens",
-    "Aktivtet":"Paintball",
+    "Aktivitet":"Paintball",
     "barnvanligt":"Nej",
     "längd":"1-2 timmar",
     "handikapsanpassat":"Nej",
     "link": {
         "linkurl":"https://kvarnagårdenspaintball.se/"
     },
-    "beskrivning":"Spela som back och täck medspelare från dom bakre regionerna från egna planhalvan.",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav.",
     "image": {
         "url": "image/paintball.jpg"
     },
-    "pris":"399 kr/person",
+    "pris":"399-499 kr/person",
     "parkering":"Ja"
   },
 
@@ -279,7 +279,7 @@
     "id":"2",
     "Adress":"Nennesmovägen 21, 334 21 Anderstorp",
     "Företag":"Scandinavian Kartwa Aby",
-    "Aktivtet":"Gokart",
+    "Aktivitet":"Gokart",
     "barnvanligt":"Ja",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
@@ -299,7 +299,7 @@
     "id":"3",
     "Adress":"Nissastigen, 330 27 Hestra",
     "Företag":"Isaberg Mountain resort",
-    "Aktivtet":"Höghöjdsbana",
+    "Aktivitet":"Höghöjdsbana",
     "barnvanligt":"Ja",
     "längd":"2.5 timmar",
     "handikapsanpassat":"Nej",
@@ -317,9 +317,9 @@
   {
     "city":"Oskarshamn",
     "id":"1",
-    "Adress":"",
+    "Adress":"Gengasvägen 3, 572 36 Oskarshamn",
     "Företag":"KartCenter",
-    "Aktivtet":"Gokart",
+    "Aktivitet":"Gokart",
     "barnvanligt":"Ja",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
@@ -336,57 +336,38 @@
   {
     "city":"Oskarshamn",
     "id":"2",
-    "Adress":"",
+    "Adress":"Slottsgatan 19, 572 42 Oskarshamn",
     "Företag":"Jailbreak Oskarshamn",
-    "Aktivtet":"Escape Room",
+    "Aktivitet":"Escape Room blackout",
     "barnvanligt":"Nej",
     "längd":"1 timme",
     "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":"https://jailbreakoskarshamn.com/om/"
+        "linkurl":"https://jailbreakoskarshamn.com/blackout/"
     },
     "beskrivning":"Här blir du inlåst i ett rum och ska inom 60 minuter lösa rummets mysterier i form av kluriga gåtor, pussel och utmaningar.",
     "image": {
         "url": "image/escape.jpg"
     },
-    "pris":"260 kr/person",
-    "parkering":"Ja"
-  },
-  {
-    "city":"Oskarshamn",
-    "id":"3",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"läs mer på https://firstcamp.se/destination/gunnarso-oskarshamn/att-gora-i-naromradet/nils-holgerssons-aventyrspark/",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
+    "pris":"780 kr/person",
     "parkering":"Ja"
   },
 
   {
     "city":"Nässjö",
     "id":"1",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Höglandsgatan 52, 571 65 Grimstorp",
+    "Företag":"Hölandlandets Paintball",
+    "Aktivitet":"Paintball",
+    "barnvanligt":"Ja",
+    "längd":"1-2 timme",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.facebook.com/H%C3%B6glandets-Paintball-108862175881050/"
     },
-    "beskrivning":"",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav. Angående prifrågor och bokningar så kan ni kontakta Höglands paintball på deras facebook sida.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/paintball.jpg"
     },
     "pris":"",
     "parkering":"Ja"
@@ -396,27 +377,7 @@
     "id":"2",
     "Adress":"",
     "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
-    "parkering":"Ja"
-  },
-
-  {
-    "city":"Nässjö",
-    "id":"3",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
+    "Aktivitet":"",
     "barnvanligt":"",
     "längd":"",
     "handikapsanpassat":"",
@@ -434,18 +395,18 @@
   {
     "city":"Ljungby",
     "id":"1",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
+    "Adress":"Trolle Paintboll",
+    "Företag":"Trolle Paintboll",
+    "Aktivitet":"Paintboll",
     "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "längd":"1-2 timmar",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://www.facebook.com/TrollePaintballNewsFeed/"
     },
-    "beskrivning":"",
+    "beskrivning":"Paintball är en adrenalin och actionfylld lagsport med höga säkerhetskrav.Angående bokningar och prisfrågor kan ni Kontakta Trolle Paintboll på deras facebook sida.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url":"image/paintball.jpg"
     },
     "pris":"",
     "parkering":"Ja"
@@ -453,39 +414,20 @@
   {
     "city":"Ljungby",
     "id":"2",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Klippans Gokart, 264 94 Klippan",
+    "Företag":"Klippans gokart",
+    "Aktivitet":"Gokart",
+    "barnvanligt":"Nej",
+    "längd":"10 minuter",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"http://www.klippansgokart.se/"
     },
-    "beskrivning":"",
+    "beskrivning":"Gokart passar utmärkt till fart älskare. Få upp pulsen i bara tio minuter och njut av vinden i håret. Alla barnförare måste vara över tio år för att köra en av klippans gokarts.",
     "image": {
-        "url": "image/vandringsbild1.jpg"
+        "url": "image/gokart.jpg"
     },
-    "pris":"",
-    "parkering":"Ja"
-  },
-  {
-    "city":"Ljungby",
-    "id":"3",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
-    "link": {
-        "linkurl":""
-    },
-    "beskrivning":"",
-    "image": {
-        "url": "image/vandringsbild1.jpg"
-    },
-    "pris":"",
+    "pris":"170 kr/person",
     "parkering":"Ja"
   },
 
@@ -494,7 +436,7 @@
     "id":"1",
     "Adress":"Ringvägen 10, 573 41 Tranås",
     "Företag":"Höglandsklättrarna Tranås",
-    "Aktivtet":"Bouldering",
+    "Aktivitet":"Bouldering",
     "barnvanligt":"Ja",
     "längd":"1-2 timmar",
     "handikapsanpassat":"Nej",
@@ -513,7 +455,7 @@
     "id":"2",
     "Adress":"Färjeläget, 573 94 Tranås",
     "Företag":"Torpöns Färjeläge",
-    "Aktivtet":"Höghöjdsbana",
+    "Aktivitet":"Höghöjdsbana",
     "barnvanligt":"Ja",
     "längd":"1-4 timmar",
     "handikapsanpassat":"Nej",
@@ -533,7 +475,7 @@
     "id":"1",
     "Adress":"",
     "Företag":"Vetlanda Paintboll",
-    "Aktivtet":"Paintball",
+    "Aktivitet":"Paintball",
     "barnvanligt":"Nej",
     "längd":"1-2 timmar",
     "handikapsanpassat":"Nej",
@@ -551,20 +493,20 @@
   {
     "city":"vetlanda",
     "id":"2",
-    "Adress":"",
-    "Företag":"",
-    "Aktivtet":"",
-    "barnvanligt":"",
-    "längd":"",
-    "handikapsanpassat":"",
+    "Adress":"Solhöjdsvägen 2, 570 34 Bruzaholm",
+    "Företag":"BRUZAGOKART",
+    "Aktivitet":"Gokart",
+    "barnvanligt":"Nej",
+    "längd":"2x8 min",
+    "handikapsanpassat":"Nej",
     "link": {
-        "linkurl":""
+        "linkurl":"https://bruzagokart.se/"
     },
-    "beskrivning":"",
+    "beskrivning":"För att köra en av våra gokart behöver du vara minst 130 cm lång.",
     "image": {
-        "url":"image/vandringsbild1.jpg"
+        "url":"image/gokart.jpg"
     },
-    "pris":"",
+    "pris":"240 kr",
     "parkering":"Ja"
   },
 
@@ -573,14 +515,14 @@
     "id":"1",
     "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
     "Företag":"Addwater",
-    "Aktivtet":"SPEEDCATS -GOKART PÅ VATTEN",
+    "Aktivitet":"SPEEDCATS -GOKART PÅ VATTEN",
     "barnvanligt":"Ja",
     "längd":"1.5-2.5 timmar",
     "handikapsanpassat":"Nej",
     "link": {
         "linkurl":"https://www.addwater.se/speedcats"
     },
-    "beskrivning":"Aktiviteten Speedcats passar grupper från 4-50 personer.Vi börjar med lite information om sporten och båtarna och därefter ombyte innan vi går ut på bryggan för att börja själva träningen i vår bana. Varje båt framförs av två personer. En som gasar och styr båten och en som fördelar vikten. Genom att samarbeta kommer ni få en grym prestanda ur båten. Maxfarten på våra båtar är 38 knop.Aktivtet avslutas med en tävling i matchrace stil. Två båtar åtgåengen möts tills man har en slutlig vinnare.",
+    "beskrivning":"Aktiviteten Speedcats passar grupper från 4-50 personer.Vi börjar med lite information om sporten och båtarna och därefter ombyte innan vi går ut på bryggan för att börja själva träningen i vår bana. Varje båt framförs av två personer. En som gasar och styr båten och en som fördelar vikten. Genom att samarbeta kommer ni få en grym prestanda ur båten. Maxfarten på våra båtar är 38 knop.Aktivitet avslutas med en tävling i matchrace stil. Två båtar åtgåengen möts tills man har en slutlig vinnare.",
     "image": {
         "url":"image/gokart.jpg"
     },
@@ -592,7 +534,7 @@
     "id":"2",
     "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
     "Företag":"Addwater",
-    "Aktivtet":"Flyboard",
+    "Aktivitet":"Flyboard",
     "barnvanligt":"Nej",
     "längd":"30 min",
     "handikapsanpassat":"Nej",
@@ -606,19 +548,20 @@
     "pris":"1995 kr",
     "parkering":"Ja"
   },
+
   {
     "city":"Öland",
     "id":"3",
     "Adress":"Glabogatan 3, 38773 Löttorp",
     "Företag":"Glabo Gokart & Paintball",
-    "Aktivtet":"Gokart",
+    "Aktivitet":"Gokart",
     "barnvanligt":"Ja",
     "längd":"7 min",
     "handikapsanpassat":"Nej",
     "link": {
         "linkurl":"https://www.glabogokart.se/gokart"
     },
-    "beskrivning":"Gokart Öland längsta och bredaste bana med toppmoderna gokartar som inbjuder till många omkörningar och passar såväl stora som små sällskap. Hjälmar i alla storlekar finns att låna. Till de minsta förarna har vi en egen bana med elbilar.Alla bilar är utrustade med tidtagningssystem",
+    "beskrivning":"Gokart Öland längsta och bredaste bana med toppmoderna gokartar som inbjuder till många omkörningar och passar såväl stora som små sällskap. Hjälmar i alla storlekar finns att låna. Till de minsta förarna har vi en egen bana med elbilar. Alla bilar är utrustade med tidtagningssystem",
     "image": {
         "url": "image/gokart.jpg"
     },

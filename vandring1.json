@@ -15,10 +15,7 @@
             },
             "svårighetsnivå": "1",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+           "button":"Läs kommentar"
             
         },
         {
@@ -36,10 +33,7 @@
             },
             "svårighetsnivå": "2",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            "button":"Läs kommentar"
             
         },
         {
@@ -57,11 +51,7 @@
             },
             "svårighetsnivå": "1",
             "parkering": "Nej",
-        "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
-            
+            "button":"Läs kommentar"
         },
         {
             "city": "Kalmar",
@@ -78,10 +68,7 @@
                 "url": "image/vandringsbild4.jpg"
             },
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            "button":"Läs kommentar"
             
         },
         {
@@ -99,11 +86,7 @@
             },
             "svårighetsnivå": "2",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
-            
+            "button":"Läs kommentar"
         },
         {
             "city": "Kalmar",
@@ -120,10 +103,7 @@
             },
             "svårighetsnivå": "1",
             "parkering": "Nej",
-            "kommentarer":{ "kommentar1": "hrhrhrhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-                "kommentar2": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar3": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
-                "kommentar4": "sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad"}
+            "button":"Läs kommentar"
             
         },
         {
@@ -863,68 +843,68 @@
             "parkering": "Nej"
         },
         {
-            "city": "Öland",
+            "city":"Öland",
             "id":"1",
-            "led": "",
-            "längd": "",
-            "handikapsanpassat": "Ja",
-            "beskrivning": "",
-            "svårighetsnivå": "Lätt",
+            "led":"Stora Alvarleden",
+            "längd":"13 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"I stora alveret i söda öland hittar du Stora Alvarleden. Leden följer en gammal väg över alvaret. Den är inte iordningställd utan går över befintlig mark, vilket innebär att vägen är av mycket enkel standard. Har man med sig cykel kan den behöva ledas bitvis. Efter snösmältning eller efter kraftiga regn kan vissa partier vara sanka. Leden är markerad med små stenrösen av kalkstensﬂisor och har vid murar och stängsel försetts med cykelstättor som cykeln kan ledas över. ",
+            "svårighetsnivå":"Lätt",
             "image": {
                 "url": "image/vandringsbild10.jpg"
             },
             "link": {
-                "linkurl": ""
+                "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/stora-alvarleden-2?guide_id=329"
             },
-            "parkering": "Ja"
+            "parkering":"Ja"
         },
         {
             "city": "Öland",
             "id":"2",
-            "led": "Vetlandarundan",
-            "längd": "27 km",
-            "handikapsanpassat": "Nej",
-            "beskrivning": ".",
+            "led": "Beijershamn och Svansholmarna",
+            "längd": "5.5 km",
+            "handikapsanpassat": "Ja",
+            "beskrivning": "Beijershamn är en av de viktigaste fågellokalerna på Öland. Det startade med ett pirbygge i mitten av 1800-talet som skulle resultera i en viktig hamn. Så blev det inte. På grund av en felkonstruktion slammade hamnen snabbt igen. Med tiden skapade detta goda förutsättningar för ett rikt fågelliv med vassar, strandängar och öppna vattenytor. Idag finns här flera vackra strövområden och ett stort fågeltorn med utsikt över hela området",
             "image": {
                 "url": "image/vandringsbild1.jpg"
             },
             "link": {
-                "linkurl": "https://vetlanda.se/artikelarkiv/upplev/vetlandarundan.5.54b9e8781785e0772831064d.html"
+                "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/lst-beijershamn-beijershamn-och-svansholmarna?guide_id=329"
             },
-            "svårighetsnivå": "Svår",
+            "svårighetsnivå":"Mellan",
             "parkering": "Ja"
         },
         {
             "city": "Öland",
             "id":"3",
-            "led": "",
-            "längd": "",
-            "handikapsanpassat": "",
-            "beskrivning": "",
+            "led":"Mörbylångaleden Etapp 1",
+            "längd":"18 km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"På den här etappen får du inledningsvis uppleva Kalmarsund, Ölandsbron och Färjestadens ytterområde. Lantliga radbyar, den lummiga Mittlandsskogen, åker- och ängsmark samt utkanterna av alvaret bidrar till variationsrika vyer. Etapp 1 är lättgången, med en stor del asfalts- och grusvägar. Vid stenmurar i slutet av etappen måste ett par stättor passeras. Närliggande parkeringar och busshållplatser finns vid både start och mål",
             "image": {
                 "url": "image/vandringsbild6.jpg"
             },
             "link": {
-                "linkurl": ""
+                "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/olands-turistbyra-station-linne-skogsby-morbylangaleden?guide_id=329"
             },
-            "svårighetsnivå": "Lätt",
-            "parkering": ""
+            "svårighetsnivå":"Lätt",
+            "parkering":"Ja"
         },
         {
             "city": "Öland",
             "id":"4",
-            "led": "",
-            "längd": "3.1 km",
-            "handikapsanpassat": "Nej",
-            "beskrivning": "",
+            "led":"Kyrkhamnsleden,",
+            "längd":"5.7-11 Km",
+            "handikapsanpassat":"Nej",
+            "beskrivning":"I Ottenby söda ölland hittar du Kyrkhamnsleden.Här kan du vandra genom Ottenbys rika historia och längs havet.Kyrkhamnsleden passar utmarkt till den som vill vandra lite längre och uppleva reservatets varienerande miljö, för de som ska vandra fram och tillbaka så är sträckan 11 km långt.",
             "image": {
                 "url": "image/vandringsbild4.jpg"
             },
             "link": {
-                "linkurl": ""
+                "linkurl":"https://www.naturkartan.se/sv/kalmar-lan/kyrkhamnsleden?guide_id=329"
             },
-            "svårighetsnivå": "Mellan",
-            "parkering": "Nej"
+            "svårighetsnivå":"Mellan",
+            "parkering":"Nej"
         }
     ]
 }

@@ -105,12 +105,15 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #9DCFA2;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
+    border: #e0b767;
+    background-color: #e0b767;
+    padding: 5px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    margin-top: 2%;
     cursor: pointer;
-    margin-bottom: 16px;
 }
 
 .lpIcon {
@@ -128,4 +131,21 @@ input[type=submit] {
 .extra {
     color: black;
     text-decoration: underline;
+}
+
+#contactform {
+    visibility: hidden;
+}
+
+.formbtns {
+    border: #e0b767;
+    background-color: #e0b767;
+    padding: 5px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    margin-top: 2%;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
