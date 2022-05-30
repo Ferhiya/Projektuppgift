@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Forum/Skapa nytt inlägg/skapa-nytt-inlägg.css">
+  <script src="/Forum/detnyainlägget/local1.js"></script>
+  <script src="/Inloggning/hide/hide-statiska.js"></script>
+  <script src="/Forum/Skapa nytt inlägg/lagg-till-bild.js"></script>
+    
+    <title>Friluftszonen</title>
+</head>
+<body>
+    <div id="navbar"> 
+        <div id="logga-ikon">
+        <div id="logga"> <img src="/img/logo.svg" > </div ><h2>Friluftszonen</h2> </div> 
+        <h2>  <a href="/landingpage.html">Hem</a></h2> 
+        <h2>  <a href="/aktiviteter.html">Sök</a></h2>
+        <h2> <a href="/Forum/landsida.html">Forum</a> </h2>
+        <h2> <a href="/aboutpage.html">Om oss</a> </h2>
+        <div class="show"> <h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div> 
+         
+        </div>
+
+<div id="tillbacka">
+    <a href="/Forum/landsida.html">Tillbacka</a>
+      </div>
+<div id="info-container">
+
+<div id="info">
+    <h2>Friluftszonens forum</h2>
+<p> Friluftszonen finns för alla entustiaster som brinner för friluftsliv och friluftsaktivteter. Genom att använda Friliftszonen forum kan du hitta vänner och finna inspiration för framtida äventyr. På friluftszonen väljer du en rubrik och skriver därefter din berättelse eller fråga. Du väljer därefrer vilket forum du vill publicera frågan i. Om det handlar om vandring fyller du i vandring tex.</p>
+</div></div>
+
+<div id="container"> 
+
+
+<div id="skriv">
+<h3>Skriv ett nytt inlägg</h3>
+<input type="text" id="rubrik" name="fname" placeholder="Fyll i rubrik">
+<textarea name="" id="texten" cols="55" rows="15" placeholder="Fyll i ditt inlägg. När du är färdig klicka på publicera."></textarea>
+
+
+<div id="bilder-container">
+<div id="bilder" onclick="visabild()">Lägg till bild</div> 
+<div id="bild-placeholder"></div>
+</div> </div>
+
+<div class="dropdown">
+
+<div id="forum-dropon"> 
+    <h2>Välj forum att publicera din tråd i</h2>
+     <select id="valj-forum" name="forum"></div>
+         
+    <div>
+        <option id="a" value ="vandring">Vandring</option>
+        <option id="a" value ="utomhus">Utomhusaktivteter</option>
+        <option id="a" value="adrenalin">Adrenalin</option>
+        <option id="a" value="vattensport">Vattensport</option>
+    </select></div>
+    
+
+   <div id="regler">
+    <h3>Regler för forumet</h3>
+    <p>För allas trivsel vill vi på Friluftszonen att alla användare följer reglerna för forumet. <span class="red">Blir användare rapporterade till admin kommer dessa användares konton att stängas ner</span>. Ditt användarnamn kommer att synas under dina inlägg och kommentarer. </p>
+    <ul>
+        <li>Var snäll mot alla, det gör roligare för alla</li>
+        <li>Ha kul och våga upptäcka nya saker</li>
+        <li>Välkommna alla friluftsälskare</li>
+        <li>Ge aldrig ut ditt lösenord till någon användare.</li>
+      </ul>  
+</div> 
+
+
+<div id="publicera-btn"> <p>Publicera</p> </div>
+</div>
+<div class="hidden"></div><div class="hidden"></div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+* {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    text-align: left;
+    padding-right: 60px;
+    padding-left: 60px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+#contact {
+    font-size: 30px;
+    
+}
+ 
+/*CSS för navbar */
+    
+
+ /*CSS för navbar */ 
+
+#navbar {
+display: flex;
+justify-content: space-around;
+height: 100px;
+background-color: #138558;
+color:white;
+font-size: 16px;
+}
+
+#navbar h2 {
+margin-top: 40px;
+text-decoration: none;
+color: white;
+}
+
+#navbar h2 :hover {
+border-bottom: 4px #0d462fb9 solid;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#logga-ikon img {
+    width: 100px;
+    }
+
+#logga-ikon {
+display: flex;
+}
+
+
+    
+#container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+#cup-1 {
+width: 50%;
+}
+
+#cup-1 h1 {
+border-bottom: #138558 8px solid;
+font-size: 70px;
+margin-top: 50px;
+margin-bottom: 10px;
+padding-bottom: 20px;
+}
+
+#cup-1 #imgflower img {
+width: 200px;
+height: 200px;
+}
+
+#cup-1 #imgflower  {
+transform: rotate(50deg);
+width: 290px;
+margin-left: 32%;
+}
+
+#cup-2 {
+width: 40%;
+justify-content: center;
+margin-top: 80px;
+
+}
+
+#cup-2 #contact {
+box-shadow: #ba9956 5px 10px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+label {
+    font-weight: 600;
+}
+
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-align: left;
+}
+
+input[type=submit] {
+    border: #e0b767;
+    background-color: #e0b767;
+    padding: 5px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.lpIcon {
+    width: 4rem;
+    float: left;
+}
+
+.toActivities {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+.extra {
+    color: black;
+    text-decoration: underline;
+}
+
+#text {
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-bottom: #138558 8px solid;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#skickaknapp  {
+    display: flex;
+    background-color: #e0b767;
+    box-shadow: #ba9956 4px 8px ;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 6px;
+    margin-top: 2%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 15%;
+    
+}
+#skickaknapp:hover {
+    background-color: #ba9956;
+    box-shadow: #8c7341 4px 8px ;
+}

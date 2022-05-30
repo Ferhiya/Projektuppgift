@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+padding: 0px;
+margin: 0px;
+font-family: 'Playfair Display', serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #138558;
+    color:white;
+    font-size: 16px;
+    }
+    
+    #navbar h2 {
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    }
+    
+    #navbar h2 :hover {
+    border-bottom: 4px #0d462fb9 solid;
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    
+    
+    #logga-ikon img {
+        width: 100px;
+        
+        }
+    
+    #logga-ikon {
+    display: flex;
+    }
+
+    
+
+.text {
+font-size: 20px;
+border-radius: 25px;
+border-style: solid;
+border-color: white;
+padding: 10px;
+width: 50%;
+
+box-shadow: 5px 10px #10714a;
+}
+
+#button-loggain {
+font-size: 20px;
+width: 20%;
+padding: 10px;
+display: flex;
+justify-content: center;
+border-radius: 25px;
+background-color: #e0b767;
+cursor: pointer;
+margin-top: 20px;
+box-shadow: 5px 6px #ab8d50;
+}
+
+
+
+
+#nya-anvandare {
+display: flex;
+width: 55%;
+background-image: url(/img/inloggning-img.png);
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+#nya-anvandare h2 {
+  background-color: rgba(255, 255, 255);
+  width: 70%;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 5px 10px #d5e4de9c;
+}
+    
+
+
+#Login-container {
+    display: flex;
+    justify-content: space-between;
+        }
+
+#button-nyanvander  {
+text-align: center;
+border-style: solid;
+border-radius: 25px;
+padding: 10px;
+background-color: #e0b767;
+border-color: #e0b767;
+border-width: 1px;
+color:black;
+width: 25%;
+font-size: 25px;
+margin-top: 20px;
+box-shadow: 5px 10px #ab8d50;
+}
+#button-nyanvander a {
+text-decoration: none;
+color: black;
+}
+
+#test {
+margin-top: 15%;
+}
+
+#test p {
+border-radius: 25px;
+margin-bottom: 20px;
+}
+
+#loggain-användare {
+background-color: #138557ec;
+display: flex;
+flex-direction: column;
+width: 45%;
+height: 86vh;
+align-items: center;
+}
+
+#loggain-användare p {
+text-align: center;
+font-size: 30px;
+background-color: white;
+padding: 15px;
+box-shadow: 7px 10px #10714a;
+
+}
+
+#valkommen-loggain {
+
+padding: 10px;
+margin-bottom: 30px;
+}
+
+
+
+form {
+margin-right: 20px;
+margin-left: 20px;
+padding: 10px;
+
+}
+
+#nr1 {
+margin-bottom: 10px;
+}
+

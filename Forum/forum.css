@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+padding: 0px;
+margin: 0px;
+font-family: 'Playfair Display', serif;
+}
+
+ /*CSS för navbar */ 
+
+#navbar {
+display: flex;
+justify-content: space-around;
+height: 100px;
+background-color: #138558;
+color:white;
+font-size: 16px;
+}
+
+
+.box10 {
+display: flex;
+margin-bottom: 1%;
+border-radius: 5px;
+padding: 20px;
+justify-content: space-around;
+
+
+}
+
+.box10 h2 {
+text-align: center;
+}
+
+.rubrik10 {
+display: flex;
+justify-content: center;
+
+}
+.rubrik10 h2 {
+margin-bottom: 20px;
+
+}
+.rubrik10 a {
+border: #138558 solid 3px;
+padding: 20px;
+border-radius: 5px;
+box-shadow: #138558 5px 10px;
+background-color: white;
+}
+
+#box20 {
+display: flex;
+}
+
+
+#navbar h2 {
+margin-top: 40px;
+text-decoration: none;
+color: white;
+}
+
+#navbar h2 :hover {
+border-bottom: 4px #0d462fb9 solid;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#logga-ikon img {
+    width: 100px;
+    }
+
+#logga-ikon {
+display: flex;
+}
+
+ /* CSS för forumssidan, landsida*/ 
+
+#hm {
+display: flex;
+}
+
+#skapa-trad-knapp {
+    border:#e0b767;
+    background-color: #e0b767;
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    box-shadow: 6px 5px #a2854a;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    
+}
+
+#plus {
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 25%;
+text-align: center;
+}
+
+#se-trad {
+border:#e0b767;
+background-color: #e0b767;
+padding: 5px;
+font-size: 30px;
+display: flex;
+border-style: solid;
+border-width: 3px;
+width: 200px;
+height: 50px;
+border-radius: 6px;
+box-shadow: 6px 5px #a2854a;
+text-align: center;
+}
+
+
+
+
+
+
+ a {
+text-decoration: none;
+color: black;
+}
+
+.text {
+font-size: 18px;
+border: #138558;
+border-radius: 6px;
+border-style: solid;
+text-align: center;
+margin-top: 35px;
+padding-top: 25px;
+padding-left: 75px;
+padding-right: 75px;
+padding-bottom: 20px;
+background-color: white;
+}
+
+.text #vandring-visa-inlagg  {
+margin-bottom: 19px;
+}
+
+.text #utomhus-visa-inlagg {
+    margin-bottom: 19px; 
+}
+.text #adrenalin-visa-inlagg {
+margin-bottom: 19px;
+}
+
+.text #vatten-visa-inlagg {
+margin-bottom: 19px;
+}
+.text h3 :hover {
+border-bottom: #138558 2px solid;
+}
+
+#vandring-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#utomhus-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+#adrenalin-visa-inlagg :hover {
+border-bottom: #138558 2px solid;
+}
+
+#landsida-anvandar-span {
+text-align: left;
+}
+
+#utfyllnad img {
+width: 300px;
+}
+
+
+
+
+
+#stader {
+display: flex;
+flex-direction: row;
+font-size: 20px;
+padding: 10px;
+line-height: 35px;
+justify-content: center;
+margin-top: 20px;
+border: #138558;
+border-style: solid;
+border-radius: 6px;
+
+}
+
+
+
+#stader1 {
+display: flex;
+flex-direction: column;
+margin-right: 80px;
+}
+
+#stader-button button {
+width: 50px;
+font-size: 20px;
+padding: 1px;
+margin-top: 10px;
+}
+
+#stader-button{
+display: flex;
+justify-content: flex-end;
+}
+
+#stader2 {
+display: flex;
+flex-direction: column;
+}
+
+
+ 
+
+#box1-img {
+display: flex;
+flex-direction: column;
+
+}
+
+#box1-img img {
+   
+width: 450px;
+height: 500px;
+}
+#open-thread-box2 img {
+height: 500px;
+width: 500px;
+margin-left: 20%;
+}
+
+ /* CSS  */ 
+
+
+#head {
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+width: 600px;
+}
+
+#head button {
+width: 100px;
+margin-top: 10px;
+}
+
+#inlagg {
+border: #138558;
+border-style: solid;
+padding: 20px;
+line-height: 25px;
+box-shadow: 6px 6px #0f6a46;
+
+}
+
+#inlagg-kommentar {
+border: #138558;
+border-style: solid;
+padding: 20px;
+line-height: 25px;
+display: flex;
+}
+
+#container {
+display: flex;
+margin-top: 5px;
+justify-content:center;
+}
+
+#container-kommentar {
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+#container-knappar {
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+justify-content: center;
+height: 90px;
+border-bottom: #138557c3 10px solid;
+}
+
+
+#buttonles button {
+width: 110px;
+padding: 1px;
+margin: 5px;
+}
+
+#test {
+display: flex;
+flex-direction: column;
+}
+
+#head-kommentar {
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+width: 600px;
+}
+
+#head-kommentar p{
+margin-left: 10px;
+}
+
+
+ /* CSS för egna-tradar */ 
+
+
+ #tia {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+ }
+
+ #tia button {
+     width: 200px;
+     align-items: flex-end;
+     padding: 10px;
+ }
+
+ #tia #kommentera {
+width: 300px; 
+ }
+
+ #bredvid {
+display:flex;
+flex-direction: row;
+ }
+
+#knapp-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#result {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+
+#input1 {
+width: 500px; 
+height: 50px;
+margin-top: 15px;
+
+}
+
+#runBtn {
+margin-left: 9px;
+padding: 5px;
+margin-top: 10px;
+}
+
+ 
+#extra {
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom: #000;
+    border-style: solid;
+    border-width: 2px;
+    border: #138558;
+    border-style: solid;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 1px;
+    width: 590px;
+    }
+
+    #extra2 {
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 1px;
+    width: 590px;
+    
+    }
+
+
+
+#result2 {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#container-result {
+display: flex;
+justify-content: center;
+}
+
+#result2-id {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+
+#bea {
+    width: 590px;
+    margin-bottom: 10px;
+    background-color: white;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+    border-radius: 1px;
+    
+    }
+    
+    #extra p {
+    font-size: large;
+    }
+
+
+#container-next {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  
+}
+
+hr {
+color:#138558;
+
+
+}
+#har {
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom: #000;
+    border-style: solid;
+    border-width: 2px;
+    border: #138558;
+    border-style: solid;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 1px;
+    width: 590px;
+   
+}
+#align-btn {
+display: flex;
+flex-direction: row;
+width: 200px;
+}
+
+#more {display: none;
+}
+
+
+
+#knapparna-komment {
+display: flex;
+justify-content:center;
+}
+
+#andra-inlagg {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+#input2 {
+width: 380px;
+height: 30px;
+}
+
+#myBtn{
+margin-right: 10px;
+}
+#runBtn2{
+margin-left: 10px;
+padding: 5px;
+}
+
+
+
+
+#tillbacka a {
+text-decoration: none;
+color: #000;
+padding: 10px;
+border:#e0b767;
+background-color:#e0b767;
+border-style: solid;
+border-radius: 5px;
+box-shadow: 5px 7px #a2854a;
+}
+
+#tillbacka  {
+padding: 10px;
+margin-top: 20px;
+margin-left: 20px;
+font-size: 22px;
+
+}
+
+
+#omgivande-eget {
+border-right: #138558 5px solid ;
+width: 600px;
+height: 550px;
+}
+
+#egna-inlagg a {
+text-decoration: none;
+color: black;
+}
+
+
+
+#egna-inlagg-rubrik {
+margin-left: 80px;
+margin-top: 3%;
+padding-bottom: 10px;
+border-bottom: #138558 5px solid;
+
+}
+
+#egna-inlagg h2 {
+    margin-bottom: 35px;
+    border-bottom: #138558 5px solid;
+    width: 600px;
+    }
+
+ /* CSS för open-thread */ 
+
+ #open-thread-container {
+display: grid;
+border-right: #138558 5px solid;
+margin-left: 210px;
+
+ }
+
+ .open-thread-thread h2 {
+padding-bottom: 20px;
+border-bottom: #138558 5px solid;
+margin-bottom: 20px;
+
+ } 
+
+ .open-thread-thread a {
+text-decoration: none;
+color: black;
+ }
+
+ #open-thread-container h3 :hover {
+border-bottom: 3px solid #138558;
+}
+
+
+ .open-thread-thread p {
+text-decoration: none;
+color: black;
+
+
+ }
+
+ .open-thread-thread{
+grid-row-start: 1;
+grid-row-end: 1;
+grid-column-start: 1;
+grid-column-end: 1;
+margin-right: 200px;
+line-height: 25px;
+text-decoration: none;
+border-right:#138558 5px solid;
+ }
+
+ #open-thread-img {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+ }
+
+
+
+#open-thread-img, img {
+width: 500px;
+border-radius: 5px;
+ }
+
+#open-thread-visa-inlagget {
+margin-bottom: 20px;
+}
+
+
+#eget-inlagg-container {
+margin-left: 13%;
+margin-top: 30px;
+}
+
+.eget-inlagg-invid {
+margin-bottom: 20px;
+}
+
+.eget-inlagg-invid h2 {
+margin-bottom: 10px;
+border-bottom: #138558 solid 3.1px;
+}
+
+.eget-inlagg-invid a {
+text-decoration: none;
+color: #000;
+}
+
+
+
+#villduskapakonto {
+display: flex;
+text-align: center;
+background-color: #e0b767;
+padding: 5px;
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+}
+
+#hide-skapatrad {
+border:#e0b767;
+background-color: #e0b767;
+text-align: center;
+border-radius: 6px;
+box-shadow: 7px 7px #a2854a;
+font-size: 25px;
+padding: 10px;
+
+}
+
+#hide-skapatrad p :hover{ 
+border-bottom: #a2854a 4px solid;
+}
+
+#hide-skapatrad p {
+text-align: center;
+
+}

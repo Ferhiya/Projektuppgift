@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Inloggning/ny-anvandre.css">
+   <script src="/Inloggning/inloggning.js"></script>
+   <script src="/Inloggning/hide/show.js"></script>
+    <title>Friluftszonen</title>
+</head>
+<body>
+    
+	<div id="navbar"> 
+		<div id="logga-ikon">
+		<div id="logga"> <img src="/img/logo.svg" > </div ><h2>Friluftszonen</h2> </div> 
+		<h2>  <a href="/landingpage.html">Hem</a></h2> 
+		<h2>  <a href="/aktiviteter.html">Aktivitet</a></h2>
+		<h2> <a href="/Forum/landsida.html">Forum</a> </h2>
+	   
+		<div class="show"><h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div>
+		  
+		</div>
+
+
+
+
+
+
+
+
+    <main>
+	
+		<form id="booking" method="POST">
+			<!-- Formuläret skickas inte i detta exempel. 
+				 Användas Netlifys formulärtjänst ska form-taggen innehålla data-netlify="true".
+				 Annars specificeras program för hantering av formuläret i ett action-attribut. -->
+	
+			<fieldset id="customer">
+				<legend>Ny användare</legend>
+				<div>
+
+				
+					<label for="name" id="name2">Användarnamn</label>
+						<input type="text" id="name" name="name" required>
+					<label for="street" id="name2">Mejladress</label>
+						<input type="text" id="street" name="street">
+					<label for="zipcode" id="name2">Mobilnummer</label>
+						<div>
+							<input type="text" id="zipcode" name="zipcode">
+							<span></span> <!-- Element för felmeddelande-->
+						</div>
+					<label for="telephone" id="name2">Lösenord</label>
+						<div>
+							<input type="text" id="telephone" class="tie"
+							name="telephone">
+							<span></span> <!-- Element för felmeddelande-->
+						</div>
+				</div>
+			</fieldset>
+			<div id="send">
+				<div id="button-loggain"><p>Börja utforska</p> </div> 
+			</div>
+		</form>
+
+
+		<div id="nojda-recenstioner">
+		<h2>Gör som 3000 andra - hitta en <i>gemenskap</i> </h2>
+		<p>Friluftszonen är en plattform för dig som älskar naturen och vill ha ut mer av dina utflykter. Här är hemmet för mer än 3000 användare runt om Småland & Öland. Här samlas gamla som unga, erfarna som oerfarna, i ett möte med naturen. Friluftszonen önskar ge dig som användare vänner för livet och erfarenheter att dela med dessa vänner. </p> <br><p>Våga ta steget, ut i naturen, likväl som till din näste. Dags att lämna trygghetszonen och komma in i <b>Friluftszonen</b>. </p>
+		</div>
+
+	</main>
+	
+	<div id="img-gallery">
+			<img src="/img/family-g16b13d8e0_640.jpg" alt="">
+			<img src="/img/mountaineers-g51f27f398_640.jpg" alt="">
+			<img src="/img/achieve-g52b74ab42_640.jpg" alt="">
+			<img src="/img/rock-climbing-g88de2228d_640.jpg" alt="">
+			<img src="/img/mountaineer-gb2a0a9534_640.jpg" alt="">
+			<img src="/img/mountaineering-g3cf9885d9_640.jpg" alt="">
+		
+		</div>
+
+
+</body>
+</html>
