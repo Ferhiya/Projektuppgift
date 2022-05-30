@@ -229,11 +229,16 @@ margin-top: 250px;
 }
 
 #grid-box6 img {
-width: 410px;
+width: 390px;
+min-width: 200px;
 height: 550px;
 border-radius: 5px;
 margin-left: 10px;
 }
+
+
+
+
 
 
 #stader {
@@ -697,6 +702,10 @@ margin-top: 15px;
     box-shadow: 6px 5px #a2854a;
   text-align: center;
   justify-content: center;
+}
+
+#hide-skapatrad p :hover{ 
+border-bottom: #a2854a 4px solid;
 }
 
 #hide-skapatrad p {
