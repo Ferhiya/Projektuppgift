@@ -115,9 +115,7 @@ padding-bottom: 20px;
     padding-top: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    margin-left: 2%;
 }
 
 #aktivtetssidan {
@@ -130,8 +128,8 @@ padding-bottom: 20px;
 }
 
 img.bildtest {
-    padding-top: 0.5%;
-    width: 100%;
+    width: 400px;
+    height: 300px;
 }
 
 img.aktivtetsbilder {
@@ -178,10 +176,6 @@ img.aktivtetsbilder {
     width: 88%;
 }
 
-img {
-    max-height: 300px;
-}
-
 #aktivtetssidan a {
     font-size: 1.2rem;
     color: black;
@@ -192,6 +186,7 @@ img {
 font-size: 1.2rem;
 color: black;
 text-decoration: none;  
+align-items: center;
 }
 
 
@@ -405,12 +400,13 @@ color: white;
 
 #väder2{
     margin-top: 10%;
-    width: 140px;
+    width: 145px;
 }
 
 #väder2 img{
+ margin-left: 25%;
  float: right;
- box-shadow: 1px 1px yellow;
+ box-shadow: 0.5px 0.5px yellow;
 }
 
 
@@ -495,8 +491,9 @@ color: white;
             }
             
             #input2 {
-            width: 390px;
-            height: 30px;
+                width: 500px; 
+                height: 50px;
+                margin-bottom: 10px;
             }
             
             #myBtn{
@@ -522,20 +519,19 @@ color: white;
             }
 
             #runBtn2{
-                margin-left: 60%;
-                font-size: 1.3em;
+                font-size: 1.5em;
                 }
 
                 #input1 {
                     width: 500px; 
                     height: 50px;
                     margin-bottom: 10px;
+                    margin-left: 1%;
                     
                     }
 
                     #runBtn{
-                        font-size: 1.3em;
-                        margin-bottom: 0%;
+                        font-size: 1.5em;
                     }
 
                     #inputform{
@@ -545,6 +541,16 @@ color: white;
                         align-items: center;
                         margin-top: 20px;
                     
+                    }
+                    #inputnyttform{
+                        width: 960px;
+                        margin-top: 2%;
+                        border: 0px;
+                    }
+                    #inputNytt{    
+                    width: 300px;
+                    height: 150px;
+                    margin-left: 1%;
                     }
                     #knapp-text {
                         display: flex;
@@ -573,29 +579,33 @@ color: white;
                      
 
                         #testdiv{
-                        border: 2px solid #138558;
                         visibility: hidden;
                          margin-left: 2.3%;
-                        width:900px;
-                        height:280px;
+                         width:1000px;
+                        height:300px;
+                        margin-bottom: 5%;
                          margin-top: 3%;
+                         border:2px solid #138558;
+                         display: inline-block;
+                        }
+
+                        #nytt{
+                            margin-left: 3%;
+                            font-size: 2rem;
                         }
                         
-                        #laddabild,#laddabild2,#laddabild3{
-                            width:280px;
+                      #laddabild,#laddabild2,#laddabild3{
+                            width:200px;
                             height:150px; 
-                            border: 2px solid black;
-                            float: left; 
-                            margin: 0.5%;
-                            margin-bottom: 3%;
-                          
+                            border: 1.5px solid black;
                         }
                       
                     
 
-                        #bildrubrik{
-                            margin-left: 2.3%;
+                       #bildrubrik{
+                            margin-left: 32%;
                             font-size: 2rem;
+                            color: blue;
                         }
 
           #mertext{
@@ -665,6 +675,21 @@ color: white;
     line-height: 25px;
     width: 400px;
     margin-left: 2.5%;
+    margin-bottom: 0.5%;
+}
+
+.kommentarbtn{
+    margin-left: 80%;
+    font-size: 1.3rem;
+}
+
+#kommentarbild1,#kommentarbild2,#kommentarbild3 {
+    width:250px;
+    height:150px; 
+    float: left; 
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
 }
 
 
