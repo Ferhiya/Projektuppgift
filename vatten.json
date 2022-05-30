@@ -486,7 +486,7 @@
         },
       
           {
-            "city":"Oland",
+            "city":"Öland",
             "id":"1",
             "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
             "Aktivitet":"WATERBALLS - SPRING PÅ VATTNET",
@@ -503,7 +503,7 @@
             "parkering": "Ja"
         },
         {
-            "city":"Oland",
+            "city":"Öland",
             "id":"2",
             "Adress":"Köpingevägen 23C, 387 50 Köpingsvik",
             "Aktivitet":"Stand up paddle",
@@ -521,7 +521,7 @@
             "parkering":"Ja"
         },
         {
-            "city": "Oland",
+            "city": "Öland",
             "id":"3",
             "Adress":"",
             "Aktivitet":"Mega sup",

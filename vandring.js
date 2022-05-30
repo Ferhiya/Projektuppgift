@@ -382,7 +382,6 @@ function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("textruta1");
     var btnText = document.getElementById("runBtn");
-    btnText.style.marginLeft = "80%";
     if (dots.style.display === "none") {
       dots.style.display = "flex";
       btnText.innerHTML = "kommentarera";
@@ -392,7 +391,6 @@ function myFunction() {
       dots.style.display = "none";
       btnText.innerHTML = "kommentarera";
       btnText.style.fontSize="1.2em";
-      btnText.style.marginLeft = "80%";
       moreText.style.display = "inline";
       moreText.style.margin="2%";
     }

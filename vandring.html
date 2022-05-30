@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
     <script type="text/javascript" src="vandring.js"></script>
+    <script type="text/javascript" src="/Forum/trad.js"></script>
     <script type="text/javascript" src="weather.js"></script>
     <title>Friluftszonen</title>
 </head>
@@ -133,19 +134,23 @@
         
     </div>
 
-
+   
+        
+        
+            <div  id="väder2"></div>
+        
+          
     
-    <aside id="väder2">
-        <div id="väder2"></div> 
+
+    <aside>
+        
      <div id="backbtn">
      <button id="tillknappar"><a id="tbtn" href="vandring.html">Tillbaka</a></button>
     </div>
- 
+   
     <div id="testbtn">
 
     </div>
-    
-   
         
         </aside> 
            
@@ -159,28 +164,31 @@
                 En mysig och härligt led som jag starkt skulle kunna rekomendera till alla. Ta med er rikligt med vatten och någon frukt eller macka också.    
                 </p>
              
-                
-                
-                <div id="knapp-text">
-                <form id="inputForm"> <!-- Textfält för att ge indata -->  </form>
-                
-                
-                <button type="button"  onclick="Visakommentarruta()" id="runBtn">Kommentera</button>
+                   
+                <button type="button"  onclick="Visakommentarruta()">Kommentera</button>
+           
               
             </div> 
+            </div>
+            <div id="result"> </div>   
+
+            <div id="knapp-text">
+                <form id="inputForm"> <!-- Textfält för att ge indata -->  
+            </form>
         </div>
                 
             </div>
             <div id="gh">
                 <span id="textruta1">   
                    <span id="dots"></span>
-                 
+                  
                    <span><input type="text" id="input1"> </span>
+                   <button type="button" id="runBtn">Kommentera</button>
                 </span>
             </div>
         </div>
        
-                 <div id="result"></div>   
+               
                 </div>
                 
                 
@@ -208,7 +216,7 @@
            
                 </div>
                 <div id="result2-id">
-                <div id="result2"></div></div>  
+                    <div id="result2"></div></div>  
                 
                       <div id="container-result">
                 
@@ -221,22 +229,20 @@
                 </div>
               </p></span>
                 </div>
-                <div id="testdiv">  
-                    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;" multiple></p>
-                    <p><label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label></p>
-                    <div id="läggtillbider">
-                    <p><img id="laddabild"/></p>
-                    <p><img id="laddabild2"/></p>
-                    <p><img id="laddabild3"/></p>
-                    </div>
-               
-          
-    
-                
-                    <br><br><br><br>
-                             
-                </div>
             </div> 
+                <section id="testdiv"> 
+                    <h2>Nytt inlägg</h2>
+                    <form id="inputForm1"> <!-- Textfält för att ge indata --></form> 
+                    <input type="text" id="input1">
+                    <p><label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label></p>
+                    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;" multiple></p>
+        
+                    <img id="laddabild">
+                    <img id="laddabild2">
+                    <img id="laddabild3">
+                   
+                </section>
+          
         
             
 
