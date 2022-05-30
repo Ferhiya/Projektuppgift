@@ -1,24 +1,21 @@
 // Globala variabler
-var myApiKey = "385c01f06e7fc079126bc42be657e5d6";	// Ersätt DIN-API-KEY med din egen API key
-var flickrImgElem;		// Referens till element där bilderna ska visas
-var valt2; //refrens till div elemetet där info om vandrignsledet ska visas
 var knappar; //refens till tryckt knapp
 var display;
 var vatteninfo;
-var valt;
+var valt2;
 var exdiv;
 
 // Initiering av globala variabler och händelsehanterare
 function init() {
-    flickrImgElem = document.getElementById("flickrImg2");
     valt2 = document.getElementById("valt2");
-    valt = document.getElementById("valt");
     knappar = document.getElementsByClassName("knappar");
-    display = document.getElementById("vandringslederna");
+    display = document.getElementById("utomhus");
+    outdoorinfo = document.getElementById("outdoorinfo");
+
 
     for (let i = 0; i < knappar.length; i++) {
         knappar[i].addEventListener("click", requestData);
-        knappar[i].addEventListener("click", requestJSONData);
+        knappar[i].addEventListener("click", requestBikeData);
         knappar[i].addEventListener("click", showledinfo);
 
     }
@@ -49,7 +46,7 @@ function requestData(e) {
     request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
         if (request.readyState == 4) //staus 4=kommunikation klar
             if (request.status == 200) getData(request.responseText); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
-            else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
+            else valt2.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
     };
 
 
@@ -86,10 +83,10 @@ function getData(response) {
         // valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
     }
 
-    valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
-    valt.style.fontSize = "150%";
-    valt.style.visibility = "visable";
-    valt.style.marginBottom = "5%";
+    valt2.innerHTML = HTMLcode; //utskrift av datan i JSON filen
+    valt2.style.fontSize = "150%";
+    valt2.style.visibility = "visable";
+    valt2.style.marginBottom = "5%";
     //document.getElementById("unordered").style.border= "2px solid black";
 
     clearcontent(display);
@@ -100,8 +97,7 @@ function clearcontent(display) {
     display.innerHTML = "";
 }
 function showledinfo() {
-    vatteninfo = document.getElementById("vatteninfo");
-    vatteninfo.style.visibility = "visible";
+    outdoorinfo.style.visibility = "visible";
 }
 //-------------------------------------------------------------------------------------------------
 
@@ -110,7 +106,7 @@ function requestJSONData(e) {
     // let id = e.target.id;
     let cityname = e.target.attributes.city.value;
     let request = new XMLHttpRequest(); // Object för Ajax-anropet
-    request.open("GET", "vatten.json", true);
+    request.open("GET", "outdoor.json", true);
     request.send(null); // Skicka begäran till servern
     request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
         if (request.readyState == 4) //staus 4=kommunikation klar
@@ -123,7 +119,7 @@ function requestJSONData(e) {
 
 // Tolkar koden och skriv ut den på önskad form
 function getJSONData(JSONtext, cityname) {
-    let vatten = JSON.parse(JSONtext).vatten; //hämtar arryen med vandringsledernas data.
+    let bike = JSON.parse(JSONtext).bike; //hämtar arryen med vandringsledernas data.
 
     let HTMLcode = "";
     let backBTN2 = document.getElementById("testbtn");
@@ -132,38 +128,22 @@ function getJSONData(JSONtext, cityname) {
     let backBTN = document.getElementById("tillknappar");
     backBTN.style.visibility = "visible";
     HTMLcode +=
-        "<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
+        "<h1>Utomhus aktiviteter i <b>" + cityname + "</b></h1>" + "<hr>";
 
-    for (let i = 0; i < vatten.length; i++) {
+    for (let i = 0; i < bike.length; i++) {
 
-        if (cityname === vatten[i].city) {
+        if (cityname === bike[i].city) {
 
             // Referenser till olika egenskaper i vandrings objektet i JSON
             HTMLcode +=
-                "<div id=" + vatten[i].city + "-" + vatten[i].id + ">" +
-                "<h2><b></b> " + vatten[i].Aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
-                //console.log(vandring[i].imgurl);
-                //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-
-                //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-                //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
-                "<li><b>längd:</b> " + vatten[i].längd + "</li>" + //lägger in längden på ledet i html strängen
-                "<li><b>handikapsanpassat:</b> " + vatten[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-                "<li><b>Pris:</b> " + vatten[i].pris + "</li>" + //lägger in ledets svårighetsnivå i html strängen
-                "<li><b>parkering:</b> " + vatten[i].parkering + "</li>" + //lägger in info om parkering i html strängen
-                "<img src='" + vatten[i].image.url + "'></img>" +
-                "<p><b></b> " + vatten[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
-                "<a href='" + vatten[i].link.linkurl + "' target=_blank>Läs mer</a>" +
-                //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
-                //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-
-                //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
-                "</div><hr>"
-
-
-            //valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
-
-
+            "<hr>" +
+            "<div id=" + bike[i].city + "-" + bike[i].id + ">" +
+            "<p><b>Namn:</b> " + bike[i].name + "</p>" +
+            "<img src='" + bike[i].img.url + "'</img>" +
+            "<p><b>Beskrivning:</b> " + bike[i].description + "</p>" +
+            "<p><b>Längd:</b> " + bike[i].distance + "</p>" +
+            "<a href=" + bike[i].link.url + " target='_blank'>Läs mer</a>" +
+            "<br><br>";
         }
 
     }
@@ -173,9 +153,9 @@ function getJSONData(JSONtext, cityname) {
     //li.style.display=" flex";
 
 
-    for (let i = 0; i < vatten.length; i++) {
+    for (let i = 0; i < bike.length; i++) {
 
-        if (cityname === vatten[i].city) {
+        if (cityname === bike[i].city) {
 
             var btnx2 = document.createElement("button");
             //movies=btnx2;
@@ -192,7 +172,7 @@ function getJSONData(JSONtext, cityname) {
             id.value = "2";
             btnx2.setAttributeNode(id);
 
-            var body = document.getElementById(vatten[i].city + "-" + vatten[i].id);
+            var body = document.getElementById(bike[i].city + "-" + bike[i].id);
             body.appendChild(btnx2);
             body.append(btnx2);
             btnx2.setAttribute("class", "btncl");
@@ -255,7 +235,7 @@ function requesttest(e) {
 
 }
 function getData2(JSONtext, btn, cityname) {
-    let vatten = JSON.parse(JSONtext).vatten;
+    let bike = JSON.parse(JSONtext).bike;
     let HTMLcode2 = "";
     document.getElementById("har").style.visibility = "visible";
     document.getElementById("head").style.visibility = "visible";
@@ -276,32 +256,19 @@ function getData2(JSONtext, btn, cityname) {
 
     x.addEventListener("click", requestJSONData);
     x.addEventListener("click", showledinfo);
-    for (let i = 0; i < vatten.length; i++) {
-        if (cityname === vatten[i].city && btn === vatten[i].id) {
+    for (let i = 0; i < bike.length; i++) {
+        if (cityname === bike[i].city && btn === bike[i].id) {
             console.log("funkar2");
             // Referenser till olika egenskaper i vandrings objektet i JSON
             HTMLcode2 +=
-                "<h2><b></b> " + vatten[i].aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
-                //console.log(vandring[i].imgurl);
-                //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-
-                //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-                //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
-                "<li><b>längd:</b> " + vatten[i].längd + "</li>" + //lägger in längden på ledet i html strängen
-                "<li><b>handikapsanpassat:</b> " + vatten[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-                "<li><b>Pris:</b> " + vatten[i].pris + "</li>" + //lägger in ledets svårighetsnivå i html strängen
-                "<li><b>parkering:</b> " + vatten[i].parkering + "</li>" + //lägger in info om parkering i html strängen
-                "<img src='" + vatten[i].image.url + "'></img>" +
-                "<p><b></b> " + vatten[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
-                "<a href='" + vatten[i].link.linkurl + "' target=_blank>Läs mer</a>" +
-                //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
-                //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-
-                //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
-                "<hr>"
-
-            //valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
-
+            "<hr>" +
+            "<div id=" + bike[i].city + "-" + bike[i].id + ">" +
+            "<p><b>Namn:</b> " + bike[i].name + "</p>" +
+            "<img src='" + bike[i].img.url + "'</img>" +
+            "<p><b>Beskrivning:</b> " + bike[i].description + "</p>" +
+            "<p><b>Längd:</b> " + bike[i].distance + "</p>" +
+            "<a href=" + bike[i].link.url + " target='_blank'>Läs mer</a>" +
+            "<br><br>";
         }
     }
     exdiv.style.marginBottom = "5%";
@@ -316,12 +283,11 @@ function clearcontent(display) {
 }
 
 function showledinfo() {
-    ledinfo = document.getElementById("vatteninfo");
-    ledinfo.style.visibility = "visible";
+    outdoorinfo.style.visibility = "visible";
 
 }
-function clearcontent(valt) {
-    valt.innerHTML = "";
+function clearcontent(valt2) {
+    valt2.innerHTML = "";
     //alt.remove();
     //ledinfo.removeChild(ledinfo.firstElementChild)
     // ledinfo.removeChild(valt);

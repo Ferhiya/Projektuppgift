@@ -111,7 +111,7 @@ padding-bottom: 20px;
 }
 
 
-#vandringslederna {
+#vandringslederna, #utomhus {
     padding-top: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -143,7 +143,7 @@ img.aktivtetsbilder {
 }
 
 
-#ledinfo, #vatteninfo, #adinfo {
+#ledinfo, #vatteninfo, #adinfo, #outdoorinfo {
     display: grid;
     grid-template-columns: 2.8fr 0.1fr 1.5fr;
     margin-bottom: 2%;
@@ -360,25 +360,6 @@ color: white;
     padding-left: 0%;
     margin-left: 3%;
     visibility: hidden;
-}
-
-#outdoorinfo {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-bottom: 2%;
-    padding-left: 0%;
-    margin-left: 3%;
-    visibility: hidden;
-}
-
-
-
-
-#utomhus {
-    padding-top: 2%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
 }
 
 
