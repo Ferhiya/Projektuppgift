@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="/Inloggning/hide/hide-statiska.js"></script>
-    <script type="text/javascript" src="contactpage.js"></script>
     <title>Friluftszonen</title>
 </head>
 
@@ -28,37 +27,10 @@
 
     </div>
 
-
-    <div class="row">
-        <div class="column">
+<div id="container">
+  
+<div id="cup-1">
             <h1>Friluftszonen</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit quis officia blanditiis quod
-                possimus doloremque aperiam odit illum excepturi voluptas similique hic officiis dignissimos labore,
-                tempora a dolores expedita nulla facilis quae quasi laboriosam consequatur aliquid? Aut, perferendis
-                qui. Voluptatem non et eum velit reprehenderit vel delectus amet dolorem necessitatibus placeat alias
-                nemo debitis, nisi error deserunt odit cum dicta excepturi eos nam accusantium magnam dolorum sit omnis.
-                Quam voluptatem dignissimos ad soluta repellendus? Consectetur deserunt repellendus quia odit soluta,
-                at, facere necessitatibus minima iste fuga culpa corrupti voluptatum magnam harum ipsam quis dolorum?
-                Eos, vitae placeat? Assumenda, soluta.</p><br> <hr>
-
-            <button id="contact" class="formbtns">Kontakta oss här!</button>
-
-            <form id="contactform">
-                <label for="fname">Namn:</label>
-                <input type="text" id="fname" name="firstname" placeholder="Ditt namn här...">
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" placeholder="Din email här...">
-
-                <label for="subject">Ämne:</label>
-                <textarea name="subject" id="subject" placeholder="Skriv ditt meddelande här..." rows="5"></textarea>
-
-                <input type="submit" value="Skicka" class="formbtns">
-            </form>
-
-
-        </div>
-        <div class="column">
-
             <div class="toActivities">
                 <img src="/ikoner/stickman.svg" class="lpIcon">
                 <p>
@@ -69,18 +41,37 @@
                     <a href="outdoor.html" class="extra">utomhus</a> aktiviteter!
                 </p>
             </div>
-            <img src="/img/landing.jpg" style="width: 600px;">
+    
 
             <div class="toActivities">
                 <img src="/ikoner/textbox.svg" class="lpIcon">
                 <p>Vill du istället läsa andra användares tankar om aktiviteter eller helt enkelt
                     hitta liksinnande folk, kolla in vårt forum <a href="Forum/landsida.html" class="extra">här!</a>
                 </p>
+                <div id="imgflower"><img src="/img/flower-g1831549ee_640.png" alt="" ></div>
+                <div id="text">Har du några frågor du vill fråga oss? <br><br> Kontakta oss i formuläret</div>
             </div>
-            <img src="/ikoner/forumboxes.svg" style="width: 600px;">
         </div>
 
-    </div>
+
+
+       <div id="cup-2">
+        <img src="/ikoner/forumboxes.svg" style="width: 400px;">
+
+            <form id="contactform">
+                <label for="fname">Namn:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Ditt namn här...">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Din email här...">
+
+                <label for="subject">Ämne:</label>
+                <textarea name="subject" id="subject" placeholder="Skriv ditt meddelande här..." rows="5"></textarea>
+
+                <div id="skickaknapp"> Skicka</div>
+            </form>
+           
+    </div></div></div>
+
     <div class="hidden"></div>
     <div class="hidden"></div>
 </body>

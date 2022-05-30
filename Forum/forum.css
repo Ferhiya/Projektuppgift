@@ -80,7 +80,7 @@ box-shadow: 6px 5px #a2854a;
 
 #grid {
 display: flex;
-margin-top: 40px;
+margin-top: 30px;
 }
 
 
@@ -206,8 +206,8 @@ grid-column-end: 3;
 grid-row-start: 1;
 grid-row-end:1 ; 
 margin-bottom: 10px;
-margin-left: 24%;
-margin-top: 15px;
+margin-left: 20%;
+
 }
 
 #grid-box5 h3 {
@@ -335,7 +335,7 @@ display: flex;
 #container {
 display: flex;
 justify-content: center;
-margin-top: 40px;
+margin-top: 5px;
 }
 
 #container-kommentar {
@@ -420,7 +420,7 @@ margin-top: 20px;
 #input1 {
 width: 500px; 
 height: 50px;
-margin-top: 10px;
+margin-top: 15px;
 
 }
 
@@ -533,7 +533,7 @@ margin-top: 10px;
 }
 
 #input2 {
-width: 390px;
+width: 380px;
 height: 30px;
 }
 
@@ -542,6 +542,7 @@ margin-right: 10px;
 }
 #runBtn2{
 margin-left: 10px;
+padding: 5px;
 }
 
 
@@ -691,17 +692,19 @@ margin-top: 15px;
 }
 
 #hide-skapatrad {
-    border:#e0b767;
-    background-color: #e0b767;
-    padding: 10px;
-    font-size: 20px;
-    display: flex;
-    width: 200px;
-    height: 100px;
-    border-radius: 6px;
-    box-shadow: 6px 5px #a2854a;
-  text-align: center;
-  justify-content: center;
+border:#e0b767;
+background-color: #e0b767;
+padding: 20px;
+font-size: 23px;
+align-items: center;
+display: flex;
+width: 50%;
+border-radius: 6px;
+box-shadow: 7px 7px #a2854a;
+
+
+
+
 }
 
 #hide-skapatrad p :hover{ 
@@ -709,6 +712,7 @@ border-bottom: #a2854a 4px solid;
 }
 
 #hide-skapatrad p {
-line-height: 45px;
+line-height: 50px;
+text-align: center;
 
 }
