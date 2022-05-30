@@ -13,7 +13,7 @@ function init() {
 	flickrImgElem = document.getElementById("flickrImg2");
 	valt2=document.getElementById("valt2");
     valt=document.getElementById("valt");
-	knappar=document.getElementsByClassName("vattenbtn");
+	knappar=document.getElementsByClassName("knappar");
     display=document.getElementById("vandringslederna");
 
 	for (let i = 0; i < knappar.length; i++) {
@@ -71,8 +71,7 @@ function getData(response) {
 	response = JSON.parse(response) //hämtar arryen med vandringsledernas data.
 
 	let HTMLcode = ""; //tom html sträng för utskriften av innehållet i JSON 
-    let img = document.createElement("img");
-    
+  
     for (let i = 0; i < response.payload.length; i++) {
         let hi=response.payload;
         // Referenser till olika egenskaper i vandrings objektet i JSON
@@ -445,7 +444,5 @@ function requestJSONData(e) {
      img.height = 60;
      img.width = 60;
  
-     testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
-     testElem.appendChild(img);
  
  } 

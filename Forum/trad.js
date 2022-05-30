@@ -32,7 +32,7 @@ resultElem.innerHTML += "<div id='extra'><p>Användare</p>" + inlaggkommentar + 
 
 function hamtakommentarkommentar () {
    var kommentarkommentar; // Längd i meter
-   
+   console.log("hej");
    kommentarkommentar = (input1Elem2.value);
    //input1Elem.value.style.border="2px solid blue"
    if (kommentarkommentar.length === 0){

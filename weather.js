@@ -17,12 +17,12 @@ let cities = [
     {name: "Vetlanda", lat: 57.427446, lng: 15.085333, temp: 0, conditions: 0},
     {name: "Öland", lat: 56.664757, lng: 16.636482, temp: 0, conditions: 0}
 ];
-
+var weatherImg;
 function init() {
     testElem = document.getElementById("test");
     knappar = document.getElementsByClassName("knappar");
     weatherElem = document.getElementById("väder2");
-
+    weatherImg = document.getElementById("väder");
     for (let i = 0; i < cities.length; i++) {
         requestTemp(cities[i]);
     }
@@ -62,6 +62,8 @@ function getTemp(response, city) {
 function something(e) {
 
     let cityname = e.target.attributes.city.value;
+    
+    let img = document.createElement("img");
 
     console.log(cityname)
     for (i = 0; i < cities.length; i++) {
@@ -70,8 +72,7 @@ function something(e) {
         }
     }
 
-    let img = document.createElement("img");
-
+  
     if (city.conditions <= 4) {
         img.src = "ikoner/sun.svg";
     } else if (city.conditions <= 8) {
@@ -81,13 +82,15 @@ function something(e) {
     } else {
         img.src = "ikoner/thunder.svg"
     }
-
-    img.height = 60;
+    
     img.width = 60;
+   // img.style.marginLeft="100%";
 
-
-    weatherElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
+    weatherElem.innerHTML += "<p id='cityp'>" + city.name + "</p>";
+    weatherElem.innerHTML += "<p id='imgp'>" + Math.round(city.temp) + "°C" + "</p>";  
     weatherElem.appendChild(img);
+    //weatherImg.style.marginTop="98%";
+
 }
 
 //http://opendata.smhi.se/apidocs/metfcst/parameters.html#parameter-wsymb info about conditions 1-4 sun, 5-8 cloud, 9-20 rain, 21-27 thunder
