@@ -82,11 +82,6 @@ function getData(JSONtext,cityname) {
 			HTMLcode += 
             "<div id="+ vandring[i].city + "-" + vandring[i].id +">" +
             "<h2><b></b> " + vandring[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
-			//console.log(vandring[i].imgurl);
-			//"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-			
-			//"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-			//'<a href="Läs mer>'  + vandring[i].url + '</a>'+
 			"<li><b>längd:</b> " + vandring[i].längd + "</li>" + //lägger in längden på ledet i html strängen
 			"<li><b>handikapsanpassat:</b> " + vandring[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
 			"<li><b>svårighetsnivå:</b> " + vandring[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
@@ -94,35 +89,7 @@ function getData(JSONtext,cityname) {
 			"<img src='"+vandring[i].image.url+"'></img>"+
 			"<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
 			"<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
-			//"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
-			//`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-            //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
 			"</div><hr>"
-        //let br=document.getElementById("mynewbtn");
-        //console.log(br);
-        let br = document.getElementsByTagName("button")[25];
-        console.log(document.getElementsByTagName("button")[25]);
-			//valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
-            var x = document.getElementById("valt").querySelectorAll("#mynewbtn"); 
-          
-
-// Set the background color of the first element with class="example" (index 0) in div
-
-console.log(x);
-            /* Läs kommentar knapparna som ska in under varje aktivitet
-            let bts=vandring[i].button;;
-            bts.setAttribute="id","3";
-            bts.setAttribute("class","btscl");
-            console.log(bts);
-            let btnx5=document.getElementsByClassName("btscl");
-            for (let i = 0; i < btnx5.length; i++) {
-               //city classen
-               btnx5[i].setAttribute("city",cityname);
-               btnx5[i].setAttribute("id","1");
-               btnx5[i].id=i+1;
-            } 
-        }
-        */
         
             
 
@@ -140,9 +107,7 @@ console.log(x);
             if (cityname === vandring[i].city) {
 
     var btnx2 = document.createElement("button");
-            //movies=btnx2;
-          //console.log(btnx2=movies);
-            btnx2.innerHTML = "Läs kommentar";
+            btnx2.innerHTML = "Läs kommentar"; //knappen som leder till de enskilda aktivterna
             //const cl = document.createAttribute("class");
             
             // Set the value of the class attribute:
@@ -174,15 +139,12 @@ console.log(x);
             } 
         
         }
-        // console.log(document.getElementsByClassName("btnc1"))
 
         vandring[i].butto=btnx2;
         if(btnx2==vandring[i].button){
 
            if(btnx2 > vandring.length){
-            //btnx2.style.visibility="hidden";
             btnx2.style.visibility="hidden";
-            console.log("if sats nya knappar");
            }
         }
     
@@ -191,16 +153,10 @@ console.log(x);
         valt.style.marginBottom = "2%";
         valt.style.fontSize = "150%";
         valt.style.marginBottom = "2%";
-        //document.getElementById("unordered").style.border= "2px solid black"; 
     clearcontent(display);
-    //getData2(JSONtext,btn);
-
-//lägger på onclick event till läs kommentar knappar
 let btnx=document.getElementsByClassName("btncl");
-// 3. Add event handler
 for (let i = 0; i < btnx.length; i++) {
     btnx[i].addEventListener ("click", function(e) {
-        //alert("did something");
         clearcontent(valt);
         requesttest(e);
        
@@ -210,12 +166,9 @@ for (let i = 0; i < btnx.length; i++) {
 
 } // End getData
 function requesttest(e) { 
-    console.log(e.target);
     let cityname = e.target.attributes.city.value;
     
     let btn=e.target.getAttributeNode("id").value;
-    //btn.id;
-     console.log(btn);
      let request = new XMLHttpRequest(); // Object för Ajax-anropet
      request.open("GET","vandring1.json",true);
      request.send(null); // Skicka begäran till servern
@@ -250,15 +203,8 @@ function getData2(JSONtext,btn,cityname){
   
 for (let i = 0; i < vandring.length; i++) {
     if (cityname === vandring[i].city && btn === vandring[i].id) {
-       console.log("funkar2");
-           // Referenser till olika egenskaper i vandrings objektet i JSON
         HTMLcode2 += 
         "<h2><b></b> " + vandring[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
-        //console.log(vandring[i].imgurl);
-        //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-        
-        //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-        //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
         "<li><b>längd:</b> " + vandring[i].längd + "</li>" + //lägger in längden på ledet i html strängen
         "<li><b>handikapsanpassat:</b> " + vandring[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
         "<li><b>svårighetsnivå:</b> " + vandring[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
@@ -266,20 +212,13 @@ for (let i = 0; i < vandring.length; i++) {
         "<img src='"+vandring[i].image.url+"'></img>"+
         "<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
         "<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
-        //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
-        //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-        //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
         "<hr>"
 
-        //valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
         
 }
 }
 valt.innerHTML= HTMLcode2;
 valt.style.height="50%";
-let testdiv=document.getElementById("container");
-testdiv.style.visibility="visible";
-
 }
 function clearcontent(display) {
     display.innerHTML = "";
@@ -292,12 +231,6 @@ ledinfo.style.visibility="visible";
 
 function clearcontent(valt) {
     valt.innerHTML = "";
-     //alt.remove();
-    //ledinfo.removeChild(ledinfo.firstElementChild)
-   // ledinfo.removeChild(valt);
-    //valt.style.display="none";
-    //exdiv.style.marginRight="550px";
-    //valt.style.visibility="hidden";
 }
 
 function showimgbox(){
@@ -313,7 +246,6 @@ var loadFile = function(event) {
     var input = document.getElementById('file');
     
     const numberofFiles = input.files.length;
-    console.log(numberofFiles);
 	for( i=0;i< numberofFiles; i++){
 			//do the upload for each file.
 			var image = document.getElementById('laddabild');
@@ -384,33 +316,27 @@ function myFunction() {
     var btnText = document.getElementById("runBtn");
     if (dots.style.display === "none") {
       dots.style.display = "flex";
-      btnText.innerHTML = "kommentarera";
-     btnText.style.fontSize="1.2em";
+      btnText.innerHTML = "post";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "kommentarera";
-      btnText.style.fontSize="1.2em";
+      btnText.innerHTML = "post";
       moreText.style.display = "inline";
       moreText.style.margin="2%";
     }
   }
 
   function Visakommentarruta2() {
-    var dots = document.getElementById("dots");
+    var dots = document.getElementById("dots2");
     var moreText = document.getElementById("textruta2");
     var btnText = document.getElementById("runBtn2");
-    btnText.style.marginLeft = "58%";
     if (dots.style.display === "none") {
       dots.style.display = "flex";
-      btnText.innerHTML = "kommentarera";
-     btnText.style.fontSize="1.3em";
+      btnText.innerHTML = "post";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "kommentarera";
-      btnText.style.fontSize="1.3em";
-      btnText.style.marginLeft = "58%";
+      btnText.innerHTML = "post";
       moreText.style.display = "inline";
       moreText.style.margin="2%";
     }
