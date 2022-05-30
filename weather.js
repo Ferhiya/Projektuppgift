@@ -13,7 +13,7 @@ let cities = [
     {name: "Värnamo", lat: 57.183132, lng: 14.047798, temp: 0, conditions: 0},
     {name: "Oskarshamn", lat: 57.265678, lng: 16.447400, temp: 0, conditions: 0},
     {name: "Nässjö", lat: 57.653020, lng: 14.696725, temp: 0, conditions: 0},
-    {name: "Tranås", lat: 58.035507, lng: 14.975694, temp: 0, conditions: 0},
+    {name: "Tranås", lat: 58.037, lng: 14.9767, temp: 0, conditions: 0},
     {name: "Vetlanda", lat: 57.427446, lng: 15.085333, temp: 0, conditions: 0},
     {name: "Öland", lat: 56.664757, lng: 16.636482, temp: 0, conditions: 0}
 ];
@@ -65,7 +65,7 @@ function something(e) {
     
     let img = document.createElement("img");
 
-    console.log(cityname)
+
     for (i = 0; i < cities.length; i++) {
         if (cities[i].name == cityname) {
             city = cities[i]; 
@@ -84,12 +84,9 @@ function something(e) {
     }
     
     img.width = 60;
-   // img.style.marginLeft="100%";
 
-    weatherElem.innerHTML += "<p id='cityp'>" + city.name + "</p>";
-    weatherElem.innerHTML += "<p id='imgp'>" + Math.round(city.temp) + "°C" + "</p>";  
+    weatherElem.innerHTML += "<p id='cityp'>" + city.name + "</p>" + "<br>" + "<p id='imgp'>" + Math.round(city.temp) + "°C" + "</p>";  
     weatherElem.appendChild(img);
-    //weatherImg.style.marginTop="98%";
 
 }
 
