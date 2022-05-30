@@ -305,13 +305,13 @@ border-radius: 5px;
     visibility: hidden;
 }
 
-
-#städer {
+.städer {
     margin-top: 5%;
     padding-bottom: 1%;  
 }
 
 .städer {
+text-align: center;
 border-bottom: 5px #138558 solid;
 padding-bottom: 10px;
 border-radius: 3px;
