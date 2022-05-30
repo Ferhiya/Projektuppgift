@@ -21,6 +21,7 @@ function hidecreateoption() {// Funktion för den lokala lagringen
     }else{
         hideElem[0].style.visibility = 'hidden';
         hideElem[0].style.height = "10px";
+        console.log("hej");
     }
 loggainknappen();
     }

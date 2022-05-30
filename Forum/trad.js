@@ -41,7 +41,7 @@ function hamtakommentarkommentar () {
       
       } 
       else {
-   resultElem2.innerHTML += "<div id='extra'><p>Användare</p>" + kommentarkommentar +  "<br></div>" ;
+   resultElem2.innerHTML += "<div id='extra2'><h3><b>Användare</b></h3>" + kommentarkommentar +  "<br></div><hr>" ;
    console.log(kommentarkommentar.length); 
    }
    }
