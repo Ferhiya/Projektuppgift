@@ -17,6 +17,43 @@ color:white;
 font-size: 16px;
 }
 
+
+.box10 {
+display: flex;
+margin-bottom: 1%;
+border-radius: 5px;
+padding: 20px;
+justify-content: space-around;
+
+
+}
+
+.box10 h2 {
+text-align: center;
+}
+
+.rubrik10 {
+display: flex;
+justify-content: center;
+
+}
+.rubrik10 h2 {
+margin-bottom: 20px;
+
+}
+.rubrik10 a {
+border: #138558 solid 3px;
+padding: 20px;
+border-radius: 5px;
+box-shadow: #138558 5px 10px;
+background-color: white;
+}
+
+#box20 {
+display: flex;
+}
+
+
 #navbar h2 {
 margin-top: 40px;
 text-decoration: none;
@@ -42,26 +79,33 @@ display: flex;
 
  /* CSS för forumssidan, landsida*/ 
 
-#skapa-trad {
-border:#e0b767;
-background-color: #e0b767;
-padding: 5px;
-font-size: 30px;
+#hm {
 display: flex;
-border-style: solid;
-border-width: 3px;
-width: 190px;
-height: 50px;
-border-radius: 6px;
-margin-bottom: 30px;
-box-shadow: 6px 5px #a2854a;
 }
 
-
+#skapa-trad-knapp {
+    border:#e0b767;
+    background-color: #e0b767;
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    box-shadow: 6px 5px #a2854a;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    
+}
 
 #plus {
 margin-left: 5px;
 margin-right: 5px;
+margin-bottom: 25%;
+text-align: center;
 }
 
 #se-trad {
@@ -72,81 +116,51 @@ font-size: 30px;
 display: flex;
 border-style: solid;
 border-width: 3px;
-width: 190px;
+width: 200px;
 height: 50px;
 border-radius: 6px;
 box-shadow: 6px 5px #a2854a;
-}
-
-#grid {
-display: flex;
-margin-top: 30px;
+text-align: center;
 }
 
 
-#box1 {
-margin-bottom: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-.hover:hover{
-background-color:#0f6e488a;
-border-color:#0f6e487e;
-border-radius: 5px;
-}
 
 
-#box2 {
-margin-bottom: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-#box3 {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-#box4 {
-display: flex;
-flex-direction: column;
-align-items: center;
-
-}
 
 
-#grid h2 {
-border: #138558;
-border-radius: 6px;
-margin-bottom: 8px;
-border-style: solid;
-padding: 20px;
-text-decoration: none;
-box-shadow: 6px 7px #138558;
-}
-#grid a {
+ a {
 text-decoration: none;
 color: black;
 }
 
 .text {
-display: flex;
-flex-direction: column;
-margin-top: 10px;
+font-size: 18px;
 border: #138558;
 border-radius: 6px;
 border-style: solid;
-line-height: 30px;
-padding: 40px;
-width: 350px;
 text-align: center;
+margin-top: 35px;
+padding-top: 25px;
+padding-left: 75px;
+padding-right: 75px;
+padding-bottom: 20px;
+background-color: white;
 }
 
+.text #vandring-visa-inlagg  {
+margin-bottom: 19px;
+}
 
+.text #utomhus-visa-inlagg {
+    margin-bottom: 19px; 
+}
+.text #adrenalin-visa-inlagg {
+margin-bottom: 19px;
+}
+
+.text #vatten-visa-inlagg {
+margin-bottom: 19px;
+}
 .text h3 :hover {
 border-bottom: #138558 2px solid;
 }
@@ -165,77 +179,9 @@ border-bottom: #138558 2px solid;
 text-align: left;
 }
 
-#grid {
-display: grid;
-gap: 30px;
+#utfyllnad img {
+width: 300px;
 }
-
-#grid-box1 {
-grid-column-start: 1;
-grid-column-end: 2;
-grid-row-start: 1;
-grid-row-end:2 ;
-}
-
-#grid-box2 {
-grid-column-start: 2;
-grid-column-end: 3;
-grid-row-start: 1;
-grid-row-end:1 ;
-}
-
-#grid-box3 {
-grid-column-start: 1;
-grid-column-end: 1;
-grid-row-start: 1;
-grid-row-end:2 ;
-margin-top: 400px;
-}
-
-#grid-box4 {
-grid-column-start: 2;
-grid-column-end: 2;
-grid-row-start: 1;
-grid-row-end:1 ;
-margin-top: 400px;
-}
-
-#grid-box5 {
-grid-column-start: 3;
-grid-column-end: 3;
-grid-row-start: 1;
-grid-row-end:1 ; 
-margin-bottom: 10px;
-margin-left: 20%;
-
-}
-
-#grid-box5 h3 {
-font-size: 35px;
-display: flex;
-padding: 10px;
-justify-content: center;
-border: #138558;
-border-radius: 6px;
-border-style: solid;
-}
-
-#grid-box6 {
-grid-column-start: 3;
-grid-column-end: 3;
-grid-row-start: 1;
-grid-row-end:2 ; 
-margin-top: 250px;
-}
-
-#grid-box6 img {
-width: 390px;
-min-width: 200px;
-height: 550px;
-border-radius: 5px;
-margin-left: 10px;
-}
-
 
 
 
@@ -334,8 +280,8 @@ display: flex;
 
 #container {
 display: flex;
-justify-content: center;
 margin-top: 5px;
+justify-content:center;
 }
 
 #container-kommentar {
@@ -344,6 +290,14 @@ justify-content: center;
 margin-top: 40px;
 }
 
+#container-knappar {
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+justify-content: center;
+height: 90px;
+border-bottom: #138557c3 10px solid;
+}
 
 
 #buttonles button {
@@ -447,6 +401,17 @@ margin-top: 10px;
     width: 590px;
     }
 
+    #extra2 {
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 1px;
+    width: 590px;
+    
+    }
+
+
+
 #result2 {
 display: flex;
 justify-content: center;
@@ -472,7 +437,7 @@ margin-top: 10px;
     line-height: 25px;
     padding-left: 10px;
     padding-bottom: 10px;
-    padding-top: 15px;
+    
     border-radius: 1px;
     
     }
@@ -566,10 +531,7 @@ margin-left: 20px;
 font-size: 22px;
 
 }
-#egna-inlagg{
-margin-left: 90px;
-margin-top: 50px;
-}
+
 
 #omgivande-eget {
 border-right: #138558 5px solid ;
@@ -602,6 +564,7 @@ border-bottom: #138558 5px solid;
 
  #open-thread-container {
 display: grid;
+border-right: #138558 5px solid;
 margin-left: 210px;
 
  }
@@ -694,16 +657,11 @@ margin-top: 15px;
 #hide-skapatrad {
 border:#e0b767;
 background-color: #e0b767;
-padding: 20px;
-font-size: 23px;
-align-items: center;
-display: flex;
-width: 50%;
+text-align: center;
 border-radius: 6px;
 box-shadow: 7px 7px #a2854a;
-
-
-
+font-size: 25px;
+padding: 10px;
 
 }
 
@@ -712,7 +670,6 @@ border-bottom: #a2854a 4px solid;
 }
 
 #hide-skapatrad p {
-line-height: 50px;
 text-align: center;
 
 }
