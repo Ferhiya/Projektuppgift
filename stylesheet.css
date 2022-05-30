@@ -11,7 +11,6 @@
 
 h1 {
     font-size: 70px;
-    letter-spacing: 1rem;
     margin-top: 80px;
     margin-bottom: 40px;
 }
@@ -32,13 +31,6 @@ p {
  
 /*CSS för navbar */
     
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
-
-* {
-padding: 0px;
-margin: 0px;
-font-family: 'Playfair Display', serif;
-}
 
  /*CSS för navbar */ 
 
@@ -133,6 +125,7 @@ input[type=submit] {
     margin-top: 6rem;
     margin-bottom: 2rem;
     margin-left: 2rem;
+    
 }
 
 .extra {

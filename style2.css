@@ -81,18 +81,33 @@ font-family: 'Playfair Display', serif;
     padding-left: 0%;
 }
 
+.filtering h2 {
+border-bottom: #138558 4px solid;
+width: 50%;
+text-align: center;
+font-size: 35px;
+}
+
 form {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 34px;
+    text-align: left;
+    border-left: 4px solid #138558;
+    padding-left: 10px;
+  
+    
 }
 
 h1 {
     text-align: center;
+    font-size: 30px;
 }
 
 #rubrik1 {
     border-bottom: solid 5px #138558;
-    width: fit-content;
-    margin-left: 38%;
+padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -192,6 +207,20 @@ text-decoration: none;
     margin-top: 2%;
     cursor: pointer;
 }
+
+
+.knappar:hover {
+background-color: #b09152;
+border-color: #b09152;
+border-radius: 5px;
+}
+
+.knappar2:hover {
+background-color: #b09152;
+border-color: #b09152;
+border-radius: 5px;
+}
+
 #testaralt{
     margin-top: 80%; 
     margin-right: 80%;
@@ -250,19 +279,37 @@ text-decoration: none;
 }
 
 
-.städer {
-    border-bottom: solid 3px #138558;
-    padding-bottom: 1%;
+#städer {
+    margin-top: 5%;
+    padding-bottom: 1%;  
 }
 
-.aktiviter {
-    border-bottom: solid 3px #138558;
+.städer {
+border-bottom: 5px #138558 solid;
+padding-bottom: 10px;
+border-radius: 3px;
+}
+
+#städer2 {
+    margin-top: 5%;
+}
+
+#aktiviter {
+    border: #138558 4px solid;
     padding-bottom: 1%;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+}
+#aktiviter h2 {
+padding-left: 25%;
 }
 
 #testid {
     display: grid;
-
     border: #138558;
     border-style: solid;
     padding: 20px;
@@ -273,15 +320,21 @@ text-decoration: none;
 
 #aktivitetsnav {
     text-decoration: none;
-    margin: 0%;
+    padding-top: 10px;
+}
+
+#aktiviter h4 {
+border-bottom: #138558 5px solid ;
+font-size: 32px;
 }
 
 #aktivitetsnav a {
     font-size: 1.5rem;
-    padding: 0%;
     text-decoration: none;
     list-style-type: none;
     display: block;
+   justify-content: space-around;
+   padding-top: 3%;
 }
 
 #aktivitetsnav a:active {
@@ -294,6 +347,11 @@ text-decoration: none;
     text-decoration: none;
 }
 
+#aktivitetsnav a:hover {
+background-color:#138558 ;
+color: white;
+
+}
 
 #vatteninfo4 {
     display: grid;
