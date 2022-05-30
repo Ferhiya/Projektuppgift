@@ -8,7 +8,7 @@
     <script type="text/javascript" src="weather.js"></script>
     <script type="text/javascript" src="test3.js"></script>
     <script type="text/javascript" src="aderalinaktiviter.js"></script>
-   
+    <script src="/Inloggning/hide/hide-statiska.js"></script>
 
 
     <title>Friluftszonen</title>
@@ -24,16 +24,35 @@
         <div class="show"><h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div>
           
         </div>
-      
         <div class="filtering">
             <div class="topnav"> 
+              
        </div>
-        
- 
+         <!-- input tag -->
+
+
+       <div id="städer">
+       <h2>Städer</h2>
+       <form>
+        <input type="checkbox" id="Jönköping" name="Jönköping" value="Jönköping">
+        <label for="Stad1"> Jönköping</label><br>
+        <input type="checkbox" id="Växjö" name="Växjö" value="Växjö">
+        <label for="Stad2"> Växjö</label><br>
+        <input type="checkbox" id="Ämlhult" name="Ämlhult" value="Ämlhult">
+        <label for="stad3"> Ämlhult</label><br>
+        <input type="checkbox" id="Västervik" name="Västervik" value="Västervik">
+        <label for="Stad4"> Västervik</label><br>
+        <input type="checkbox" id="Värnamo" name="Värnamo" value="Värnamo">
+        <label for="Stad5"> Värnamo</label><br>
+        <input type="checkbox" id="Vettlanda" name="Vettlanda" value="Vettlanda">
+        <label for="stad6"> Vettlanda</label><br>
+     
+      </form>
+   </div> 
 
 
 <div id="aktiviter">
-    <h2>Aktiviter</h2>
+    <h4 >Aktiviter</h4>
     <div id="aktivitetsnav">
         
         <a href="Vattenaktiviter.html" target=""> Vatten aktiviter
@@ -49,6 +68,7 @@
        </a>
     
   </div>
+
 </div>
 
 </div>
@@ -232,7 +252,8 @@
                 </div>
            
       
-
+<div class="hidden"></div>
+<div class="hidden"></div>
             
                 <br><br><br><br>
                          

@@ -9,7 +9,6 @@
 }
 
 
-
 p {
     text-align: left;
     padding-right: 60px;
@@ -26,13 +25,6 @@ p {
  
 /*CSS för navbar */
     
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
-
-* {
-padding: 0px;
-margin: 0px;
-font-family: 'Playfair Display', serif;
-}
 
  /*CSS för navbar */ 
 
