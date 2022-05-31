@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style2.css">
     <script type="text/javascript" src="vandring.js"></script>
     <script type="text/javascript" src="weather.js"></script>
+    <script src="/Forum/trad.js"></script>
     <script src="/Inloggning/hide/hide-statiska.js"></script>
     <title>Friluftszonen</title>
 </head>
@@ -20,11 +21,6 @@
        
         <div class="show"><h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div>
           
-        </div>
-          
-
-        <div id="hts">
-            <h4>Aktiviter</h4>
         </div>
         
     <div id="aktivitetsnav">
@@ -166,6 +162,10 @@
        
     </div>   
             <div class="hidden">
+                <div id="nyttinlagg">
+               
+                </div>
+              </div>
                 <div id="head">
                 <div id="inlagg">
                 <h3>@Lindabloom</h3>
@@ -184,8 +184,8 @@
             <div id="gh">
                 <span id="textruta1">   
                    <span id="dots"></span>
-                 
                    <span><input type="text" id="input1"> </span>
+                   <button type="button2" id="runBtn">Kommentera</button>
                 </span>
             </div>
         </div>
@@ -241,17 +241,16 @@
                     <label id="nytt">Ny kommentar</label><br>
                     <form id="inputnyttform"> <!-- Textfält för att ge indata -->
                     <label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label>
-                    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;" multiple></p>
+                    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="test (event)" style="display: none;" multiple></p>
                     <textarea type="text" id="inputNytt"name="w3review" placeholder="Skriv en ny kommentar" rows="4" cols="50"></textarea>
                     <span>
                     <img id="laddabild">
                     <img id="laddabild2">
                     <img id="laddabild3">
                 </span>
-                <button type="button2" id="runBtn2">Dela</button>
                 </form> 
+                <button type="button2" id="delaBtn2">Dela</button>
                 </section>
-          
                 <div class="hidden"></div>
                 <div class="hidden"></div>
 

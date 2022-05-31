@@ -9,8 +9,8 @@ var testknapp;
 var ledinfo;
 var exdiv;
 var check;
-
-
+var nyttinlaggElem;
+var resultnyttinlagg;
 
 // Initiering av globala variabler och händelsehanterare
 function init() {
@@ -31,10 +31,9 @@ function init() {
 
     exdiv = document.getElementById("testdiv");
 
-
-
-
-
+    document.getElementById("delaBtn2").onclick = skapainlagg;
+    nyttinlaggElem = document.getElementById("inputNytt") ;
+    resultnyttinlagg = document.getElementById("nyttinlagg");
     //requestData();
 
 } // End init
@@ -213,12 +212,14 @@ for (let i = 0; i < vandring.length; i++) {
         "<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
         "<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
         "<hr>"
+     
+}
+}
 
-        
-}
-}
 valt.innerHTML= HTMLcode2;
 valt.style.height="50%";
+
+nyttinlaggElem.innerHTML="";
 }
 function clearcontent(display) {
     display.innerHTML = "";
@@ -242,73 +243,7 @@ function showimgbox() {
     imgrubrik.addEventListener("click").style.visibility = "vissable";
 
 }
-var loadFile = function (event) {
-    var input = document.getElementById('file');
 
-    const numberofFiles = input.files.length;
-	for( i=0;i< numberofFiles; i++){
-			//do the upload for each file.
-			var image = document.getElementById('laddabild');
-	        image.src = URL.createObjectURL(event.target.files[0]);
-           
-            var image2 = document.getElementById('laddabild2');
-            image2.src = URL.createObjectURL(event.target.files[1]);
-            
-            var image3 = document.getElementById('laddabild3');
-            image3.src = URL.createObjectURL(event.target.files[2]);	
-	}
-
-};
-
-
-
-/*
-function showledinfo2(){
-    valt=document.getElementById("valt");
-
-      valt.style.visibility="hidden";
-  
-}*/
-
-// JavaScript code
-function search_animal() {
-    document.getElementById("list").style.visibility = "hidden";
-    let input = document.getElementById('sokruta').value
-    input = input.toLowerCase();
-    let x = document.getElementsByClassName('animals');
-
-    for (i = 0; i < x.length; i++) {
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display = "none";
-        }
-        else {
-            x[i].style.display = "list-item";
-        }
-    }
-}
-{
-
-    ;
-
-}
-
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("mertext");
-    var btnText = document.getElementById("myBtn");
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Läs kommentar";
-        btnText.style.fontSize = "1.3em";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Göm kommentar";
-        btnText.style.fontSize = "1.3em";
-        moreText.style.display = "inline";
-    }
-}
 
 function Visakommentarruta() {
     var dots = document.getElementById("dots");
@@ -342,6 +277,50 @@ function Visakommentarruta() {
     }
 }
 
+
+function test (event){
+    var input = document.getElementById('file');
+    const numberofFiles = input.files.length;
+	for( i=0;i< numberofFiles; i++){
+			//do the upload for each file.
+			var image = document.getElementById('laddabild');
+	        image.src = URL.createObjectURL(event.target.files[0]);
+           
+            var image2 = document.getElementById('laddabild2');
+            image2.src = URL.createObjectURL(event.target.files[1]);
+            
+            var image3 = document.getElementById('laddabild3');
+            image3.src = URL.createObjectURL(event.target.files[2]);
+          
+}
+  
+}
+
+function skapainlagg () {
+    var bildtest=document.getElementById("nyttinlagg");
+    var kommentarkommentar; // Längd i meter
+    console.log("hej");
+    kommentarkommentar = (nyttinlaggElem.value);
+    var laddabild = document.getElementById('laddabild');
+    var laddabild2 = document.getElementById('laddabild2');
+    var laddabild3 = document.getElementById('laddabild3');
+    let img=(bildtest.src=(laddabild));
+    let img2=(bildtest.src=(laddabild2));
+    let img3=(bildtest.src=(laddabild3));
+    //bildtest=URL.createObjectURL(img.src);
+    console.log(img);
+    //input1Elem.value.style.border="2px solid blue"
+    if (kommentarkommentar.length === 0){
+       alert("Fyll i en kommentar");
+       return;
+       
+       } 
+       else {
+        resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Användare</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
+        console.log("<img src='" + img.src + "'></img>"); 
+    }
+
+    }
 
 
 

@@ -710,4 +710,42 @@ color: white;
     margin-bottom: 3%;
 }
 
+/*nytt kommentar inlägg under aktivteer*/
+#nyttinagg{
+    border: #138558;
+    border-style: solid;
+    padding: 20px;
+    line-height: 25px;
+    width: 750px;
+    margin-left: 2.5%;
+    margin-bottom: 0.5%;
+    display: inline-block;
+}
+
+#newimg{
+    width: 240px;
+    height: 150px;
+    padding: 1px;
+    margin-top: 4%;
+}
+#newimg2{
+    width: 240px;
+    height: 150px;
+    padding: 1px;
+    margin-top: 4%;
+}
+#newimg3{
+    width: 240px;
+    height: 150px;
+    padding: 1px;
+    margin-top: 4%;
+    
+}
+
+#imgdiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:0.5%;
+}
+
 
