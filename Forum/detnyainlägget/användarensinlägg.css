@@ -10,25 +10,40 @@ font-family: 'Playfair Display', serif;
  #navbar {
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    height: 100%;
     background-color: #138558;
     color:white;
     font-size: 16px;
     }
     
     #navbar h2 {
-    margin-top: 40px;
-    text-decoration: none;
-    color: white;
-    }
-
-    
-    
-    #navbar a {
+        margin-top: 40px;
         text-decoration: none;
         color: white;
-    }
+        }
+        
+        #navbar h2 :hover {
+        border-bottom: 4px #0d462fb9 solid;
+        }
+        
+        #navbar a {
+            text-decoration: none;
+            color: white;
+        }
     
+
+
+
+
+
+
+
+
+
+
+
+
+        
     #logga-ikon img {
         width: 100px;
         }
@@ -49,7 +64,7 @@ border-style: solid;
 border-width: 3px;
 width: 190px;
 height: 50px;
-border-radius: 6px;
+border-radius: 5px;
 margin-bottom: 30px;
 }
 
@@ -294,8 +309,8 @@ display: flex;
 flex-direction: column;
 align-items:flex-end;
 width: 600px;
-border: #138558 4px solid;
-border-radius: 5px;
+border: #138558 3px solid;
+
 }
 
 #head button {
@@ -330,6 +345,8 @@ padding-right: 15%;
 text-decoration: none;
 color: black;
 cursor:default;
+font-size: 18px;
+
 }
 
 

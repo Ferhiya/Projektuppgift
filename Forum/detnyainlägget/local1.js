@@ -32,9 +32,9 @@ function myFunction() {
      
      y = document.getElementById("texten").value;
      
-     container = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><b>" + x + "</b></a> <h3><i>" + "</h3></i>" + "<b>" +  "Jane Doe" +"</b>" + "<br>" + y;
+     container = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><em><b>" + x + "</em></b></a> " + "<br>" + "<b>Jane Doe" +"</b>" + "<br>" + y;
 
-     egnainlagget = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><b>" + x + "</b></a> <h3><i>" + "</h3></i>" + "<b>" +  "Jane Doe" +"</b>" + "<br>";
+     egnainlagget = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><i>" + x + "</i></a> <h3><i>" + "</h3></i>" + "<b>" +  "Jane Doe" +"</b>" + "<br>";
 
      localStorage.setItem('texten', container);
 
