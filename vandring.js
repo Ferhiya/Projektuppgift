@@ -219,8 +219,11 @@ for (let i = 0; i < vandring.length; i++) {
 valt.innerHTML= HTMLcode2;
 valt.style.height="50%";
 
-nyttinlaggElem.innerHTML="";
-}
+document.getElementById("inputNytt").value = ""
+
+
+}//end
+
 function clearcontent(display) {
     display.innerHTML = "";
 }
@@ -291,12 +294,12 @@ function test (event){
             
             var image3 = document.getElementById('laddabild3');
             image3.src = URL.createObjectURL(event.target.files[2]);
-          
+    
 }
   
 }
 
-function skapainlagg () {
+function skapainlagg (event) {
     var bildtest=document.getElementById("nyttinlagg");
     var kommentarkommentar; // Längd i meter
     console.log("hej");
@@ -316,8 +319,6 @@ function skapainlagg () {
        
        } 
        else {
-
-        
         resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Användare</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
         console.log("<img src='" + img.src + "'></img>"); 
     }
