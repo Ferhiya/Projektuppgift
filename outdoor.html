@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-    <script type="text/javascript" src="outdoor.js"></script>
+    <script type="text/javascript" src="test2.js"></script>
     <script type="text/javascript" src="weather.js"></script>
     <script src="/Inloggning/hide/hide-statiska.js"></script>
     <title>Friluftszonen</title>
@@ -55,7 +56,7 @@
         <h1>Utomhusaktiviteter i Småland och Öland</h1>
     </div>
 
-    <div id="utomhus">
+    <div id="vandringslederna">
 
         <div class="städer">
             <h1>Kalmar</h1>
@@ -142,17 +143,19 @@
         </div>
 
     </div>
-    <div id="outdoorinfo">
+    <div id="ledinfo">
 
-        <div id="valt2">
+
+        <div id="valt">
 
         </div>
         <div id="väder2">
-
         </div>
 
-        <aside>
 
+
+        <aside id="väder2">
+            <div id="väder2"></div>
             <div id="backbtn">
                 <button id="tillknappar"><a id="tbtn" href="outdoor.html">Tillbaka</a></button>
             </div>
@@ -161,9 +164,12 @@
 
             </div>
 
-        </aside>
-    </div>
 
+
+        </aside>
+
+
+    </div>
     <div class="hidden">
         <div id="head">
             <div id="inlagg">
@@ -189,8 +195,10 @@
             <span><input type="text" id="input1"> </span>
         </span>
     </div>
+    </div>
 
     <div id="result"></div>
+    </div>
 
 
     <div id="andra-inlagg">
@@ -243,7 +251,7 @@
             </p>
         </span>
     </div>
-
+    </div>
     <section id="testdiv">
         <label id="nytt">Ny kommentar</label><br>
         <form id="inputnyttform">
@@ -263,6 +271,8 @@
     </section>
 
     <div class="hidden"></div>
+    <div class="hidden"></div>
+
 
 </body>
 
