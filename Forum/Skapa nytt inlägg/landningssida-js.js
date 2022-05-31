@@ -19,38 +19,40 @@ function init() {  // Allting som ska laddas in före sidan visas
 
     function hamtalocal() { // Funktion för den lokala lagringen
 
-        if ( localStorage.getItem("vandring+text") ){
-        const intryck = localStorage.getItem("vandring+text");
-console.log("hej");
-        const utomhus = localStorage.getItem("utomhus+text");
 
-        const adrenalin = localStorage.getItem("adrenalin+text");
+const intryck = localStorage.getItem("vandring+text");
 
-        const vatten = localStorage.getItem("vatten+text");
-            
+const utomhus = localStorage.getItem("utomhus+text");
+
+const adrenalin = localStorage.getItem("adrenalin+text");
+
+const vatten = localStorage.getItem("vatten+text");
+        
 
         if (localStorage.getItem("vandring+text") ){
             removeElem.remove();          
             vandringElem.innerHTML = intryck;
+            vandringElem.style.height ="70px";
+            
         }    
 
         if (localStorage.getItem("utomhus+text") ){
-            console.log(utomhus);
             removeElem2.remove();          
             utomhusElem.innerHTML = utomhus;
+            utomhusElem.style.height ="60px";
         }
 
         if (localStorage.getItem("adrenalin+text") ){
-            console.log(adrenalin);
             removeElem3.remove();          
             adrenalinElem.innerHTML = adrenalin;
+            adrenalinElem.style.height ="70px";
         }
         if (localStorage.getItem("vatten+text") ){
-            console.log(vatten);
             removeElem4.remove();          
             vattenElem.innerHTML = vatten;
+            vattenElem.style.height ="50px";
         }
 }  
-}
+
  
 

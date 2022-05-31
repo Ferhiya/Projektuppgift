@@ -26,7 +26,7 @@ if (inlaggkommentar.length === 0){
    return;
    } 
    else {
-resultElem.innerHTML += "<div id='extra'><p>Användare</p>" + inlaggkommentar +  "<br></div>" ; 
+resultElem.innerHTML += "<div id='extra'><h3>Jane Doe</h3>" + inlaggkommentar +  "<br></div>" ; 
 }
 }
 
@@ -41,7 +41,7 @@ function hamtakommentarkommentar () {
       
       } 
       else {
-   resultElem2.innerHTML += "<div id='extra2'><h3><b>Användare</b></h3>" + kommentarkommentar +  "<br></div><hr>" ;
+   resultElem2.innerHTML += "<div id='extra2'><h3>Jane Doe</h3>" + kommentarkommentar +  "<br></div><hr>" ;
    console.log(kommentarkommentar.length); 
    }
    }

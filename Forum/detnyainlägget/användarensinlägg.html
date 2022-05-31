@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="/Forum/detnyainlägget/användarensinlägg.css">
    <script src="/Forum/detnyainlägget/local2.js"></script>
+   <script src="/Inloggning/hide/hide-statiska.js"></script>
    
     <title>Friluftszonen</title>
 </head>
@@ -13,11 +14,12 @@
     <div id="navbar"> 
         <div id="logga-ikon">
         <div id="logga"> <img src="/img/logo.svg" > </div ><h2>Friluftszonen</h2> </div> 
-        <h2>Hem</h2> 
-        <h2>Sök</h2>
-        <h2>Forum</h2>
-        <h2>Logga in</h2>
-        <div id="användare-bild"> </div>    
+        <h2>  <a href="/landingpage.html">Hem</a></h2> 
+        <h2>  <a href="/aktiviteter.html">Aktivitet</a></h2>
+        <h2> <a href="/Forum/landsida.html">Forum</a> </h2>
+       
+        <div class="show"><h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2></div>
+          
         </div>
 
 
@@ -28,13 +30,16 @@
 <div id="container">
 
 <div id="head">
+
 <div id="inlagg">
+
 </div>
+   
 
 
 </div></div>    <!-- Textfält för att visa local storage -->
 
-
+<div class="hidden">
 <div id="knapp-text">
 <form id="inputForm"> 
 
@@ -43,7 +48,7 @@
 </form>
         
  <div id="result"></div>   
-</div>
+</div></div>
 
 
 
@@ -62,6 +67,7 @@
 </div></div> 
 
     <br><br><br><br>
+    <div class="hidden"></div>
 
 </body>
 </html>

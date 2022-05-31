@@ -1,7 +1,9 @@
 let hideElem;
 let skapakonto;
+let container;
 
 function init() {  // Allting som ska laddas in före sidan visas  
+    container = document.getElementById("container-knappar");
     hidecreateoption();
     
     //loggainknappen();
@@ -20,7 +22,7 @@ function hidecreateoption() {// Funktion för den lokala lagringen
 
     }else{
         hideElem[0].style.visibility = 'hidden';
-        hideElem[0].style.height = "10px";
+        container.style.height = "0px";
         console.log("hej");
     }
 loggainknappen();
