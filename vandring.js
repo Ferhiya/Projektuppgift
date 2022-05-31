@@ -316,6 +316,8 @@ function skapainlagg () {
        
        } 
        else {
+
+        
         resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Användare</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
         console.log("<img src='" + img.src + "'></img>"); 
     }
