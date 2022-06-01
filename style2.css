@@ -432,24 +432,16 @@ color: white;
 
 #head {
    visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end;
-    width: 600px;
+    width: 750px;
     }
     
-    #head button {
-    width: 100px;
-    margin-top: 10px;
-    
-    }
     
     #inlagg {
     border: #138558;
     border-style: solid;
-    padding: 20px;
+    padding: 10px;
     line-height: 25px;
-    margin: 6.4%;
+    margin: 3%;
     }
     
     #inlagg-kommentar {
@@ -514,11 +506,11 @@ color: white;
             }
             
             #myBtn{
-            margin-right:  0%;
+            margin-left:2%;
             font-size: 1.3em;
+            width: 150px;
             }
             #har {
-                visibility: hidden;
                 margin-bottom: 10px;
                 background-color: white;
                 border-bottom: #000;
@@ -596,7 +588,6 @@ color: white;
                      
 
                         #testdiv{
-                        visibility: hidden;
                          margin-left: 2.3%;
                          width:1000px;
                         height:300px;
@@ -625,7 +616,7 @@ color: white;
                             color: blue;
                         }
 
-          #mertext{
+          #mertext,#mertext2{
               display: none;
           }  
           
@@ -695,15 +686,25 @@ color: white;
     margin-bottom: 0.5%;
 }
 
-.kommentarbtn{
+#kommentarbtn, #kommentarbtn2{
     margin-left: 80%;
     font-size: 1.3rem;
+    margin-top: 0%;
 }
 
-#kommentarbild1,#kommentarbild2,#kommentarbild3 {
-    width:250px;
+#kommentarbild1,#kommentarbild2{
+    width:200px;
     height:150px; 
     float: left; 
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+#kommentarbild3{
+    width:200px;
+    height:150px; 
+    float: right; 
     margin-top: 2%;
     margin-left: 2%;
     margin-bottom: 3%;
@@ -755,6 +756,12 @@ color: white;
     color: #000;
   font-size: 1.5rem;
   text-decoration: none;
+}
+
+#kommentarbilder{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 

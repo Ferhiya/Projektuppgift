@@ -7,6 +7,8 @@ var display;
 var vatteninfo;
 var valt;
 var exdiv;
+var nyttinlaggElem;
+var resultnyttinlagg;
 
 // Initiering av globala variabler och händelsehanterare
 function init() {
@@ -25,7 +27,13 @@ function init() {
 
 
     exdiv = document.getElementById("testdiv");
-    //requestvader();
+    document.getElementById("delaBtn2").onclick = skapainlagg;
+    nyttinlaggElem = document.getElementById("inputNytt") ;
+    resultnyttinlagg = document.getElementById("nyttinlagg");
+    //requestData();
+    getLocalStorage();
+    //loggainknappen();
+
 
 } // End init
 window.addEventListener("load", init);
@@ -67,7 +75,6 @@ function selecthike() {
 
 // Tolkar koden och skriv ut den på önskad form
 function getData(response) {
-    console.log(response)
     response = JSON.parse(response) //hämtar arryen med vandringsledernas data.
 
     let HTMLcode = ""; //tom html sträng för utskriften av innehållet i JSON 
@@ -259,7 +266,7 @@ function getData2(JSONtext, btn, cityname) {
     let HTMLcode2 = "";
     document.getElementById("har").style.visibility = "visible";
     document.getElementById("head").style.visibility = "visible";
-    document.getElementById("testdiv").style.visibility = "visible";
+    //document.getElementById("testdiv").style.visibility = "visible";
 
     let backBTN = document.getElementById("tillknappar");
     backBTN.style.visibility = "hidden";
@@ -307,8 +314,8 @@ function getData2(JSONtext, btn, cityname) {
     exdiv.style.marginBottom = "5%";
     exdiv.style.fontSize = "150%";
     valt2.innerHTML = HTMLcode2;
-    let testdiv = document.getElementById("testdiv");
-    testdiv.style.visibility = "visible";
+    //let testdiv = document.getElementById("testdiv");
+    //testdiv.style.visibility = "visible";
 
 }
 function clearcontent(display) {
@@ -405,4 +412,75 @@ function Visakommentarruta2() {
         moreText.style.display = "inline";
         moreText.style.margin = "2%";
     }
+}
+
+function test (event){
+    var input = document.getElementById('file');
+    const numberofFiles = input.files.length;
+	for( i=0;i< numberofFiles; i++){
+			//do the upload for each file.
+			var image = document.getElementById('laddabild');
+	        image.src = URL.createObjectURL(event.target.files[0]);
+           
+            var image2 = document.getElementById('laddabild2');
+            image2.src = URL.createObjectURL(event.target.files[1]);
+            
+            var image3 = document.getElementById('laddabild3');
+            image3.src = URL.createObjectURL(event.target.files[2]);
+    
+}
+  
+}
+
+function skapainlagg () {
+    var bildtest=document.getElementById("nyttinlagg");
+    var kommentarkommentar; // Längd i meter
+    kommentarkommentar = (nyttinlaggElem.value);
+    var laddabild = document.getElementById('laddabild');
+    var laddabild2 = document.getElementById('laddabild2');
+    var laddabild3 = document.getElementById('laddabild3');
+    let img=(bildtest.src=(laddabild));
+    let img2=(bildtest.src=(laddabild2));
+    let img3=(bildtest.src=(laddabild3));
+    //bildtest=URL.createObjectURL(img.src);
+    console.log(img);
+    //input1Elem.value.style.border="2px solid blue"
+    if (kommentarkommentar.length === 0){
+       alert("Fyll i en kommentar");
+       return;
+       
+       } 
+       else {
+        resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Jane Doe</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
+        console.log("<img src='" + img.src + "'></img>"); 
+    }
+
+    }
+
+    //hide funktionen//
+    var hideElem;
+function getLocalStorage() {// Funktion för den lokala lagringen
+console.log("hidden");
+        const hide = localStorage.getItem("hidevalue");
+        hideElem =  document.getElementsByClassName("hidden");  
+        let showElem = document.getElementsByClassName("show");
+
+    if (localStorage.getItem("hidevalue") ){       
+        hideElem[0].style.visibility = 'visible';
+        hideElem[1].style.visibility = 'visible';
+        showElem[0].style.visibility = 'hidden';
+        
+
+    }else{
+        hideElem[0].style.visibility = 'hidden';
+        hideElem[1].style.visibility = 'hidden';
+        hideElem[2].style.visibility = 'hidden';
+        hideElem[3].style.visibility = 'hidden';
+        hideElem[4].style.visibility = 'hidden';
+        console.log("hej hidden");
+      
+        hideElem[0].style.height = "10px";
+        showElem[0].style.visibility = 'visible';
+    }
+
 }

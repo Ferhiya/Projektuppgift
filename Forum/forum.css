@@ -694,3 +694,10 @@ border-bottom: #a2854a 4px solid;
 text-align: center;
 
 }
+
+@media screen and (min-width: 1000px) {
+    .text{
+        font-size: 1.3rem;
+    }
+    
+}

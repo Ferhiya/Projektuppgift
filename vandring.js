@@ -35,6 +35,8 @@ function init() {
     nyttinlaggElem = document.getElementById("inputNytt") ;
     resultnyttinlagg = document.getElementById("nyttinlagg");
     //requestData();
+    getLocalStorage();
+    //loggainknappen();
 
 } // End init
 window.addEventListener("load", init);
@@ -69,7 +71,6 @@ function getData(JSONtext, cityname) {
     let backBTN2 = document.getElementById("testbtn");
     //backBTN2.style.visibility="hidden";
     backBTN2.innerHTML = "";
-
     HTMLcode +=
         "<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
 
@@ -149,6 +150,7 @@ for (let i = 0; i < btnx.length; i++) {
     btnx[i].addEventListener ("click", function(e) {
         clearcontent(valt);
         requesttest(e);
+        testvisable;
        
       });
     
@@ -175,10 +177,11 @@ function getData2(JSONtext,btn,cityname){
     let HTMLcode2 = "";
     document.getElementById("har").style.visibility = "visible";
     document.getElementById("head").style.visibility = "visible";
-    document.getElementById("testdiv").style.visibility = "visible";
+    //document.getElementById("testdiv").style.visibility = "visible";
     let backBTN = document.getElementById("tillknappar");
     backBTN.style.visibility = "hidden";
     let backBTN2 = document.getElementById("testbtn");
+    backBTN2.addEventListener("click",testhide);
     backBTN2.style.visibility = "visible";
 
     var x = document.createElement("BUTTON");
@@ -211,10 +214,36 @@ for (let i = 0; i < vandring.length; i++) {
 valt.innerHTML= HTMLcode2;
 valt.style.height="50%";
 
-document.getElementById("inputNytt").value = ""
+document.getElementById("inputNytt").value = "";
 
 
 }//end
+
+function testhide(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="hidden";
+    
+    let kommentar2=document.getElementById("har");
+    kommentar2.style.visibility="hidden";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="hidden";
+
+}
+
+function testvisable(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="visible";
+    
+    let kommentar2=document.getElementById("andra-inlagg");
+    kommentar2.style.visibility="visible";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="visible";
+
+}
 
 function clearcontent(display) {
     display.innerHTML = "";
@@ -239,6 +268,43 @@ function showimgbox() {
 
 }
 
+
+function myFunction() {
+    var dots2 = document.getElementById("dots4");
+    var moreText = document.getElementById("mertext2");
+    var btnText = document.getElementById("btn2");
+
+    if (dots2.style.display === "none") {
+        dots2.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots2.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+    }
+}
+
+
+function myFunction2() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("mertext");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+    }
+}
 
 function Visakommentarruta() {
     var dots = document.getElementById("dots");
@@ -316,6 +382,32 @@ function skapainlagg () {
 
     }
 
+    //hide funktionen//
+    var hideElem;
+function getLocalStorage() {// Funktion för den lokala lagringen
+
+        const hide = localStorage.getItem("hidevalue");
+        hideElem =  document.getElementsByClassName("hidden");  
+        let showElem = document.getElementsByClassName("show");
+
+    if (localStorage.getItem("hidevalue") ){       
+        hideElem[0].style.visibility = 'visible';
+        hideElem[1].style.visibility = 'visible';
+        showElem[0].style.visibility = 'hidden';
+        
+
+    }else{
+        hideElem[0].style.visibility = 'hidden';
+        hideElem[1].style.visibility = 'hidden';
+        hideElem[2].style.visibility = 'hidden';
+        hideElem[3].style.visibility = 'hidden';
+        hideElem[4].style.visibility = 'hidden';
+      
+        hideElem[0].style.height = "10px";
+        showElem[0].style.visibility = 'visible';
+    }
+
+}
 
 
 
