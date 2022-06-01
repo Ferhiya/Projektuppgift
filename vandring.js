@@ -35,6 +35,8 @@ function init() {
     nyttinlaggElem = document.getElementById("inputNytt") ;
     resultnyttinlagg = document.getElementById("nyttinlagg");
     //requestData();
+    getLocalStorage();
+    //loggainknappen();
 
 } // End init
 window.addEventListener("load", init);
@@ -175,7 +177,7 @@ function getData2(JSONtext,btn,cityname){
     let HTMLcode2 = "";
     document.getElementById("har").style.visibility = "visible";
     document.getElementById("head").style.visibility = "visible";
-    document.getElementById("testdiv").style.visibility = "visible";
+    //document.getElementById("testdiv").style.visibility = "visible";
     let backBTN = document.getElementById("tillknappar");
     backBTN.style.visibility = "hidden";
     let backBTN2 = document.getElementById("testbtn");
@@ -353,6 +355,32 @@ function skapainlagg () {
 
     }
 
+    //hide funktionen//
+    var hideElem;
+function getLocalStorage() {// Funktion för den lokala lagringen
+
+        const hide = localStorage.getItem("hidevalue");
+        hideElem =  document.getElementsByClassName("hidden");  
+        let showElem = document.getElementsByClassName("show");
+
+    if (localStorage.getItem("hidevalue") ){       
+        hideElem[0].style.visibility = 'visible';
+        hideElem[1].style.visibility = 'visible';
+        showElem[0].style.visibility = 'hidden';
+        
+
+    }else{
+        hideElem[0].style.visibility = 'hidden';
+        hideElem[1].style.visibility = 'hidden';
+        hideElem[2].style.visibility = 'hidden';
+        hideElem[3].style.visibility = 'hidden';
+        hideElem[4].style.visibility = 'hidden';
+      
+        hideElem[0].style.height = "10px";
+        showElem[0].style.visibility = 'visible';
+    }
+
+}
 
 
 

@@ -589,7 +589,6 @@ color: white;
                      
 
                         #testdiv{
-                        visibility: hidden;
                          margin-left: 2.3%;
                          width:1000px;
                         height:300px;
@@ -688,7 +687,7 @@ color: white;
     margin-bottom: 0.5%;
 }
 
-.kommentarbtn{
+#kommentarbtn, #kommentarbtn2{
     margin-left: 80%;
     font-size: 1.3rem;
     margin-top: 0%;
