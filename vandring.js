@@ -240,6 +240,43 @@ function showimgbox() {
 }
 
 
+function myFunction() {
+    var dots2 = document.getElementById("dots4");
+    var moreText = document.getElementById("mertext2");
+    var btnText = document.getElementById("btn2");
+
+    if (dots2.style.display === "none") {
+        dots2.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots2.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+    }
+}
+
+
+function myFunction2() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("mertext");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+    }
+}
+
 function Visakommentarruta() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("textruta1");
