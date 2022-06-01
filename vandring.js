@@ -303,7 +303,6 @@ function test (event){
 function skapainlagg (event) {
     var bildtest=document.getElementById("nyttinlagg");
     var kommentarkommentar; // Längd i meter
-    console.log("hej");
     kommentarkommentar = (nyttinlaggElem.value);
     var laddabild = document.getElementById('laddabild');
     var laddabild2 = document.getElementById('laddabild2');
@@ -312,7 +311,6 @@ function skapainlagg (event) {
     let img2=(bildtest.src=(laddabild2));
     let img3=(bildtest.src=(laddabild3));
     //bildtest=URL.createObjectURL(img.src);
-    console.log(img);
     //input1Elem.value.style.border="2px solid blue"
     if (kommentarkommentar.length === 0){
        alert("Fyll i en kommentar");
@@ -321,7 +319,7 @@ function skapainlagg (event) {
        } 
        else {
         resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Användare</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
-        console.log("<img src='" + img.src + "'></img>"); 
+        
     }
 
     }
