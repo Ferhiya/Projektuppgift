@@ -153,6 +153,7 @@ function getData(JSONtext, cityname) {
         valt.style.fontSize = "150%";
         valt.style.marginBottom = "2%";
     clearcontent(display);
+    
 let btnx=document.getElementsByClassName("btncl");
 for (let i = 0; i < btnx.length; i++) {
     btnx[i].addEventListener ("click", function(e) {
