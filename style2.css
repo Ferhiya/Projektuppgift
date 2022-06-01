@@ -74,6 +74,7 @@ font-family: 'Playfair Display', serif;
 /*CSS för navbar */
 
 .filtering {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
@@ -104,46 +105,74 @@ h1 {
 }
 
 #rubrik1 {
-    border-bottom: solid 5px #138558;
-padding-bottom: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
-#vandringslederna {
+#vandringslederna, #utomhus {
     padding-top: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    margin-left: 2%;
 }
+
+/*Aktivtestssida*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    margin-left: 1.5%;
+    margin-right: 3%;
+    grid-gap:2%;
+    margin-bottom: 5%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+  }
 
 #aktivtetssidan {
     padding-top: 2%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    margin-left: 1.5%;
+    grid-template-columns: auto auto;
+    grid-gap: 19px;
+    margin-left: 1%;
     margin-right: 1.5%;
+    margin-bottom: 5%;
+    
 }
+
+
+.aktiviter {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+   
+    }
+
+.aktiviter h1 {
+    padding-right: 10%;
+    }
+
+.aktivtetsbilder {
+    padding-top: 0.5%;
+    width: 600px;
+    height: 400px;
+}
+
 
 img.bildtest {
-    padding-top: 0.5%;
-    width: 100%;
+    width: 400px;
+    height: 300px;
 }
 
-img.aktivtetsbilder {
-    padding-top: 0.5%;
-    padding-top: 0.5%;
-    width: 93%;
-    height: 100%;
+/*vandring,vatten och aderalin*/
 
-}
-
-
-#ledinfo, #vatteninfo, #adinfo {
+#ledinfo, #vatteninfo, #adinfo, #outdoorinfo {
     display: grid;
     grid-template-columns: 2.8fr 0.1fr 1.5fr;
     margin-bottom: 2%;
@@ -178,10 +207,6 @@ img.aktivtetsbilder {
     width: 88%;
 }
 
-img {
-    max-height: 300px;
-}
-
 #aktivtetssidan a {
     font-size: 1.2rem;
     color: black;
@@ -192,6 +217,7 @@ img {
 font-size: 1.2rem;
 color: black;
 text-decoration: none;  
+align-items: center;
 }
 
 
@@ -278,13 +304,13 @@ border-radius: 5px;
     visibility: hidden;
 }
 
-
-#städer {
+.städer {
     margin-top: 5%;
     padding-bottom: 1%;  
 }
 
 .städer {
+text-align: center;
 border-bottom: 5px #138558 solid;
 padding-bottom: 10px;
 border-radius: 3px;
@@ -295,14 +321,14 @@ border-radius: 3px;
 }
 
 #aktiviter {
-    border: #138558 4px solid;
     padding-bottom: 1%;
     margin-top: 5%;
     text-align: center;
     border-radius: 5px;
-    display: flex;
+    float: left;
     flex-direction: column;
-    height: 230px;
+    margin-left: 5%;
+  
 }
 #aktiviter h2 {
 padding-left: 25%;
@@ -320,21 +346,26 @@ padding-left: 25%;
 
 #aktivitetsnav {
     text-decoration: none;
-    padding-top: 10px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
-
-#aktiviter h4 {
-border-bottom: #138558 5px solid ;
+  
+#hts h4 {
+text-align: center;
 font-size: 32px;
+text-align: center;
 }
 
 #aktivitetsnav a {
+    padding: 3%;
     font-size: 1.5rem;
     text-decoration: none;
     list-style-type: none;
-    display: block;
-   justify-content: space-around;
-   padding-top: 3%;
+    display: inline;
+    text-align: center;
+    margin-top: 2%;
+    border-bottom: solid 2px #138558;
 }
 
 #aktivitetsnav a:active {
@@ -362,25 +393,6 @@ color: white;
     visibility: hidden;
 }
 
-#outdoorinfo {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-bottom: 2%;
-    padding-left: 0%;
-    margin-left: 3%;
-    visibility: hidden;
-}
-
-
-
-
-#utomhus {
-    padding-top: 2%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
 
 .flex-container {
     display: flex;
@@ -405,12 +417,13 @@ color: white;
 
 #väder2{
     margin-top: 10%;
-    width: 140px;
+    width: 145px;
 }
 
 #väder2 img{
+ margin-left: 25%;
  float: right;
- box-shadow: 1px 1px yellow;
+ box-shadow: 0.5px 0.5px yellow;
 }
 
 
@@ -495,8 +508,9 @@ color: white;
             }
             
             #input2 {
-            width: 390px;
-            height: 30px;
+                width: 500px; 
+                height: 50px;
+                margin-bottom: 10px;
             }
             
             #myBtn{
@@ -522,20 +536,19 @@ color: white;
             }
 
             #runBtn2{
-                margin-left: 60%;
-                font-size: 1.3em;
+                font-size: 1.5em;
                 }
 
                 #input1 {
                     width: 500px; 
                     height: 50px;
                     margin-bottom: 10px;
+                    margin-left: 1%;
                     
                     }
 
                     #runBtn{
-                        font-size: 1.3em;
-                        margin-bottom: 0%;
+                        font-size: 1.5em;
                     }
 
                     #inputform{
@@ -545,6 +558,16 @@ color: white;
                         align-items: center;
                         margin-top: 20px;
                     
+                    }
+                    #inputnyttform{
+                        width: 960px;
+                        margin-top: 2%;
+                        border: 0px;
+                    }
+                    #inputNytt{    
+                    width: 300px;
+                    height: 150px;
+                    margin-left: 1%;
                     }
                     #knapp-text {
                         display: flex;
@@ -573,29 +596,33 @@ color: white;
                      
 
                         #testdiv{
-                        border: 2px solid #138558;
                         visibility: hidden;
                          margin-left: 2.3%;
-                        width:900px;
-                        height:280px;
+                         width:1000px;
+                        height:300px;
+                        margin-bottom: 5%;
                          margin-top: 3%;
+                         border:2px solid #138558;
+                         display: inline-block;
+                        }
+
+                        #nytt{
+                            margin-left: 3%;
+                            font-size: 2rem;
                         }
                         
-                        #laddabild,#laddabild2,#laddabild3{
-                            width:280px;
+                      #laddabild,#laddabild2,#laddabild3{
+                            width:200px;
                             height:150px; 
-                            border: 2px solid black;
-                            float: left; 
-                            margin: 0.5%;
-                            margin-bottom: 3%;
-                          
+                            border: 1.5px solid black;
                         }
                       
                     
 
-                        #bildrubrik{
-                            margin-left: 2.3%;
+                       #bildrubrik{
+                            margin-left: 32%;
                             font-size: 2rem;
+                            color: blue;
                         }
 
           #mertext{
@@ -665,6 +692,59 @@ color: white;
     line-height: 25px;
     width: 400px;
     margin-left: 2.5%;
+    margin-bottom: 0.5%;
+}
+
+.kommentarbtn{
+    margin-left: 80%;
+    font-size: 1.3rem;
+}
+
+#kommentarbild1,#kommentarbild2,#kommentarbild3 {
+    width:250px;
+    height:150px; 
+    float: left; 
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+/*nytt kommentar inlägg under aktivteer*/
+#nyttinagg{
+    border: #138558;
+    border-style: solid;
+    padding: 20px;
+    line-height: 25px;
+    width: 750px;
+    margin-left: 2.5%;
+    margin-bottom: 0.5%;
+    display: inline-block;
+}
+
+#newimg{
+    width: 240px;
+    height: 150px;
+    padding: 1px;
+    margin-top: 4%;
+}
+#newimg2{
+    width: 240px;
+    height: 150px;
+    padding: 1px;
+    margin-top: 4%;
+}
+#newimg3{
+    width: 240px;
+    height: 150px;
+    padding: 1px;
+    margin-top: 4%;
+    
+}
+
+#imgdiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:0.5%;
 }
 
 

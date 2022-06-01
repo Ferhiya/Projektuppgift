@@ -456,8 +456,8 @@
             "id":"1",
             "Adress":"Emhult 7, 574 55 Kvillsfors",
             "Aktivitet":"Kanottur med middag vid stranden av Emån",
-            "längd":"Eftermiddag",
-            "handikapsanpassat":"Nek",
+            "längd":"Halv dag",
+            "handikapsanpassat":"Nej",
             "link": {
                 "linkurl":"https://emventure.se/sv/upplevelser-smaland.html"
             },
@@ -465,24 +465,8 @@
             "image": {
                 "url": "image/kanot.jpg"
             },
-            "pris":" 850 kr/person, barn upp till 16 år 460 kr/pp, barn-9 år 230 kr/pp",
+            "pris":"850 kr/person, Under 16 år 460 kr/pp, under 9 år 230 kr/pp",
             "parkering":"Ja"
-        },
-        {
-            "city": "Vetlanda",
-            "Adress":"2",
-            "Aktivitet":"",
-            "längd": "",
-            "handikapsanpassat": "Nej",
-            "beskrivning": "",
-            "link": {
-                "linkurl": ""
-            },
-            "image": {
-                "url": "image/vandringsbild2.jpg"
-            },
-            "pris": "",
-            "parkering": ""
         },
       
           {
