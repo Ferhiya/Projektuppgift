@@ -32,7 +32,6 @@ resultElem.innerHTML += "<div id='extra'><h3>Jane Doe</h3>" + inlaggkommentar + 
 
 function hamtakommentarkommentar () {
    var kommentarkommentar; // Längd i meter
-   console.log("hej");
    kommentarkommentar = (input1Elem2.value);
    //input1Elem.value.style.border="2px solid blue"
    if (kommentarkommentar.length === 0){
@@ -42,7 +41,6 @@ function hamtakommentarkommentar () {
       } 
       else {
    resultElem2.innerHTML += "<div id='extra2'><h3>Jane Doe</h3>" + kommentarkommentar +  "<br></div><hr>" ;
-   console.log(kommentarkommentar.length); 
    }
    }
 

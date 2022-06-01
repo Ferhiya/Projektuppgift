@@ -28,7 +28,6 @@ function areaCalculations () {
    var kommentar; // Kommentarens värde
 kommentar = (input1Elem.value); 
 
-console.log(input1Elem.value); 
 
 if (kommentar.length === 0){
 alert("Fyll i en kommentar");
@@ -49,6 +48,6 @@ textElem.style.border = "0px";
 }
 else {
 headbild.innerHTML += bilden;
-console.log("hej");
+
 }
 }

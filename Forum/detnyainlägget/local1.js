@@ -21,7 +21,7 @@ let val;
 function valet(){
 //val = valjElem.options[e.selectedIndex].text;
 val= valjElem.options[valjElem.selectedIndex].value;
-console.log(val);
+
 }
 
 function myFunction() {
@@ -40,7 +40,6 @@ function myFunction() {
 
      localStorage.setItem('egnainlagget', egnainlagget);
 
-console.log("container");
 
 // Koden för inlägget
 

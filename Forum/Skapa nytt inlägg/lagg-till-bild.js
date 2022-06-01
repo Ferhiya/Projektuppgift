@@ -13,7 +13,6 @@ bildElem = document.getElementById("bild-placeholder");
 
 if (bildElem.innerHTML.length === 0  ){
 bildElem.innerHTML += "<div id='cross'>" + "Naturbild.jpeg" + "❌ </div>"; 
-console.log("hej");
 
 z = "<img src='/img/bike4.jpg'> ";
 localStorage.setItem('bild', z);
