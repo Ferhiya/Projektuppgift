@@ -18,6 +18,6 @@ inloggningknapp.addEventListener("click", getLocalStorage);
     localStorage.setItem('hidevalue', hide);
 console.log("hide");
 
-window.location.href = "/landingpage.html";
+window.location.href = "index.html";
  }
  
