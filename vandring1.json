@@ -13,7 +13,7 @@
             "image": {
                 "url": "image/vandringsbild1.jpg"
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej",
            "button":"Läs kommentar"
             
@@ -31,7 +31,7 @@
             "image": {
                 "url": "image/vandringsbild2.jpg"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej",
             "button":"Läs kommentar"
             
@@ -49,7 +49,7 @@
             "image": {
                 "url": "image/vandringsbild3.jpg"
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej",
             "button":"Läs kommentar"
         },
@@ -63,7 +63,7 @@
             "link": {
                 "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/ostra-sigfridsleden.html"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "image": {
                 "url": "image/vandringsbild4.jpg"
             },
@@ -76,7 +76,7 @@
             "id":"5",
             "led": "Dackeslingan",
             "längd": "8 km",
-            "handikapsanpassat": "nej",
+            "handikapsanpassat": "Nej",
             "beskrivning": "Slingan startar vid Tullahängen där det sägs att Gustav Vasa hade en tullstation vid gränsen till dåvarande Danmark.Terrängen runt vandringsslingan är lätt att ta sig fram på då det är stigar och grusväg. Leden är markerad med orange färgmarkering. Informationstavlor finns längsmed leden som berättar om historian som utspelade sig här på 1500-talet.",
             "link": {
                 "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/halsoslingan.html"
@@ -84,7 +84,7 @@
             "image": {
                 "url": "image/vandringsbild5.jpg"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej",
             "button":"Läs kommentar"
         },
@@ -101,7 +101,7 @@
             "link": {
                 "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/halsoslingan.html"
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej",
             "button":"Läs kommentar"
             
@@ -111,7 +111,7 @@
             "id":"1",
             "led": "Sigfridsleden",
             "längd": "102 km",
-            "handikapsanpassat": "nej",
+            "handikapsanpassat": "Nej",
             "beskrivning": "Sigfridsleden är en del i nätverket av vandringsleder genom Småland och utgör historiskt sett också en liten del av de pilgrimsleder som sträcker sig hela vägen från Spanien till Nidarosdomen i Trondheim. Kommunens enda längre vandringsled går genom sex socknar i Värend och passerar många kulturhistoriskt intressanta platser.",
             "image": {
                 "url": "image/vandringsbild8.jpg"
@@ -119,7 +119,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/sigfridsleden?guide_id=64"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -127,7 +127,7 @@
             "id":"2",
             "led": "Bokhultet naturreservat",
             "längd": "463 hektar",
-            "handikapsanpassat": "ja",
+            "handikapsanpassat": "Ja",
             "beskrivning": "Naturreservatet Bokhultet bjuder in till sköna promenader och joggingturer. Bokskogen är länets största. Alkärr, slåtteräng, sjöstrand, våtmark och tallmosse ingår också i den generösa naturmosaiken. Tillsammans med döda träd och multnande ved skapar mångfalden naturvärden av internationell betydelse.",
             "image": {
                 "url": "image/vandringsbild10.jpg"
@@ -135,7 +135,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/bokhultets-naturreservat?guide_id=64"
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -151,7 +151,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/vandringsled-aganas?guide_id=64"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -167,7 +167,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/stig-braas-park?guide_id=64"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -183,7 +183,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/skartaryds-vandringsled?guide_id=64"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -191,7 +191,7 @@
             "id":"6",
             "led": "Kalvsviks vandringsled",
             "längd": "2 km",
-            "handikapsanpassat": "nej",
+            "handikapsanpassat": "Nej",
             "beskrivning": "Meditativt lugn, spännande upplevelser och mild skönhet. Kalvsviks vandringsled tillfredsställer många sinnen. Den cirka 2 kilometer långa promenaden passerar alltifrån stenåldersgravar och lömska slukhål till skogssnäppans och ängsbräsmans marker.",
             "image": {
                 "url": "image/vandringsbild3.jpg"
@@ -199,7 +199,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/kalvsviks-vandringsled?guide_id=64"
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -215,7 +215,7 @@
             "link": {
                 "linkurl": "https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/taxas.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=& municipalities=&reserveTypes=&natureTypes=&facilities="
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -230,7 +230,7 @@
             },
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/vandringsled-hokhult?guide_id=262",
-                "svårighetsnivå": "2"
+                "svårighetsnivå": "Lätt"
             },
             "parkering": "Nej"
         },
@@ -247,7 +247,7 @@
             "link": {
                 "linkurl": "https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/stenbrohult.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=&municipalities=&reserveTypes=&natureTypes=&facilities="
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -263,7 +263,7 @@
             "link": {
                 "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/biosfarleduppgranna.4.45ced1a71633eda93ff16ef.html"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Nej"
         },
         {
@@ -279,7 +279,7 @@
             "link": {
                 "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/vidablicksparetbankeryd.4.49d4eab9177f21caa2abda7.html"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -295,7 +295,7 @@
             "link": {
                 "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/furuviksparetbankeryd.4.238a1b96178a657a5f55f3.html"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -311,7 +311,7 @@
             "link": {
                 "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/domsandsparetbankeryd.4.411ba1b4178a6640ee22003.html"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -327,7 +327,7 @@
             "link": {
                 "url": "https://www.jonkoping.se/upplevagora/friluftslivochmotion/vandringslederochpromenader/rabyskogensvandringsledskarstad.4.4b30ec621761d85f3da5207.html"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -342,7 +342,7 @@
             },
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/halsans-stig-vastervik?guide_id=307",
-                "svårighetsnivå": "3"
+                "svårighetsnivå": "Medel"
             },
             "parkering": "Ja"
         },
@@ -359,7 +359,7 @@
             "link": {
                 "linkurl": "https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/ryvenasleden/"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -375,7 +375,7 @@
             "link": {
                 "linkurl": "https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/holmsjoleden/"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Nej"
         },
         {
@@ -391,7 +391,7 @@
             "link": {
                 "url": "https://www.vastervik.se/Uppleva-och-gora/Idrott-motion-och-friluftsliv/Friluftsliv-och-motion/Vandringsleder-och-motion/loftaleden/"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Svår",
             "parkering": "Ja"
         },
         {
@@ -406,7 +406,7 @@
             },
             "link": {
                 "url": "https://www.naturkartan.se/sv/kalmar-lan/sladoleden?guide_id=307",
-                "svårighetsnivå": "2"
+                "svårighetsnivå": "Lätt"
             },
             "parkering": "Nej"
         },
@@ -423,7 +423,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/torskingeleden?guide_id=61"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -439,7 +439,7 @@
             "link": {
                 "linkurl": ""
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -455,7 +455,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/en/jonkopings-lan/prostsjorundan?guide_id=61"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -471,7 +471,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/lovo-runt?guide_id=61"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -487,7 +487,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/kavsjo-runt?guide_id=61"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -503,7 +503,7 @@
             "link": {
                 "linkurl": "https://oskarshamn.com/aspostigen-lanseras-pa-nytt/"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -519,7 +519,7 @@
             "link": {
                 "linkurl": "https://www.oskarshamn.se/kultur-och-fritid/idrott-och-fritid/natur-och-friluftsliv/uvo/"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Nej"
         },
         {
@@ -535,7 +535,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/fallebo"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -551,7 +551,7 @@
             "link": {
                 "linkurl": "https://www.oskarshamn.se/bygga-bo-miljo/hallbarhet-och-utveckling/hallbarhet-klimat-natur/naturvard/naturreservat/"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Svår",
             "parkering": "Nej"
         },
         {
@@ -567,7 +567,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kalmar-lan/vaanevik?guide_id=327"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -583,7 +583,7 @@
             "link": {
                 "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-12-hoglandsleden.html"
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -599,7 +599,7 @@
             "link": {
                 "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-04-vandra-i-lovhult.html"
             },
-            "svårighetsnivå": "1",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -615,14 +615,14 @@
             "link": {
                 "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-04-vandra-i-lovhult.html"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
             "city": "Nässjö",
             "id":"4",
             "led": "Gubbamilen ",
-            "längd": "10 km km",
+            "längd": "10 km",
             "handikapsanpassat": "Nej",
             "beskrivning": "Gubbamilen går igenom ett varierat landskap med varierad terräng. Några stigningar men också lättvandrad mark.",
             "image": {
@@ -631,7 +631,7 @@
             "link": {
                 "linkurl": "https://nassjo.se/uppleva-och-gora/gora/vandra/vandra/2018-06-04-vandra-i-lovhult.html"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -647,7 +647,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/kronobergs-lan/bergastigen?guide_id=412"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -663,8 +663,8 @@
             "link": {
                 "linkurl": "https://www.ljungby.se/sv/uppleva-och-gora/friluftsliv-och-motionsspar/motionsspar/"
             },
-            "svårighetsnivå": "2",
-            "parkering": "nej"
+            "svårighetsnivå": "Lätt",
+            "parkering": "Nej"
         },
         {
             "city": "Ljungby",
@@ -679,7 +679,7 @@
             "link": {
                 "linkurl": "https://www.ljungby.se/sv/uppleva-och-gora/friluftsliv-och-motionsspar/motionsspar/"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Nej"
         },
         {
@@ -695,7 +695,7 @@
             "link": {
                 "linkurl": "https://www.lansstyrelsen.se/kronoberg/besoksmal/naturreservat/kronoskogen.html?sv.target=12.382c024b1800285d5863a894&sv.12.382c024b1800285d5863a894.route=/&searchString=&counties=&municipalities=&reserveTypes=&natureTypes=&facilities="
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Nej"
         },
         {
@@ -711,7 +711,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/helvetets-portar-strovstig?guide_id=60"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -727,7 +727,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/halsans-stig-tranas?guide_id=19"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Lätt",
             "parkering": "Ja"
         },
         {
@@ -743,7 +743,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/illern-runt-2?guide_id=60"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Nej"
         },
         {
@@ -759,7 +759,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/aggas-grona-sparet-10-km?guide_id=60"
             },
-            "svårighetsnivå": "3",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
@@ -775,7 +775,7 @@
             "link": {
                 "linkurl": "https://www.naturkartan.se/sv/jonkopings-lan/brahalla-slottsruin?guide_id=60"
             },
-            "svårighetsnivå": "2",
+            "svårighetsnivå": "Medel",
             "parkering": "Ja"
         },
         {
