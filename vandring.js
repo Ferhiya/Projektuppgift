@@ -82,10 +82,10 @@ function getData(JSONtext, cityname) {
 			HTMLcode += 
             "<div id="+ vandring[i].city + "-" + vandring[i].id +">" +
             "<h2><b></b> " + vandring[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
-			"<li><b>längd:</b> " + vandring[i].längd + "</li>" + //lägger in längden på ledet i html strängen
-			"<li><b>handikapsanpassat:</b> " + vandring[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-			"<li><b>svårighetsnivå:</b> " + vandring[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
-			"<li><b>parkering:</b> " + vandring[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
+			"<li><b>Längd:</b> " + vandring[i].längd + "</li>" + //lägger in längden på ledet i html strängen
+			"<li><b>Handikapsanpassat:</b> " + vandring[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
+			"<li><b>Svårighetsnivå:</b> " + vandring[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
+			"<li><b>Parkering:</b> " + vandring[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
 			"<img src='"+vandring[i].image.url+"'></img>"+
 			"<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
             "<button><a class='gg' href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</button></a>"+
@@ -150,7 +150,7 @@ for (let i = 0; i < btnx.length; i++) {
     btnx[i].addEventListener ("click", function(e) {
         clearcontent(valt);
         requesttest(e);
-        testvisable;
+        visable;
        
       });
     
@@ -177,11 +177,10 @@ function getData2(JSONtext,btn,cityname){
     let HTMLcode2 = "";
     document.getElementById("har").style.visibility = "visible";
     document.getElementById("head").style.visibility = "visible";
-    //document.getElementById("testdiv").style.visibility = "visible";
     let backBTN = document.getElementById("tillknappar");
     backBTN.style.visibility = "hidden";
     let backBTN2 = document.getElementById("testbtn");
-    backBTN2.addEventListener("click",testhide);
+    backBTN2.addEventListener("click",hide);
     backBTN2.style.visibility = "visible";
 
     var x = document.createElement("BUTTON");
@@ -194,15 +193,17 @@ function getData2(JSONtext,btn,cityname){
  
        x.addEventListener("click", requestData);
        x.addEventListener("click", showledinfo);
+
+       HTMLcode2+="<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
   
 for (let i = 0; i < vandring.length; i++) {
     if (cityname === vandring[i].city && btn === vandring[i].id) {
         HTMLcode2 += 
         "<h2><b></b> " + vandring[i].led + "</h2>" + //lägger in namnet på ledet i html strängen
-        "<li><b>längd:</b> " + vandring[i].längd + "</li>" + //lägger in längden på ledet i html strängen
-        "<li><b>handikapsanpassat:</b> " + vandring[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-        "<li><b>svårighetsnivå:</b> " + vandring[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
-        "<li><b>parkering:</b> " + vandring[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
+        "<li><b>Längd:</b> " + vandring[i].längd + "</li>" + //lägger in längden på ledet i html strängen
+        "<li><b>Handikapsanpassat:</b> " + vandring[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
+        "<li><b>Svårighetsnivå:</b> " + vandring[i].svårighetsnivå + "</li>" + //lägger in ledets svårighetsnivå i html strängen
+        "<li><b>Parkering:</b> " + vandring[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
         "<img src='"+vandring[i].image.url+"'></img>"+
         "<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
         "<button><a class='gg' href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</button></a>"+
@@ -214,12 +215,26 @@ for (let i = 0; i < vandring.length; i++) {
 valt.innerHTML= HTMLcode2;
 valt.style.height="50%";
 
+const hide2 = localStorage.getItem("hidevalue");
+
+let kommentarbtn=document.getElementById("kommentarbtn");;
+let commentdiv2=document.getElementById("testdiv");
+
+if (localStorage.getItem("hidevalue") ){       
+ kommentarbtn.style.visibility="visible";
+document.getElementById("testdiv").style.visibility="visible";
+}   
+else{
+kommentarbtn.style.visibility="hidden";
+commentdiv2.style.visibility ="hidden";
+}
+
 document.getElementById("inputNytt").value = "";
 
 
 }//end
 
-function testhide(){
+function hide(){
     let kommentar1=document.getElementById("head");
     kommentar1.style.visibility="hidden";
     
@@ -230,9 +245,13 @@ function testhide(){
 
     nykommentar.style.visibility="hidden";
 
-}
+    commentdiv2=document.getElementById("testdiv")
+    commentdiv2.style.visibility="hidden";
+    document.getElementById("kommentarbtn").style.visibility="hidden";
 
-function testvisable(){
+}//end hide
+
+function visable(){
     let kommentar1=document.getElementById("head");
     kommentar1.style.visibility="visible";
     
@@ -243,7 +262,7 @@ function testvisable(){
 
     nykommentar.style.visibility="visible";
 
-}
+}//end visable
 
 function clearcontent(display) {
     display.innerHTML = "";
@@ -269,10 +288,12 @@ function showimgbox() {
 }
 
 
-function myFunction() {
+
+function lasmer() {
     var dots2 = document.getElementById("dots4");
     var moreText = document.getElementById("mertext2");
     var btnText = document.getElementById("btn2");
+    btnText.style.marginBottom="3%";
 
     if (dots2.style.display === "none") {
         dots2.style.display = "inline";
@@ -285,10 +306,10 @@ function myFunction() {
         btnText.style.fontSize = "1.3em";
         moreText.style.display = "inline";
     }
-}
+}//end läs mer 1
 
 
-function myFunction2() {
+function lasmer2() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("mertext");
     var btnText = document.getElementById("myBtn");
@@ -304,7 +325,9 @@ function myFunction2() {
         btnText.style.fontSize = "1.3em";
         moreText.style.display = "inline";
     }
-}
+}//end läs mer 2
+
+
 
 function Visakommentarruta() {
     var dots = document.getElementById("dots");
@@ -359,7 +382,7 @@ function test (event){
 
 function skapainlagg () {
     var bildtest=document.getElementById("nyttinlagg");
-    var kommentarkommentar; // Längd i meter
+    var kommentarkommentar; 
     kommentarkommentar = (nyttinlaggElem.value);
     var laddabild = document.getElementById('laddabild');
     var laddabild2 = document.getElementById('laddabild2');
@@ -399,9 +422,6 @@ function getLocalStorage() {// Funktion för den lokala lagringen
     }else{
         hideElem[0].style.visibility = 'hidden';
         hideElem[1].style.visibility = 'hidden';
-        hideElem[2].style.visibility = 'hidden';
-        hideElem[3].style.visibility = 'hidden';
-        hideElem[4].style.visibility = 'hidden';
       
         hideElem[0].style.height = "10px";
         showElem[0].style.visibility = 'visible';

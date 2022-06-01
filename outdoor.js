@@ -5,6 +5,8 @@ var display;
 var ledinfo;
 var exdiv;
 var valt2; 
+var nyttinlaggElem;
+var resultnyttinlagg;
 
 
 // Initiering av globala variabler och händelsehanterare
@@ -23,6 +25,12 @@ function init() {
     }
 
     exdiv = document.getElementById("testdiv");
+    document.getElementById("delaBtn2").onclick = skapainlagg;
+    nyttinlaggElem = document.getElementById("inputNytt") ;
+    resultnyttinlagg = document.getElementById("nyttinlagg");
+    //requestData();
+    //loggainknappen();
+    getLocalStorage();
 
 } // End init
 window.addEventListener("load", init);
@@ -124,7 +132,7 @@ function getBikeData(JSONtext, cityname) {
                 "<li><b>Längd:</b> " + bike[i].distance + "</li>" +
                 "<img src='" + bike[i].img.url + "'</img>" +
                 "<p><b>Beskrivning:</b> " + bike[i].description + "</p>" +
-                "<a href=" + bike[i].link.url + " target='_blank'>Läs mer</a>" +
+                "<button><a class='gg' href='"+bike[i].link.url+"' target=_blank>Läs mer</button></a>"+
                 "</div><br>";
         }
     }
@@ -149,11 +157,11 @@ function getBikeData(JSONtext, cityname) {
             body.append(btnx2);
             btnx2.setAttribute("class", "btncl");
 
-            btnx2.style.fontSize = "100%";
-            btnx2.style.style
-            btnx2.style.width = "130px";
-            btnx2.style.margin = "0.5%";
-            btnx2.style.color = "red";
+            btnx2.style.fontSize = "1.5rem";
+            btnx2.style.width = "200px";
+            btnx2.style.marginLeft = "5%";
+            btnx2.style.marginTop ="5%";
+            btnx2.style.marginBottom ="2%";
 
             let btnx3 = document.getElementsByClassName("btncl");
             for (let i = 0; i < btnx3.length; i++) {
@@ -183,6 +191,7 @@ function getBikeData(JSONtext, cityname) {
         btnx[i].addEventListener("click", function (e) {
             clearcontent(valt);
             requesttest(e);
+            visable;
 
         });
     }
@@ -209,12 +218,11 @@ function getData2(JSONtext, btn, cityname) {
     let HTMLcode2 = "";
     document.getElementById("har").style.visibility = "visible";
     document.getElementById("head").style.visibility = "visible";
-    document.getElementById("testdiv").style.visibility = "visible";
     let backBTN = document.getElementById("tillknappar");
     backBTN.style.visibility = "hidden";
     let backBTN2 = document.getElementById("testbtn");
     backBTN2.style.visibility = "visible";
-
+    backBTN2.addEventListener("click",hide);
     var x = document.createElement("BUTTON");
     var t = document.createTextNode("Tillbaka");
     x.setAttribute("class", "tcl");
@@ -227,6 +235,8 @@ function getData2(JSONtext, btn, cityname) {
     x.addEventListener("click", requestBikeData);
     x.addEventListener("click", showledinfo);
 
+    HTMLcode2+="<h1>Utomhus aktiviteter i <b>" + cityname + "</b></h1>";
+
     for (let i = 0; i < bike.length; i++) {
         if (cityname === bike[i].city && btn === bike[i].id) {
             HTMLcode2 +=
@@ -236,15 +246,90 @@ function getData2(JSONtext, btn, cityname) {
                 "<li><b>Längd:</b> " + bike[i].distance + "</li>" +
                 "<img src='" + bike[i].img.url + "'</img>" +
                 "<p><b>Beskrivning:</b> " + bike[i].description + "</p>" +
-                "<a href=" + bike[i].link.url + " target='_blank'>Läs mer</a>" +
-                "</div><br>";
+                "<button><a class='gg' href='"+bike[i].link.url+"' target=_blank>Läs mer</button></a>"+
+                "</div><br><hr>";
 
 
         }
     }
     valt2.innerHTML = HTMLcode2;
     valt2.style.height = "50%";
+
+    const hide2 = localStorage.getItem("hidevalue");
+
+    let kommentarbtn=document.getElementById("kommentarbtn");;
+    let commentdiv2=document.getElementById("testdiv");
+
+if (localStorage.getItem("hidevalue") ){       
+     kommentarbtn.style.visibility="visible";
+    document.getElementById("testdiv").style.visibility="visible";
+}   
+else{
+    kommentarbtn.style.visibility="hidden";
+    commentdiv2.style.visibility ="hidden";
 }
+    
+
+}//end getData2
+function hide(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="hidden";
+    
+    let kommentar2=document.getElementById("har");
+    kommentar2.style.visibility="hidden";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="hidden";
+    commentdiv2=document.getElementById("testdiv")
+    commentdiv2.style.visibility="hidden";
+    document.getElementById("kommentarbtn").style.visibility="hidden";
+    const hide2 = localStorage.getItem("hidevalue");
+
+    let kommentarbtn=document.getElementById("kommentarbtn");;
+    let commentdiv2=document.getElementById("testdiv");
+
+if (localStorage.getItem("hidevalue") ){       
+     kommentarbtn.style.visibility="visible";
+    document.getElementById("testdiv").style.visibility="visible";
+}   
+else{
+    kommentarbtn.style.visibility="hidden";
+    commentdiv2.style.visibility ="hidden";
+}
+
+}//end hide
+
+function hide(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="hidden";
+    
+    let kommentar2=document.getElementById("har");
+    kommentar2.style.visibility="hidden";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="hidden";
+    commentdiv2=document.getElementById("testdiv")
+    commentdiv2.style.visibility="hidden";
+    document.getElementById("kommentarbtn").style.visibility="hidden";
+
+}//end hide
+
+function visable(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="visible";
+    
+    let kommentar2=document.getElementById("andra-inlagg");
+    kommentar2.style.visibility="visible";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="visible";
+
+}//end visable
+
+
 function clearcontent(display) {
     display.innerHTML = "";
 }
@@ -267,41 +352,6 @@ function showimgbox() {
 
 }
 
-var loadFile = function (event) {
-    var input = document.getElementById('file');
-
-    const numberofFiles = input.files.length;
-    for (i = 0; i < numberofFiles; i++) {
-        //do the upload for each file.
-        var image = document.getElementById('laddabild');
-        image.src = URL.createObjectURL(event.target.files[0]);
-
-        var image2 = document.getElementById('laddabild2');
-        image2.src = URL.createObjectURL(event.target.files[1]);
-
-        var image3 = document.getElementById('laddabild3');
-        image3.src = URL.createObjectURL(event.target.files[2]);
-    }
-
-}
-
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("mertext");
-    var btnText = document.getElementById("myBtn");
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Läs kommentar";
-        btnText.style.fontSize = "1.3em";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Göm kommentar";
-        btnText.style.fontSize = "1.3em";
-        moreText.style.display = "inline";
-    }
-}
 
 function Visakommentarruta() {
     var dots = document.getElementById("dots");
@@ -333,4 +383,150 @@ function Visakommentarruta2() {
         moreText.style.display = "inline";
         moreText.style.margin = "2%";
     }
+}
+
+function lasmer() {
+    var dots2 = document.getElementById("dots4");
+    var moreText = document.getElementById("mertext2");
+    var btnText = document.getElementById("btn2");
+    btnText.style.marginBottom="3%";
+
+    if (dots2.style.display === "none") {
+        dots2.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots2.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+    }
+}//end läs mer 1
+
+
+function lasmer2() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("mertext");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+    }
+}//end läs mer 2
+
+function Visakommentarruta() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("textruta1");
+    var btnText = document.getElementById("runBtn");
+    if (dots.style.display === "none") {
+        dots.style.display = "flex";
+        btnText.innerHTML = "kommentarera";
+        btnText.style.fontSize = "1.2em";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "kommentarera";
+        btnText.style.fontSize = "1.2em";
+        moreText.style.display = "inline";
+        moreText.style.margin = "2%";
+    }
+}//end show commentbox 1
+
+function Visakommentarruta2() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("textruta2");
+    var btnText = document.getElementById("runBtn2");
+    if (dots.style.display === "none") {
+        dots.style.display = "flex";
+        btnText.innerHTML = "kommentarera";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "kommentarera";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+        moreText.style.margin = "2%";
+    }
+}//end show commentbox 2
+
+function test (event){
+    var input = document.getElementById('file');
+    const numberofFiles = input.files.length;
+	for( i=0;i< numberofFiles; i++){
+			//do the upload for each file.
+			var image = document.getElementById('laddabild');
+	        image.src = URL.createObjectURL(event.target.files[0]);
+           
+            var image2 = document.getElementById('laddabild2');
+            image2.src = URL.createObjectURL(event.target.files[1]);
+            
+            var image3 = document.getElementById('laddabild3');
+            image3.src = URL.createObjectURL(event.target.files[2]);
+    
+}
+  
+}
+
+function skapainlagg () {
+    var bildtest=document.getElementById("nyttinlagg");
+    var kommentarkommentar; // Längd i meter
+    kommentarkommentar = (nyttinlaggElem.value);
+    var laddabild = document.getElementById('laddabild');
+    var laddabild2 = document.getElementById('laddabild2');
+    var laddabild3 = document.getElementById('laddabild3');
+    let img=(bildtest.src=(laddabild));
+    let img2=(bildtest.src=(laddabild2));
+    let img3=(bildtest.src=(laddabild3));
+    //bildtest=URL.createObjectURL(img.src);
+    console.log(img);
+    //input1Elem.value.style.border="2px solid blue"
+    if (kommentarkommentar.length === 0){
+       alert("Fyll i en kommentar");
+       return;
+       
+       } 
+       else {
+        resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Jane Doe</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
+        console.log("<img src='" + img.src + "'></img>"); 
+    }
+
+    }
+
+    //hide funktionen//
+    var hideElem;
+function getLocalStorage() {// Funktion för den lokala lagringen
+
+console.log("hidden");
+        const hide = localStorage.getItem("hidevalue");
+        hideElem =  document.getElementsByClassName("hidden");  
+        let showElem = document.getElementsByClassName("show");
+
+
+    if (localStorage.getItem("hidevalue") ){       
+        hideElem[0].style.visibility = 'visible';
+        hideElem[1].style.visibility = 'visible';
+        showElem[0].style.visibility = 'hidden';
+        
+
+    }else{
+        hideElem[0].style.visibility = 'hidden';
+        hideElem[1].style.visibility = 'hidden';
+        hideElem[2].style.visibility = 'hidden';
+        hideElem[3].style.visibility = 'hidden';
+       
+      
+        hideElem[0].style.height = "10px";
+        showElem[0].style.visibility = 'visible';
+    }
+
 }

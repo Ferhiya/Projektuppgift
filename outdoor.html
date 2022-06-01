@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style2.css">
     <script type="text/javascript" src="outdoor.js"></script>
     <script type="text/javascript" src="weather.js"></script>
-    <script src="/Inloggning/hide/hide-statiska.js"></script>
     <title>Friluftszonen</title>
 </head>
 
@@ -26,10 +25,6 @@
             <h2> <a href="/Inloggning/inloggning.html">Logga in</a> </h2>
         </div>
 
-    </div>
-
-    <div id="hts">
-        <h4>Aktiviter</h4>
     </div>
     <div id="aktivitetsnav">
 
@@ -168,111 +163,121 @@
         </aside>
     </div>
 
+               
     <div class="hidden">
     </div>
     <div id="nyttinlagg">
-    </div>
-    </div>
-    <div id="head">
-        <div id="inlagg">
-            <h3>@Lindabloom</h3>
-            <p><b>Fjällräven Persson</b> </p>
-            <p>
-                En mysig cykeltur som hela gruppen tyckte om! Fin natur och vädret var perfekt. Rekommenderas bestämt
-                under våren eller sommaren!
-            </p>
+  </div>
+</div>
+      <div id="head">
+      <div id="inlagg">
+        <h3>@Sara.Lund</h3>
+        <p><b>Fjällräven Persson</b> </p><p>
+        En mysig och härlig dag med familjen.Kommer definetift göra det igen, får passa på nu innan stor barnen flyttar ut.    
+        </p> 
+      <br>  
+      <img id="kommentarbild1" src="/img/commentpicnic3.jpg" alt="Bild på picnic">
+      <img id="kommentarbild2"  src="/img/commentcanoe2.jpg" alt="Bild på kanot">
+      <img id="kommentarbild2"  src="/img/commentfishing2.jpg" alt="Bild på fiske">
+    
+      <br>
+      <button type="button" onclick="lasmer2()" id="myBtn">Läs kommentarer</button>
+      <br>
+        <button type="button" onclick="Visakommentarruta()" id="kommentarbtn" >Kommentera</button>
+  
+      
+ 
+    
+  </div> 
+</div>
+      
+  </div>
+  <div id="gh">
+      <span id="textruta1">   
+         <span id="dots"></span>
+         <span><input type="text" id="input1"> </span>
+         <button type="button2" id="runBtn">Kommentera</button>
+      </span>
+  </div>
+</div>
+
+       <div id="result"></div>   
+      </div>
+      
+      <span id="mertext">   
+          <div id="bea"><span id="dots"></span>
+      
+      <div id="andra-inlagg">
+          <div id="har">
+            <h3>Till:@Sara.Lund</h3>
+            <p>Kan lugnt säga att man kände det i kroppen dagen efter :). SKulle starkt rekomendera detta till alla en härlig aktivtet att utföra tillsammans med vänner eller familj.</p>
 
 
-            <button type="button" onclick="Visakommentarruta()" class="kommentarbtn">Kommentera</button>
+      
+            <button onclick="lasmer()" id="btn2">Läs kommentarer</button>
+            <br>
+          <button type="button" class="hidden" onclick="Visakommentarruta2()" id="kommentarbtn2">Kommentera</button> 
 
+      <div id="knapparna-komment">
+      <form id="inputForm1"> <!-- Textfält för att ge indata --></form>
+  </div>
+  </div>
+   
+</div>
+</div>
+<div id="container-result">
+      
+    <span id="mertext2">   
+       <div id="bea"><span id="dots4"></span>
+           <div id="testarboder"> 
+            <h3>Till:@Sara.Lund</h3><p>
+                Går det bra att ta med små barn? Har en 8 årig pojke och en 12 årig flicka, hur mycket uppsyn behöver man ha på barnen under aktivteten.Finns det någonstans att köpa mat i närheten?<br><br></p>
+       </div>
+       </div>
+     </p></span>
+       </div>
+</span>
 
-        </div>
-    </div>
+  <div id="result2-id">
+      <div id="result2"></div></div>
+  
+  <div id="testh">
+      <span id="textruta2">   
+         <span id="dots2"></span>
+       
+      <span><input type="text" id="input2"> </span>
+      <button type="button2" id="runBtn2">Kommentera</button>
+      </span>
+  </div>
+ 
+      </div>  
+      
+      
+  </div>
+         
+                <section id="testdiv"> 
+                    <label id="nytt">Ny kommentar</label><br>
+                    <form id="inputnyttform"> <!-- Textfält för att ge indata -->
+                    <label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label>
+                    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="test (event)" style="display: none;" multiple></p>
+                    <textarea type="text" id="inputNytt"name="w3review" placeholder="Skriv en ny kommentar" rows="4" cols="50"></textarea>
+                    <span>
+                    <img id="laddabild">
+                    <img id="laddabild2">
+                    <img id="laddabild3">
+                </span>
+                </form> 
+                <button type="button2" id="delaBtn2">Dela</button>
+                </section>
+             
+               
+              
 
-    </div>
-    <div id="gh">
-        <span id="textruta1">
-            <span id="dots"></span>
-            <span><input type="text" id="input1"> </span>
-            <button type="button2" id="runBtn">Kommentera</button>
-        </span>
-    </div>
-    </div>
-
-    <div id="result"></div>
-    </div>
-
-
-    <div id="andra-inlagg">
-        <div id="har">
-            <h3>@Kristinalund</h3>
-            <p>Super fin cykel tur, även barnen hade en supertid! Rekommenderas starkt!
-            </p>
-            <img id="kommentarbild1" src="/img/commentbike4.jpg" alt="Bild på cykle">
-            <img id="kommentarbild2" src="/img/commentpicnic4.jpg" alt="Bild på cykle">
-
-            <button onclick="Visakommentarruta2()" class="kommentarbtn">Kommentera</button>
-
-            <div id="knapparna-komment">
-
-                <button onclick="myFunction()" id="myBtn">Läs kommentarer</button>
-                <form id="inputForm1">
-                    <!-- Textfält för att ge indata -->
-                </form>
+            
+                <br><br><br><br>
+                         
             </div>
-        </div>
-
-        <div id="result2-id">
-            <div id="result2"></div>
-        </div>
-
-        <div id="testh">
-            <span id="textruta2">
-                <span id="dots2"></span>
-
-                <span><input type="text" id="input2"> </span>
-                <button type="button2" id="runBtn2">Kommentera</button>
-            </span>
-        </div>
-
-    </div>
-
-    <div id="container-result">
-
-        <span id="mertext">
-            <div id="bea"><span id="dots"></span>
-                <div id="testarboder">
-                    <h3>Till:@Kristinalund</h3>
-                    <p>
-                        Ser superfint ut! Hur unga är dina barn? Tänkte ta med våra små människor men vet ej om dem är
-                        för unga? <br><br></p>
-                </div>
-            </div>
-            </p>
-        </span>
-    </div>
-    </div>
-    <section id="testdiv">
-        <label id="nytt">Ny kommentar</label><br>
-        <form id="inputnyttform">
-            <!-- Textfält för att ge indata -->
-            <label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label>
-            <p><input type="file" accept="image/*" name="image" id="file" onchange="test (event)" style="display: none;"
-                    multiple></p>
-            <textarea type="text" id="inputNytt" name="w3review" placeholder="Skriv en ny kommentar" rows="4"
-                cols="50"></textarea>
-            <span>
-                <img id="laddabild">
-                <img id="laddabild2">
-                <img id="laddabild3">
-            </span>
-        </form>
-        <button type="button2" id="delaBtn2">Dela</button>
-    </section>
-    <div class="hidden"></div>
-    <div class="hidden"></div>
-
+        </div> 
 
 </body>
-
 </html>

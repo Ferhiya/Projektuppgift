@@ -4,10 +4,10 @@
             "city": "Kalmar",
             "id":"1",
             "led": "Kalmarsundsleden",
-            "längd": "200 km",
+            "längd":"200 km",
             "handikapsanpassat": "Nej",
             "link": {
-                "linkurl": "https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/kalmarsundsleden.html"
+                "linkurl":"https://kalmar.se/uppleva-och-gora/natur-friluftsliv-och-parker/vandring-cykling-och-motion/vandringsleder/kalmarsundsleden.html"
             },
             "beskrivning": "Leden sträcker sig från Slakmöre i norr till Bröms i söder. Leden går genom tre olika kommuner och du kan välja att gå delar av den eller hela. Leden är ledmarkerad",
             "image": {
@@ -271,7 +271,7 @@
             "id":"2",
             "led": "Vidablickspåret",
             "längd": "1.5 km",
-            "handikapsanpassat": "1997",
+            "handikapsanpassat":"Nej",
             "beskrivning": "Promenadslinga tillgänglig även för funktionsnedsatta och barnvagnar i Backamoskogen runt Vidablick.Stranden mot Vätten är brant och har flera fina vyer. Skogen har vuxit här i mer än hundra år därför trivs både orkidén knärot och Smålands landskapsblomma linnéa.",
             "image": {
                 "url": "image/vandringsbild2.jpg"

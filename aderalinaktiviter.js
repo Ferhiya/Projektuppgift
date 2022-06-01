@@ -19,10 +19,6 @@ function init() {
         knappar[i].addEventListener("click", showledinfo);
         
 	}
-
-
-exdiv=document.getElementById("testdiv");
-	//requestvader();
   
 } // End init
 window.addEventListener("load",init);
@@ -97,23 +93,17 @@ function requestJSONData(e) {
              
              //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
              //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
-             "<li><b>längd:</b> " + aderalin[i].längd + "</li>" + //lägger in längden på ledet i html strängen
-             "<li><b>handikapsanpassat:</b> " + aderalin[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-             "<li><b>svårighetsnivå:</b> " + aderalin[i].barnvanligt + "</li>" + //lägger in ledets svårighetsnivå i html strängen
-             "<li><b>parkering:</b> " + aderalin[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
+             "<li><b>Längd:</b> " + aderalin[i].längd + "</li>" + //lägger in längden på ledet i html strängen
+             "<li><b>Handikapsanpassat:</b> " + aderalin[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
+             "<li><b>Barnvänligt:</b> " + aderalin[i].barnvanligt + "</li>" + //lägger in info om barnvanlighet i html strängen
+             "<li><b>Parkering:</b> " + aderalin[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
              
              "<li><b>Pris:</b> " + aderalin[i].pris + "</li>"+
              "<img src='"+aderalin[i].image.url+"'></img>"+
              "<p><b></b> " + aderalin[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
-             "<a href='"+aderalin[i].link.linkurl+"' target=_blank>Läs mer</a>"+
-             //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
-             //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-            
-             //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
+           
+             "<button><a class='gg' href='"+aderalin[i].link.linkurl+"' target=_blank>Läs mer</button></a>"+
              "</div><hr>"
-         
-     
-             //valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
      
        }      
   
@@ -147,11 +137,13 @@ function requestJSONData(e) {
             body.append(btnx2);
             btnx2.setAttribute("class","btncl");
 
-            btnx2.style.fontSize = "100%";
-            btnx2.style.style
-            btnx2.style.width="130px";
-            btnx2.style.margin="0.5%";
-            btnx2.style.color="red";
+           
+            btnx2.style.fontSize = "1.5rem";
+            btnx2.style.width = "200px";
+            btnx2.style.marginLeft = "5%";
+            btnx2.style.marginTop ="5%";
+            btnx2.style.marginBottom ="2%";
+
        
             let btnx3=document.getElementsByClassName("btncl");
             for (let i = 0; i < btnx3.length; i++) {
@@ -179,6 +171,7 @@ function requestJSONData(e) {
          //alert("did something");
          clearcontent(valt);
          requesttest(e);
+         visable;
        });
      
  }
@@ -207,12 +200,12 @@ function requestJSONData(e) {
      let HTMLcode2="";
      document.getElementById("har").style.visibility="visible";
      document.getElementById("head").style.visibility="visible";
-     document.getElementById("testdiv").style.visibility="visible";
      let backBTN=document.getElementById("tillknappar");
      backBTN.style.visibility="hidden";
      let backBTN2=document.getElementById("testbtn");
      backBTN2.style.visibility="visible";
-     
+     backBTN2.addEventListener("click",hide);
+
      var x = document.createElement("BUTTON");
      var t = document.createTextNode("Tillbaka");
      x.setAttribute("class","tcl");
@@ -223,6 +216,8 @@ function requestJSONData(e) {
   
         x.addEventListener("click", requestJSONData);
         x.addEventListener("click", showledinfo);
+
+        HTMLcode2+="<h1>Aderalin aktiviter i <b>" + cityname + "</b></h1>" + "<hr>";
 
  for (let i = 0; i < aderalin.length; i++) {
      if (cityname === aderalin[i].city && btn === aderalin[i].id) {
@@ -235,15 +230,15 @@ function requestJSONData(e) {
          
          //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
          //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
-         "<li><b>längd:</b> " + aderalin[i].längd + "</li>" + //lägger in längden på ledet i html strängen
-         "<li><b>handikapsanpassat:</b> " + aderalin[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
-         "<li><b>svårighetsnivå:</b> " + aderalin[i].barnvanligt + "</li>" + //lägger in ledets svårighetsnivå i html strängen
-         "<li><b>parkering:</b> " + aderalin[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
+         "<li><b>Längd:</b> " + aderalin[i].längd + "</li>" + //lägger in längden på ledet i html strängen
+         "<li><b>Handikapsanpassat:</b> " + aderalin[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
+         "<li><b>Barnvänligt:</b> " + aderalin[i].barnvanligt + "</li>" + //lägger in info om barnvanlighet i html strängen
+         "<li><b>Parkering:</b> " + aderalin[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
          
          "<li><b>parkering:</b> " + aderalin[i].pris + "</li>"+
          "<img src='"+aderalin[i].image.url+"'></img>"+
          "<p><b></b> " + aderalin[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
-         "<a href='"+aderalin[i].link.linkurl+"' target=_blank>Läs mer</a>"+
+         "<button><a class='gg' href='"+aderalin[i].link.linkurl+"' target=_blank>Läs mer</button></a>"+
          //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
          //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
         
@@ -257,10 +252,52 @@ function requestJSONData(e) {
  exdiv.style.marginBottom = "5%";
  exdiv.style.fontSize = "150%";
  valt.innerHTML= HTMLcode2;
- let testdiv=document.getElementsByClassName("hidden");
- testdiv.style.visibility="visible";
+ const hide2 = localStorage.getItem("hidevalue");
+
+ let kommentarbtn=document.getElementById("kommentarbtn");;
+ let commentdiv2=document.getElementById("testdiv");
+
+if (localStorage.getItem("hidevalue") ){       
+  kommentarbtn.style.visibility="visible";
+ document.getElementById("testdiv").style.visibility="visible";
+}   
+else{
+ kommentarbtn.style.visibility="hidden";
+ commentdiv2.style.visibility ="hidden";
+}
  
  }
+ 
+function hide(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="hidden";
+    
+    let kommentar2=document.getElementById("har");
+    kommentar2.style.visibility="hidden";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+    nykommentar.style.visibility="hidden";
+
+    let nykommentarruta=document.getElementById("testdiv");
+    nykommentarruta.style.visibility="hidden";
+    commentdiv2=document.getElementById("testdiv")
+    commentdiv2.style.visibility="hidden";
+    document.getElementById("kommentarbtn").style.visibility="hidden";
+}//end hide
+
+function visable(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="visible";
+    
+    let kommentar2=document.getElementById("andra-inlagg");
+    kommentar2.style.visibility="visible";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="visible";
+
+}//end visable
+
  function clearcontent(display) {
      display.innerHTML = "";
  }
@@ -300,23 +337,44 @@ function requestJSONData(e) {
  
  
 
- function myFunction() {
+
+ function lasmer() {
+    var dots2 = document.getElementById("dots4");
+    var moreText = document.getElementById("mertext2");
+    var btnText = document.getElementById("btn2");
+    btnText.style.marginBottom="3%";
+
+    if (dots2.style.display === "none") {
+        dots2.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
+    } else {
+        dots2.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
+    }
+}//end läs mer 1
+
+
+function lasmer2() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("mertext");
     var btnText = document.getElementById("myBtn");
-  
+
     if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Läs kommentar";
-      btnText.style.fontSize="1.3em";
-      moreText.style.display = "none";
+        dots.style.display = "inline";
+        btnText.innerHTML = "Läs kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "none";
     } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Göm kommentar";
-      btnText.style.fontSize="1.3em";
-      moreText.style.display = "inline";
+        dots.style.display = "none";
+        btnText.innerHTML = "Göm kommentar";
+        btnText.style.fontSize = "1.3em";
+        moreText.style.display = "inline";
     }
-  }
+}//end läs mer 2
 
   function Visakommentarruta() {
     var dots = document.getElementById("dots");

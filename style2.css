@@ -93,7 +93,6 @@ form {
     font-size: 1.3rem;
     line-height: 34px;
     text-align: left;
-    border-left: 4px solid #138558;
     padding-left: 10px;
   
     
@@ -119,7 +118,7 @@ h1 {
 }
 
 /*Aktivtestssida*/
-.grid-container {
+.stor-box {
     display: grid;
     grid-template-columns: auto auto;
     padding: 0px;
@@ -128,10 +127,8 @@ h1 {
     grid-gap:2%;
     margin-bottom: 5%;
   }
-  .grid-item {
+  .liten-box {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    font-size: 30px;
     text-align: center;
   }
 
@@ -160,7 +157,7 @@ h1 {
 
 .aktivtetsbilder {
     padding-top: 0.5%;
-    width: 600px;
+    width: 550px;
     height: 400px;
 }
 
@@ -232,6 +229,7 @@ align-items: center;
     border-radius: 6px;
     margin-top: 2%;
     cursor: pointer;
+    margin-bottom: 2%;
 }
 
 
@@ -245,6 +243,12 @@ border-radius: 5px;
 background-color: #b09152;
 border-color: #b09152;
 border-radius: 5px;
+}
+
+.knappar a{
+    color: #000;
+    font-size: 2rem;
+    text-decoration: none;
 }
 
 #testaralt{
@@ -506,11 +510,17 @@ color: white;
             }
             
             #myBtn{
-            margin-left:2%;
             font-size: 1.3em;
-            width: 150px;
+            width: 200px;
+            margin-bottom: 3%;
             }
+             #btn2{
+                font-size: 1.3em;
+                width: 200px;
+                margin-bottom: 3%;
+                }
             #har {
+                visibility: hidden;
                 margin-bottom: 10px;
                 background-color: white;
                 border-bottom: #000;
@@ -595,6 +605,7 @@ color: white;
                          margin-top: 3%;
                          border:2px solid #138558;
                          display: inline-block;
+                         visibility: hidden;
                         }
 
                         #nytt{
@@ -687,9 +698,12 @@ color: white;
 }
 
 #kommentarbtn, #kommentarbtn2{
-    margin-left: 80%;
+    margin-left: 70%;
     font-size: 1.3rem;
-    margin-top: 0%;
+    width: 200px;
+    margin: 0px;
+
+
 }
 
 #kommentarbild1,#kommentarbild2{
@@ -753,9 +767,10 @@ color: white;
 }
 
 .gg{
-    color: #000;
+ color: #000;
   font-size: 1.5rem;
   text-decoration: none;
+  margin-top: 3%;
 }
 
 #kommentarbilder{
@@ -765,3 +780,8 @@ color: white;
 }
 
 
+#htf{
+    width: 200px;
+    margin: 0%;
+    padding: 0px;
+}
