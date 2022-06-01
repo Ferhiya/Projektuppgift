@@ -747,4 +747,14 @@ color: white;
     grid-gap:0.5%;
 }
 
+.btncl{
+    width: 50px;
+}
+
+.gg{
+    color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
 

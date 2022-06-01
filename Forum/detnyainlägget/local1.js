@@ -11,10 +11,13 @@ let val;
     button.addEventListener("click", myFunction);
     valjElem =document.getElementById("valj-forum");
 
+
     valjElem.addEventListener("click", valet);
      }
         window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
      
+
+
 function valet(){
 //val = valjElem.options[e.selectedIndex].text;
 val= valjElem.options[valjElem.selectedIndex].value;
@@ -29,9 +32,9 @@ function myFunction() {
      
      y = document.getElementById("texten").value;
      
-     container = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><b>" + x + "</b></a> <h3><i>" + "</h3></i>" + "<b>" +  "Användarn" +"</b>" + "<br>" + y;
+     container = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><em><b>" + x + "</em></b></a> " + "<br>" + "<b>Jane Doe" +"</b>" + "<br>" + y;
 
-     egnainlagget = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><b>" + x + "</b></a> <h3><i>" + "</h3></i>" + "<b>" +  "Användarn" +"</b>" + "<br>";
+     egnainlagget = "<a href='/Forum/detnyainlägget/användarensinlägg.html'><i>" + x + "</i></a> <h3><i>" + "</h3></i>" + "<b>" +  "Jane Doe" +"</b>" + "<br>";
 
      localStorage.setItem('texten', container);
 
@@ -54,24 +57,25 @@ return;
 } 
 
 if (val === "vandring"){
-vandringtext =  "<a href='/Forum/detnyainlägget/användarensinlägg.html'><b>" + x + "</b></a>"  + "<br>" +  "Användaren namn" + "</div>" ; 
+vandringtext =  "<a href='/Forum/detnyainlägget/användarensinlägg.html'><b>" + x + "</b></a>"  + "<br>" +  "Jane Doe" + "</div>" ; 
 localStorage.setItem('vandring+text', vandringtext); 
+
 }  
 
 
 if (val === "utomhus"){
-utomhustext = "<a href='/Forum/detnyainlägget/användin-utomhus.html'><b>" + x + "</b></a>"  + "<br>" +  "Användaren namn" + "</div>" ; 
+utomhustext = "<a href='/Forum/detnyainlägget/användin-utomhus.html'><b>" + x + "</b></a>"  + "<br>" +  "Jane Doe" + "</div>" ; 
    localStorage.setItem('utomhus+text', utomhustext); 
 }  
 
 if (val === "adrenalin"){
-   adrenalintext = "<a href='/Forum/detnyainlägget/användin-adrenalin.html'><b>" + x + "</b></a>"  + "<br>" +  "Användaren namn" + "</div>" ; 
+   adrenalintext = "<a href='/Forum/detnyainlägget/användin-adrenalin.html'><b>" + x + "</b></a>"  + "<br>" +  "Jane Doe" + "</div>" ; 
    localStorage.setItem('adrenalin+text', adrenalintext); 
    
    } 
 
 if (val === "vattensport"){
-   vattensporttext = "<a href='/Forum/detnyainlägget/användin-vatten.html'><b>" + x + "</b></a>"  + "<br>" +  "Användaren namn" + "</div>" ; 
+   vattensporttext = "<a href='/Forum/detnyainlägget/användin-vatten.html'><b>" + x + "</b></a>"  + "<br>" +  "Jane Doe" + "</div>" ; 
    localStorage.setItem('vatten+text', vattensporttext); 
 } 
 window.location.href = "/Forum/detnyainlägget/användarensinlägg.html";

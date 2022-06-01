@@ -2,13 +2,16 @@ let textElem;
 var input1Elem;
 var resultElem;
 var adrenalin;
+var headbild;
 
 function init() {  // Allting som ska laddas in före sidan visas
    input1Elem = document.getElementById("input1") ;
    resultElem = document.getElementById("result");
    document.getElementById("runBtn").onclick = areaCalculations;
    textElem =document.getElementById("inlagg");
+   headbild = document.getElementById("head");
    integetlocalstorage();
+   bildknappen();
    }
    window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
 
@@ -33,7 +36,19 @@ return;
 
 } 
 else {
-resultElem.innerHTML += "<div id='extra'><p>Användare</p>" + kommentar +  "<br></div>" ; 
+resultElem.innerHTML += "<div id='extra'><p>Jane Doe</p>" + kommentar +  "<br></div>" ; 
 }
 }
 
+function bildknappen () {
+
+ const bilden = localStorage.getItem("bild");
+
+if (bilden === null){ 
+textElem.style.border = "0px"; 
+}
+else {
+headbild.innerHTML += bilden;
+console.log("hej");
+}
+}

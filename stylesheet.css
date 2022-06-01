@@ -160,25 +160,27 @@ input[type=submit] {
     padding-bottom: 20px;
     font-size: 20px;
     border-bottom: #138558 8px solid;
-    cursor: pointer;
     margin-bottom: 10px;
     text-align: center;
 }
 
 #skickaknapp  {
     display: flex;
+
+}
+
+#skickaknapp p {
     background-color: #e0b767;
     box-shadow: #ba9956 4px 8px ;
-    padding: 10px;
+    padding: 15px;
     font-size: 30px;
     border-radius: 6px;
     margin-top: 2%;
     cursor: pointer;
     margin-bottom: 20px;
-    width: 15%;
-    
 }
-#skickaknapp:hover {
+
+#skickaknapp p:hover {
     background-color: #ba9956;
     box-shadow: #8c7341 4px 8px ;
 }

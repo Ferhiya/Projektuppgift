@@ -87,34 +87,24 @@ function getData(JSONtext, cityname) {
 			"<li><b>parkering:</b> " + vandring[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
 			"<img src='"+vandring[i].image.url+"'></img>"+
 			"<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
-			"<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
-			"</div><hr>"
-        
-            
+            "<button><a class='gg' href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</button></a>"+
+			"</div><hr>"   
 
         }
-
+          
     }
-
-
 
     valt.innerHTML = HTMLcode;//utskrift av datan i JSON filen
     //li.style.display=" flex";
-
     for (let i = 0; i < vandring.length; i++) {
 
         if (cityname === vandring[i].city) {
 
     var btnx2 = document.createElement("button");
-            btnx2.innerHTML = "Läs kommentar"; //knappen som leder till de enskilda aktivterna
-            //const cl = document.createAttribute("class");
-
-            // Set the value of the class attribute:
-            //cl.value = "btncl";
+            btnx2.innerHTML = "Läs kommentar"; 
 
             const id = document.createAttribute("id");
 
-            // Set the value of the class attribute:
             id.value = "2";
             btnx2.setAttributeNode(id);
 
@@ -123,11 +113,11 @@ function getData(JSONtext, cityname) {
             body.append(btnx2);
             btnx2.setAttribute("class", "btncl");
 
-            btnx2.style.fontSize = "100%";
-            btnx2.style.style
-            btnx2.style.width = "130px";
-            btnx2.style.margin = "0.5%";
-            btnx2.style.color = "red";
+            btnx2.style.fontSize = "1.5rem";
+            btnx2.style.width = "200px";
+            btnx2.style.marginLeft = "5%";
+            btnx2.style.marginTop ="5%";
+            btnx2.style.marginBottom ="2%";
 
             let btnx3 = document.getElementsByClassName("btncl");
             for (let i = 0; i < btnx3.length; i++) {
@@ -153,7 +143,7 @@ function getData(JSONtext, cityname) {
         valt.style.fontSize = "150%";
         valt.style.marginBottom = "2%";
     clearcontent(display);
-    
+
 let btnx=document.getElementsByClassName("btncl");
 for (let i = 0; i < btnx.length; i++) {
     btnx[i].addEventListener ("click", function(e) {
@@ -163,6 +153,7 @@ for (let i = 0; i < btnx.length; i++) {
       });
     
 }
+
 
 } // End getData
 function requesttest(e) { 
@@ -211,7 +202,7 @@ for (let i = 0; i < vandring.length; i++) {
         "<li><b>parkering:</b> " + vandring[i].parkering + "</li>"+ //lägger in info om parkering i html strängen
         "<img src='"+vandring[i].image.url+"'></img>"+
         "<p><b></b> " + vandring[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
-        "<a href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</a>"+
+        "<button><a class='gg' href='"+vandring[i].link.linkurl+"' target=_blank>Läs mer</button></a>"+
         "<hr>"
      
 }
@@ -300,10 +291,9 @@ function test (event){
   
 }
 
-function skapainlagg (event) {
+function skapainlagg () {
     var bildtest=document.getElementById("nyttinlagg");
     var kommentarkommentar; // Längd i meter
-    console.log("hej");
     kommentarkommentar = (nyttinlaggElem.value);
     var laddabild = document.getElementById('laddabild');
     var laddabild2 = document.getElementById('laddabild2');
@@ -320,7 +310,7 @@ function skapainlagg (event) {
        
        } 
        else {
-        resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Användare</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
+        resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Jane Doe</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
         console.log("<img src='" + img.src + "'></img>"); 
     }
 
