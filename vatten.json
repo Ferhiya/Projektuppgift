@@ -176,7 +176,7 @@
                 "linkurl": "https://ramoa.se/catalog/groups/aktiviteter"
             },
             "image": {
-                "url": "image/vandringsbild3.jpg"
+                "url": "image/kräfta.jpg"
             },
             "pris":"350kr/p",
             "parkering": "Nej"
@@ -364,24 +364,7 @@
             "pris":" startavgift; 1800 kr +450 kr/person",
             "parkering":"Ja"
         },
-        {
-            "city": "Nässjö",
-            "id":"2",
-            "Adress":"",
-            "Aktivitet": "",
-            "längd": "",
-            "handikapsanpassat": "",
-            "link": {
-                "linkurl": ""
-            },
-            "beskrivning": "",
-            "image": {
-                "url": "image/vandringsbild1.jpg"
-            },
-            "pris": "",
-            "parkering": "Ja"
-        },
-
+    
         {
             "city":"Ljungby",
             "id":"1",
@@ -454,23 +437,6 @@
             "pris":"400 kr",
             "parkering": "Ja"
         },
-        {
-            "city":"Tranås",
-            "id":"2",
-            "Adress":"",
-            "Aktivitet": "",
-            "längd": "",
-            "handikapsanpassat": "Nej",
-            "beskrivning": "",
-            "link": {
-                "linkurl": ""
-            },
-            "image": {
-                "url": "image/vandringsbild2.jpg"
-            },
-            "pris": "",
-            "parkering": ""
-        },
 
           {
             "city": "Vetlanda",
@@ -540,7 +506,7 @@
             },
             "beskrivning":"Varje bräda i mega sup är stor nog att rymma upp till åtta personer. Alla har varsin paddel.Aktiviteten Mega SUP gåt till som så att alla får testa brädor och teknik. Därefter är det stafetter tills vi har en vinnare. Det går att lägga in moment i stafetten som gör det svårare och mer spännande. T ex att brädan ska passera ett snöre där brädan går under snöret och deltagarna på brädan måste hoppa över snöret.Det finns flytväst och våtdräkt att låna för de som önskar",
             "image": {
-                "url":"image/paddleboard.jpg"
+                "url":"image/paddleboard2.jpg"
             },
             "pris":"1500 kr",
             "parkering":"Ja"

@@ -183,6 +183,7 @@ img.bildtest {
     padding: 1%;
     list-style: none;
     background-color: rgb(245, 242, 242);
+
 }
 
 #valt,#valt3,#valt2, #aderalinv, #vattenv2, #vattenv3 {
@@ -784,4 +785,10 @@ color: white;
     width: 200px;
     margin: 0%;
     padding: 0px;
+}
+
+#delaBtn2{
+    width: 150px;
+    height: 30px;
+    margin-left: 2%;
 }
