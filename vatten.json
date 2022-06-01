@@ -11,7 +11,7 @@
             "link": {
                 "linkurl": "https://www.upzone.se/upplevelser/aventyr_pa_vatten/"
             },
-            "beskrivning": "står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper.",
+            "beskrivning": "Står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper.",
             "image": {
                 "url": "image/paddleboard.jpg"
             },
@@ -390,7 +390,7 @@
             "längd":"Oklart",
             "Barnvanligt":"Nej",
             "handikapsanpassat":"Nej",
-            "beskrivning":"står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper.",
+            "beskrivning":"Står upp (eller på knä) ovanpå en mer eller mindre stabil surfbräda och paddlar med en lång paddel. Surfbrädan som också kallas för SUP finns både i uppblåsbar variant eller som hard-top. Uppblåsbara är smidiga att ta med sig i bilen och blåsa upp på plats men hard-tops är något stabilare och har lite bättre sjöegenskaper.",
             "link": {
                 "linkurl":"https://www.agundaborg.com/se/boka-en-%C3%A4ventur/#!/e/eed550874853c3faf317fce6aece5ddf"
             },
@@ -405,13 +405,12 @@
             "id":"2",
             "Adress":"Bråna Näs 1, 34390, Agunnaryd",
             "Aktivitet":"Dagskurs i kajak för nybörjare",
-            "längd":"Heldag",
-            "Barnvanligt":"Ja",
-            "handikapsanpassat":"A one day introduction to Kayaking Course for beginners or those of you who have paddled a bit before but never followed a kayak course. Develop your paddling in the wonderful surroundings of Agunnaryd! Our kayak instructors will go through all the parts of the yellow paddlepass. During the course we will teach you different paddle, safety and rescuing techniques. The hire of a kayak is included (översätt till svenska)",
+            "längd":"8 timmar",
+            "handikapsanpassat":"Nej",
             "link": {
                 "linkurl":"https://www.agundaborg.com/se/boka-en-%C3%A4ventur/#!/e/2a1076b089e1ee18020099063cbea318"
             },
-            "beskrivning":"",
+            "beskrivning":"En dags introduktion till Kajakkurs för nybörjare eller dig som har paddlat lite tidigare men aldrig gått en kajakkurs. Utveckla dina paddlings tekniker i Agunnaryds underbara omgivningar! Våra kajakinstruktörer kommer att gå igenom alla delar av det gula paddlepasset. Under kursen kommer vi att lära dig olika paddel-, säkerhets- och räddningstekniker. Hyran av kajak ingår.",
             "image": {
                 "url": "image/kajak.jpg"
             },
