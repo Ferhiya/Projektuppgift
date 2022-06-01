@@ -71,7 +71,6 @@ function getData(JSONtext, cityname) {
     let backBTN2 = document.getElementById("testbtn");
     //backBTN2.style.visibility="hidden";
     backBTN2.innerHTML = "";
-
     HTMLcode +=
         "<h1>Vandringsleder i <b>" + cityname + "</b></h1>" + "<hr>";
 
@@ -151,6 +150,7 @@ for (let i = 0; i < btnx.length; i++) {
     btnx[i].addEventListener ("click", function(e) {
         clearcontent(valt);
         requesttest(e);
+        testvisable;
        
       });
     
@@ -181,6 +181,7 @@ function getData2(JSONtext,btn,cityname){
     let backBTN = document.getElementById("tillknappar");
     backBTN.style.visibility = "hidden";
     let backBTN2 = document.getElementById("testbtn");
+    backBTN2.addEventListener("click",testhide);
     backBTN2.style.visibility = "visible";
 
     var x = document.createElement("BUTTON");
@@ -213,10 +214,36 @@ for (let i = 0; i < vandring.length; i++) {
 valt.innerHTML= HTMLcode2;
 valt.style.height="50%";
 
-document.getElementById("inputNytt").value = ""
+document.getElementById("inputNytt").value = "";
 
 
 }//end
+
+function testhide(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="hidden";
+    
+    let kommentar2=document.getElementById("har");
+    kommentar2.style.visibility="hidden";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="hidden";
+
+}
+
+function testvisable(){
+    let kommentar1=document.getElementById("head");
+    kommentar1.style.visibility="visible";
+    
+    let kommentar2=document.getElementById("andra-inlagg");
+    kommentar2.style.visibility="visible";
+
+    let nykommentar=document.getElementById("nyttinlagg");
+
+    nykommentar.style.visibility="visible";
+
+}
 
 function clearcontent(display) {
     display.innerHTML = "";
