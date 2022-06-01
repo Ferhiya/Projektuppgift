@@ -4,6 +4,7 @@ var knappar; //refens till tryckt knapp
 var display;
 var ledinfo;
 var exdiv;
+var valt2; 
 
 
 // Initiering av globala variabler och händelsehanterare
@@ -12,6 +13,7 @@ function init() {
     knappar = document.getElementsByClassName("knappar");
     display = document.getElementById("vandringslederna");
     ledinfo = document.getElementById("ledinfo");
+    valt2 = document.getElementById("valt2");
 
 
     for (let i = 0; i < knappar.length; i++) {
@@ -41,7 +43,6 @@ function requestData(e) {
             if (request.status == 200) getData(request.responseText) //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
             else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
     };
-
 
 }//End requestData
 
@@ -94,9 +95,8 @@ function requestBikeData(e) {
     request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
         if (request.readyState == 4) //staus 4=kommunikation klar
             if (request.status == 200) getBikeData(request.responseText, cityname); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
-            else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
+            else valt2.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
     };
-
 
 }
 
@@ -129,7 +129,7 @@ function getBikeData(JSONtext, cityname) {
         }
     }
 
-    valt.innerHTML = HTMLcode;//utskrift av datan i JSON filen
+    valt2.innerHTML = HTMLcode;//utskrift av datan i JSON filen
     //li.style.display=" flex";
 
     for (let i = 0; i < bike.length; i++) {
@@ -172,9 +172,9 @@ function getBikeData(JSONtext, cityname) {
         }
     }
 
-    valt.style.marginBottom = "2%";
-    valt.style.fontSize = "150%";
-    valt.style.marginBottom = "2%";
+    valt2.style.marginBottom = "2%";
+    valt2.style.fontSize = "150%";
+    valt2.style.marginBottom = "2%";
 
     clearcontent(display);
 
@@ -199,7 +199,7 @@ function requesttest(e) {
     request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
         if (request.readyState == 4) //staus 4=kommunikation klar
             if (request.status == 200) getData2(request.responseText, btn, cityname); //Status ok=filen finns. responseText=för att man hämtar en JSON fil.
-            else valt.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
+            else valt2.innerHTML = "Den begärda filen finns inte."; //error msg när begärd fil inte finns
     };
 
 } // End
@@ -224,6 +224,7 @@ function getData2(JSONtext, btn, cityname) {
     x.style.visibility = "visible";
 
     x.addEventListener("click", requestData);
+    x.addEventListener("click", requestBikeData);
     x.addEventListener("click", showledinfo);
 
     for (let i = 0; i < bike.length; i++) {
@@ -241,8 +242,8 @@ function getData2(JSONtext, btn, cityname) {
 
         }
     }
-    valt.innerHTML = HTMLcode2;
-    valt.style.height = "50%";
+    valt2.innerHTML = HTMLcode2;
+    valt2.style.height = "50%";
 }
 function clearcontent(display) {
     display.innerHTML = "";
@@ -250,7 +251,6 @@ function clearcontent(display) {
 
 function showledinfo() {
     ledinfo.style.visibility = "visible";
-
 }
 
 function clearcontent(valt) {
