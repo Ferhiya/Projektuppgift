@@ -165,35 +165,36 @@
 
             </div>
 
-
-
         </aside>
-
-
     </div>
+
     <div class="hidden">
-        <div id="head">
-            <div id="inlagg">
-                <h3>@Lindabloom</h3>
-                <p><b>Fjällräven Persson</b> </p>
-                <p>
-                    En mysig och härligt led som jag starkt skulle kunna rekomendera till alla. Ta med er rikligt med
-                    vatten och någon frukt eller macka också.
-                </p>
+    </div>
+    <div id="nyttinlagg">
+    </div>
+    </div>
+    <div id="head">
+        <div id="inlagg">
+            <h3>@Lindabloom</h3>
+            <p><b>Fjällräven Persson</b> </p>
+            <p>
+                En mysig cykeltur som hela gruppen tyckte om! Fin natur och vädret var perfekt. Rekommenderas bestämt
+                under våren eller sommaren!
+            </p>
 
 
-                <button type="button" onclick="Visakommentarruta()" class="kommentarbtn">Kommentera</button>
+            <button type="button" onclick="Visakommentarruta()" class="kommentarbtn">Kommentera</button>
 
 
-            </div>
         </div>
+    </div>
 
     </div>
     <div id="gh">
         <span id="textruta1">
             <span id="dots"></span>
-
             <span><input type="text" id="input1"> </span>
+            <button type="button2" id="runBtn">Kommentera</button>
         </span>
     </div>
     </div>
@@ -205,12 +206,10 @@
     <div id="andra-inlagg">
         <div id="har">
             <h3>@Kristinalund</h3>
-            <p>Lugnaste vandringen jag någonsin har varit på. Bara jag sambon och hunden i hela spåret,så fridsfult.Det
-                blir rätt lerigt när det har regnat så tänk på att ha på dig riktigt ordentliga skor som du inte halkar
-                i, kan tvätta efteråt hemma eller inte bry dig om ifall de blir riktigt smutsiga.
+            <p>Super fin cykel tur, även barnen hade en supertid! Rekommenderas starkt!
             </p>
-            <img id="kommentarbild1" src="/img/commentbike2.jpg" alt="Bild på cykle">
-            <img id="kommentarbild2" src="/img/commentbike3.jpg" alt="Bild på cykle">
+            <img id="kommentarbild1" src="/img/commentbike4.jpg" alt="Bild på cykle">
+            <img id="kommentarbild2" src="/img/commentpicnic4.jpg" alt="Bild på cykle">
 
             <button onclick="Visakommentarruta2()" class="kommentarbtn">Kommentera</button>
 
@@ -245,8 +244,8 @@
                 <div id="testarboder">
                     <h3>Till:@Kristinalund</h3>
                     <p>
-                        Går det bra att ta med små barn? Har en 8 årig pojke som är som en svans nu för tiden så kommer
-                        nog behöva ta med han på vandringsturen.<br><br></p>
+                        Ser superfint ut! Hur unga är dina barn? Tänkte ta med våra små människor men vet ej om dem är
+                        för unga? <br><br></p>
                 </div>
             </div>
             </p>
@@ -258,8 +257,8 @@
         <form id="inputnyttform">
             <!-- Textfält för att ge indata -->
             <label id="bildrubrik" for="file" style="cursor: pointer;">Lägg till bild</label>
-            <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)"
-                    style="display: none;" multiple></p>
+            <p><input type="file" accept="image/*" name="image" id="file" onchange="test (event)" style="display: none;"
+                    multiple></p>
             <textarea type="text" id="inputNytt" name="w3review" placeholder="Skriv en ny kommentar" rows="4"
                 cols="50"></textarea>
             <span>
@@ -267,10 +266,9 @@
                 <img id="laddabild2">
                 <img id="laddabild3">
             </span>
-            <button type="button2" id="runBtn2">Dela</button>
         </form>
+        <button type="button2" id="delaBtn2">Dela</button>
     </section>
-
     <div class="hidden"></div>
     <div class="hidden"></div>
 
