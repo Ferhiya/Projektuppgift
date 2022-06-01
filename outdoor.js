@@ -487,9 +487,7 @@ function skapainlagg () {
     let img=(bildtest.src=(laddabild));
     let img2=(bildtest.src=(laddabild2));
     let img3=(bildtest.src=(laddabild3));
-    //bildtest=URL.createObjectURL(img.src);
-    console.log(img);
-    //input1Elem.value.style.border="2px solid blue"
+
     if (kommentarkommentar.length === 0){
        alert("Fyll i en kommentar");
        return;
@@ -497,7 +495,7 @@ function skapainlagg () {
        } 
        else {
         resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Jane Doe</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
-        console.log("<img src='" + img.src + "'></img>"); 
+     
     }
 
     }
@@ -506,7 +504,7 @@ function skapainlagg () {
     var hideElem;
 function getLocalStorage() {// Funktion för den lokala lagringen
 
-console.log("hidden");
+
         const hide = localStorage.getItem("hidevalue");
         hideElem =  document.getElementsByClassName("hidden");  
         let showElem = document.getElementsByClassName("show");

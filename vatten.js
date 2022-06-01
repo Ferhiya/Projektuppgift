@@ -46,11 +46,11 @@ window.addEventListener("load", init);
 function requestData(e) {
     let id1 = e.target.id;
     let latlng = id1.split(",");
-    console.log(latlng);
+   
     //let id = e.target.id;
     let request = new XMLHttpRequest(); // Object för Ajax-anropet
     request.open("GET", "https://smapi.lnu.se/api/?api_key=p1SSZkZV&controller=activity&method=getfromlatlng&lat=" + latlng[0] + "&lng=" + latlng[1] + "&involves_water=Y&debug=true", true);
-    console.log(request);
+  
     request.send(null); // Skicka begäran till servern
     request.onreadystatechange = function () { //funktion för att avläsa kommunikation i filenhämtningen
         if (request.readyState == 4) //staus 4=kommunikation klar
@@ -61,15 +61,7 @@ function requestData(e) {
 
 }
 
-/*
-// Avläs tryckt knapp för att visa datan i json filen som hör ihop med den knappen.
-function selecthike() {
-    let knapp=this.id; //hämtar nummeret frå tryckt knapp , för att senare använda det för att hämta information till vald led .
-    requestData(knapp); //anroppar functionen som läser in xml-filen
-    console.log(knapp);
-	
-} // End selectSubject
-*/
+
 
 // Tolkar koden och skriv ut den på önskad form
 function getData(response) {
@@ -148,11 +140,7 @@ function getJSONData(JSONtext,cityname) {
             HTMLcode +=
                 "<div id=" + vatten[i].city + "-" + vatten[i].id + ">" +
                 "<h2><b></b> " + vatten[i].Aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
-                //console.log(vandring[i].imgurl);
-                //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-
-                //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-                //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
+              
                 "<li><b>Längd:</b> " + vatten[i].längd + "</li>" + //lägger in längden på ledet i html strängen
                 "<li><b>Barnvänligt:</b> " + vatten[i].Barnvanligt + "</li>" + //lägger in info om barnvanligt
                 "<li><b>Handikapsanpassat:</b> " + vatten[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
@@ -221,9 +209,6 @@ function getJSONData(JSONtext,cityname) {
    
     clearcontent(display);
 
-    let newid=document.getElementsByTagName("city");
-    console.log(newid);;
-   
   
     let btnx = document.getElementsByClassName("btncl");
     // 3. Add event handler
@@ -241,13 +226,11 @@ function getJSONData(JSONtext,cityname) {
 } // End getData
 
 function requesttest(e,id1) {
-    console.log(e.target);
     let cityname = e.target.attributes.city.value;
     id1 = e.target.id;
     let latlng2 = id1.split(",");
     let btn = e.target.getAttributeNode("id").value;
-    //btn.id;
-    console.log(btn);
+   
     let request = new XMLHttpRequest(); // Object för Ajax-anropet
     request.open("GET", "vatten.json", true);
     request.send(null); // Skicka begäran till servern
@@ -291,15 +274,11 @@ function getData2(JSONtext, btn, cityname, latlng2) {
         "<h1>Vatten aktiviter i <b>" + cityname + "</b></h1>" + "<hr>";
     for (let i = 0; i < vatten.length; i++) {
         if (cityname === vatten[i].city && btn === vatten[i].id) {
-            console.log("funkar2");
+          
             // Referenser till olika egenskaper i vandrings objektet i JSON
             HTMLcode2 +=
                 "<h2><b></b> " + vatten[i].Aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
-                //console.log(vandring[i].imgurl);
-                //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-
-                //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-                //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
+             
                 "<li><b>Längd:</b> " + vatten[i].längd + "</li>" + //lägger in längden på ledet i html strängen
                 "<li><b>Barnvänligt:</b> " + vatten[i].Barnvanligt + "</li>" + //lägger in info om barnvanligt
                 "<li><b>Handikapsanpassat:</b> " + vatten[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
@@ -484,7 +463,7 @@ function skapainlagg () {
     let img2=(bildtest.src=(laddabild2));
     let img3=(bildtest.src=(laddabild3));
     //bildtest=URL.createObjectURL(img.src);
-    console.log(img);
+  
     //input1Elem.value.style.border="2px solid blue"
     if (kommentarkommentar.length === 0){
        alert("Fyll i en kommentar");
@@ -493,7 +472,7 @@ function skapainlagg () {
        } 
        else {
         resultnyttinlagg.innerHTML += "<div id='nyttinagg'><h3><b>Jane Doe</b></h3>" + kommentarkommentar +"<div id='imgdiv'> <div id='imgitem'> <img id='newimg' src='" + img.src + "'></img></div>" + " <div id='imgdiv'> <img id='newimg2' src='" + img2.src + "'></img></div>"+ "<div id='imgdiv'> <img id='newimg3' src='" + img3.src + "'></img></div> </div>" +"<br></div>";
-        console.log("<img src='" + img.src + "'></img>"); 
+      
     }
 
     }
@@ -502,7 +481,7 @@ function skapainlagg () {
     var hideElem;
 function getLocalStorage() {// Funktion för den lokala lagringen
 
-console.log("hidden");
+
         const hide = localStorage.getItem("hidevalue");
         hideElem =  document.getElementsByClassName("hidden");  
         let showElem = document.getElementsByClassName("show");

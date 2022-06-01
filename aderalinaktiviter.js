@@ -19,27 +19,19 @@ function init() {
         knappar[i].addEventListener("click", showledinfo);
         
 	}
+    exdiv = document.getElementById("testdiv");
+    document.getElementById("delaBtn2").onclick = skapainlagg;
+    nyttinlaggElem = document.getElementById("inputNytt") ;
+    resultnyttinlagg = document.getElementById("nyttinlagg");
+    //requestData();
+    //loggainknappen();
+    getLocalStorage();
   
 } // End init
 window.addEventListener("load",init);
 
 // -----------------------------------------------------------------------------------------
 
-//-------------------------------------------------------------------------------------------------
-
-
-// Gör ett Ajax-anrop för att läsa in begärd fil
-
-
-/*
-// Avläs tryckt knapp för att visa datan i json filen som hör ihop med den knappen.
-function selecthike() {
-	let knapp=this.id; //hämtar nummeret frå tryckt knapp , för att senare använda det för att hämta information till vald led .
-	requestData(knapp); //anroppar functionen som läser in xml-filen
-	console.log(knapp);
-	
-} // End selectSubject
-*/
 
 
 function clearcontent(display) {
@@ -70,7 +62,6 @@ function requestJSONData(e) {
  // Tolkar koden och skriv ut den på önskad form
  function getJSONData(JSONtext,cityname) {
      let aderalin = JSON.parse(JSONtext).aderalin; //hämtar arryen med vandringsledernas data.
-     console.log(aderalin);
      let HTMLcode = "";
      let backBTN2=document.getElementById("testbtn");
      //backBTN2.style.visibility="hidden";
@@ -88,11 +79,7 @@ function requestJSONData(e) {
              HTMLcode += 
              "<div id="+ aderalin[i].city + "-" + aderalin[i].id +">" +
              "<h2><b></b> " + aderalin[i].Aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
-             //console.log(vandring[i].imgurl);
-             //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-             
-             //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-             //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
+        
              "<li><b>Längd:</b> " + aderalin[i].längd + "</li>" + //lägger in längden på ledet i html strängen
              "<li><b>Handikapsanpassat:</b> " + aderalin[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
              "<li><b>Barnvänligt:</b> " + aderalin[i].barnvanligt + "</li>" + //lägger in info om barnvanlighet i html strängen
@@ -118,13 +105,9 @@ function requestJSONData(e) {
             if (cityname === aderalin[i].city) {
 
     var btnx2 = document.createElement("button");
-            //movies=btnx2;
-          //console.log(btnx2=movies);
+          
             btnx2.innerHTML = "Läs kommentar";
-            //const cl = document.createAttribute("class");
-            
-            // Set the value of the class attribute:
-            //cl.value = "btncl";
+      
             
             const id = document.createAttribute("id");
             
@@ -168,7 +151,7 @@ function requestJSONData(e) {
  // 3. Add event handler
  for (let i = 0; i < btnx.length; i++) {
      btnx[i].addEventListener ("click", function(e) {
-         //alert("did something");
+      
          clearcontent(valt);
          requesttest(e);
          visable;
@@ -179,12 +162,10 @@ function requestJSONData(e) {
  
  } // End getData
  function requesttest(e) { 
-     console.log(e.target);
      let cityname = e.target.attributes.city.value;
      
      let btn=e.target.getAttributeNode("id").value;
-     //btn.id;
-      console.log(btn);
+   
       let request = new XMLHttpRequest(); // Object för Ajax-anropet
       request.open("GET","aderalin.json",true);
       request.send(null); // Skicka begäran till servern
@@ -221,15 +202,11 @@ function requestJSONData(e) {
 
  for (let i = 0; i < aderalin.length; i++) {
      if (cityname === aderalin[i].city && btn === aderalin[i].id) {
-        console.log("funkar2");
+    
             // Referenser till olika egenskaper i vandrings objektet i JSON
          HTMLcode2 += 
          "<h2><b></b> " + aderalin[i].Aktivitet + "</h2>" + //lägger in namnet på ledet i html strängen
-         //console.log(vandring[i].imgurl);
-         //"<a herf='" + vandring[i].url+ "'></a>" + //lägger in en kort beskrivning om ledet i html strängen
-         
-         //"<a href=´Läs mer här" + vandring[i].url  + "</a>"+
-         //'<a href="Läs mer>'  + vandring[i].url + '</a>'+
+      
          "<li><b>Längd:</b> " + aderalin[i].längd + "</li>" + //lägger in längden på ledet i html strängen
          "<li><b>Handikapsanpassat:</b> " + aderalin[i].handikapsanpassat + "</li>" + //lägger in info om handikapsanpassning i ledet i html strängen
          "<li><b>Barnvänligt:</b> " + aderalin[i].barnvanligt + "</li>" + //lägger in info om barnvanlighet i html strängen
@@ -239,10 +216,7 @@ function requestJSONData(e) {
          "<img src='"+aderalin[i].image.url+"'></img>"+
          "<p><b></b> " + aderalin[i].beskrivning + "</p>" + //lägger in en kort beskrivning om ledet i html strängen
          "<button><a class='gg' href='"+aderalin[i].link.linkurl+"' target=_blank>Läs mer</button></a>"+
-         //"<button class='"+vandring[i].led+"'>Läs kommentarer</button>"+
-         //`<Button class="idk" Type="button" onclick="('Edit', '${vandring[i].id}')">${vandring[i].id}</Button>`
-        
-         //"<div>'<span id='dots'>...</span>"+vandring[i].kommentarer.kommentar1+'<span id="more>'+"</span></div><button onclick=''id='myBtn'>Read more</button>"+
+     
          "<hr>"
  
          //valt.innerHTML = HTMLcode; //utskrift av datan i JSON filen
@@ -309,18 +283,13 @@ function visable(){
  }
  function clearcontent(valt) {
      valt.innerHTML = "";
-      //alt.remove();
-     //ledinfo.removeChild(ledinfo.firstElementChild)
-    // ledinfo.removeChild(valt);
-     //valt.style.display="none";
-     //exdiv.style.marginRight="550px";
-     //valt.style.visibility="hidden";
+      
  }
  var loadFile = function(event) {
      var input = document.getElementById('file');
      
      const numberofFiles = input.files.length;
-     console.log(numberofFiles);
+   
      for( i=0;i< numberofFiles; i++){
              //do the upload for each file.
              var image = document.getElementById('laddabild');
@@ -448,10 +417,5 @@ function lasmer2() {
          img.src = "ikoner/thunder.svg"
      }
  
-     //img.height = 60;
-     //img.width = 60;
- 
-     //testElem.innerHTML += "<br><br>" + city.name + "<br>" + Math.round(city.temp) + "°C" + "<br>";
-     //testElem.appendChild(img);
- 
+    
  } 
