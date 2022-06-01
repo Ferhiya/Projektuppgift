@@ -7,24 +7,21 @@ bildknappen = document.getElementById("bilder");
 
 }
 
-function visabild (event){
-let bildinput=document.getElementById("file");
-let bilder=bildinput.files.length;
-
-for (i=0; i < bilder; i++){
-    var image=document.getElementById("bild-placeholder");
-    image.src=URL.createObjectURL(event.target.files[0]);
-    console.log(image);
-}
-
-document.getElementById("bild-placeholder").style.width="100px";
+function visabild (){
+bildElem = document.getElementById("bild-placeholder");
 
 
-let localbild=document.getElementById("bild-placeholder");
-let z = localbild.src;
-console.log(z);
+if (bildElem.innerHTML.length === 0  ){
+bildElem.innerHTML += "<div id='cross'>" + "Naturbild.jpeg" + "❌ </div>"; 
+console.log("hej");
+
+z = "<img src='/img/bike4.jpg'> ";
 localStorage.setItem('bild', z);
 
+} else {
+alert("Du har redan lagt till en bild");
+
+}
 }
 
 
