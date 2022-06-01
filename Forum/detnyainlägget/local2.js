@@ -43,12 +43,13 @@ resultElem.innerHTML += "<div id='extra'><p>Jane Doe</p>" + kommentar +  "<br></
 function bildknappen () {
 
  const bilden = localStorage.getItem("bild");
-
-if (bilden === null){ 
-textElem.style.border = "0px"; 
-}
-else {
-headbild.innerHTML += bilden;
+ console.log(bilden);
+let it=document.createAttribute("src");
+let test=document.getElementById("inlagg");
+test.setAttributeNode(it);
+ headbild.innerHTML += "<img src='"+ bilden +"'></img>";
+console.log(it.bilden);
 console.log("hej");
-}
+
+
 }

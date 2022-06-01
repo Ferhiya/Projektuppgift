@@ -13,36 +13,33 @@ function init() {  // Allting som ska laddas in före sidan visas
      }
         window.addEventListener("load", init);  // Ser till så att init laddar in innan sidan visas
 function hamtaegnainlagg() { // Funktion för den lokala lagringen
-
-
-    if ( localStorage.getItem("vandring+text") ){
-    const intryck = localStorage.getItem("vandring+text");
+const intryck = localStorage.getItem("vandring+text");
 
     const utomhus = localStorage.getItem("utomhus+text");
 
     const adrenalin = localStorage.getItem("adrenalin+text");
 
     const vatten = localStorage.getItem("vatten+text");
-        
+    
 
     if (localStorage.getItem("vandring+text") ){          
         egenElem1.innerHTML = intryck;
 
     }else{
-    egenElem4.innerHTML ="Inga trådar ännu."
+    egenElem1.innerHTML ="Inga trådar ännu."
     }
 
     if (localStorage.getItem("utomhus+text") ){          
         egenElem2.innerHTML = utomhus;
     }else{
-    egenElem4.innerHTML ="Inga trådar ännu."
+    egenElem2.innerHTML ="Inga trådar ännu."
     }
 
     if (localStorage.getItem("adrenalin+text") ){        
         egenElem3.innerHTML = adrenalin;
 
     }else{
-        egenElem4.innerHTML ="Inga trådar ännu."
+        egenElem3.innerHTML ="Inga trådar ännu."
         }
 
     if (localStorage.getItem("vatten+text") ){         
@@ -52,7 +49,7 @@ function hamtaegnainlagg() { // Funktion för den lokala lagringen
         egenElem4.innerHTML ="Inga trådar ännu."
         }
     }
-}  
+
 
 
 
