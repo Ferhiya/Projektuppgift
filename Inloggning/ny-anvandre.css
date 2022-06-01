@@ -125,7 +125,7 @@ width: 560px;
 	text-align: center;
 }
 
-#send p {
+#send a {
 text-decoration: none;
 color: black;
 cursor: pointer;
